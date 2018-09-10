@@ -1,11 +1,11 @@
 ---
-layout: default
-title: FAQ
+layout: page
+title: FAQ - Frequently Asked Questions
 ---
 
-# Frequently Asked Questions
 
 
-### Why does this project exist?
+
+## Why does this project exist?
 
 This is an attempt to ...
