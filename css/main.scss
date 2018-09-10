@@ -116,3 +116,20 @@ a {
   -o-background-size: cover;
   background-size: cover;
 }
+
+#get-involved {
+  padding-top: 2em;
+}
+
+#sponsors {
+  padding: 2em 0;
+  background: #111;
+  text-align: center;
+  .sponsor {
+    display: inline-block;
+    padding-right: 2em;
+  }
+  .sponsor img {
+    max-height: 5em;
+  }
+}
