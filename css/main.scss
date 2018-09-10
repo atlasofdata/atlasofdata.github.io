@@ -2,6 +2,8 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
+@import "variables";
+@import "typebase";
 
 html {
   font-family: 'Roboto', sans-serif;
@@ -38,8 +40,8 @@ a {
 
     h1 {
 
-      font-size: 6em;
-      font-weight: 300;
+      // font-size: 6em;
+      // font-weight: 300;
 
       small {
         color: darkgreen;
