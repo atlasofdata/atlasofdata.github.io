@@ -35,7 +35,7 @@
 
      width: 90%;
   }
-  form.form .submit input {
+  /* form.form .submit input {
      background-color:#FFFFFF;
      border:solid 1px #A9A9A9;
      font-size:16px;
@@ -45,11 +45,11 @@
      -moz-border-radius:5px;
      -webkit-border-radius:5px;
      border-radius:5px;
-  }
+  } */
 
   form.form .submit {
-     margin-top:0px;
-     margin-bottom:0px;
+     /* margin-top:0px;
+     margin-bottom:0px; */
      text-align:left;
      width: auto;
   }
@@ -64,21 +64,23 @@
       <input class="u-full-width" type="text" placeholder="Your name…" id="nameInput" name="name" required>
     </div>
     <div class="form-input">
+      <label for="exampleEmailInput">Your email</label>
+      <input class="u-full-width" type="email" placeholder="Your email address…" id="exampleEmailInput" name="_replyto" required>
+    </div>
+    <div class="form-input">
       <label for="nameInput">Your institution (optional)</label>
       <input class="u-full-width" type="text" placeholder="Your institution…" id="insitutionInput" name="institution">
     </div>
-    <div class="form-input">
-      <label for="exampleEmailInput">Your email (optional)</label>
-      <input class="u-full-width" type="email" placeholder="Your email address…" id="exampleEmailInput" name="_replyto">
-    </div>
   </div>
   <div class="row">
-    <label for="exampleMessage">Message (optional)</label>
+    <label for="exampleMessage">Message</label>
     <textarea class="u-full-width" style="height:100px" placeholder="Tell us about why you plan to attend the workshop…" id="message" name="message" height="30%" maxlength="1000"></textarea>
     <p><small><span id="charCount">0</span>/1000 characters</small></p>
     <input type="hidden" name="subject" value="Micro Meso Macro : new submission" />
     <input type="hidden" name="_after" value="./thanks.html" />
-    <input class="button-primary submit" type="submit" value="Submit">
+    <button class="button button-primary submit" type="submit">
+      Submit
+    </button>
   </div>
 </form>
 

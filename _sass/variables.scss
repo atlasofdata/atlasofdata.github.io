@@ -22,11 +22,20 @@ $text-color:       #111 !default;
 $background-color: #fdfdfd !default;
 $brand-color:      #2a7ae2 !default;
 
+$primary-color:   #b61924;
+$secondary-color:   $brand-color;
+$overlay-color:    rgba(31,44,108,.45);
+
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
-
+$dark-grey: $grey-color-dark;
 $table-text-align: left !default;
+
+// Misc
+$global-radius: 4px !default;
+$link-color: $primary-color;
+$border-color: $primary-color;
 
 // Width of the content area
 $content-width:    800px !default;

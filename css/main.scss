@@ -8,6 +8,8 @@
 @import "grid";
 @import "typebase";
 @import "layout";
+@import "buttons";
+
 
 html {
   font-family: 'Roboto', sans-serif;
@@ -35,24 +37,53 @@ a {
 
   text-align: center;
 
+  &:before {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    background: $overlay-color;
+    width: 100%;
+    height: 100%;
+  }
+
   .cover-title {
     color: white;
     margin: 0 auto;
-    width: 80%;
+    // width: 60%;
+    text-align: center;
 
     h1 {
       margin: 0;
       padding-top: 30vh;
-      font-weight: bolder;
-      text-transform: uppercase;
+      font-size: 7em;
+      line-height: 1em;
+      // font-weight: 500;
+      // text-transform: uppercase;
 
       small {
-        color: darkgreen;
-        text-transform: capitalize;
+
         display: block;
         text-align: right;
-        font-size: .4em;
+        font-size: .6em;
+
+        .on {
+          height: 8em;
+          width: 8em;
+          text-align:center;
+          font-size: .6em;
+          padding: .25em;
+          border: 6px solid $primary-color;
+          -webkit-border-radius:8em;
+          -moz-border-radius:8em;
+          border-radius:8em;
+        }
       }
+    }
+
+    .button {
+      margin-top: 5em;
+      font-size: .8em;
     }
 
   }
@@ -68,8 +99,7 @@ a {
 }
 
 #intro {
-  margin-bottom: 5em;
-
+  padding:  5em 0 2em 0;
   img.page-mockup {
     // margin: 2em 0;
   }
@@ -78,27 +108,43 @@ a {
 #icons {
 
   text-align: center;
-  background: #111;
-  color:white;
   min-height: 30vh;
+  position: relative;
+  z-index: -2;
 
-  background: url(/img/China_Guangdong_location_map.svg.png) no-repeat center center fixed;
+  background: url(https://geospatialmedia.s3.amazonaws.com/wp-content/uploads/2017/08/Boston_gif.gif) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 
+  padding: 2em 0;
+
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: " ";
+    background: $overlay-color;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+  }
+
+  h3 {
+    font-weight: bold;
+  }
+
   img.icon {
-    margin: 2em 0;
+    z-index: 12;
     height: 8em;
     width: 8em;
     line-height: 8em;
     text-align:center;
-    background: #fff;
+    background: $primary-color;
     -webkit-border-radius:4em;
     -moz-border-radius:4em;
     border-radius:4em;
-
   }
 }
 
@@ -109,12 +155,24 @@ a {
 #mini {
   min-height: 30vh;
   overflow: auto;
+  position: relative;
 
-  background: url(/img/islands-voronoid.png) no-repeat center center fixed;
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: " ";
+    background: $overlay-color;
+    width: 100%;
+    height: 30vh;
+  }
+
+  background: url(https://upload.wikimedia.org/wikipedia/commons/1/14/Direct_search_BROYDEN.gif) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
 }
 
 #get-involved {
