@@ -1,0 +1,53 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+// Style
+#cover {
+  position: absolute;
+  top : 0;
+  left : 0;
+  width: 100vw;
+  height: 100vh;
+  font-weight: bolder;
+  z-index: 3;
+
+  background: url(/img/seedvault.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  text-align: center;
+
+  .cover-title {
+    color: white;
+    margin: 10vh auto 0 auto;
+    width: 80%;
+    font-weight: bolder;
+    z-index: 3;
+
+    h1 {
+
+      font-size: 6em;
+      font-weight: 300;
+
+      small {
+        color: darkgreen;
+        display: block;
+        text-align: right;
+        font-size: .4em;
+      }
+    }
+
+  }
+}
