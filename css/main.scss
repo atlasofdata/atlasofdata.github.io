@@ -17,6 +17,7 @@ a {
   text-decoration: none;
 }
 
+
 // Style
 #cover {
   // position: absolute;
@@ -47,6 +48,7 @@ a {
 
       small {
         color: darkgreen;
+        text-transform: capitalize;
         display: block;
         text-align: right;
         font-size: .4em;
@@ -63,4 +65,54 @@ a {
     line-height: 1.6em;
     margin: 3em 0;
   }
+}
+
+#intro {
+  margin-bottom: 5em;
+
+  img.page-mockup {
+    margin: 2em 0;
+  }
+}
+
+#icons {
+
+  text-align: center;
+  background: #111;
+  color:white;
+  min-height: 30vh;
+
+  background: url(/img/China_Guangdong_location_map.svg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  img.icon {
+    margin: 2em 0;
+    height: 8em;
+    width: 8em;
+    line-height: 8em;
+    text-align:center;
+    background: #fff;
+    -webkit-border-radius:4em;
+    -moz-border-radius:4em;
+    border-radius:4em;
+
+  }
+}
+
+#faq {
+  margin-bottom: 3em;
+}
+
+#mini {
+  min-height: 30vh;
+  overflow: auto;
+
+  background: url(/img/islands-voronoid.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
