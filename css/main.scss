@@ -5,10 +5,9 @@
 
 @import "variables";
 @import "base";
+@import "grid";
 @import "typebase";
 @import "layout";
-
-
 
 html {
   font-family: 'Roboto', sans-serif;
@@ -20,9 +19,9 @@ a {
 
 // Style
 #cover {
-  position: absolute;
-  top : 0;
-  left : 0;
+  // position: absolute;
+  // top : 0;
+  // left : 0;
   width: 100vw;
   height: 100vh;
   font-weight: bolder;
@@ -38,15 +37,14 @@ a {
 
   .cover-title {
     color: white;
-    margin: 10vh auto 0 auto;
+    margin: 0 auto;
     width: 80%;
-    font-weight: bolder;
-    z-index: 3;
 
     h1 {
-
-      // font-size: 6em;
-      // font-weight: 300;
+      margin: 0;
+      padding-top: 30vh;
+      font-weight: bolder;
+      text-transform: uppercase;
 
       small {
         color: darkgreen;
@@ -56,5 +54,12 @@ a {
       }
     }
 
+  }
+}
+
+#tagline {
+  blockquote {
+    border: 0;
+    font-size: 1.6em
   }
 }
