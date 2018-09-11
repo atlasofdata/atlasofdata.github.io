@@ -1,0 +1,114 @@
+$menu-bg-color : rgba(256,256,256,.9);
+$menu-logo-color : $secondary-color;
+$menu-link-color : $secondary-color;
+
+// Toggle Button
+.toggle-nav {
+    display:none;
+}
+
+.menu {
+
+  width:100%;
+  background-color : $menu-bg-color;
+  height: 4rem;
+  border-bottom: 1px solid #eee;
+  line-height: 4rem;
+  text-align: center;
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+  z-index: 9000;
+
+  .home-link {
+    float :left;
+    color : $menu-logo-color;
+  }
+
+  .faq-link {
+    float :right;
+  }
+
+  ul {
+    // float :right;
+    display: inline-block;
+    list-style: none;
+  }
+
+
+  li {
+    float:left;
+    margin:0 1.5em;
+
+    &:last-child {
+      margin-right:0;
+    }
+  }
+}
+
+a.navbar-link {
+  text-decoration: none;
+  color : $menu-link-color;
+
+  letter-spacing: .12rem;
+  margin-right: 1em;
+  // transition:color linear 0.15s;
+}
+
+
+// smaller screens
+@media screen and (max-width: 860px) {
+
+
+  .menu {
+    position:relative;
+    display:inline-block;
+    height: auto;
+    line-height: 2em;
+
+    ul.active {
+      display:none;
+    }
+
+    .home-link {
+      float :none;
+      padding-top: 1em;
+    }
+
+  }
+  .menu ul {
+    z-index: 1000;
+     width:100%;
+     position:absolute;
+     top:120%;
+     left:0px;
+     background: $menu-bg-color;
+
+   }
+
+    .menu li {
+        float:none;
+        display:block;
+    }
+
+    .menu a {
+        display:block;
+    }
+
+    .toggle-nav {
+        text-decoration: none;
+        padding:20px;
+        float:left;
+        display:inline-block;
+        color:#777;
+        font-size:20px;
+        transition:color linear 0.15s;
+    }
+
+    .toggle-nav:hover, .toggle-nav.active {
+        text-decoration:none;
+        color:#66a992;
+    }
+}

@@ -1,0 +1,16 @@
+<nav id="sticky" class="menu">
+
+  <div class="container">
+    <a class="toggle-nav" href="#">&#9776;</a>
+    <a href="/" class="navbar-link home-link">The Atlas of Data</a>
+
+    <ul class="active">
+      {% for title in page.nav %}
+      <li class="navbar-item">
+        <a class="navbar-link" href="#{{title | slugify }}">{{title}}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    <a class="navbar-link faq-link" href="/about">About</a>
+</div>
+</nav>
