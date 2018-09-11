@@ -108,7 +108,6 @@ p, h2, h3 {
 }
 
 #intro {
-  padding:  5em 0 2em 0;
   img.page-mockup {
     // margin: 2em 0;
   }
@@ -123,7 +122,6 @@ p, h2, h3 {
 }
 
 #methodo {
-  padding-top: 3em;
   .methodo-icons {
     text-align: center;
     padding: 3em 0;
@@ -157,15 +155,18 @@ p, h2, h3 {
 
 #mini {}
 #datacenter{ background-image: url(/img/datacenter-optimized.gif);}
+#toc-break{ background-image: url(/img/China_Guangdong_location_map.svg.png); }
 
-#get-involved {
-  padding: 2em 0;
+section.container {
+  padding: 3em 0 2em 0;
 }
 
+
 #sponsors {
-  padding: 2em 0;
   background: #111;
   text-align: center;
+  padding-top: 2em;
+  
   .sponsor {
     display: inline-block;
     padding-right: 2em;
