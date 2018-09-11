@@ -14,6 +14,6 @@
 - Launch Event 
   - [ ] When ? Where ? How ?
 - Website
-  - [ ] Homepage
+  - [x] Homepage
   - [ ] First map / article
     
