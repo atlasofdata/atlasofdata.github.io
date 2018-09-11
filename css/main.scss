@@ -114,53 +114,25 @@ p, h2, h3 {
 }
 
 #icons {
-
-  text-align: center;
-  min-height: 30vh;
-  position: relative;
-  z-index: -2;
-
-  background: url(https://geospatialmedia.s3.amazonaws.com/wp-content/uploads/2017/08/Boston_gif.gif) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  padding: 2em 0;
-
-  &:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: " ";
-    background: $overlay-color;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-  }
-
-  h3 {
-    font-weight: bold;
-  }
-
-  img.icon {
-    z-index: 12;
-    height: 8em;
-    width: 8em;
-    line-height: 8em;
-    text-align:center;
-    background: $primary-color;
-    -webkit-border-radius:4em;
-    -moz-border-radius:4em;
-    border-radius:4em;
-  }
+  background-image: url(https://geospatialmedia.s3.amazonaws.com/wp-content/uploads/2017/08/Boston_gif.gif);
 }
 
 #faq {
   padding: 3em 0 5em 0;
 }
 
-#mini {
+#methodo {
+  padding-top: 3em;
+  .methodo-icons {
+    text-align: center;
+    padding: 3em 0;
+  }
+  .icon {
+    max-height: 4em;
+  }
+}
+
+.homebreak {
   min-height: 30vh;
   overflow: auto;
   position: relative;
@@ -180,8 +152,10 @@ p, h2, h3 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
 }
+
+#mini {}
+#datacenter{ background-image: url(/img/datacenter.gif);}
 
 #get-involved {
   padding-top: 2em;
