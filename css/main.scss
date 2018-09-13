@@ -32,7 +32,7 @@ p, h2, h3 {
   // top : 0;
   // left : 0;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   font-weight: bolder;
 
   background: url(/img/seedvault.jpg) no-repeat center center fixed;
@@ -61,7 +61,7 @@ p, h2, h3 {
 
     h1 {
       margin: 0;
-      padding-top: 30vh;
+      padding-top: 25vh;
       @include media-query($on-palm) {
         padding-top: 10vh;
       }
@@ -166,7 +166,7 @@ section.container {
   background: #111;
   text-align: center;
   padding-top: 2em;
-  
+
   .sponsor {
     display: inline-block;
     padding-right: 2em;
