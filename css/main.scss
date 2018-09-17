@@ -26,6 +26,12 @@ p, h2, h3 {
   }
 }
 
+figure {
+  text-align: center;
+  figcaption {
+    margin-top: 1em;
+  }
+}
 // Style
 #cover {
   // position: absolute;
