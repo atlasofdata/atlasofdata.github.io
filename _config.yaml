@@ -16,7 +16,7 @@
 title: The Atlas of Data
 email: contact@theatlasofdata.earth
 description: >- # this means to ignore newlines until "baseurl:"
-  The Atlas of Data on Earth
+  The Atlas of Data on Earth investigate how flows of data relate to the ecosystems of our planet.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
