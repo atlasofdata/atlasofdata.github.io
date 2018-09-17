@@ -105,17 +105,16 @@ figure {
 }
 
 #tagline {
-  blockquote {
-    border: 0;
-    font-size: 2em;
-    line-height: 1.6em;
-    margin: 3em 0;
-  }
-}
 
-#intro {
-  img.page-mockup {
-    // margin: 2em 0;
+  width: 60%;
+  text-align: center;
+  padding : 2em 0;
+
+  h2 {
+    color: #555;
+    // padding-bottom: 1em;
+    font-size: 2.7em;
+    line-height: 1.3em;
   }
 }
 
@@ -123,8 +122,8 @@ figure {
   background-image: url(/img/Boston_geospatial_optimized.gif);
 }
 
-#faq {
-  padding: 3em 0 5em 0;
+#objectives{
+  padding-bottom: 4em;
 }
 
 #methodo {
