@@ -1,16 +1,41 @@
-<nav id="sticky" class="menu">
+<nav id="sticky" class="menu nav">
 
   <div class="container">
     <a class="toggle-nav" href="#">&#9776;</a>
     <a href="/" class="navbar-link home-link">The Atlas of Data</a>
-
-    <ul class="active">
-      {% for title in page.nav %}
-      <li class="navbar-item">
-        <a class="navbar-link" href="#{{title | slugify }}">{{title}}</a>
-      </li>
-      {% endfor %}
-    </ul>
-    <a class="navbar-link pull-right" href="/about">About</a>
-</div>
+    <div class="nav-content">
+      <ul class="active">
+        {% for title in page.nav %}
+        <li class="navbar-item">
+          <a class="navbar-link" href="#{{title | slugify }}">{{title}}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      <ul class="pull-right">
+        <li>
+          <a class="navbar-link" href="/about">About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
+
+<script>
+
+(function () {
+
+  // Mobile nav function
+  var mobileNav = document.querySelector('.nav-content');
+  var toggle = document.querySelector('.toggle-nav');
+  toggle.onclick = function (e) {
+    e.preventDefault()
+
+    mobileNav.style.maxHeight = mobileNav.classList.contains('nav-mobile-open') ? '0' : '500px';
+    mobileNav.classList.toggle('nav-mobile-open');
+  };
+
+
+
+
+})();
+</script>
