@@ -1,19 +1,3 @@
 # The Atlas of Data
 
-## TODO 
-
-- Social media accounts
-    - [x] Twitter
-    - [x] Facebook Page
-    - [x] Instagram
-    - [ ] Wechat group
-- Graphic Design 
-    - [ ] Logo
-    - [ ] Font/Type
-    - [ ] 
-- Launch Event 
-  - [ ] When ? Where ? How ?
-- Website
-  - [x] Homepage
-  - [ ] First map / article
-    
+The Atlas of Data investigate how flows of data relate to the ecosystems of our planet.
