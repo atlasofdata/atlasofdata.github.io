@@ -17,7 +17,7 @@ $menu-link-hover-color : $primary-color;
 
   background-color : $menu-bg-color;
 
-  font-size: 1.2em;
+  font-size: 1em;
   // font-weight: bolder;
   line-height: 3rem;
   text-align: center;
@@ -35,7 +35,7 @@ $menu-link-hover-color : $primary-color;
   .navbar-link {
     text-decoration: none;
     color : $menu-link-color;
-    margin-right: 1em;
+    margin-right: .3em;
   }
 
   a:hover {
@@ -57,8 +57,7 @@ $menu-link-hover-color : $primary-color;
 
   li {
     float:left;
-    margin:0 1.5em;
-
+    margin-right:1em;
     padding-top: 1em;
 
     &:last-child {
