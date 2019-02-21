@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {%- include navbar.html -%}
   {%- include head.html -%}
 
   <body>
+    {%- include navbar.html -%}
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
