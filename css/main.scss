@@ -190,3 +190,13 @@ section.container {
     max-height: 3em;
   }
 }
+
+footer.site-footer {
+  background: $brand-color;
+  a, a:visited {
+    color: white;
+  }
+  svg {
+    fill: white
+  }
+}

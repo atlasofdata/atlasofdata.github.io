@@ -9,12 +9,11 @@
       <div class="footer-col one-third column">
         <ul class="contact-list">
           <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
+            <b>{{ site.title | escape }}</b>
+          </li>
+          <li>
+            {{- site.description | escape -}}
+          </li>
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
@@ -26,7 +25,10 @@
       </div>
 
       <div class="footer-col one-third column">
-        <p>{{- site.description | escape -}}</p>
+          <ul class="contact-list">
+            <li><a href="/about">About</a></li>
+            <li><a href="/contribute">Get Involved</a></li>
+          </ul>
       </div>
     </div>
 
