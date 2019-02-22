@@ -8,6 +8,10 @@
   article {
     margin: 2% 2% 0 0;
     width: 48%;
+    @include media-query($on-palm) {
+      width: 92%;
+      margin: 4% 0 0 4%;
+    }
     height: 350px;
 
     background: $brand-color;
