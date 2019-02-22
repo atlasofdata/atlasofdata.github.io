@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="thumbs">
+
+    {% for post in site.posts %}
+    <article class="thumb"
+      style={% if post.thumbnail %} "background-image:url({{post.thumbnail}})"
+      {% endif %}>
+      <div class="thumb-title">
+        <h3>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </h3>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+
+</div>

@@ -2,7 +2,7 @@
 type: post
 title: The Great Digital Acceleration
 authors:
-thumbnail:
+thumbnail: /img/China_Guangdong_location_map.svg.png
 desc:
 ---
 

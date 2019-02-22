@@ -9,14 +9,30 @@
     margin: 2% 2% 0 0;
     width: 48%;
     height: 350px;
-    background: $brand-color;
 
+    background: $brand-color;
+    background-position: 50% 50%;
+    background-size: cover;
+
+    overflow: hidden;
+
+    position: relative;
     h3 {
+      position: relative;
       padding: 50px 20px 0 20px;
-      // font-size: ;
       a {
         color: white
       }
     }
+
+    &:before {
+      position: absolute;
+      content: " ";
+      background: darken($overlay-color, 40%);
+      width: 100%;
+      height: 100%;
+    }
+
+
   }
 }
