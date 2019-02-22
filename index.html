@@ -45,9 +45,30 @@ title: "The Atlas of Data"
             Earth ecosystems are increasingly monitored by human and technological means. The growing flows of data thereby harvested serve a wide spectrum of purposes ranging from practical services, such as meteorological forecast or traffic control, to the enhancement of scientific knowledge in natural, human and social sciences.
           </p>
           <p>
-            Most often, and for a diversity of reasons, data are difficult to obtain for the sake of scientific knowledge. In the present Atlas, we present visualizations of phenomena revealed by sometimes rare and incomplete data. We also concentrate on the difficulty to represent phenomena that, unlike geographical maps, mostly show dynamic interactions on networks. 
+            Most often, and for a diversity of reasons, data are difficult to obtain for the sake of scientific knowledge. In the present Atlas, we present visualizations of phenomena revealed by sometimes rare and incomplete data. We also concentrate on the difficulty to represent phenomena that, unlike geographical maps, mostly show dynamic interactions on networks.
           </p>
         </div>
+      </div>
+    </section>
+
+    <section id="home-posts" class="container">
+      <div class="row">
+        <div class="thumbs">
+
+          {% for post in site.posts %}
+          <article class="thumb">
+            <h3>
+              <a href="{{ post.url }}">
+                {{ post.title }}
+              </a>
+            </h3>
+
+            <!-- <span class="post-date">{{ post.date | date_to_string }}</span> -->
+
+          </article>
+          {% endfor %}
+        </div>
+
       </div>
     </section>
 

@@ -1,0 +1,22 @@
+.thumbs {
+
+  max-width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 15px 0;
+
+  article {
+    margin: 2% 2% 0 0;
+    width: 48%;
+    height: 350px;
+    background: $brand-color;
+
+    h3 {
+      padding: 50px 20px 0 20px;
+      // font-size: ;
+      a {
+        color: white
+      }
+    }
+  }
+}
