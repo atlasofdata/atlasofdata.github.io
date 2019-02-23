@@ -1,0 +1,17 @@
+<div id="news">
+  <ul>
+  {% for post in site.news %}
+      <li>
+        <h3><a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>{% if post.author %} by {{ post.author }}{% endif %}</h3>
+
+        <p>
+          <date>{{ post.date | date_to_string}}</date>
+        </p>
+
+        {% assign excerpt_length = post.excerpt | size %}
+        {% assign content_length = post.content | size %}
+        <p>{{ post.excerpt | remove:'<p>' | remove:'</p>' }}{% if content_length > excerpt_length %}<em><a href="{{ post.url }}">[Read Full Post]</a></em>{% endif %}</p>
+      </li>
+  {% endfor %}
+  </ul>
+</div>

@@ -27,6 +27,11 @@ instagram_username: theatlasofdata
 twitter_username: theatlasofdata
 # rss:
 
+# add content types
+collections:
+    news:
+        output: true
+
 # Build settings
 markdown: kramdown
 plugins:
