@@ -12,10 +12,8 @@
 @import "navbar";
 @import "thumbs";
 
+@import "fonts";
 
-html {
-  font-family: 'Roboto', sans-serif;
-}
 
 a {
   text-decoration: none;
@@ -130,6 +128,12 @@ figure {
     @include media-query($on-palm) {
       font-size: 1.6em;
     }
+  }
+}
+
+#intro {
+  p {
+    margin-bottom: 1.5em
   }
 }
 

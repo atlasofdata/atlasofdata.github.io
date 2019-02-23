@@ -1,0 +1,13 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Catamaran|PT+Serif:400,400i,700,700i&subset=latin-ext');
+
+
+
+html, body, p {
+  font-family: 'PT Serif',  serif;
+}
+
+h1, h2, h3, h4, h5, nav, footer {
+  font-family: 'Catamaran', 'Helvetica', sans-serif;
+}
