@@ -18,7 +18,7 @@ The proposal should contain :
 - a title
 - an abstract (200~ words)
 - a description of the data
-- a description of the figures
+- a description of the figures, graphic or artistic content
 - your name and affiliation (if relevant)
 
 Anonymous proposals are not accepted.
