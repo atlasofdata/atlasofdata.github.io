@@ -31,10 +31,6 @@ You can submit your article
 - by sending your proposal by email at [authors@theatlasofdata.earth](mailyo:authors@theatlasofdata.earth).
 - publicly on social networks or on our [Telegram channel](https://t.me/atlasof data)
 
-## Review process
-
-The proposal will be reviewed by our editorial commitee in the following days and we will get back to you about.
-
 ## Schedule
 
 The Atlas of Data follows [rolling release](https://en.wikipedia.org/wiki/Rolling_release) guidelines and therefore accept submissions all year long.
