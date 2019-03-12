@@ -1,7 +1,8 @@
 ---
 type: post
 title: The History of Earth Monitoring
-authors: Titouan Poisson
+authors:
+- Titouan Poisson
 thumbnail:
 desc:
 gist_url: https://bl.ocks.org/titoufish/faa09c17bea4dfd6f67ffc5ef93db399

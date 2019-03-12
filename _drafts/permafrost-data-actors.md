@@ -2,6 +2,7 @@
 type: post
 title: Permafrost Actors Network
 authors:
+- Titouan Poisson
 thumbnail:
 desc:
 gist_url: http://bl.ocks.org/titoufish/778c859a0d2b9c4ee887ead059d18e6c
