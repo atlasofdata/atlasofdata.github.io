@@ -1,0 +1,79 @@
+<!-- Loads timeline css -->
+<link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+
+<!-- Loads time js -->
+<script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+
+<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+
+<style type="text/css">
+
+</style>
+    
+
+<!-- <div class ="btn-group" style="width:100%">  -->
+<a id="button_full" class="button butt_timeline" style="width:24%">Full story</a>
+<a id="button_obs" class="button" style="width:24%">Observing Networks</a>
+<a id="button_inst" class="button" style="width:24%">Institutions</a>
+<a id="button_poli" class="button" style="width:24%">Politics</a>
+<!-- </div> -->
+
+<h5 id = "title" style= "text-align:center"><i>Full story</i></h5>
+<div id='timeline-embed' style="width: 100%; height: 600px"></div>
+
+
+<!-- Creates timeline -->
+<script type="text/javascript">
+
+// Option for the timeline
+
+var options = {
+    initial_zoom: 5,
+    timenav_position : "bottom"
+  }
+
+ function display_timeline(sheet){
+ 	timeline = new TL.Timeline('timeline-embed',sheet,options)
+ }
+
+
+var sheet_full = 'https://docs.google.com/spreadsheets/d/17VXBJT7ugC3AhQIGnLCwZFvi4qT2vIjFSIRmjjtKt-E/edit#gid=0'
+var sheet_obs = 'https://docs.google.com/spreadsheets/d/1hhvKj973PaEwLYKVPyJNadnkOV15Q08a9FajUOLvUeU/edit#gid=0'
+var sheet_institutions = 'https://docs.google.com/spreadsheets/d/1fURriy1a_Mipxt1FWbv1Ks8NtTMlvBAdy06AXU_r1YI/edit#gid=0'
+var sheet_politics = 'https://docs.google.com/spreadsheets/d/17hdO4eZN--UlCihu9AdkYW4h7PdPPqO7TfJ6oqtMy_Q/edit#gid=0'
+
+// Display timeline
+display_timeline(sheet_full)
+
+// Link button
+document.getElementById("button_obs").addEventListener('click',function(){
+	$('timeline-embed').empty()
+  	display_timeline(sheet_obs);
+  	document.getElementById("title").innerHTML = "Observing Networks";
+  	document.getElementById("title").style.fontStyle = "italic";
+},false)
+
+document.getElementById("button_inst").addEventListener('click',function(){
+	$('timeline-embed').empty()
+  	display_timeline(sheet_institutions);
+  	document.getElementById("title").innerHTML = "Institutions";
+  	document.getElementById("title").style.fontStyle = "italic";
+},false)
+
+document.getElementById("button_poli").addEventListener('click',function(){
+	$('timeline-embed').empty()
+  	display_timeline(sheet_politics);
+  	document.getElementById("title").innerHTML = "Political systems";
+  	document.getElementById("title").style.fontStyle = "italic";
+},false)
+
+document.getElementById("button_full").addEventListener('click',function(){
+	$('timeline-embed').empty()
+ 	display_timeline(sheet_full);
+ 	document.getElementById("title").innerHTML = "Full story";
+ 	document.getElementById("title").style.fontStyle = "italic";
+},false)
+
+</script>

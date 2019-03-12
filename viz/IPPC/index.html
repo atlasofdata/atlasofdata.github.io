@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Data Meltdown | IPCC</title>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<header>
+  <div id="info">
+    <h2> IPCC CONTRIBUTORS </h2>
+    <span id="ar2" class="button">AR2</span>
+    <span id="ar3" class="button">AR3</span>
+    <span id="ar4" class="button">AR4</span>
+    <span id="ar5" class="button">AR5</span>
+    <span id="ar6" class="button">AR6</span>
+    <br>
+    <h2 id = "h1_date"> Assessment Report 2 1995 </h2>
+  </div>
+
+</header>
+
+<style>
+canvas{width:100%;height:100%}
+/*   header{
+  position:relative;
+  bottom:10px;
+  width:100%;
+  text-align:center;
+  z-index:100;
+  display:block;
+}*/
+body{
+  font-family:Monospace;
+  background-color:#fff;
+  color:#000;
+  margin:0px;
+  overflow:hidden;
+}
+#info{
+  position:relative;
+  top:10px;
+  width:100%;
+  text-align:center;
+  z-index:100;
+  display:block;
+}
+#info a, .button{font-size: 20px;}
+#footer{
+  position:relative;
+  bottom:10px;
+  width:100%;
+  text-align:center;
+  z-index:100;
+  display:block;
+}
+#
+</style>
+
+  <body>
+    <div id="viz" style="text-align:center;">
+      <svg width="850" height="850" font-family="sans-serif" font-size="10" text-anchor="middle" ></svg>
+    </div>
+
+    <script>
+
+
+      var continents = {
+      "Australia": "Oceania",
+      "New Zealand": "Oceania",
+      "Tonga": "Oceania",
+      "Fiji": "Oceania",
+      "Samoa": "Oceania",
+      "Kiribati": "Oceania",
+      "Palau": "Oceania",
+      "Cook Islands": "Oceania",
+      "Solomon Islands": "Oceania",
+      "South Africa": "Africa",
+      "Seychelles": "Africa",
+      "Sudan": "Africa",
+      "Morocco": "Africa",
+      "Zambia": "Africa",
+      "Senegal": "Africa",
+      "Egypt": "Africa",
+      "Nigeria": "Africa",
+      "Ghana": "Africa",
+      "Botswana": "Africa",
+      "Tanzania": "Africa",
+      "Zimbabwe": "Africa",
+      "Tunisia": "Africa",
+      "Gambia": "Africa",
+      "Niger": "Africa",
+      "Algeria": "Africa",
+      "Benin" : "Africa",
+      "Uganda": "Africa",
+      "Ethiopia": "Africa",
+      "Guinea": "Africa",
+      "Cameroon": "Africa",
+      "Kenya": "Africa",
+      "Swaziland": "Africa",
+      "Malawi" : "Africa",
+      "Mali" : "Africa",
+      "Sierra Leone" : "Africa",
+      "Somaliland" : "Africa",
+      "Mozambique": "Africa",
+      "Mauritius": "Africa",
+      "Mauritania": "Africa",
+      "Eritrea": "Africa",
+      "Togo": "Africa",
+      "Madagascar": "Africa",
+      "China": "Asia",
+      "India": "Asia",
+      "Japan": "Asia",
+      "South Korea" : "Asia",
+      "Republic of Korea": "Asia",
+      "South Ossetia" : "Asia",
+      "Hong Kong" : "Asia",
+      "Mongolia" : "Asia",
+      "Bangladesh": "Asia",
+      "Philippines": "Asia",
+      "Malaysia": "Asia",
+      "Iran": "Asia",
+      "Maldives": "Asia",
+      "Turkmenistan" : "Asia",
+      "Northern Cyprus" : "Asia",
+      "Sri Lanka": "Asia",
+      "Indonesia": "Asia",
+      "Tajikistan": "Asia",
+      "Nepal": "Asia",
+      "Thailand": "Asia",
+      "Pakistan": "Asia",
+      "United Arab Emirates" : "Asia",
+      "Saudi Arabia" : "Asia",
+      "Vietnam" : "Asia",
+      "Singapore" : "Asia",
+      "Israel" : "Asia",
+      "Kazakhstan" : "Asia",
+      "Uzbekistan" : "Asia",
+      "Turkey": "Asia",
+      "Argentina": "America",
+      "USA": "America",
+      "Canada": "America",
+      "Ecuador": "America",
+      "Bahamas": "America",
+      "Brazil": "America",
+      "Mexico": "America",
+      "Chile": "America",
+      "Cuba": "America",
+      "Bolivia": "America",
+      "Colombia": "America",
+      "Trinidad and Tobago": "America",
+      "Peru": "America",
+      "Costa Rica": "America",
+      "Guatemala": "America",
+      "Jamaica": "America",
+      "Dominican Republic": "America",
+      "El Salvador": "America",
+      "Venezuela": "America",
+      "Barbados": "America",
+      "Uruguay": "America",
+      "Germany": "Europe",
+      "Albania": "Europe",
+      "France": "Europe",
+      "UK": "Europe",
+      "Netherlands": "Europe",
+      "Switzerland": "Europe",
+      "Czech Republic" : "Europe",
+      "Russia": "Europe",
+      "Spain": "Europe",
+      "Norway": "Europe",
+      "Malta": "Europe",
+      "Italy": "Europe",
+      "Sweden": "Europe",
+      "Austria": "Europe",
+      "Belgium": "Europe",
+      "Hungary": "Europe",
+      "Finland": "Europe",
+      "Denmark": "Europe",
+      "Portugal": "Europe",
+      "Ukraine": "Europe",
+      "Greece": "Europe",
+      "Romania": "Europe",
+      "Poland": "Europe",
+      "Moldova": "Europe",
+      "Estonia": "Europe",
+      "Slovenia": "Europe",
+      "Montenegro": "Europe",
+      "Bulgaria": "Europe",
+      "Iceland": "Europe",
+      "Belarus": "Europe",
+      "Slovakia": "Europe",
+      "Ireland": "Europe",
+      "Monaco": "Europe",
+      "Lithuania": "Europe",
+      "Serbia": "Europe",
+      "Latvia": "Europe",
+      "Yugoslavia" : "Europe",
+     }
+
+
+    function color_from_continents(t){
+      if (continents[t] == "Europe"){
+        return "rgb(157, 232, 160)"
+      }
+      else if (continents[t] == "Africa"){
+        return "rgb(161, 232, 255)"
+      }
+      else if (continents[t] == "Asia"){
+        return "rgb(255, 105, 109)"
+      }
+      else if (continents[t] == "Oceania"){
+        return "rgb(255, 247, 117)"
+      }
+      else if (continents[t] == "America"){
+        return "rgb(255, 191, 91)"
+      }
+      else{
+        return "purple"
+      }
+    }
+
+    /// Function to display date
+    function date(){
+      if (csv == 'ar2_countries.csv'){
+        document.getElementById("h1_date").innerHTML = "Assessment Report 2 1995";
+      }
+      if (csv == 'ar3_countries.csv'){
+        document.getElementById("h1_date").innerHTML = "Assessment Report 3 2001";
+      }
+      if (csv == 'ar4_countries.csv'){
+        document.getElementById("h1_date").innerHTML = "Assessment Report 4 2007";
+      }
+      if (csv == 'ar5_countries.csv'){
+        document.getElementById("h1_date").innerHTML = "Assessment Report 5 2014";
+      }
+      if (csv == 'ar6_countries.csv'){
+        document.getElementById("h1_date").innerHTML = "Assessment Report 6 2021";
+      }
+    }
+
+
+    var svg = d3.select("svg"),
+        width = +svg.attr("width"),
+        height = +svg.attr("height");
+
+    var format = d3.format(",d");
+
+    var color = d3.scaleOrdinal(d3.schemeCategory20c);
+
+    var pack = d3.pack()
+        .size([width, height])
+        .padding(1.5);
+
+    var csv  = "ar2_countries.csv"
+
+    function display(){
+
+      d3.select('svg').selectAll("*").remove()
+
+      date()
+
+      d3.csv(csv,
+        function(d) {
+          d.value = +d.value;
+          if (d.value) return d;
+        },
+        function(error, data) {
+        if (error) throw error;
+
+        console.log(data.map(data => data.id))
+
+        var root = d3.hierarchy({children: data})
+            .sum(function(d) { return d.value; })
+            .each(function(d) {
+              if (id = d.data.id) {
+                var id, i = id.lastIndexOf(".");
+                d.id = id;
+                d.package = id.slice(0, i);
+                d.class = id.slice(i + 1);
+              }
+            });
+
+        var node = svg.selectAll(".node")
+          .data(pack(root).leaves())
+          .enter()
+            .append("g")
+              .attr("class", "node")
+              .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+
+        node.append("circle")
+            .attr("id", function(d) { return d.id; })
+            .attr("r", function(d) { return d.r; })
+            .style("fill", function(d) {  return d3.color(color_from_continents(d.id)); });
+
+        node.append("clipPath")
+            .attr("id", function(d) { return "clip-" + d.id; })
+            .append("use")
+            .attr("xlink:href", function(d) { return "#" + d.id; });
+
+        node.append("text")
+            .append("tspan")
+              .text(function(d) {
+              return d.id; })
+            .attr("x", function(d){ return 0; })
+              .attr("y", function(d){ return d.value > 1 ? - d.r/4 : - d.r/2; })
+              .attr("text-anchor", "middle")
+              .style("font-size", function(d) { return d.value > 6 ? ((2 * d.r - 10) /5 + "px") :  '12px'; })
+            .append("tspan")
+              .text(function(d){
+                return format(d.value) ;
+              })
+              .attr("x", function(d){ return 0; })
+              .attr("y", function(d){ return d.value > 1 ? d.r/4 : d.r/2; })
+              .attr("text-anchor", "middle")
+              .style("font-size", function(d) { return d.value > 6 ? ((2 * d.r - 10) / 5 + "px") :  '12px'; });
+
+
+
+        node.append("title")
+            .text(function(d) { return d.id + "\n" + format(d.value); })
+
+
+      });
+
+    }
+
+    display()
+
+    document.getElementById("ar2").addEventListener('click',function(){
+      csv = "ar2_countries.csv"
+      display();
+    },false)
+
+    document.getElementById("ar3").addEventListener('click',function(){
+      csv = "ar3_countries.csv"
+      display();
+    },false)
+
+    document.getElementById("ar4").addEventListener('click',function(){
+      csv = "ar4_countries.csv"
+      display();
+    },false)
+
+    document.getElementById("ar5").addEventListener('click',function(){
+      csv = "ar5_countries.csv"
+      display();
+    },false)
+
+    document.getElementById("ar6").addEventListener('click',function(){
+      csv = "ar6_countries.csv"
+      display();
+    },false)
+
+    </script>
+
+  </body>
+
+<footer>
+  <h5> Data Source : <a href = "http://ipcc.ch/publications_and_data/publications_and_data_reports.shtml">IPCC Assessment Reports</a> </h5>
+</footer>
