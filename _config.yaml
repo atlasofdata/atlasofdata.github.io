@@ -27,6 +27,9 @@ instagram_username: theatlasofdata
 twitter_username: theatlasofdata
 # rss:
 
+# permalink structure
+permalink: pretty
+
 # add content types
 collections:
     news:
