@@ -25,6 +25,10 @@ layout: default
     {{ content }}
   </div>
 
+  {% if page.gist_url %}
+    <p><small>You can consult the original visualization <a href="{{page.gist_url}}">here</a>.</small></p>
+  {% endif %}
+
 
 
 
