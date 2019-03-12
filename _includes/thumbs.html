@@ -2,8 +2,17 @@
   <div class="thumbs">
 
     {% for post in site.posts %}
+    {% capture viz_thumb_path %}/viz/{{post.slug}}/thumb.png{% endcapture %}
+
+    <!--  check if exists -->
+    {% for static_file in site.static_files %}
+        {% if static_file.path contains viz_thumb_path %}
+            {% assign has_thumb = true %}
+        {% endif %}
+    {% endfor %}
+
     <article class="thumb"
-      style={% if post.thumbnail %} "background-image:url({{post.thumbnail}})"
+      style={% if has_thumb %}"background-image:url({{viz_thumb_path}})"{% elsif post.thumbnail %} "background-image:url({{post.thumbnail}})"
       {% endif %}>
       <div class="thumb-title">
         <h3>
