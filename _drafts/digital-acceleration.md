@@ -3,11 +3,11 @@ type: post
 title: "The Great Digital Acceleration : a positive feedback loop in the meteorology field"
 authors:
 - Titouan Poisson
-thumbnail: "/img/China_Guangdong_location_map.svg.png"
+thumbnail: "/viz/digital-acceleration/meteorology_trends2.png"
 desc:
 ---
 
-![](https://github.com/theatlasofdata/ecoflow/blob/master/digital-acceleration/meteorology_trends2.png?raw=true)
+![](/viz/digital-acceleration/meteorology_trends2.png)
 
 
 The World Weather Watch (WWW), established in 1963, is the core program of the World Meteorological Organization (WMO). It combines three systems to provide WMO members with meteorological data and forecast. First, the Global Observing System (GOS) which is tasked with ensuring the coordination of national observing facilities for the collection of meteorological and climatic data. Secondly, the Global Telecommunication System (GTS) which is defined as the coordinated global system of telecommunication guaranteeing the exchange and distribution of GOS data. Finally, the Global Data-processing and Forecasting System (GDPFS) which consists of world, regional and specialized meteorological centers that provide processed data, analysis and forecast products.

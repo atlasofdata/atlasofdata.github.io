@@ -1,6 +1,6 @@
 ---
 type: post
-title: IPCC governance
+title: The evolution of the governance at the IPCC
 authors:
 - Titouan Poisson
 thumbnail:
