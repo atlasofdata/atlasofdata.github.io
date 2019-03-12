@@ -1,0 +1,17 @@
+{
+  "name": "atlasofdata-backup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fetchviz.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "blockfetcher": "^1.0.0",
+    "js-yaml": "^3.12.2",
+    "showdown": "^1.9.0",
+    "slugify": "^1.3.4"
+  }
+}

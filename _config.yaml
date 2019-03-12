@@ -43,6 +43,7 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - bin
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
