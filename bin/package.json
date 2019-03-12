@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "blockfetcher": "^1.0.0",
+    "blockfetcher": "^1.0.2",
     "js-yaml": "^3.12.2",
     "showdown": "^1.9.0",
     "slugify": "^1.3.4"
