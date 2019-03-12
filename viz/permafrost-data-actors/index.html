@@ -43,23 +43,23 @@
     .links_calm { }
     .links_calm:hover { }
 
-    div.tooltip { 
-    position: absolute;     
-    text-align: center;     
-/*    width: 60px;          
-    height: 28px;     */    
-    padding: 2px;       
-    font: 12px sans-serif;    
-    background: lightsteelblue; 
-    border: 0px;    
-    border-radius: 8px;     
-    pointer-events: none;     
+    div.tooltip {
+    position: absolute;
+    text-align: center;
+/*    width: 60px;
+    height: 28px;     */
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
     }
 
 
   </style>
 
-  <h1 align="center">Permafrost Actors Network</h1>
+  <!-- <h1 align="center">Permafrost Actors Network</h1> -->
 </head>
 
 <body>
@@ -70,10 +70,10 @@
 /* ====== */
 
 
-var width = 960,
+var width = 600,
     height = 600,
     margin = { top: 30, right: 30, bottom: 30, left: 30 },
-    originalScale = height / 2.1,
+    originalScale = height / 3,
     scale_globe = originalScale,
     scale_sky = originalScale*1.2,
     translation = [width / 2, height / 2],
@@ -96,13 +96,13 @@ var svg = d3.select('body')
 
 
 var projection = d3.geoOrthographic()
-    .scale(scale_globe) 
+    .scale(scale_globe)
     .translate(translation)
     .clipAngle(90);
 
 // for fake 3d with arcs
 var sky = d3.geoOrthographic()
-    .scale(scale_sky) 
+    .scale(scale_sky)
     .translate(translation)
     .clipAngle(90);
 
@@ -147,7 +147,7 @@ function load(error, stations_calm_csv, stations_bore_csv, orgs_csv, world) {
       .attr("class", "tooltip")
       .style("opacity", 0);
 
-// Draw the world 
+// Draw the world
   var outline = svg
     .append('path')
       .datum(sphere)
@@ -242,7 +242,7 @@ function load(error, stations_calm_csv, stations_bore_csv, orgs_csv, world) {
        .style("opacity", .9);
       div.html("Name : " + d.geometry.properties.name + "<br>" + "Stations : " + d.geometry.properties.size)
        .style('width', d.geometry.properties.name.length)
-       .style("left", 50 + "px")   
+       .style("left", 50 + "px")
        .style("top", 300 + "px");
    })
     .on("mouseout", function(d) {
@@ -268,7 +268,7 @@ function load(error, stations_calm_csv, stations_bore_csv, orgs_csv, world) {
 
           id = a.id_orga;
           if (id_sel == id){
-            var source = [a.longitude, a .latitude];      
+            var source = [a.longitude, a .latitude];
             var target = [orgs_csv[id-1]['longitude'],orgs_csv[id-1]['latitude']];
 
             links_calm.push({
@@ -283,7 +283,7 @@ function load(error, stations_calm_csv, stations_bore_csv, orgs_csv, world) {
         .enter()
       .append('path')
         .classed('links_calm', true)
-        // .attr("class","arc") 
+        // .attr("class","arc")
         .attr("d", function(d) { return swoosh(flying_arc(d)) })
         .style("opacity", function(d) {
               return fade_at_edge(d)
@@ -296,7 +296,7 @@ function load(error, stations_calm_csv, stations_bore_csv, orgs_csv, world) {
 
       id = a.id_orga;
           if (id_sel == id){
-            var source = [a.longitude, a .latitude];      
+            var source = [a.longitude, a .latitude];
             var target = [orgs_csv[id-1]['longitude'],orgs_csv[id-1]['latitude']];
 
             links_bore.push({
@@ -311,7 +311,7 @@ function load(error, stations_calm_csv, stations_bore_csv, orgs_csv, world) {
         .enter()
       .append('path')
         .classed('links_bore', true)
-        // .attr("class","arc") 
+        // .attr("class","arc")
         .attr("d", function(d) { return swoosh(flying_arc(d))})
         .style("opacity", function(d) {return fade_at_edge(d)})
 
@@ -323,7 +323,7 @@ function load(error, stations_calm_csv, stations_bore_csv, orgs_csv, world) {
       stations_calm_csv.forEach(function(a) {
 
       id = a.id_orga
-      var source = [a.longitude, a .latitude];      
+      var source = [a.longitude, a .latitude];
       var target = [orgs_csv[id-1]['longitude'],orgs_csv[id-1]['latitude']]
 
       links_calm.push({
@@ -337,7 +337,7 @@ function load(error, stations_calm_csv, stations_bore_csv, orgs_csv, world) {
         .enter()
       .append('path')
         .classed('links_calm', true)
-        // .attr("class","arc") 
+        // .attr("class","arc")
         .attr("d", function(d) { return swoosh(flying_arc(d)) })
         .style("opacity", function(d) {
               return fade_at_edge(d)
@@ -350,14 +350,14 @@ function load(error, stations_calm_csv, stations_bore_csv, orgs_csv, world) {
 
           id = a.id_orga
           if (id != ""){
-            var source = [a.longitude, a .latitude];      
+            var source = [a.longitude, a .latitude];
             var target = [orgs_csv[id-1]['longitude'],orgs_csv[id-1]['latitude']]
 
             links_bore.push({
               source: source,
               target: target
             });
-          }     
+          }
       });
 
       var arcs_bore = svg.selectAll('.links_bore')
@@ -365,17 +365,17 @@ function load(error, stations_calm_csv, stations_bore_csv, orgs_csv, world) {
           .enter()
         .append('path')
           .classed('links_bore', true)
-          // .attr("class","arc") 
+          // .attr("class","arc")
           .attr("d", function(d) { return swoosh(flying_arc(d))})
           .style("opacity", function(d) {return fade_at_edge(d)})
-        } 
+        }
   }
 
   display_arcs()
 
 
   // Add legend
-             
+
   var ordinal = d3.scaleOrdinal()
     .domain(["Borehole Stations", "CALM stations", "Organizations"])
     .range([ "blue", "tomato", "yellow"]);
@@ -392,7 +392,7 @@ function load(error, stations_calm_csv, stations_bore_csv, orgs_csv, world) {
 
   svg.select(".legendOrdinal")
     .call(legendOrdinal);
-            
+
 
   var ordinal = d3.scaleOrdinal()
     .domain(["Borehole Stations", "CALM stations", "Organizations"])
@@ -489,22 +489,22 @@ function flying_arc(pts) {
   return result;
 }
 
-function location_along_arc(start, end, loc) {  
+function location_along_arc(start, end, loc) {
   var interpolator = d3.geoInterpolate(start,end);
   return interpolator(loc)
 }
 
 function fade_at_edge(d) {
   var centerPos = projection.invert([width/2,height/2]),
-      start = d.source, 
+      start = d.source,
       end = d.target;
 
   var start_dist = 1.67 - d3.geoDistance(start, centerPos),
       end_dist = 1.67 - d3.geoDistance(end, centerPos);
 
-    // console.log(start_dist)  
-    
-  var fade = d3.scaleLinear().domain([-.1,0]).range([0,.1]) 
+    // console.log(start_dist)
+
+  var fade = d3.scaleLinear().domain([-.1,0]).range([0,.1])
   var dist = start_dist < end_dist ? start_dist : end_dist;
 
   return fade(dist)
