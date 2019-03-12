@@ -1,7 +1,7 @@
 ---
 type: post
 title: IPCC governance
-authors:
+authors: Titouan Poisson
 thumbnail:
 desc:
 gist_url: http://bl.ocks.org/titoufish/f1978f4b6759e66ca9057c5ed688ea41
