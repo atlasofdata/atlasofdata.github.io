@@ -10,14 +10,22 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- if page.authors -%}
+        • <span>Authors : {% for author in page.authors %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{% if forloop.first %}{% elsif forloop.last %} and {% else %}, {% endif %}{{ author }}</span></span>{% endfor %}
+      </span>
       {%- endif -%}</p>
   </header>
 
+  {% if page.gist_url %}
+  <iframe src="/viz/{{ page.slug }}" width="100%" height="700px" border='0'></iframe>
+  {% endif %}
+  
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+
+
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
