@@ -4,13 +4,6 @@ title: What is an atlas?
 permalink: /what-is-an-atlas
 ---
 
-> "*an
-atlas is hardly made of\" pages \"in the usual sense of the term: rather
-tables, boards where are arranged images, boards that we come to consult
-for a specific purpose or that we serials at leisure, allowing to wander
-our \"will to know\" from image to image and from plank to board*\"
-(Didi-Huberman, 2011)
-
 The atlas is a widely used literary form that usually groups maps,
 graphs and text in order to systematically present a specific subject.
 Halfway between scientific knowledge and popularization support[^1],
@@ -18,6 +11,19 @@ there are thousands of different atlases that are intended for various
 audiences. Unlike the dictionary, the atlas does not aim at providing an
 exhaustive vision of a subject but rather to bring light by exposing the
 same subject in different ways.
+
+![](./img/atlasRef/Greek-sculptures-with-iPod_2.jpg)
+
+
+
+> "*an
+atlas is hardly made of\" pages \"in the usual sense of the term: rather
+tables, boards where are arranged images, boards that we come to consult
+for a specific purpose or that we serials at leisure, allowing to wander
+our \"will to know\" from image to image and from plank to board*\"
+Georges Didi-Huberman[^3]
+
+
 
 Whether it is *My first Atlas* for 6-9 years or *the Official Atlas of
 Patents* of the INPI, all in common to offer different levels of
@@ -34,7 +40,7 @@ to allow the reader\'s imagination to project itself into a problematic
 not in one fell swoop, but in successive touches.
 
 
-## Some References
+## Selected References
 
 
 Below you will find a set of examples of atlases chosen from thousands
@@ -262,9 +268,16 @@ for download and the figures are freely licensed so that they can be
 easily re-used.
 
 
+Cover credits : Adam Reeder[^4]
+
+
 [^1]: Thomas, Gaëtan. \"Atlas, Or The Problem of the Scientific
     Imagination.\" Nonfiction.fr, October 23, 2012.
     [https://www.nonfiction.fr/article-6165-atlas\_ou\_le\_le\_probleme\_de\_limagination\_scientifique.htm](https://www.nonfiction.fr/article-6165-atlas_ou_le_probleme_de_limagination_scientifique.htm).
 
 [^2]: Castro, Teresa. *Cartographic Thinking Images. Cinema and Visual
     Culture,* Lyon, Aléas, 2011.
+
+[^3]: Didi-Huberman, Georges. *Atlas ou le gai savoir inquiet: L'œil de l'histoire 3*, Paris : Les Éditions de Minuit, coll. "Paradoxe", 2011. 384 p.
+
+[^4]: Adam Reeder, *Greek sculpture with iPod*, 2016 -  [Wikipedia Commons](https://commons.wikimedia.org/wiki/File:Greek-sculptures-with-iPod_2.jpg)
