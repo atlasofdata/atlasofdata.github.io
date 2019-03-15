@@ -2,15 +2,16 @@
   <ul>
   {% for post in site.news reversed %}
       <li>
-        <h3><a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>{% if post.author %} by {{ post.author }}{% endif %}</h3>
+        <h4><a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>{% if post.author %} by {{ post.author }}{% endif %}
+        <br>
+        <small><date>{{ post.date | date_to_string}}</date></small>
+        </h4>
 
-        <p>
-          <date>{{ post.date | date_to_string}}</date>
-        </p>
 
-        {% assign excerpt_length = post.excerpt | size %}
+
+        <!-- {% assign excerpt_length = post.excerpt | size %}
         {% assign content_length = post.content | size %}
-        {{ post.content }}
+        {{ post.content }} -->
       </li>
   {% endfor %}
   </ul>

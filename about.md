@@ -4,44 +4,47 @@ title: About
 permalink: /about/
 ---
 
-The Atlas of Data is a non-profit initiative by scientists and citizens.
+## Why such an atlas?
+
+The Atlas of Data maps the flows of data relevant to monitor the natural ecosystems. Where do the data come from? How are they collected? Where are they stored? Who controls them? Are they freely accessible?
+
+Large amounts of data that could provide insightful knowledge about ecosystems are simply not accessible. Some because of technicalities such as poor formats, some because of economic or political incentives to protect or prevent access.
+
+### The Metabolism of Digital systems
+
+The digital sphere is formed by the connection to the network of zillions of very different entities, from the tiniest sensors to the largest data centers, from individual smartphones to large intermediation platforms connecting billions of users. This complex system interacts with various socio-economic systems. Its metabolism relies on positive and negative feedback loops favors or impedes the collection, exchanges and use of data.
+
+In the Atlas of Data, each chapter illustrates a specific aspect of this metabolism by representing its interaction with relevant actors.
+
+### The Frontiers of Representation
+
+To apprehend this complex metabolism, new representations of the digital sphere are necessary. There is no standard way to map and measure similarities, centrality or periphery of nodes in dynamic networks where massive populations are interacting.
+
+The Atlas of Data offers a space to explore the frontiers of representation by inviting not only scientists but also designers, artists, and visualisation practitioners. We lead creative experimentations to produce images, maps, or objects that support new forms of knowledge to understand the ongoing changes of our ecosystems.
+
+### An Education platform
+
+The Atlas of Data produces new knowledge and collects existing ones. Therefore, it is particularly suited for the development of pedagogical outcomes and curricula. We conduct workshops, where participants can be students, scientists, designers, artists, or anyone interested in exploring, studying and learning about data ecosystems locally or globally.
+
+The material of the Atlas of Data can be freely used for teaching purposes.
+
 
 ### Team
+
+The Atlas of Data is a non-profit initiative.
 
 - [Clément Renaud](http://clementrenaud.com) (EPFL, ENS de Lyon) -  Founder
 - [Stéphane Grumbach](https://who.rocq.inria.fr/Stephane.Grumbach/)  (INRIA, ENS de Lyon) -  Scientific advisor
 
+Reach out by email at   [contact@theatlasofdata.earth](mailto:contact@theatlasofdata.earth)
 
 ![](/img/spinning_world.gif)
 
-### About the Project
+### Past Events
 
-#### The Monitoring of the Earth
-The objective of this Atlas of Data is to investigate how the monitoring of the earth ecosystems works. We establish maps and visualisations of this global information system to study its laws (positive feedbacks, resistance, etc). Our purpose is also to evaluate if the present information system is adapted to the multiple challenges of climate
-change.
+{% include news.html %}
 
+### Partners
 
-#### Open Access
-
-The Atlas of Data intends to become a resource for scientists, teachers, students and policy-makers that want to understand how production and consumption of data relate to our planet ecosystem. All resources published on this website will be released under Open Access license and made available for reuse in the public domain.
-
-#### The Integration of Nature and Technology
-
-The appropriation by humans of a large part of the biosphere and the
-development of technological systems encompassing the whole planet has lead to an extreme intricacy between social and natural phenomena. Monitoring the earth ecosystem can therefore only be achieved by considering information collected from natural, human and technological activities.
-
-#### Conflicting Interests in Human Societies
-
-So far, the integration between socio-economic and natural monitoring systems has been very limited. While here are very serious political reasons to resist further integration, weaker systems are also impeding key areas of monitoring activities - traceability and circulation of raw  materials and products for instance. Such conflicting interests in human societies leading to new organisational mechanisms to redefine data production and integration.
-
-
-#### Digital Platforms & Positive Feedback Loops
-
-In the last decades, very large digital platforms have emerged, reaching billions of users and replacing crude oil industries as the largest market capitalisations. Their growth is based on positive feedback loops. The quality of their services increases with their number of users and the quantity of data they control. Such feedback loops exist in the meteorological industry, but are absent from most global ecosystems monitoring systems at this stage.
-
-
-### Methodology
-
-Most relevant data are inaccessible for research purposes. Most often, they are under the control of corporations or administrations that do not intent to disclose them for a large spectrum of reasons. Sometimes though, they are accessible but on incompatible formats. On some occasions, a possibility is given to use these data and show results on social or natural ecosystems. This is what we aim to do on domains for which data is often lacking to answer fundamental questions.
-
-![](/img/icon-database.png)![](/img/icon-hand-with-pen.png)![](/img/icon-chart.png)
+{% include sponsors.html %}
+ENS Lyon, Inria, IXXI
