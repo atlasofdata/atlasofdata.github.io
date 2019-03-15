@@ -1,21 +1,21 @@
 <div class="row">
-  <div class="thumbs">
+  <ul class="thumbs">
 
     {% for post in site.posts %}
     {% capture viz_thumb_path %}/viz/{{post.slug}}/thumb.png{% endcapture %}
 
-    <article class="thumb"
+    <li class="thumb"
       style={% if post.thumbnail %} "background-image:url({{post.thumbnail}})"{% else %}"background-image:url({{viz_thumb_path}})"
       {% endif %}>
-      <div class="thumb-title">
-        <h3>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-          </a>
-        </h3>
-      </div>
-    </article>
+      <a href="{{ post.url }}">
+        <div class="thumb-title">
+          <h3>
+              {{ post.title }}
+          </h3>
+        </div>
+      </a>
+    </li>
     {% endfor %}
-  </div>
+  </ul>
 
 </div>

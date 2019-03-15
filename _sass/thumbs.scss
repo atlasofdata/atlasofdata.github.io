@@ -3,39 +3,55 @@
   max-width: 100%;
   display: inline-flex;
   flex-wrap: wrap;
-  margin: 15px 0;
 
-  article {
+  margin: 15px 0;
+  padding: 0;
+
+  list-style: none;
+
+  li {
+    position: relative;
+    height: 350px;
     margin: 2% 2% 0 0;
     width: 48%;
+
     @include media-query($on-palm) {
       width: 92%;
       margin: 4% 0 0 4%;
     }
-    height: 350px;
+
+    overflow: hidden;
 
     background: $brand-color;
     background-position: 50% 50%;
     background-size: cover;
 
-    overflow: hidden;
+    a {
+      margin-top: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
 
-    position: relative;
-    h3 {
-      position: relative;
-      padding: 50px 20px 0 20px;
-      a {
-        color: white
+      background: darken($overlay-color, 40%);
+      -webkit-transition: all .7s ease;
+      opacity:1;
+
+      &:hover {
+        background: none;
+        text-decoration: none;
+        opacity:0;
       }
     }
 
-    &:before {
-      position: absolute;
-      content: " ";
-      background: darken($overlay-color, 40%);
-      width: 100%;
-      height: 100%;
+
+    h3 {
+      margin: 0;
+      position: relative;
+      padding: 50px 20px 0 20px;
+      color: white
     }
+
+
 
 
   }
