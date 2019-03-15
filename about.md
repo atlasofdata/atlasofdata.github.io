@@ -47,4 +47,3 @@ Reach out by email at   [contact@theatlasofdata.earth](mailto:contact@theatlasof
 ### Partners
 
 {% include sponsors.html %}
-ENS Lyon, Inria, IXXI
