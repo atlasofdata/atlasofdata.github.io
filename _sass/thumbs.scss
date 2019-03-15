@@ -32,7 +32,7 @@
       width: 100%;
       height: 100%;
 
-      background: darken($overlay-color, 40%);
+      background: rgba($brand-color, .5);
       -webkit-transition: all .7s ease;
       opacity:1;
 
