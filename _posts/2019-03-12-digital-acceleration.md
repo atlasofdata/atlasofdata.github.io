@@ -3,6 +3,8 @@ type: post
 title: "The Great Digital Acceleration : a positive feedback loop in the meteorology field"
 authors:
 - Titouan Poisson
+- Clément Renaud
+- Stephane Grumbach
 thumbnail: "/viz/digital-acceleration/meteorology_trends2.png"
 desc:
 ---
