@@ -61,7 +61,7 @@
   <meta name="twitter:site" content="@atlasofdata" />
   <meta name="twitter:creator" content="@atlasofdata" />
   <meta name="twitter:title" content="{{ page.title }}" />
-  <meta name="twitter:image" content="" />
+  <meta name="twitter:image" content="{{ image_link | absolute_url }}" />
 
   <!-- Open Graph data -->
   <meta property="og:title" content="{{ page.title }}" />
@@ -70,5 +70,5 @@
   <meta property="og:image" content="{{ image_link | absolute_url }}" />
   <meta property="og:description" content="{% if page.url == '/' %}{{site.description}}{% else %}{{ page.content | strip_html | truncatewords: 50  }}{% endif %}" />
   <meta property="og:site_name" content="{{site.title}}" />
-  
+
 </head>
