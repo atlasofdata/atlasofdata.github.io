@@ -4,7 +4,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>The Atlas of Data on Earth 🌐</title>
-  <meta name="description" content="">
+  <meta name="description" content="{{site.descirption}}">
   <meta name="author" content="Clément Renaud">
 
   <!-- Mobile Specific Metas
@@ -18,7 +18,7 @@
   {%- feed_meta -%}
 
 
-  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -45,8 +45,28 @@
 
   <link rel="manifest" href="/img/favicon/manifest.json">
 
+  <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
+
+
+  <!-- SOCIAL
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@atlasofdata" />
+  <meta name="twitter:creator" content="@atlasofdata">
+  <meta name="twitter:title" content="{{ page.title }}" />
+  <meta name="twitter:image" content="{{site.url}}/viz/{{ page.slug }}/thumb.png" />
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{page.url}}" />
+  <meta property="og:image" content="{{site.url}}/viz/{{ page.slug }}/thumb.png" />
+  <meta property="og:description" content={{page.excerpt}} />
+  <meta property="og:site_name" content="{{site.title}}" />
+  <meta property="fb:admins" content="Facebook numeric ID" />
 
 </head>
