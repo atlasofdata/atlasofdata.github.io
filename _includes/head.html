@@ -54,19 +54,21 @@
   <!-- SOCIAL
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
+  {% capture image_link %}{{site.baseurl }}{% if page.url == '/' %}img/seedvault.jpg{% else %}viz/{{ page.slug }}/thumb.png{% endif %}{% endcapture %}
+
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@atlasofdata" />
   <meta name="twitter:creator" content="@atlasofdata" />
   <meta name="twitter:title" content="{{ page.title }}" />
-  <meta name="twitter:image" content="{% if page.url == '/' %} {{site.baseurl | absolute_url}}img/seedvault.jpg{% else %}{{ page.url | prepend: site.baseurl | absolute_url }}viz/{{ page.slug }}/thumb.png{% endif %}" />
+  <meta name="twitter:image" content="" />
 
   <!-- Open Graph data -->
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content='{% if page.url == "/" %} {{site.baseurl | absolute_url}}{% else %}{{ page.url | prepend: site.baseurl | absolute_url}}{% endif %}' />
-  <meta property="og:image" content="{% if page.url == '/' %} {{site.baseurl | absolute_url}}/img/seedvault.jpg{% else %}{{ site.baseurl | absolute_url }}viz/{{ page.slug }}/thumb.png{% endif %}" />
-  <meta property="og:description" content="{{ post.content | strip_html | truncatewords: 50  }}" />
+  <meta property="og:url" content='{{ page.url | absolute_url}}' />
+  <meta property="og:image" content="{{ image_link | absolute_url }}" />
+  <meta property="og:description" content="{% if page.url == '/' %}{{site.description}}{% else %}{{ page.content | strip_html | truncatewords: 50  }}{% endif %}" />
   <meta property="og:site_name" content="{{site.title}}" />
   <meta property="fb:admins" content="Facebook numeric ID" />
 
