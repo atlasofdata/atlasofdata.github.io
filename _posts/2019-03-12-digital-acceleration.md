@@ -7,6 +7,15 @@ authors:
 - Stephane Grumbach
 thumbnail: "/viz/digital-acceleration/meteorology_trends2.png"
 desc:
+data:
+  - source: NOAA
+    url: https://www.ncdc.noaa.gov/data-access/land-based-station-data
+    size: Mo
+    quality: open
+  - source: Wikipedia
+    url: https://en.wikipedia.org/wiki/Moore%27s_law#/media/File:Moore%27s_Law_Transistor_Count_1971-2016.png
+    size: Ko
+    quality: webpage
 ---
 
 ![](/viz/digital-acceleration/meteorology_trends2.png)
