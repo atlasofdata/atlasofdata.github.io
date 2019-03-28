@@ -1,0 +1,11 @@
+{% if dataset.url %}
+  <a href="{{ dataset.url }}">
+    <span class="source">{{ dataset.source }}</span>
+  </a>
+{% else %}
+  <span class="source">{{ dataset.source }}</span>
+{% endif %}
+(size: <span class="size">{{ dataset.size }}</span>, format: <span class="quality">{{ dataset.quality }}</span>)
+{% if post %}
+- in <a href="{{post.url}}" title="read the post">{{post.title}}</a>
+{% endif %}

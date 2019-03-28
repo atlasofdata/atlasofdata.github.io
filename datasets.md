@@ -13,15 +13,7 @@ Here is a list of all datasets usedin the website.
 {% for post in site.posts %}
 {% for dataset in post.data %}
 <li>
-  {% if dataset.url %}
-    <a href="{{ dataset.url }}">
-      <span class="source">{{ dataset.source }}</span>
-    </a>
-  {% else %}
-    <span class="source">{{ dataset.source }}</span>
-  {% endif %}
-  (size: <span class="size">{{ dataset.size }}</span>, format: <span class="quality">{{ dataset.quality }}</span>)
-  - in <a href="{{post.url}}" title="read the post">{{post.title}}</a>
+  {% include dataset.html dataset=dataset %}
 </li>
 {% endfor %}
 {% endfor %}

@@ -16,20 +16,31 @@ layout: default
   </header>
 
 
-  {% if page.gist_url %}
-    <iframe src="{{site.url}}/viz/{{ page.slug }}" width="100%" height="700px" frameBorder='0'></iframe>
-    <a href="/viz/{{ page.slug }}">Show full screen</a>
-  {% endif %}
+  <!-- Visualization -->
+  <iframe src="{{site.url}}/viz/{{ page.slug }}" width="100%" height="700px" frameBorder='0'></iframe>
+  <a href="/viz/{{ page.slug }}">Show full screen</a>
 
+  <!-- Content -->
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
 
+  <!-- Datasets -->
+
+  <p>
+    <b>Datasets</b>
+    <br>
+    A list of the datasets used in this visualization.
+  </p>
+  <ul>
+  {% for dataset in page.data %}
+    <li>{% include dataset.html dataset=dataset %}</li>
+  {% endfor %}
+  </ul>
+
   {% if page.gist_url %}
     <p><small>You can consult the original visualization <a href="{{page.gist_url}}">here</a>.</small></p>
   {% endif %}
-
-
 
 
   {%- if site.disqus.shortname -%}
