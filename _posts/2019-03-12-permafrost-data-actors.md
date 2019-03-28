@@ -3,8 +3,8 @@ type: post
 title: Permafrost Actors Network
 authors:
 - Titouan Poisson
-thumbnail:
-desc:
+topics:
+  - ecosystems
 gist_url: http://bl.ocks.org/titoufish/778c859a0d2b9c4ee887ead059d18e6c
 data:
   - source: Global Terrestrial Network for Permafrost

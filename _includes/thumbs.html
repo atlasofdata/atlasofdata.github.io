@@ -1,11 +1,36 @@
 <div class="row">
+  <p> Filter by topic :
+
+    <label for="technosphere">
+      <input type="checkbox" data-filter="thumbs" id="technosphere" data-filter-topics="technosphere" name="checkboxes" />
+      technosphere
+    </label>
+
+    <label for="digital">
+      <input type="checkbox" data-filter="thumbs" id="digital" data-filter-topics="digital metabolism" name="checkboxes" />
+      digital metabolism
+    </label>
+
+    <label for="ecosystems">
+      <input type="checkbox" data-filter="thumbs" id="ecosystems" data-filter-topics="ecosystems" name="checkboxes" />
+      ecosystems
+    </label>
+
+    <label for="governance">
+      <input type="checkbox" data-filter="thumbs" id="governance" data-filter-topics="governance" name="checkboxes" />
+      governance
+    </label>
+
+  </p>
+
   <ul class="thumbs">
 
     {% for post in site.posts %}
     {% capture viz_thumb_path %}/viz/{{post.slug}}/thumb.png{% endcapture %}
 
     <li class="thumb"
-      style={% if post.thumbnail %} "background-image:url({{post.thumbnail}})"{% else %}"background-image:url({{viz_thumb_path}})"
+      data-topics='{{post.topics | jsonify }}'
+      style={% if post.thumbnail %}"background-image:url({{post.thumbnail}})"{% else %}"background-image:url({{viz_thumb_path}})"
       {% endif %}>
       <a href="{{ post.url }}">
         <div class="thumb-title">
@@ -17,5 +42,56 @@
     </li>
     {% endfor %}
   </ul>
-
 </div>
+
+
+<script>
+
+// DOME elements
+const checkboxes = document.getElementsByName('checkboxes')
+const thumbs = document.querySelectorAll('.thumbs > li');
+
+// get a list of all topics
+const allTopics = []
+checkboxes.forEach(c => allTopics.push(c.getAttribute('data-filter-topics')))
+
+reset()
+
+// mouse
+document.addEventListener('change', function (e) {
+
+  let checked = []
+  checkboxes.forEach(cb => {
+      const topic = cb.getAttribute('data-filter-topics')
+      if (cb.checked) checked.push(topic)
+    })
+
+  if(!checked.length) {
+    checked = allTopics
+    reset()
+  }
+
+  console.log(checked)
+
+  thumbs.forEach(thumb => {
+    var itemTags = thumb.getAttribute('data-topics');
+    const topics = JSON.parse(itemTags) || []
+
+    const hasSelectedTopics = checked.filter(t => topics.includes(t))
+
+    // show / hide
+    if (!!hasSelectedTopics.length) {
+      thumb.setAttribute('data-toggle', 'on');
+    } else {
+      thumb.setAttribute('data-toggle', 'off');
+    }
+  })
+
+});
+
+function reset() {
+  checkboxes.forEach(c => c.checked = true)
+  thumbs.forEach(t => t.setAttribute('data-toggle', 'on'))
+}
+
+</script>

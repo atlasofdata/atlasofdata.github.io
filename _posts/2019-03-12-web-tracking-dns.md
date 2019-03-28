@@ -9,8 +9,8 @@ authors:
 - Kave Salamatian
 - Gaogang Xie
 gist_url: http://bl.ocks.org/WebTrackingCartography/e59cfc5870d6ec8990a30e05fac72f74
-thumbnail:
-desc:
+topics:
+- digital metabolism
 data:
   - source: China DNS Data
     size: Po

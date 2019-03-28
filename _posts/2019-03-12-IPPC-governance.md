@@ -3,8 +3,8 @@ type: post
 title: The evolution of the governance at the IPCC
 authors:
 - Titouan Poisson
-thumbnail:
-desc:
+topics:
+- governance
 gist_url: http://bl.ocks.org/titoufish/f1978f4b6759e66ca9057c5ed688ea41
 data:
   - source: IPCC Website

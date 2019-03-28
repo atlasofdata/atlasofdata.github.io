@@ -4,7 +4,8 @@ title: "The Share of Digital in the 10 Most Capitalized Companies"
 authors:
 - Clément Renaud
 - Stephane Grumbach
-
+topics:
+- technosphere
 data:
   - source: Wikipedia
     size: Ko

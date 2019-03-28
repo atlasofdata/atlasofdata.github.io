@@ -6,7 +6,8 @@ authors:
 - Clément Renaud
 - Stephane Grumbach
 thumbnail: "/viz/digital-acceleration/meteorology_trends2.png"
-desc:
+topics:
+  - digital metabolism
 data:
   - source: NOAA
     url: https://www.ncdc.noaa.gov/data-access/land-based-station-data

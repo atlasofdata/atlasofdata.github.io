@@ -7,7 +7,9 @@
   margin: 15px 0;
   padding: 0;
 
+
   list-style: none;
+
 
   li {
     position: relative;
@@ -51,8 +53,28 @@
       color: white
     }
 
+    &[data-toggle='on'] {
+      display:block;
+    }
 
-
-
+    &[data-toggle='off'] {
+      display:none;
+    }
   }
+
+  input[name="checkboxes"] {
+    margin-left: 1em;
+  }
+
+  label {
+    @include media-query($on-palm) {
+      display: block;
+    }
+  }
+
+
+
+
+
+
 }
