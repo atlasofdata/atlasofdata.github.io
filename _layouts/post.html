@@ -17,8 +17,11 @@ layout: default
 
 
   <!-- Visualization -->
+  {% if page.noviz %}
+  {% else %}
   <iframe src="{{site.url}}/viz/{{ page.slug }}" width="100%" height="700px" frameBorder='0'></iframe>
   <a href="/viz/{{ page.slug }}">Show full screen</a>
+  {% endif %}
 
   <!-- Content -->
   <div class="post-content e-content" itemprop="articleBody">

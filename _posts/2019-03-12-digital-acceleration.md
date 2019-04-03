@@ -8,6 +8,7 @@ authors:
 thumbnail: "/viz/digital-acceleration/meteorology_trends2.png"
 topics:
   - digital metabolism
+noviz: true # no visualisation to fetch
 data:
   - source: NOAA
     url: https://www.ncdc.noaa.gov/data-access/land-based-station-data
