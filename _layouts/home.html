@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {%- include head.html -%}
+  <body>
+    {%- include navbar.html -%}
+    <div id="cover">
+      <div class="container cover-title">
+        <h1>The Atlas of Data <small><span class="on">on</span> Earth</small></h1>
+      </div>
+    </div>
+
+    <section id="intro" class="container">
+      {{ content }}
+    </section>
+
+  </body>
+  {%- include footer.html -%}
+  </html>
