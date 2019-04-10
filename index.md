@@ -44,4 +44,4 @@ The Atlas of Data take part in exhibitions and organise participatory workshops 
 
 ### Get involved
 
-The Atlas of Data is an ongoing project - we are just getting started. <br /> Join the discussion on our [Telegram Channel](https://t.me/atlasofdata) or find us on [Github](https://github.com/theatlasofdata/community).
+The Atlas of Data is an ongoing project. Join the discussion on our [Telegram Channel](https://t.me/atlasofdata) or find us on [Github](https://github.com/theatlasofdata/community).
