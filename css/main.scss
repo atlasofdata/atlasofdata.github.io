@@ -60,6 +60,10 @@ figure {
     background: $overlay-color;
     width: 100%;
     height: 100%;
+    @include media-query($on-palm) {
+      height: calc(100% + 70px);
+    }
+    min-height: -webkit-fill-available;
   }
 
   .cover-title {
