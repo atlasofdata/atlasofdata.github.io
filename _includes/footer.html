@@ -14,9 +14,6 @@
           <li>
             {{- site.description | escape -}}
           </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
         </ul>
       </div>
 
@@ -26,10 +23,10 @@
 
       <div class="footer-col one-third column">
           <ul class="contact-list">
-            <li><a href="/about">About</a></li>
-            <li><a href="/contribute">Get Involved</a></li>
-            <li><a href="/authors">For Authors</a></li>
-            <li><a href="/teach">Workshops</a></li>
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+            <li>A project by <a href="https://zuoyou.studio">Zuoyou Studio</a></li>
           </ul>
       </div>
     </div>
