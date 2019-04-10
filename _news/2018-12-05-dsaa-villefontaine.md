@@ -1,5 +1,5 @@
 ---
-title: Design workshop with students from the Master Interactive Design at Villefontaine
+title: Design workshop with students from the Master Interactive Design at Villefontaine, France
 link: https://dsaa.designvillefontaine.com
 ---
 
