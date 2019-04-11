@@ -14,9 +14,10 @@ data:
 
 A voronoi map of the world based on weather stations.
 
-We use a [Lambert Azimuthal Equal-Area](https://en.wikipedia.org/wiki/Lambert_azimuthal_equal-area_projection) projection so it represents accurately the areas. Weather station data comes from World Clim (2015 data). The 10k+ points dataset was clusterized using [supercluster](https://github.com/mapbox/supercluster/). We use the fantastic [Geo Voronoi](https://github.com/Fil/d3-geo-voronoi) by [@fil](/@fil) to create the vornoi geo clusters of areas based on the dataset.
-
 Colors represents the density of weather stations in an area
+
+We use a [Lambert Azimuthal Equal-Area](https://en.wikipedia.org/wiki/Lambert_azimuthal_equal-area_projection) projection so it represents accurately the areas. Weather station data comes from World Clim (2015 data). The 10k+ points dataset was clusterized using [supercluster](https://github.com/mapbox/supercluster/). We use the [d3 Geo Voronoi](https://github.com/Fil/d3-geo-voronoi)to create the vornoi geo clusters of areas based on the dataset.
+
 
 ### Weather Stations Dataset
 
