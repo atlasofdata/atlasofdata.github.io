@@ -4,32 +4,26 @@ title: About
 permalink: /about/
 ---
 
-## Why such an atlas?
-
-The Atlas of Data maps the flows of data relevant to monitor the natural ecosystems. Where do the data come from? How are they collected? Where are they stored? Who controls them? Are they freely accessible?
-
-Large amounts of data that could provide insightful knowledge about ecosystems are simply not accessible. Some because of technicalities such as poor formats, some because of economic or political incentives to protect or prevent access.
+The monitoring of Earth ecosystems by digital technologies extends far beyond scientific research and meteorological forecast to constitute the main way we control our world today. Our increasing reliance on digital technologies occurs while climate change is dramatically accelerating. As humans, we are facing a paradoxical equation: the data and machines we use to monitor and regulate ecosystems constitute also an important ecological threat to the planet.
 
 ### The Metabolism of Digital systems
 
 The digital sphere is formed by the connection to the network of zillions of very different entities, from the tiniest sensors to the largest data centers, from individual smartphones to large intermediation platforms connecting billions of users. This complex system interacts with various socio-economic systems. Its metabolism relies on positive and negative feedback loops favors or impedes the collection, exchanges and use of data.
 
-In the Atlas of Data, each chapter illustrates a specific aspect of this metabolism by representing its interaction with relevant actors.
-
 ### The Frontiers of Representation
 
-To apprehend this complex metabolism, new representations of the digital sphere are necessary. There is no standard way to map and measure similarities, centrality or periphery of nodes in dynamic networks where massive populations are interacting.
+From global infrastructures to social apps, the mechanisms of interactions between socio-technical systems and the ecospheres are so complex that we lack the ability to form useful mental images. Still, the threat is real. We urgently need representations to conceive what is happening - and how we should act. There is no standard way to understand similarities, centrality, periphery or boundaries in such complex structures. To overcome our limitations, we construct new tools and experiences.
+
+### Design & art
 
 The Atlas of Data offers a space to explore the frontiers of representation by inviting not only scientists but also designers, artists, and visualisation practitioners. We lead creative experimentations to produce images, maps, or objects that support new forms of knowledge to understand the ongoing changes of our ecosystems.
 
-### An Education platform
+### Open knowledge
 
-The Atlas of Data produces new knowledge and collects existing ones. Therefore, it is particularly suited for the development of pedagogical outcomes and curricula. We conduct workshops, where participants can be students, scientists, designers, artists, or anyone interested in exploring, studying and learning about data ecosystems locally or globally.
-
-The material of the Atlas of Data can be freely used for teaching purposes.
+The Atlas of Data produces new knowledge and collects existing ones. Everything we produce is available in the public domain. Therefore, it is particularly suited for the development of pedagogical outcomes and curricula.
 
 
-### Team
+## Team
 
 The Atlas of Data is a non-profit initiative.
 
@@ -38,12 +32,7 @@ The Atlas of Data is a non-profit initiative.
 
 Reach out by email at   [contact@theatlasofdata.earth](mailto:contact@theatlasofdata.earth)
 
-![](/img/spinning_world.gif)
 
-### Past Events
-
-{% include news.html %}
-
-### Partners
+## Partners
 
 {% include sponsors.html %}

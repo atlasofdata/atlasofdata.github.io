@@ -4,37 +4,23 @@ title: Get Involved
 permalink: /contribute/
 ---
 
+The Atlas of Data is an open project and welcome external contributions. If you have interesting topic, data or ideas that may be relevant, please drop us a line.
 
-## How?
+Here a are some ideas about how to contribute to the project:
 
-#### Write content
+- join our [Telegram discussion group](https://t.me/atlasofdata)
+- improve the actual design by looking at the [open issues](https://github.com/theatlasofdata/theatlasofdata.earth/issues) on the Github repo
+- help develop better [graphic design](https://github.com/theatlasofdata/visual-identity) features
+- translate existing content in a different language
+- organize a workshop in your city
+- organize an exhibition in your city
 
-The Atlas of Data welcome external contributions. If you have interesting topic or data that may be relevant, please submit a proposal by following our [authors guidelines](/authors).
-
-#### Become an editor / reviewer?
-
-Passionate about data and ecosystems? Have some scientific credentials? Please drop us a line to join our board of editors and reviewers.
-
-#### Other ways
-
-Please check the [list of open challenges](https://github.com/theatlasofdata/community) for more ideas about how to contribute to the project.
-
-
-## Get in touch
-
-For more information about the Atlas of Data on Earth, please can reach for us on our [Telegram channel](https://t.me/atlasof data) or via social networks.
-
-{% include social.html %}
 
 Our email address is  [contact@theatlasofdata.earth](mailto:contact@theatlasofdata.earth).
 
-## List of Contributors
+You can also find us on social networks:
 
-(by alphabetic order)
-
-- Pascal Carrivain (IXXI, CBP)
-- Titouan Poisson (Centrale)
-
+{% include social.html %}
 
 ## Support us
 
