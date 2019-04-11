@@ -19,13 +19,11 @@ From global infrastructures to social apps, the mechanisms of interactions betwe
 
 ### The Project
 
-The Atlas of Data is an online and offline project, organised in five chapters based on elements as depicted in Chinese traditional culture (五行) : metal, water, wood, fire and earth.
+The Atlas of Data is an online and offline project.
 
 For each chapter, we collaborate with scientists to select a body of works from the most relevant academic literature. We extract existing imagery - such as maps and visualisations - and archive them on the present website under interactive formats. We explicit the [data sources](/datasets) and how they have been produced.
 
 Based on this scientific corpus, we propose artistic interpretations in the form of interactive installations. All artworks are documented and released under public domain on this website for people to tweak and recreate. We collaborate with schools and local stakeholders worldwide to host workshops and exhibitions.
-
-## 金 木 水 火 土
 
 ### A Curated Gallery of Scientific Imagery
 
