@@ -19,25 +19,24 @@ From global infrastructures to social apps, the mechanisms of interactions betwe
 
 ### The Project
 
-The Atlas of Data is a project started in 2019, currently a **work in progress**.
+The Atlas of Data is an online and offline project, organised in five chapters based on elements as depicted in Chinese traditional culture (五行) : metal, water, wood, fire and earth.
 
-- *Scientific Curation*: we compile existing maps, visualisations and representations from academic literature.
-- *Art & Design*: we explore new forms of representations by creating original artworks and design pieces.
-- *Open Content*: we publish all content under open licenses for people to tweak and reuse
-- *Education*: we collaborate with schools and stakeholders to organise workshops and curriculums around the topic
-- *Global Networks*: we work on different continents to create solid relationships between people and organisations.
+For each chapter, we collaborate with scientists to select a body of works from the most relevant academic literature. We extract existing imagery - such as maps and visualisations - and archive them on the present website under interactive formats. We explicit the [data sources](/datasets) and how they have been produced.
 
-![](/img/plants-arduino.jpg)
+Based on this scientific corpus, we propose artistic interpretations in the form of interactive installations. All artworks are documented and available online under open licenses for people to tweak and recreate. We collaborate with schools and local stakeholders worldwide to host workshops and exhibitions.
 
-### A Gallery of Scientific Imagery
+## 金 木 水 火 土
 
-Large bodies of scientific works exist on topics related to climate or digital technologies. To get started on building the Atlas, we curate scientific works that feature interesting imagery - often cartography, network maps or visualisations. For each piece, we recreate a copy on the website in an interactive format and explicit the data that is used. Check the complete [list of datasets](/datasets).
+
+### A Curated Gallery of Scientific Imagery
 
 {% include thumbs.html %}
 
 ### News & Events
 
+
 The Atlas of Data take part in exhibitions and organise participatory workshops where participants can explore, reflect and map data ecosystems.
+
 
 {% include news.html %}
 
@@ -45,3 +44,5 @@ The Atlas of Data take part in exhibitions and organise participatory workshops 
 ### Get involved
 
 The Atlas of Data is an ongoing project. Join the discussion on our [Telegram Channel](https://t.me/atlasofdata) or find us on [Github](https://github.com/theatlasofdata/community).
+
+![](/img/plants-arduino.jpg)
