@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <title>World Weather Stations</title>
+<style>
+  #caption, #container {
+    text-align: center;
+  }
+</style>
 <body>
   <div id="container"></div>
+  <p id="caption">
+    Weathers Station on Earth
+    </br>
+    <small>
+      <span id="info"></span>
+    </small>
+  </p>
   <script src="https://unpkg.com/d3@5.9.2/dist/d3.min.js" charset="utf-8"></script>
+  <script src="https://unpkg.com/versor"></script>
+  <script src="https://unpkg.com/d3-inertia"></script>
   <script src="https://unpkg.com/d3-delaunay@4.1.5/dist/d3-delaunay.min.js" charset="utf-8"></script>
   <script src="https://unpkg.com/d3-geo-voronoi@1.1.2/build/d3-geo-voronoi.min.js" charset="utf-8"></script>
   <script>
 
-    const height = 360;
-    const width = 800;
+    const height = 300;
+    const width = 300;
 
     const canvas = d3.select('#container')
       .append('canvas')
@@ -47,22 +61,25 @@
         .fitExtent([[1, 1], [width - 1, height - 1]], {type: "Sphere"})
         .precision(0.1)
 
+      const velocity = 0.003
+
       // rotate earth
+      const timer = d3.timer(function() {
+        const rotate = projection.rotate();
+        rotate[0] += velocity * 20;
+        projection.rotate(rotate);
+        render();
+      });
 
-      function rotate () {
-        console.log("rotate")
 
-        const speed = 10;
-        const rotation = speed ? (Date.now() / (201-speed) ) : projection.rotate()[0]
 
-        console.log
-        projection
-          .rotate([rotation, projection.rotate()[1]]);
 
+      function render() {
+        // reset
+        context.clearRect(0, 0, width, height);
+
+        // draw globe
         const path = d3.geoPath(projection, context).pointRadius(1);
-
-        // d3.select('canvas').selectAll('*').remove();
-
         polygons.features.forEach((p, i) => {
           context.beginPath();
           path(p);
@@ -72,8 +89,19 @@
           context.stroke();
         });
 
+        // add caption
+        var p = projection.rotate().map(d3.format(".2f"));
+        const info = `λ = ${p[0]}, φ = ${p[1]}, γ = ${p[2]}`
+        d3.select("#info").html(info)
       }
-      setInterval(rotate,50)
+
+      if (d3.geoInertiaDrag) {
+        canvas.inertia = d3.geoInertiaDrag(
+          d3.select(context.canvas).style('cursor', 'move'),
+          null,
+          projection
+        );
+      }
     }
   </script>
 </body>
