@@ -5,11 +5,17 @@
   #caption, #container {
     text-align: center;
   }
+  a, a:visited {
+    color: #2b3252;
+    text-decoration: none;
+  }
 </style>
 <body>
   <div id="container"></div>
   <p id="caption">
-    Number of Weathers Station on Earth
+    <a href="https://observablehq.com/@clemsos/world-weather-stations" target="_blank">
+      Number of Weathers Station on Earth
+    </a>
     </br>
     <small>
       <span id="info"></span>
@@ -32,7 +38,7 @@
 
     const context =  canvas.node().getContext('2d');
 
-    d3.json('https://gist.githubusercontent.com/clemsos/fa07391890693a385c02b81b22828e7c/raw/23564ac68d9a23942e6ea7607b116fd02ca2a381/stations_clusters_1.json')
+    d3.json('https://gist.githubusercontent.com/clemsos/fa07391890693a385c02b81b22828e7c/raw/23564ac68d9a23942e6ea7607b116fd02ca2a381/stations_clusters_3.json')
       .then(data => start(data))
       .catch(err => console.log(err))
 
