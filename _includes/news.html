@@ -3,8 +3,9 @@
   {% for post in site.news reversed %}
       <li>
         <h4>
-          <a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}" {% if post.link %}target="_blank"{% endif %}>{% if post.link %}{%else%}[Blog Post] {% endif %}{{ post.title }}</a>{% if post.author %} by {{ post.author }}{% endif %} -
-        <small><date>{{ post.date | date_to_string}}</date></small>
+          <small><date>{{ post.date | date_to_string}}</date></small>
+          <br>
+          <a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}" {% if post.link %}target="_blank"{% endif %}>{% if post.link %}{%else%}[Blog Post] {% endif %}{{ post.title }}</a>{% if post.author %} by {{ post.author }}{% endif %}
         </h4>
       </li>
   {% endfor %}

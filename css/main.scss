@@ -143,6 +143,23 @@ figure {
   }
 }
 
+#news {
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+
+  li {
+    padding-bottom: 1em;
+  }
+
+  h4 {
+    padding: 0;
+    margin: 0
+  }
+
+}
+
 #icons {
   background-image: url(/img/Boston_geospatial_optimized.gif);
 }
