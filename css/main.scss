@@ -52,19 +52,19 @@ figure {
 
   text-align: center;
 
-  &:before {
-    position: absolute;
-    content: " ";
-    top: 0;
-    left: 0;
-    background: $overlay-color;
-    width: 100%;
-    height: 100%;
-    @include media-query($on-palm) {
-      height: calc(100% + 70px);
-    }
-    min-height: -webkit-fill-available;
-  }
+  // &:before {
+  //   position: absolute;
+  //   content: " ";
+  //   top: 0;
+  //   left: 0;
+  //   background: $overlay-color;
+  //   width: 100%;
+  //   height: 100%;
+  //   @include media-query($on-palm) {
+  //     height: calc(100% + 70px);
+  //   }
+  //   min-height: -webkit-fill-available;
+  // }
 
   .cover-title {
     color: white;
