@@ -4,7 +4,7 @@ title: A Cartography of Web Tracking using DNS Record
 authors:
 - Jingxiu Su
 - Zhenyu Li
-- Stephane Grumbach
+- Stéphane Grumbach
 - Muhammad Ikram
 - Kave Salamatian
 - Gaogang Xie

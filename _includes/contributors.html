@@ -1,0 +1,16 @@
+{% assign contribArray = '' | split: ',' %}
+
+{% for post in site.posts %}
+  {% for author in post.authors %}
+     {% if author != "Clément Renaud" and author != "Stéphane Grumbach"%}
+       {% assign contribArray = contribArray | push: author %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+{% assign uniqContrib = contribArray | uniq %}
+
+<div id="contributors">
+  <p> With contributions from : {{ uniqContrib | join: ', '}}.
+  </p>
+</div>

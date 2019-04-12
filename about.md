@@ -30,8 +30,9 @@ The Atlas of Data is a non-profit initiative.
 - [Clément Renaud](http://clementrenaud.com) (EPFL, ENS de Lyon) -  Founder
 - [Stéphane Grumbach](https://who.rocq.inria.fr/Stephane.Grumbach/)  (INRIA, ENS de Lyon) -  Scientific advisor
 
-Reach out by email at   [contact@theatlasofdata.earth](mailto:contact@theatlasofdata.earth)
+{% include contributors.html %}
 
+Reach out by email at   [contact@theatlasofdata.earth](mailto:contact@theatlasofdata.earth)
 
 ## Partners
 

@@ -4,7 +4,7 @@ title: "The Great Digital Acceleration : a positive feedback loop in the meteoro
 authors:
 - Titouan Poisson
 - Clément Renaud
-- Stephane Grumbach
+- Stéphane Grumbach
 thumbnail: "/viz/digital-acceleration/meteorology_trends2.png"
 topics:
   - digital metabolism
