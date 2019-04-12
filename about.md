@@ -8,15 +8,15 @@ The monitoring of Earth ecosystems by digital technologies extends far beyond sc
 
 ### The Metabolism of Digital systems
 
-The digital sphere is formed by the connection to the network of zillions of very different entities, from the tiniest sensors to the largest data centers, from individual smartphones to large intermediation platforms connecting billions of users. This complex system interacts with various socio-economic systems. Its metabolism relies on positive and negative feedback loops favors or impedes the collection, exchanges and use of data.
+The digital sphere is formed by the connection to the network of zillions of very different entities, from the tiniest sensors to the largest data centers, from individual smartphones to large intermediation platforms connecting billions of users. This complex system interacts with various socio-economic dynamics, creating a metabolism where positive and negative feedback loops favors or impedes the collection, exchanges and use of data.
 
 ### The Frontiers of Representation
 
-From global infrastructures to social apps, the mechanisms of interactions between socio-technical systems and the ecospheres are so complex that we lack the ability to form useful mental images. Still, the threat is real. We urgently need representations to conceive what is happening - and how we should act. There is no standard way to understand similarities, centrality, periphery or boundaries in such complex structures. To overcome our limitations, we construct new tools and experiences.
+The mechanisms of interactions between socio-technical systems and the ecospheres are so complex that we lack the ability to form useful mental images. Still, we urgently need useful representations to conceive what is happening - and how we should act. With the Atlas of Data, we hope to contribute tools and experiences that help understand similarities, centrality, periphery or boundaries of such complex structures.
 
-### Design & art
+### Science, Design & Art
 
-The Atlas of Data offers a space to explore the frontiers of representation by inviting not only scientists but also designers, artists, and visualisation practitioners. We lead creative experimentations to produce images, maps, or objects that support new forms of knowledge to understand the ongoing changes of our ecosystems.
+The Atlas of Data invites designers, artists, and visualisation practitioners to explore the frontiers of representation by producing maps, objects, performances, or installations. We provide recent and reliable scientific sources as a basis for these creative and artistic works.
 
 ### Open knowledge
 

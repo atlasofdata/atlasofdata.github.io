@@ -4,7 +4,7 @@ title: Get Involved
 permalink: /contribute/
 ---
 
-The Atlas of Data is an open project and welcome external contributions. If you have interesting topic, data or ideas that may be relevant, please drop us a line.
+The Atlas of Data is an open project and welcome external contributions. If you have topics, data or ideas that may be relevant, please drop us a line.
 
 Here a are some ideas about how to contribute to the project:
 
@@ -16,7 +16,7 @@ Here a are some ideas about how to contribute to the project:
 - organize an exhibition in your city
 
 
-Our email address is  [contact@theatlasofdata.earth](mailto:contact@theatlasofdata.earth).
+Reach out for us at  [contact@theatlasofdata.earth](mailto:contact@theatlasofdata.earth).
 
 You can also find us on social networks:
 
