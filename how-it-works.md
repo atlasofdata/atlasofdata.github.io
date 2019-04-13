@@ -15,8 +15,10 @@ For each chapter, we collaborate with scientists to select a body of works from 
 
 ### Original Artworks
 
-Based on this scientific corpus, we invite artists to propose interpretations under different forms (visualisations, sound, performance, installations, etc). All artworks are documented and released under public domain on this website for people to download and appopriate.
+Based on this scientific corpus, we invite artists to propose interpretations under different forms (visualisations, sound, performance, installations, etc). All artworks are documented and released under public domain on this website for people to download and appropriate.
 
 ### Workshops & Exhibitions
 
 We collaborate with schools and local stakeholders worldwide to host workshops and exhibitions where anyone can explore, study and learn about data ecosystems and the making of complex representations.
+
+![](/img/plants-arduino.jpg)
