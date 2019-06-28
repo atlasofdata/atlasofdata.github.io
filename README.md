@@ -4,8 +4,18 @@ The Atlas of Data investigate how flows of data relate to the ecosystems of our 
 
 ### Howto Run
 
-To run this repo locally, you need to [setup github pages](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/).
+```
+bundle exec jekyll serve
+```
 
+### Publish
+
+We use the [jgd](https://github.com/yegor256/jekyll-github-deploy) Gem to build locally and deploy to gh-pages branch.
+
+```
+gem install jgd
+jgd
+```
 
 ### Backup all viz from blocks
 
