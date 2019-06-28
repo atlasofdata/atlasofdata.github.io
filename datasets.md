@@ -1,5 +1,6 @@
 ---
 title: Datasets
+layout: default
 ---
 
 Here is a list of all datasets usedin the website.
