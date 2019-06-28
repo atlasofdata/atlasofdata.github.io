@@ -6,13 +6,13 @@ source "https://rubygems.org"
 #
 #     bundle exec jekyll serve
 #
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem "github-pages", group: :jekyll_plugins
+
+gem "jekyll", "~> 3.7.4"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-jupyter-notebook", ">=0.0.4"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -23,3 +23,5 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # fix security issue
 gem "nokogiri", ">= 1.8.5"
+
+# jupyter notebook
