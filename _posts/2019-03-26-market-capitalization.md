@@ -14,9 +14,11 @@ data:
 ---
 
 
-See [methodo]("https://nbviewer.jupyter.org/urls/theatlasofdata.earth/viz/market-capitalization/Data - List of public corporations by market capitalization.ipynb"
-)
+## Methodology
 
+Here is the complete workflow we used to produce the data.
+
+{% jupyter_notebook "/notebooks/Data - List of public corporations by market capitalization.ipynb" %}
 
 Read the [original article](https://www.ladocumentationfrancaise.fr/catalogue/3303331600916/index.shtml)
 
