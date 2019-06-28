@@ -56,36 +56,15 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@atlasofdata" />
   <meta name="twitter:creator" content="@atlasofdata" />
-  <meta name="twitter:title" content="Datasets" />
-  <meta name="twitter:image" content="https://theatlasofdata.earth/viz//thumb.png" />
+  <meta name="twitter:title" content="Support for Jupyter and Observable notebooks" />
+  <meta name="twitter:image" content="https://theatlasofdata.earth/viz/jupyter-observable-notebook-support/thumb.png" />
 
   <!-- Open Graph data -->
-  <meta property="og:title" content="Datasets" />
+  <meta property="og:title" content="Support for Jupyter and Observable notebooks" />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content='https://theatlasofdata.earth/datasets/' />
-  <meta property="og:image" content="https://theatlasofdata.earth/viz//thumb.png" />
-  <meta property="og:description" content="Here is a list of all datasets usedin the website.
-
-
-
-Sort by Size
-Sort by Quality
-
-
-{% for post in site.posts %}
-{% for dataset in post.data %}
-
-  {% include dataset.html dataset=dataset %}
-
-{% endfor %}
-{% endfor %}
-
-
-
-
-
-
-" />
+  <meta property="og:url" content='https://theatlasofdata.earth/news/2019-06-28-jupyter-observable-notebook-support/' />
+  <meta property="og:image" content="https://theatlasofdata.earth/viz/jupyter-observable-notebook-support/thumb.png" />
+  <meta property="og:description" content="Notebooks have become very popular solutions to write data workflows and experiments. We have decided to add support for two of the main notebooks in use nowadays: Jupyter for data mining and Observable for visualisation. These type of notebooks are an important part of the publishing pipeline for the Atlas..." />
   <meta property="og:site_name" content="The Atlas of Data" />
 
 </head>
@@ -137,185 +116,91 @@ Sort by Quality
 </script>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <p>Here is a list of all datasets usedin the website.</p>
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Support for Jupyter and Observable notebooks</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-06-28T00:00:00+02:00" itemprop="datePublished">Jun 28, 2019
+      </time></p>
+  </header>
 
-<div id="datasets">
-<input class="search" />
-<button class="sort" data-sort="size">Sort by Size</button>
-<button class="sort" data-sort="quality">Sort by Quality</button>
 
-<ul class="list">
-
-
-<li>
+  <!-- Visualization -->
   
-  <a href="http://databasin.org/datasets/15a31dec689b4c958ee491ff30fcce75">
-    <span class="source">WorldClim</span>
-  </a>
-
-(size: <span class="size">Mo</span>, format: <span class="quality">open</span>)
-
-- in <a href="/2019/04/10/weather-stations/" title="read the post">Voronoi Map of Weather Stations Worldwide</a>
-
-
-</li>
-
-
-
-<li>
   
-  <a href="https://www.top500.org/statistics/">
-    <span class="source">Top 500</span>
-  </a>
 
-(size: <span class="size">Ko</span>, format: <span class="quality">csv</span>)
+  <!-- Content -->
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Notebooks have become very popular solutions to write data workflows and experiments. We have decided to add support for two of the main notebooks in use nowadays: <a href="https://jupyter,org">Jupyter</a> for data mining and <a href="https://observablehq.com">Observable</a> for visualisation.</p>
 
-- in <a href="/2019/03/26/top-500/" title="read the post">Top 500 : Supercomputing Capacity by Country</a>
+<p>These type of notebooks are an important part of the publishing pipeline for the Atlas of Data, as it allow to access directly the source code and makes it easier to replicate. Both allows the embedding of figures and text.</p>
 
+<h3 id="jupyter-notebook">Jupyter notebook</h3>
 
-</li>
+<p><a href="https://jupyter,org">Jupyter Notebook</a> is arguably the most popular notebook solution for data analysis. Originally based on iPython, it supports today many languages and environments. It is entirely open-source and can be installed locally or on a remote server.</p>
 
+<p>Below an example of an embed.<br />
+View <a href="/notebooks/Climate Stations.ipynb">full screen</a> or download the <a href="./">file</a>.</p>
 
-
-<li>
-  
-  <a href="https://en.wikipedia.org/wiki/List_of_public_corporations_by_market_capitalization">
-    <span class="source">Wikipedia</span>
-  </a>
-
-(size: <span class="size">Ko</span>, format: <span class="quality">table</span>)
-
-- in <a href="/2019/03/26/market-capitalization/" title="read the post">The Share of Digital in the 10 Most Capitalized Companies</a>
-
-
-</li>
-
-
-
-<li>
-  
-  <span class="source">China DNS Data</span>
-
-(size: <span class="size">Po</span>, format: <span class="quality">closed</span>)
-
-- in <a href="/2019/03/12/web-tracking-dns/" title="read the post">A Cartography of Web Tracking using DNS Record</a>
-
-
-</li>
-
-
-
-<li>
-  
-  <a href="http://gtnpdatabase.org/">
-    <span class="source">Global Terrestrial Network for Permafrost</span>
-  </a>
-
-(size: <span class="size">Mo</span>, format: <span class="quality">open</span>)
-
-- in <a href="/2019/03/12/permafrost-data-actors/" title="read the post">Permafrost Actors Network</a>
-
-
-</li>
-
-<li>
-  
-  <a href="https://ipa.arcticportal.org/">
-    <span class="source">International Permafrost Association</span>
-  </a>
-
-(size: <span class="size">Mo</span>, format: <span class="quality">pdf</span>)
-
-- in <a href="/2019/03/12/permafrost-data-actors/" title="read the post">Permafrost Actors Network</a>
-
-
-</li>
-
-
-
-<li>
-  
-  <a href="https://www.ipcc.ch/reports/">
-    <span class="source">IPCC Assessment Reports</span>
-  </a>
-
-(size: <span class="size">Ko</span>, format: <span class="quality">pdf</span>)
-
-- in <a href="/2019/03/12/earth-monitoring-history/" title="read the post">The History of Earth Monitoring</a>
-
-
-</li>
-
-
-
-<li>
-  
-  <a href="https://www.ncdc.noaa.gov/data-access/land-based-station-data">
-    <span class="source">NOAA</span>
-  </a>
-
-(size: <span class="size">Mo</span>, format: <span class="quality">open</span>)
-
-- in <a href="/2019/03/12/digital-acceleration/" title="read the post">The Great Digital Acceleration : a positive feedback loop in the meteorology field</a>
-
-
-</li>
-
-<li>
-  
-  <a href="https://en.wikipedia.org/wiki/Moore%27s_law#/media/File:Moore%27s_Law_Transistor_Count_1971-2016.png">
-    <span class="source">Wikipedia</span>
-  </a>
-
-(size: <span class="size">Ko</span>, format: <span class="quality">webpage</span>)
-
-- in <a href="/2019/03/12/digital-acceleration/" title="read the post">The Great Digital Acceleration : a positive feedback loop in the meteorology field</a>
-
-
-</li>
-
-
-
-<li>
-  
-  <a href="https://ipcc.ch">
-    <span class="source">IPCC Website</span>
-  </a>
-
-(size: <span class="size">Ko</span>, format: <span class="quality">website</span>)
-
-- in <a href="/2019/03/12/IPPC-governance/" title="read the post">The evolution of the governance at the IPCC</a>
-
-
-</li>
-
-<li>
-  
-  <a href="https://public.wmo.int/en">
-    <span class="source">WMO</span>
-  </a>
-
-(size: <span class="size">Ko</span>, format: <span class="quality">website</span>)
-
-- in <a href="/2019/03/12/IPPC-governance/" title="read the post">The evolution of the governance at the IPCC</a>
-
-
-</li>
-
-
-</ul>
+<div class="jupyter-notebook" style="position: relative; width: 100%; margin: 0 auto;">
+  <div class="jupyter-notebook-iframe-container">
+    <iframe src="/notebooks/Climate stations.ipynb.html" style="position: absolute; top: 0; left: 0; border-style: none;" width="100%" height="100%" onload="this.parentElement.style.paddingBottom = (this.contentWindow.document.documentElement.scrollHeight + 10) + 'px'"></iframe>
+  </div>
 </div>
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+<h3 id="observable-notebooks">Observable notebooks</h3>
 
-<script>
-var options = {
-    valueNames: [ 'source', 'size', 'quality' ]
-};
+<p><a href="https://observablehq.com">Observable</a> is an online service for Javascript notebook. Founded by the d3js team, it offers a powerful writing environment for JS development. Besides the great usability of the interface and the JS engine, one of the downside is that - to date - it exists only as a platform and can not be deployed locally. If results produced on the platform can be downloaded as tarballs, no development can happen outside the website itself.</p>
 
-var datasetList = new List('datasets', options);
+<p>The upside is that you can rely on the running Observable engine to embed your code dynamically anywhere, as demonstrated below. Thanks to Visions Carto for the <a href="https://visionscarto.net/observable-jekyll/">explanations</a>.</p>
+
+<style>
+.fullwidth {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+</style>
+
+<p id="viewof-details"></p>
+<p id="viewof-rotate"></p>
+<p id="viewof-showHide"></p>
+<div class="fullwidth">
+  <div id="chart"></div>
+</div>
+
+<script type="module">
+  import notebook from "https://api.observablehq.com/@clemsos/world-weather-stations.js";
+
+  const renders = {
+    "viewof details": "#viewof-details",
+    "viewof showHide": "#viewof-showHide",
+    "viewof rotate": "#viewof-rotate",
+    "chart": "#chart",
+  };
+
+  import {Inspector, Runtime} from "https://unpkg.com/@observablehq/notebook-runtime@2?module";
+  for (let i in renders)
+    renders[i] = document.querySelector(renders[i]);
+
+  Runtime.load(notebook, (variable) => {
+    if (renders[variable.name])
+      return new Inspector(renders[variable.name]);
+  });
 </script>
 
+
+  </div>
+
+  <!-- Datasets -->
+
+  
+
+  <a class="u-url" href="/news/2019-06-28-jupyter-observable-notebook-support/" hidden></a>
+</article>
 
       </div>
     </main>

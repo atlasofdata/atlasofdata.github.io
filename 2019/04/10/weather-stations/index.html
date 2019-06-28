@@ -128,17 +128,55 @@
 
   <!-- Visualization -->
   
-  <iframe src="https://theatlasofdata.earth/viz/weather-stations" width="100%" height="700px" frameBorder='0'></iframe>
-  <a href="/viz/weather-stations">Show full screen</a>
   
 
   <!-- Content -->
   <div class="post-content e-content" itemprop="articleBody">
-    <p>A voronoi map of the world based on weather stations.</p>
+    <style>
+.fullwidth {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+</style>
+
+<div class="fullwidth">
+<div id="chart"></div>
+</div>
+<p id="viewof-details"></p>
+<p id="viewof-rotate"></p>
+<p id="viewof-showHide"></p>
+
+<script type="module">
+  import notebook from "https://api.observablehq.com/@clemsos/world-weather-stations.js";
+
+  const renders = {
+    "viewof details": "#viewof-details",
+    "viewof showHide": "#viewof-showHide",
+    "viewof rotate": "#viewof-rotate",
+    "chart": "#chart",
+  };
+
+  import {Inspector, Runtime} from "https://unpkg.com/@observablehq/notebook-runtime@2?module";
+  for (let i in renders)
+    renders[i] = document.querySelector(renders[i]);
+
+  Runtime.load(notebook, (variable) => {
+    if (renders[variable.name])
+      return new Inspector(renders[variable.name]);
+  });
+</script>
+
+<p>A voronoi map of the world based on weather stations.</p>
 
 <p>Colors represents the density of weather stations in an area</p>
 
 <p>We use a <a href="https://en.wikipedia.org/wiki/Lambert_azimuthal_equal-area_projection">Lambert Azimuthal Equal-Area</a> projection so it represents accurately the areas. Weather station data comes from World Clim (2015 data). The 10k+ points dataset was clusterized using <a href="https://github.com/mapbox/supercluster/">supercluster</a>. We use the <a href="https://github.com/Fil/d3-geo-voronoi">d3 Geo Voronoi</a>to create the vornoi geo clusters of areas based on the dataset.</p>
+
+<p>See the <a href="https://observablehq.com/@clemsos/world-weather-stations">original visualisation</a>.</p>
 
 <h3 id="weather-stations-dataset">Weather Stations Dataset</h3>
 
@@ -150,12 +188,20 @@
   <p>Published on  <a href="http://databasin.org/datasets/15a31dec689b4c958ee491ff30fcce75">Databasin</a></p>
 </blockquote>
 
-<p>See the <a href="https://observablehq.com/@clemsos/world-weather-stations">original visualisation</a>.</p>
+<h3 id="data-exploration-workflow">Data Exploration Workflow</h3>
+
+<div class="jupyter-notebook" style="position: relative; width: 100%; margin: 0 auto;">
+  <div class="jupyter-notebook-iframe-container">
+    <iframe src="/notebooks/Climate stations.ipynb.html" style="position: absolute; top: 0; left: 0; border-style: none;" width="100%" height="100%" onload="this.parentElement.style.paddingBottom = (this.contentWindow.document.documentElement.scrollHeight + 10) + 'px'"></iframe>
+  </div>
+</div>
+
 
   </div>
 
   <!-- Datasets -->
 
+  
   <p>
     <b>Datasets</b>
     <br>
@@ -173,6 +219,7 @@
 </li>
   
   </ul>
+  
 
   <a class="u-url" href="/2019/04/10/weather-stations/" hidden></a>
 </article>
@@ -193,7 +240,7 @@
           <li class="p-name">
             <b>The Atlas of Data</b>
           </li>
-          <li>Representing the complex dynamics of planetary ecosystems </li>
+          <li>Representing the complex dynamics of planetary ecosystems</li>
         </ul>
       </div>
 
