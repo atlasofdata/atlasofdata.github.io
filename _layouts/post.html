@@ -30,6 +30,7 @@ layout: default
 
   <!-- Datasets -->
 
+  {% if page.data %}
   <p>
     <b>Datasets</b>
     <br>
@@ -40,6 +41,7 @@ layout: default
     <li>{% include dataset.html dataset=dataset %}</li>
   {% endfor %}
   </ul>
+  {% endif %}
 
   {% if page.gist_url %}
     <p><small>You can consult the original visualization <a href="{{page.gist_url}}">here</a>.</small></p>
