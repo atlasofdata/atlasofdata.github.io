@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+<!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>The Atlas of Data on Earth 🌐</title>
+  <meta name="description" content="">
+  <meta name="author" content="Clément Renaud">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700" rel="stylesheet"><link type="application/atom+xml" rel="alternate" href="https://theatlasofdata.earth/feed.xml" title="The Atlas of Data" /><meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+  <!-- <link rel="stylesh eet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"> -->
+  <link rel="stylesheet" href="/css/main.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+
+  <link rel="manifest" href="/img/favicon/manifest.json">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <!-- SOCIAL
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@atlasofdata" />
+  <meta name="twitter:creator" content="@atlasofdata" />
+  <meta name="twitter:title" content="The Atlas of Data" />
+  <meta name="twitter:image" content="https://theatlasofdata.earth/img/seedvault.jpg" />
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="The Atlas of Data" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content='https://theatlasofdata.earth/' />
+  <meta property="og:image" content="https://theatlasofdata.earth/img/seedvault.jpg" />
+  <meta property="og:description" content="Representing the complex dynamics of planetary ecosystems " />
+  <meta property="og:site_name" content="The Atlas of Data" />
+
+</head>
+<body><nav id="sticky" class="menu nav">
+
+  <div class="container">
+    <a class="toggle-nav" href="#">&#9776;</a>
+    <a href="/" class="navbar-link home-link">The Atlas of Data</a>
+    <div class="nav-content">
+      <ul class="active">
+        
+      </ul>
+      <ul class="pull-right">
+        <li>
+          <a class="navbar-link" href="/how-it-works">How it works</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="/contribute">Get Involved</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="/news">News</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="/about">About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+
+(function () {
+
+  // Mobile nav function
+  var mobileNav = document.querySelector('.nav-content');
+  var toggle = document.querySelector('.toggle-nav');
+  toggle.onclick = function (e) {
+    e.preventDefault()
+
+    mobileNav.style.maxHeight = mobileNav.classList.contains('nav-mobile-open') ? '0' : '500px';
+    mobileNav.classList.toggle('nav-mobile-open');
+  };
+
+
+
+
+})();
+</script>
+<div id="cover">
+      <div class="container cover-title">
+        <h1>The Atlas of Data <small><span class="on">on</span> Earth</small></h1>
+        <br>
+        <h3>Representing the complex dynamics of planetary ecosystems </h3>
+      </div>
+    </div>
+
+    <section id="intro" class="container">
+      <div id="thumbs" class="row">
+  <p>
+    <label for="technosphere">
+      Technosphere
+      <input type="checkbox" data-filter="thumbs" id="technosphere" data-filter-topics="technosphere" name="checkboxes" />
+    </label>
+
+    <label for="digital">
+      Digital metabolism
+      <input type="checkbox" data-filter="thumbs" id="digital" data-filter-topics="digital metabolism" name="checkboxes" />
+    </label>
+
+    <label for="governance">
+      Global Governance
+      <input type="checkbox" data-filter="thumbs" id="governance" data-filter-topics="governance" name="checkboxes" />
+    </label>
+
+    <label for="thermodynamics" style="color:#bbb">
+      Urban Thermodynamics
+      <input type="checkbox" data-filter="thumbs" id="thermodynamics" data-filter-topics="thermodynamics" name="checkboxes" disabled="" />
+    </label>
+
+  </p>
+
+  <ul class="thumbs">
+
+    
+    
+
+    <li class="thumb" data-topics="[&quot;digital metabolism&quot;]" style="background-image:url(/viz/weather-stations/thumb.png)">
+      <a href="/2019/04/10/weather-stations/">
+        <div class="thumb-title">
+          <h3>
+              Voronoi Map of Weather Stations Worldwide
+          </h3>
+        </div>
+      </a>
+    </li>
+    
+    
+
+    <li class="thumb" data-topics="[&quot;technosphere&quot;]" style="background-image:url(/viz/top-500/thumb.png)">
+      <a href="/2019/03/26/top-500/">
+        <div class="thumb-title">
+          <h3>
+              Top 500 : Supercomputing Capacity by Country
+          </h3>
+        </div>
+      </a>
+    </li>
+    
+    
+
+    <li class="thumb" data-topics="[&quot;technosphere&quot;]" style="background-image:url(/viz/market-capitalization/thumb.png)">
+      <a href="/2019/03/26/market-capitalization/">
+        <div class="thumb-title">
+          <h3>
+              The Share of Digital in the 10 Most Capitalized Companies
+          </h3>
+        </div>
+      </a>
+    </li>
+    
+    
+
+    <li class="thumb" data-topics="[&quot;digital metabolism&quot;]" style="background-image:url(/viz/web-tracking-dns/thumb.png)">
+      <a href="/2019/03/12/web-tracking-dns/">
+        <div class="thumb-title">
+          <h3>
+              A Cartography of Web Tracking using DNS Record
+          </h3>
+        </div>
+      </a>
+    </li>
+    
+    
+
+    <li class="thumb" data-topics="[&quot;water&quot;]" style="background-image:url(/viz/permafrost-data-actors/thumb.png)">
+      <a href="/2019/03/12/permafrost-data-actors/">
+        <div class="thumb-title">
+          <h3>
+              Permafrost Actors Network
+          </h3>
+        </div>
+      </a>
+    </li>
+    
+    
+
+    <li class="thumb" data-topics="[&quot;governance&quot;]" style="background-image:url(/viz/earth-monitoring-history/thumb.png)">
+      <a href="/2019/03/12/earth-monitoring-history/">
+        <div class="thumb-title">
+          <h3>
+              The History of Earth Monitoring
+          </h3>
+        </div>
+      </a>
+    </li>
+    
+    
+
+    <li class="thumb" data-topics="[&quot;digital metabolism&quot;]" style="background-image:url(/viz/digital-acceleration/meteorology_trends2.png)">
+      <a href="/2019/03/12/digital-acceleration/">
+        <div class="thumb-title">
+          <h3>
+              The Great Digital Acceleration : a positive feedback loop in the meteorology field
+          </h3>
+        </div>
+      </a>
+    </li>
+    
+    
+
+    <li class="thumb" data-topics="[&quot;governance&quot;]" style="background-image:url(/viz/IPPC-governance/thumb.png)">
+      <a href="/2019/03/12/IPPC-governance/">
+        <div class="thumb-title">
+          <h3>
+              The evolution of the governance at the IPCC
+          </h3>
+        </div>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+<script>
+
+// DOME elements
+const checkboxes = document.getElementsByName('checkboxes')
+const thumbs = document.querySelectorAll('.thumbs > li');
+
+// get a list of all topics
+const allTopics = []
+checkboxes.forEach(c => allTopics.push(c.getAttribute('data-filter-topics')))
+
+reset()
+
+// mouse
+document.addEventListener('change', function (e) {
+
+  let checked = []
+  checkboxes.forEach(cb => {
+      const topic = cb.getAttribute('data-filter-topics')
+      if (cb.checked) checked.push(topic)
+    })
+
+  if(!checked.length) {
+    checked = allTopics
+    reset()
+  }
+
+  console.log(checked)
+
+  thumbs.forEach(thumb => {
+    var itemTags = thumb.getAttribute('data-topics');
+    const topics = JSON.parse(itemTags) || []
+
+    const hasSelectedTopics = checked.filter(t => topics.includes(t))
+
+    // show / hide
+    if (!!hasSelectedTopics.length) {
+      thumb.setAttribute('data-toggle', 'on');
+    } else {
+      thumb.setAttribute('data-toggle', 'off');
+    }
+  })
+
+});
+
+function reset() {
+  checkboxes.forEach(c => c.checked = true)
+  thumbs.forEach(t => t.setAttribute('data-toggle', 'on'))
+}
+
+</script>
+
+
+    </section>
+
+  </body><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="container">
+
+    <!-- <h2 class="footer-heading">The Atlas of Data</h2> -->
+
+    <div class="row">
+      <div class="footer-col one-third column">
+        <ul class="contact-list">
+          <li class="p-name">
+            <b>The Atlas of Data</b>
+          </li>
+          <li>Representing the complex dynamics of planetary ecosystems </li>
+        </ul>
+      </div>
+
+      <div class="footer-col one-third column"><ul class="social-media-list"><li><a href="https://www.facebook.com/theatlasofdata"><svg class="svg-icon"><use xlink:href="/img/minima-social-icons.svg#facebook"></use></svg> <span class="username">theatlasofdata</span></a></li><li><a href="https://github.com/theatlasofdata"><svg class="svg-icon"><use xlink:href="/img/minima-social-icons.svg#github"></use></svg> <span class="username">theatlasofdata</span></a></li><li><a href="https://instagram.com/theatlasofdata"><svg class="svg-icon"><use xlink:href="/img/minima-social-icons.svg#instagram"></use></svg> <span class="username">theatlasofdata</span></a></li><li><a href="https://www.twitter.com/theatlasofdata"><svg class="svg-icon"><use xlink:href="/img/minima-social-icons.svg#twitter"></use></svg> <span class="username">theatlasofdata</span></a></li></ul>
+</div>
+
+      <div class="footer-col one-third column">
+          <ul class="contact-list"><li><a class="u-email" href="mailto:contact@theatlasofdata.earth">contact@theatlasofdata.earth</a></li><li>A project by <a href="https://zuoyou.studio">Zuoyou Studio</a></li>
+          </ul>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</html>

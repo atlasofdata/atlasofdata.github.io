@@ -1,0 +1,1358 @@
+FID,country_name,site_name,borehole_name,permafrost_zone,longitude,latitude,elevation,depth,geom_ref,data_start,data_end,responsible_person,responsible_person_name,id_orga
+tsp.25,Sweden,Abisko,Storflaket 1,Discontinuous,18.9734,68.3491,386,7,POINT (18.973389 68.349074),2007,2013,9,Margareta Johansson,3
+tsp.26,Sweden,Tavvavuoma,Tavvavuoma 3,Isolated Patches,20.9018,68.4623,555,2,POINT (20.901767 68.4623),2005,2009,91,Britta Sannel,48
+tsp.27,United States,Barrow,Barrow 2 (N.Meadow Lake 2 NM2),Continuous,-156.6541,71.3105,6.2126,45,POINT (-156.654053 71.310532),2005,2009,10,Vladimir E. Romanovsky,5
+tsp.30,United States,Barrow,Barrow 2 surface,Continuous,-156.6487,71.322,3.048,1,POINT (-156.648668 71.321975),2000,2013,10,Vladimir E. Romanovsky,5
+tsp.32,Russia,Vorkuta,Vorkuta 8C,Discontinuous,63.3659,67.3937,160.6904,19,POINT (63.36592 67.39367),2013,2013,83,Naum G. Oberman,46
+tsp.33,United States,Barrow,Barrow 1 (N Meadow Lake 1 NM1),Continuous,-156.6615,71.309,6.4009,48,POINT (-156.661517 71.309033),2005,2009,10,Vladimir E. Romanovsky,5
+tsp.34,Russia,Nadym,Nadym 11_75,Discontinuous,72.8592,65.3033,7,10,POINT (72.85916 65.303303),2005,2009,76,Natalia Moskalenko,43
+tsp.43,Greenland,Zackenberg,ZC 1 Zackenberg,Continuous,-20.4889,74.4689,50.6324,3.3,POINT (-20.488924 74.468909),2013,2013,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.44,Greenland,Sisimiut-TKV,SIS2007-06a,Discontinuous,-53.6447,66.9361,33.1945,20.5,POINT (-53.64472 66.9361),,,51,Thomas Ingeman-Nielsen,33
+tsp.45,Switzerland,Muot da Barba Peider,MBP_0296,Mountain,9.9314,46.4966,2942,18,POINT (9.93141 46.496573),1996,2015,13,Marcia Phillips,2
+tsp.46,Sweden,Abisko,Kursflaket 2 PYRN,Discontinuous,18.872,68.351,349.0009,13,POINT (18.872 68.35098),2000,2013,9,Margareta Johansson,3
+tsp.47,Sweden,Tavvavuoma,Tavvavuoma 12,Discontinuous,20.6836,68.4102,717,6,POINT (20.683628 68.410243),2007,2013,92,Peter Kuhry,48
+tsp.48,Russia,Tiksi,Tiksi,Continuous,128.9114,71.5823,2.99,30,POINT (128.911406 71.582327),2005,2009,79,Alexander L. Kholodov,5
+tsp.49,Russia,Tiksi,Bykovsky Peninsula 3_03,Continuous,129.3989,71.7809,15.2449,25,POINT (129.398924 71.780871),2000,2013,79,Alexander L. Kholodov,5
+tsp.50,Russia,Lena River Delta,Cape Mamonyov Klyk,Continuous,117.1588,73.6034,10.5091,60.8,POINT (117.158781 73.603437),2005,2009,85,Paul Overduin,42
+tsp.51,Russia,Lena River Delta,Kurunagh,Continuous,126.1933,72.3216,26.569,4,POINT (126.19332 72.321578),2007,2013,71,Julia Boike,42
+tsp.52,Russia,Lena River Delta,Sardagh,Continuous,127.2415,72.3202,62.9161,101,POINT (127.2415 72.32016),2000,2013,85,Paul Overduin,42
+tsp.53,Russia,Samoylov (Lena River Delta),Samoylov,Continuous,126.4751,72.3696,10.9926,27,POINT (126.475111 72.369555),2006,2017,71,Julia Boike,42
+tsp.54,Russia,Chara,Azarova-1,Continuous,117.5842,56.9018,2018.1361,1,POINT (117.584158 56.901794),2007,2008,14,Dmitry Sergueev,7
+tsp.55,Russia,Yakutsk,Umaybyt 20,Continuous,128.8494,61.4288,186.8822,20,POINT (128.84942 61.42883),,,118,Pavel Konstantinov,45
+tsp.56,Svalbard,Svalbard ,Gruvefjellet,Continuous,15.6434,78.1966,419.2074,5,POINT (15.643447 78.196614),2013,2013,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.57,Svalbard,Svalbard ,Kapp Linne 1,Continuous,13.6415,78.0566,18.5327,30,POINT (13.641478 78.05663),2007,2013,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.58,Svalbard,Svalbard ,NA-B-1 Ny-Ålesund,Continuous,11.9221,78.9219,27.5498,10,POINT (11.922118 78.921923),2013,2013,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.59,Svalbard,Svalbard ,Janssonhaugen P11,Continuous,16.4718,78.1788,270,15,POINT (16.471831 78.178782),2007,2013,65,Ketil Isaksen,38
+tsp.60,Svalbard,Svalbard ,Larsbreen,Continuous,15.5984,78.1926,499.4406,12,POINT (15.598418 78.192595),2013,2013,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.61,Svalbard,Svalbard ,Innerhytte pingo,Continuous,16.3235,78.1867,127.3505,21,POINT (16.323515 78.186657),2005,2009,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.62,Svalbard,Svalbard ,Breinosa (E-2009),Continuous,16.0626,78.1416,638.2451,334.8,POINT (16.06259 78.141589),2007,2013,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.63,Svalbard,Svalbard ,Endalen PYRN,Continuous,15.7816,78.1902,40.189,20,POINT (15.78158 78.190206),2005,2009,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.64,United States,Dead Horse,Deadhorse,Continuous,-148.4653,70.1613,16,61,POINT (-148.4653 70.161283),2000,2013,10,Vladimir E. Romanovsky,5
+tsp.65,United States,Ivotuk,Ivotuk 3,Continuous,-155.7381,68.4789,565.1167,1,POINT (-155.738093 68.4789),2007,2013,10,Vladimir E. Romanovsky,5
+tsp.66,Svalbard,Svalbard ,LF-B-1 Lunckefjell (20-2009),Continuous,16.7355,78.0225,807.0211,90,POINT (16.735503 78.022478),2013,2013,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.67,Canada,Mackenzie Delta,Campbell Lake 1,Continuous,-133.096,68.244,122.6064,4.6,POINT (-133.09604 68.24402),2007,2013,39,Sharon Smith,8
+tsp.68,Canada,Mackenzie Delta,CD100,Discontinuous,-134.8478,68.3497,2,20.3,POINT (-134.847781 68.34972),2005,2009,55,Julian Kanigan,32
+tsp.69,Russia,Bolvansky,Bolvansky 59,Continuous,54.4986,68.2875,30,15,POINT (54.498611 68.2875),2006,2015,78,Galina Malkova,43
+tsp.70,Russia,Bolvansky,Bolvansky 65,Continuous,54.5194,68.2867,28,12,POINT (54.519444 68.286667),2007,2016,78,Galina Malkova,43
+tsp.71,Russia,Bolvansky,Bolvansky 83,Continuous,54.4828,68.2853,30.5,10,POINT (54.482778 68.285278),2007,2013,78,Galina Malkova,43
+tsp.72,Canada,Mackenzie Delta,Hill Lake 1,Continuous,-132.4906,67.9889,229,5,POINT (-132.490591 67.988895),2000,2013,39,Sharon Smith,8
+tsp.73,Canada,Mackenzie Delta,Hill Lake 2,Continuous,-132.4899,67.9888,227.9362,4.25,POINT (-132.489904 67.988782),2007,2013,39,Sharon Smith,8
+tsp.74,United States,Ivotuk,Ivotuk 4,Continuous,-155.7395,68.481,580.9678,1,POINT (-155.739549 68.481002),2000,2013,10,Vladimir E. Romanovsky,5
+tsp.75,Canada,Herschel Island,Herschel Island 1,Continuous,-138.8608,69.5755,63.0842,28.5,POINT (-138.860773 69.575478),2013,2013,7,Chris R. Burn,1
+tsp.76,Canada,Mackenzie Delta,KC-07,Discontinuous,-135.2487,69.3138,1,28,POINT (-135.248674 69.313778),2007,2013,39,Sharon Smith,8
+tsp.77,Canada,Mackenzie Delta,Involuted Hill IH88-1,Continuous,-132.6286,69.4736,32,35,POINT (-132.628552 69.473603),2007,2013,11,Mark Nixon,8
+tsp.78,Canada,Mackenzie Delta,Lousy Point 216-86-505,Continuous,-134.285,69.2176,30,30,POINT (-134.284967 69.217634),2007,2013,11,Mark Nixon,8
+tsp.79,Sweden,Tarfala,Ta-1 PACE/Tarfala*,Continuous,18.6338,67.9168,1475.0483,100,POINT (18.63382 67.916791),2005,2009,90,Per Holmlund,48
+tsp.80,Sweden,Tarfala,Ta-2 PACE/Tarfala*,Continuous,18.6335,67.9167,1467.6768,15,POINT (18.63352 67.916678),2007,2013,90,Per Holmlund,48
+tsp.82,United States,Barrow,Barrow 3 (Barrow road),Continuous,-156.6714,71.3217,3.048,4.6,POINT (-156.671388 71.321666),2005,2009,10,Vladimir E. Romanovsky,5
+tsp.83,Russia,Tiksi,Bykovsky Peninsula (alas) IV_04*,Continuous,129.3703,71.7402,4.6856,14,POINT (129.370257 71.740199),2005,2009,79,Alexander L. Kholodov,5
+tsp.84,Russia,Tiksi,Bykovsky Peninsula (edoma) 11_03*,Continuous,129.3506,71.7398,7.5508,25,POINT (129.350559 71.739755),2000,2013,79,Alexander L. Kholodov,5
+tsp.85,Canada,Mackenzie Delta,Campbell Lake 2,Continuous,-133.0942,68.2429,123,5,POINT (-133.094175 68.242881),2007,2013,39,Sharon Smith,8
+tsp.86,Canada,Mackenzie Delta,Campbell Lake 3,Continuous,-133.0956,68.2436,123,3,POINT (-133.095568 68.243574),2007,2013,39,Sharon Smith,8
+tsp.87,United States,Dead Horse,Deadhorse 1 (surface),Continuous,-148.4656,70.1615,16.1139,1,POINT (-148.46557 70.161528),2007,2013,10,Vladimir E. Romanovsky,5
+tsp.88,United States,Dead Horse,Deadhorse 2 (new instrumentation),Continuous,-148.4651,70.1617,16,1,POINT (-148.465055 70.161703),2007,2013,10,Vladimir E. Romanovsky,5
+tsp.89,United States,Sagwon,Sagwon MAT,Continuous,-148.7001,69.4285,277.1829,1,POINT (-148.700059 69.428506),2000,2013,99,Doug L. Kane,56
+tsp.90,United States,Wainwright,Wainwright 1,Continuous,-160.0223,70.6446,8.3553,38,POINT (-160.022329 70.644633),2000,2013,10,Vladimir E. Romanovsky,5
+tsp.91,United States,Wainwright,Wainwright 2,Continuous,-160.0229,70.644,8.8635,38,POINT (-160.022908 70.644022),2005,2009,100,Kenji Yoshikawa,58
+tsp.92,Russia,Nadym,Nadym Peatland,Discontinuous,72.8862,65.2994,7,10,POINT (72.886239 65.299411),2009,2013,76,Natalia Moskalenko,43
+tsp.93,United States,Howe Island,Howe Island 1_b,Continuous,-147.9932,70.3152,12.0144,1,POINT (-147.993244 70.315246),2000,2013,10,Vladimir E. Romanovsky,5
+tsp.94,United States,Howe Island,Howe Island 1_ib,Continuous,-147.9932,70.3152,11.8069,1,POINT (-147.993158 70.315152),2000,2013,10,Vladimir E. Romanovsky,5
+tsp.95,United States,Happy Valley,Happy Valley 1_b,Continuous,-148.8484,69.1466,309.0075,1,POINT (-148.848353 69.14664),2005,2009,10,Vladimir E. Romanovsky,5
+tsp.96,United States,Imnavait,Imnaviat 1 (deep),Continuous,-149.3494,68.64,871,80,POINT (-149.349422 68.640006),2007,2013,10,Vladimir E. Romanovsky,5
+tsp.97,United States,Toolik Lake,Toolik Lake 1,Continuous,-149.5954,68.628,725.5056,92,POINT (-149.595434 68.627998),2007,2013,10,Vladimir E. Romanovsky,5
+tsp.98,Svalbard,Svalbard ,Kapp Linne 2,Continuous,13.6367,78.0546,20.7021,39,POINT (13.636671 78.054605),2000,2013,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.99,Svalbard,Svalbard ,Kapp Linne 3,Continuous,13.64,78.0532,24.6221,10,POINT (13.639976 78.053183),2007,2013,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.100,Svalbard,Svalbard ,Kapp Linne 4,Continuous,13.7399,78.0579,73.5402,2.8,POINT (13.739926 78.057891),2007,2013,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.101,Canada,Mackenzie Delta,Involuted Hill IH88-2,Continuous,-132.632,69.4741,31,35,POINT (-132.631954 69.474088),2007,2013,11,Mark Nixon,8
+tsp.102,United States,Franklin Bluff,Franklin Bluffs 1 (deep),Continuous,-148.7208,69.6741,122.8648,60,POINT (-148.720761 69.674138),2005,2012,10,Vladimir E. Romanovsky,5
+tsp.103,United States,Franklin Bluff,Franklin Bluffs (dry)_b,Continuous,-148.7208,69.6741,122.8686,1,POINT (-148.720766 69.67414),2009,2013,10,Vladimir E. Romanovsky,5
+tsp.104,United States,Franklin Bluff,Franklin Bluffs (dry)_be,Continuous,-148.7208,69.6741,122.8686,1,POINT (-148.720766 69.67414),2007,2013,10,Vladimir E. Romanovsky,5
+tsp.105,United States,Franklin Bluff,Franklin Bluffs (dry)_ib,Continuous,-148.7208,69.6741,122.8686,1,POINT (-148.720766 69.67414),2005,2009,10,Vladimir E. Romanovsky,5
+tsp.106,United States,Franklin Bluff,Franklin Bluffs (surface),Continuous,-148.722,69.6551,130,1,POINT (-148.722016 69.65513),2007,2013,10,Vladimir E. Romanovsky,5
+tsp.107,United States,Franklin Bluff,Franklin Bluffs (wet)_b,Continuous,-148.722,69.6551,130,1,POINT (-148.722016 69.65513),2007,2013,10,Vladimir E. Romanovsky,5
+tsp.108,United States,Franklin Bluff,Franklin Bluffs (wet)_ib,Continuous,-148.722,69.6551,130,1,POINT (-148.722016 69.65513),2007,2013,10,Vladimir E. Romanovsky,5
+tsp.109,United States,Happy Valley,Happy Valley 1 (deep),Continuous,-148.8374,69.1565,316.8069,40,POINT (-148.837404 69.156459),2007,2013,10,Vladimir E. Romanovsky,5
+tsp.110,United States,Happy Valley,Happy Valley 1_ib,Continuous,-148.8483,69.1466,308.9124,1,POINT (-148.848301 69.146641),2005,2009,10,Vladimir E. Romanovsky,5
+tsp.111,United States,Imnavait,Imnaviat 1 (surface),Continuous,-149.3523,68.6397,863.5773,1,POINT (-149.352341 68.639656),2000,2013,10,Vladimir E. Romanovsky,5
+tsp.112,United States,Imnavait,Imnaviat 2,Continuous,-149.3494,68.64,856.6143,11.5,POINT (-149.349422 68.640006),2007,2013,10,Vladimir E. Romanovsky,5
+tsp.113,United States,Imnavait,Imnaviat 3,Continuous,-148.3169,68.6239,639.9653,8.5,POINT (-148.316944 68.623889),2007,2013,99,Doug L. Kane,56
+tsp.114,United States,Imnavait,Imnaviat 4,Continuous,-148.2836,68.6239,909.7817,8.5,POINT (-148.283611 68.623889),2007,2013,99,Doug L. Kane,56
+tsp.115,United States,Kaktovik,Kaktovik (ANWR / Barter),Continuous,-143.6285,70.1165,12.3337,77,POINT (-143.62855 70.11653),2008,2012,10,Vladimir E. Romanovsky,5
+tsp.116,United States,Sagwon,Sagwon MNT,Continuous,-148.6738,69.433,277.8617,1,POINT (-148.67385 69.43303),2013,2013,99,Doug L. Kane,56
+tsp.117,United States,West Dock,West Dock 1 (deep),Continuous,-148.5522,70.3745,0,63,POINT (-148.552166 70.374467),2005,2009,10,Vladimir E. Romanovsky,5
+tsp.118,United States,West Dock,West Dock 1 (surface),Continuous,-148.5522,70.3745,2.9901,1,POINT (-148.55216 70.37446),2009,2013,10,Vladimir E. Romanovsky,5
+tsp.119,Canada,Mackenzie Delta,CD101,Discontinuous,-134.8223,68.297,2,18.8,POINT (-134.822334 68.296961),2007,2013,55,Julian Kanigan,32
+tsp.120,Canada,Mackenzie Delta,CD102,Discontinuous,-134.8379,68.3696,2,20,POINT (-134.837907 68.369635),2007,2013,55,Julian Kanigan,32
+tsp.121,Canada,Mackenzie Delta,CD103A,Discontinuous,-135.0177,68.2776,2.396,19.8,POINT (-135.01765 68.277565),2007,2013,55,Julian Kanigan,32
+tsp.122,Canada,Mackenzie Delta,CD104,Discontinuous,-134.8918,68.2607,2,20,POINT (-134.891808 68.26066),2007,2013,55,Julian Kanigan,32
+tsp.123,Canada,Mackenzie Delta,CD105,Discontinuous,-134.6875,68.3173,2,20.8,POINT (-134.687473 68.317266),2000,2013,55,Julian Kanigan,32
+tsp.124,Canada,Mackenzie Delta,CD106,Discontinuous,-134.3743,68.712,24.5442,20.1,POINT (-134.374303 68.711988),2007,2013,55,Julian Kanigan,32
+tsp.125,Canada,Mackenzie Delta,CD107,Discontinuous,-134.3296,68.7379,11.5669,20.4,POINT (-134.329615 68.737934),2007,2013,55,Julian Kanigan,32
+tsp.126,Canada,Mackenzie Delta,CD108,Discontinuous,-134.3741,68.7132,25.3066,20.3,POINT (-134.374073 68.713153),2007,2013,55,Julian Kanigan,32
+tsp.127,Canada,Mackenzie Delta,CD109,Discontinuous,-134.489,68.6578,2,20,POINT (-134.489005 68.657753),2000,2013,55,Julian Kanigan,32
+tsp.128,Canada,Mackenzie Delta,CD110,Discontinuous,-134.4197,68.6458,4.3977,20,POINT (-134.419685 68.645752),2007,2013,55,Julian Kanigan,32
+tsp.129,Canada,Mackenzie Delta,CD111,Discontinuous,-134.3201,68.7253,16.9265,20,POINT (-134.320117 68.72525),2007,2013,55,Julian Kanigan,32
+tsp.130,Canada,Mackenzie Delta,KUM02 SWIL,Discontinuous,-135.2108,69.3223,-5.2514,15,POINT (-135.2108204 69.322299),2007,2013,56,Steven Kokelj,32
+tsp.131,Canada,Mackenzie Delta,KUM02 TWIL,Discontinuous,-135.2098,69.3226,-7.8744,15,POINT (-135.2097826 69.32257),2005,2009,56,Steven Kokelj,32
+tsp.132,Canada,Mackenzie Delta,Lousy 1-91GSC6,Continuous,-134.4408,69.2408,30,30,POINT (-134.440833 69.240833),2007,2013,11,Mark Nixon,8
+tsp.133,Canada,Mackenzie Delta,Lousy 8-91GSC13,Continuous,-134.285,69.2183,30,30,POINT (-134.285 69.218333),2007,2013,11,Mark Nixon,8
+tsp.134,Canada,Mackenzie Delta,M049007H-01,Discontinuous,-136.0056,69.1725,0,20,POINT (-136.005592 69.17249),2005,2009,39,Sharon Smith,8
+tsp.135,Canada,Mackenzie Delta,M049013ReindeerCh,Discontinuous,-135.5129,69.0179,0,20,POINT (-135.512946 69.017911),2007,2013,39,Sharon Smith,8
+tsp.136,Canada,Mackenzie Delta,M049014Langley,Discontinuous,-135.136,69.0832,0,20,POINT (-135.136009 69.083242),2005,2009,39,Sharon Smith,8
+tsp.137,Canada,Mackenzie Delta,Norris Creek NC-01,Continuous,-133.2901,68.4066,23,8.75,POINT (-133.29005 68.406617),2007,2013,39,Sharon Smith,8
+tsp.138,Canada,Mackenzie Delta,North Caribou Lake 1,Continuous,-132.9328,68.1475,214,5,POINT (-132.9328 68.1475),2007,2013,39,Sharon Smith,8
+tsp.139,Canada,Mackenzie Delta,North Caribou Lake 2,Continuous,-132.9319,68.147,214.4869,5,POINT (-132.931883 68.147017),2007,2013,39,Sharon Smith,8
+tsp.140,Canada,Mackenzie Delta,SD100,Discontinuous,-134.4104,67.989,11,20,POINT (-134.410435 67.989013),2000,2013,55,Julian Kanigan,32
+tsp.141,Canada,Mackenzie Delta,SD101,Discontinuous,-134.3292,67.9162,11,20,POINT (-134.329167 67.916172),2007,2013,55,Julian Kanigan,32
+tsp.142,Canada,Mackenzie Delta,SD103,Discontinuous,-134.2935,67.9464,11,20,POINT (-134.293471 67.946449),2000,2013,55,Julian Kanigan,32
+tsp.143,Canada,Mackenzie Delta,SD103A,Discontinuous,-134.3018,67.9457,11,20,POINT (-134.301823 67.945704),2005,2009,55,Julian Kanigan,32
+tsp.144,Canada,Mackenzie Delta,SD105,Discontinuous,-134.2976,67.9891,11,20,POINT (-134.297622 67.989136),2007,2013,55,Julian Kanigan,32
+tsp.145,Canada,Mackenzie Delta,SD11,Discontinuous,-134.776,67.8399,6.8603,20,POINT (-134.776045 67.839938),2007,2013,55,Julian Kanigan,32
+tsp.146,Canada,Mackenzie Delta,SD117,Discontinuous,-134.8431,67.8774,6,20,POINT (-134.84312 67.877436),2007,2013,55,Julian Kanigan,32
+tsp.147,Canada,Mackenzie Delta,SD118,Discontinuous,-134.7487,67.8702,6,20,POINT (-134.748685 67.870161),2007,2013,55,Julian Kanigan,32
+tsp.148,Canada,Mackenzie Delta,SD119,Discontinuous,-134.7542,67.8689,6,20,POINT (-134.754169 67.868932),2007,2013,55,Julian Kanigan,32
+tsp.149,Canada,Mackenzie Delta,SD13,Discontinuous,-134.7871,67.8545,9,20,POINT (-134.787125 67.854537),2007,2013,55,Julian Kanigan,32
+tsp.150,Canada,Mackenzie Delta,SD13A,Discontinuous,-134.7857,67.8547,9,20,POINT (-134.785722 67.854679),2007,2013,55,Julian Kanigan,32
+tsp.151,Canada,Mackenzie Delta,SD99,Discontinuous,-134.3856,67.9888,11,20,POINT (-134.385574 67.988806),2007,2013,55,Julian Kanigan,32
+tsp.152,Canada,Mackenzie Delta,Swimming Pt1 91GSC1,Discontinuous,-134.3989,69.1083,16.4352,30,POINT (-134.398889 69.108333),2007,2013,11,Mark Nixon,8
+tsp.153,Canada,Mackenzie Delta,Swimming Pt2 91GSC2,Discontinuous,-134.3806,69.1097,9.1623,30,POINT (-134.380556 69.109722),2000,2013,11,Mark Nixon,8
+tsp.154,Canada,Mackenzie Delta,Swimming Pt5 91GSC5,Discontinuous,-134.3481,69.1086,0,30,POINT (-134.348056 69.108611),2007,2013,11,Mark Nixon,8
+tsp.155,Canada,Mackenzie Delta,T4 upland,Discontinuous,-133.5837,68.6078,83.6763,10,POINT (-133.583683 68.607817),2000,2013,39,Sharon Smith,8
+tsp.156,Canada,Mackenzie Delta,T5 upland,Continuous,-133.8381,68.9583,39.4353,10,POINT (-133.838114 68.958289),2007,2013,39,Sharon Smith,8
+tsp.157,Canada,Mackenzie Delta,T6 upland,Continuous,-134.1847,69.2167,0,5,POINT (-134.184722 69.216667),2007,2013,56,Steven Kokelj,32
+tsp.158,Canada,Mackenzie Delta,T7 upland,Continuous,-134.5379,69.3081,-4.6436,10,POINT (-134.5378547 69.308135),2007,2013,56,Steven Kokelj,32
+tsp.159,Canada,Mackenzie Delta,TAG04 SEDG,Continuous,-134.9858,69.6,-6.44,15,POINT (-134.985833 69.6),2005,2009,56,Steven Kokelj,32
+tsp.160,Canada,Mackenzie Delta,TAG04 SWIL,Continuous,-134.982,69.3708,-6.4623,15,POINT (-134.9819938 69.37079),2005,2009,56,Steven Kokelj,32
+tsp.161,Canada,Mackenzie Delta,TAG04 TWIL,Continuous,-134.9853,69.6,-6.4431,15,POINT (-134.985278 69.6),2005,2009,56,Steven Kokelj,32
+tsp.162,Canada,Mackenzie Delta,Taglu */C4,Discontinuous,-134.9486,69.3692,17.3522,30,POINT (-134.948611 69.369167),2007,2013,11,Mark Nixon,8
+tsp.163,Canada,Mackenzie Delta,Wood Bridge Lake,Continuous,-132.178,67.9021,187.577,4.3,POINT (-132.177983 67.902133),2007,2013,39,Sharon Smith,8
+tsp.164,Canada,Mackenzie Delta,YaYa Lake/90SI1,Discontinuous,-134.7125,69.1456,30,18,POINT (-134.7125 69.145556),2007,2013,11,Mark Nixon,8
+tsp.165,Svalbard,Svalbard ,Old Auroral Station,Continuous,15.8259,78.2011,6.0172,10,POINT (15.8259 78.2011),2007,2013,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.166,Svalbard,Svalbard ,Old Auroral Station PYRN,Continuous,15.8346,78.2015,7.5238,10,POINT (15.83465 78.20146),2007,2013,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.167,Svalbard,Svalbard ,Snow drift 1,Continuous,15.9132,78.1875,16.0319,10,POINT (15.91324 78.18752),2007,2013,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.168,Svalbard,Svalbard ,Snow drift 2,Continuous,15.9132,78.1875,16.0319,12,POINT (15.91324 78.18752),2013,2013,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.169,Russia,Nadym,Nadym 12_75,Discontinuous,72.8732,65.3156,7,10,POINT (72.87325 65.315638),2007,2013,76,Natalia Moskalenko,43
+tsp.170,Russia,Nadym,Nadym 14_72,Discontinuous,72.8693,65.3153,25,10,POINT (72.8693 65.3153),2007,2013,76,Natalia Moskalenko,43
+tsp.171,Russia,Nadym,Nadym 1_71,Discontinuous,72.8239,65.3086,25,10,POINT (72.8239 65.3086),2000,2013,76,Natalia Moskalenko,43
+tsp.172,Russia,Nadym,Nadym 23_75,Discontinuous,72.8606,65.3147,25,10,POINT (72.8606 65.3147),2007,2013,76,Natalia Moskalenko,43
+tsp.173,Russia,Nadym,Nadym 23a_75,Discontinuous,72.8612,65.3147,25,10,POINT (72.8612 65.3147),2007,2013,76,Natalia Moskalenko,43
+tsp.174,Russia,Nadym,Nadym ND2,Discontinuous,72.8872,65.3134,25,1.5,POINT (72.8872 65.3134),2007,2013,76,Natalia Moskalenko,43
+tsp.175,Russia,Nadym,Nadym ND3,Discontinuous,72.8629,65.3146,7,1.5,POINT (72.8629 65.3146),2007,2013,76,Natalia Moskalenko,43
+tsp.176,Russia,Nadym,Nadym ND3_4,Discontinuous,72.8618,65.3145,7,1.5,POINT (72.861805 65.314472),2007,2013,76,Natalia Moskalenko,43
+tsp.177,Russia,Nadym,Nadym PiCla,Discontinuous,72.892,65.3055,7,1.5,POINT (72.892027 65.3055),2007,2013,76,Natalia Moskalenko,43
+tsp.178,Russia,Nadym,Nadym Pingo,Discontinuous,72.895,65.2985,7.6335,0.6,POINT (72.895 65.298472),2007,2013,76,Natalia Moskalenko,43
+tsp.179,Russia,Nadym,Nadym THA,Discontinuous,72.862,65.3166,25,30,POINT (72.862 65.3166),2007,2013,76,Natalia Moskalenko,43
+tsp.180,Russia,Vorkuta,Vorkuta DS-3/VII-74,Discontinuous,63.3723,67.3956,151.4132,22.9,POINT (63.37228 67.39564),2007,2013,83,Naum G. Oberman,46
+tsp.181,Russia,Vorkuta,Vorkuta EK-67,Discontinuous,63.3333,67.3833,182.6064,150,POINT (63.33333333 67.38333333),2007,2013,138,Ivan Valentinovich Derevyanko,72
+tsp.182,Russia,Vorkuta,Vorkuta K-887,Continuous,64.1738,67.5486,220.2066,85,POINT (64.17378 67.54861),2005,2009,83,Naum G. Oberman,46
+tsp.183,Russia,Vorkuta,Vorkuta R-53,Continuous,62.3726,67.3318,80.0847,10,POINT (62.37263 67.33183),2000,2013,83,Naum G. Oberman,46
+tsp.184,Russia,Vorkuta,Vorkuta R-57,Continuous,62.3899,67.3248,90,15,POINT (62.38992 67.32485),2007,2013,83,Naum G. Oberman,46
+tsp.185,Russia,Vorkuta,Vorkuta R-64,Continuous,62.377,67.3471,85.9755,10,POINT (62.37699 67.3471),2007,2013,83,Naum G. Oberman,46
+tsp.186,Russia,Vorkuta,Vorkuta R-71,Continuous,62.3372,67.3461,90,15,POINT (62.33724 67.34613),2007,2013,83,Naum G. Oberman,46
+tsp.187,Russia,Vorkuta,Vorkuta R-9,Continuous,62.3501,67.3409,86.2647,19,POINT (62.35008 67.34088),2013,2013,83,Naum G. Oberman,46
+tsp.188,Russia,Vorkuta,Vorkuta R-92,Continuous,62.3898,67.3216,90,15,POINT (62.38978 67.32156),2007,2013,83,Naum G. Oberman,46
+tsp.189,Russia,Vorkuta,Vorkuta RU0040,Continuous,62.3371,67.3379,90,22,POINT (62.33707 67.33792),2007,2013,83,Naum G. Oberman,46
+tsp.190,Russia,Vorkuta,Vorkuta RU0041,Continuous,62.3898,67.3216,90,15,POINT (62.38978 67.32156),2008,2011,83,Naum G. Oberman,46
+tsp.191,Russia,Vorkuta,Vorkuta SH-14,Sporadic,64.897,67.3703,459.7289,10,POINT (64.89704 67.37031),2000,2013,83,Naum G. Oberman,46
+tsp.192,Russia,Vorkuta,Vorkuta SH-15,Sporadic,64.8905,67.3706,469.5621,32,POINT (64.89051 67.37059),2013,2013,83,Naum G. Oberman,46
+tsp.193,Russia,Vorkuta,Vorkuta SH-3,Sporadic,64.894,67.3882,377.0497,50,POINT (64.89404 67.3882),2005,2009,83,Naum G. Oberman,46
+tsp.194,Russia,Vorkuta,Vorkuta UP-35,Sporadic,64.4842,67.4048,140.0318,50,POINT (64.4842 67.40484),2008,2013,83,Naum G. Oberman,46
+tsp.195,Russia,Vorkuta,Vorkuta VK-1615,Discontinuous,63.35,67.4667,204.683,200.8,POINT (63.35 67.46666667),2013,2013,138,Ivan Valentinovich Derevyanko,72
+tsp.196,Russia,Vorkuta,Vorkuta VK-1618,Discontinuous,63.4097,67.4456,180,83,POINT (63.4097 67.4456),2013,2013,83,Naum G. Oberman,46
+tsp.197,Russia,Vorkuta,Vorkuta Ya1,Continuous,64.0037,67.5073,122.6707,22,POINT (64.00369 67.50732),2013,2013,83,Naum G. Oberman,46
+tsp.198,Russia,Vorkuta,Vorkuta Ya3,Continuous,64.0035,67.5075,121.9025,22.4,POINT (64.00349 67.50745),2005,2009,83,Naum G. Oberman,46
+tsp.199,Russia,Vorkuta,Vorkuta ZS-115,Discontinuous,63.3272,67.3898,193.4368,15,POINT (63.32717 67.38975),2007,2013,83,Naum G. Oberman,46
+tsp.200,Russia,Vorkuta,Vorkuta ZS-117,Discontinuous,63.3387,67.3922,187,25,POINT (63.33866 67.39219),2013,2013,83,Naum G. Oberman,46
+tsp.201,Russia,Vorkuta,Vorkuta ZS-12,Discontinuous,63.3958,67.4107,157.9329,20,POINT (63.39578 67.41069),2005,2009,83,Naum G. Oberman,46
+tsp.202,Russia,Vorkuta,Vorkuta ZS-124,Discontinuous,63.3754,67.3973,149,24,POINT (63.37544 67.39731),2000,2013,83,Naum G. Oberman,46
+tsp.203,Russia,Vorkuta,Vorkuta ZS-16,Discontinuous,63.4138,67.3897,167.9846,19,POINT (63.41379 67.38972),2007,2013,83,Naum G. Oberman,46
+tsp.204,Russia,Vorkuta,Vorkuta ZS-169,Discontinuous,63.369,67.3964,154.0687,14.8,POINT (63.36899 67.39642),2007,2011,83,Naum G. Oberman,46
+tsp.205,Russia,Vorkuta,Vorkuta ZS-227,Discontinuous,63.401,67.3922,171,13.1,POINT (63.40096 67.39221),2000,2013,83,Naum G. Oberman,46
+tsp.206,Russia,Vorkuta,Vorkuta ZS-247,Discontinuous,63.3679,67.3985,152.9753,14.8,POINT (63.36788 67.39848),2000,2013,83,Naum G. Oberman,46
+tsp.207,Russia,Vorkuta,Vorkuta ZS-25,Discontinuous,63.5151,67.4001,170,99,POINT (63.51515 67.40012),2007,2013,83,Naum G. Oberman,46
+tsp.208,Russia,Vorkuta,Vorkuta ZS-34,Discontinuous,63.3805,67.3967,151.5724,14.5,POINT (63.38052 67.39673),2007,2013,83,Naum G. Oberman,46
+tsp.209,Russia,Vorkuta,Vorkuta ZS-83a,Discontinuous,63.3645,67.3961,158.359,28,POINT (63.36454 67.39607),2013,2013,83,Naum G. Oberman,46
+tsp.210,Russia,Vorkuta,Vorkuta R-55,Continuous,62.3789,67.3293,82.5562,13,POINT (62.37892 67.32933),2007,2013,83,Naum G. Oberman,46
+tsp.211,Russia,Vorkuta,Vorkuta R-83,Continuous,62.3371,67.3379,90,20,POINT (62.33707 67.33792),2007,2013,83,Naum G. Oberman,46
+tsp.213,Russia,Cherskii,Chukochya River 14_79,Continuous,156.9878,69.4834,24.9164,15,POINT (156.987809 69.483434),2009,2012,79,Alexander L. Kholodov,5
+tsp.214,Russia,Kytalyk,Kytalyk 2_04,Continuous,147.4423,72.026,24.8702,8,POINT (147.4423 72.026),2000,2013,79,Alexander L. Kholodov,5
+tsp.215,Russia,Cherskii,Omolon river mouth 2_07*,Continuous,158.9074,68.7255,8.6473,25,POINT (158.90743 68.725456),2007,2012,79,Alexander L. Kholodov,5
+tsp.216,Russia,Cherskii,Duvanny Yar 2_08*,Continuous,159.0788,68.6334,25.9774,25,POINT (159.0788 68.63341),2007,2013,79,Alexander L. Kholodov,5
+tsp.217,Russia,Chara,Chara 38,Continuous,118.3608,56.6669,1446.0494,19,POINT (118.36077 56.66694),2006,2017,14,Dmitry Sergueev,7
+tsp.218,Russia,Kytalyk,Kytalik 4_06,Continuous,147.0208,72.2423,25,20,POINT (147.02083 72.2423),2000,2013,79,Alexander L. Kholodov,5
+tsp.219,Russia,Cherskii,Amboliha 4_07*,Continuous,161.392,68.6389,3.1548,24,POINT (161.39195 68.638934),2000,2013,79,Alexander L. Kholodov,5
+tsp.220,Russia,Chara,Chara 41,Continuous,118.3696,56.6741,1324.7367,20,POINT (118.36963 56.67408),2012,2017,14,Dmitry Sergueev,7
+tsp.221,Russia,Kytalyk,Kytalik 5_06*,Continuous,147.4423,70.5603,38.2683,15,POINT (147.4423 70.5603),2007,2013,79,Alexander L. Kholodov,5
+tsp.222,Russia,Cherskii,Ahmelo lake 5_07*,Continuous,160.9884,68.8122,4.1175,15,POINT (160.98841 68.812194),2007,2013,79,Alexander L. Kholodov,5
+tsp.223,Russia,Chara,Chara 6,Continuous,118.4263,56.6056,1710.5636,20,POINT (118.4263 56.60562),2006,2010,14,Dmitry Sergueev,7
+tsp.224,Russia,Chara,Belenkiy-1,Discontinuous,118.1896,56.761,724.9174,1.3,POINT (118.189628 56.761026),2007,2016,14,Dmitry Sergueev,7
+tsp.225,Russia,Chara,Most-1,Discontinuous,118.2813,56.9055,704.2776,20,POINT (118.281306 56.905454),2008,2017,14,Dmitry Sergueev,7
+tsp.226,Russia,Chara,Peski-1,Discontinuous,118.1732,56.8614,755.1892,15.3,POINT (118.17319 56.86143),1970,2014,14,Dmitry Sergueev,7
+tsp.227,Russia,Chara,Ushelistiy-1,Continuous,118.4807,56.5442,1647.9132,0.45,POINT (118.48066 56.54419),2010,2017,14,Dmitry Sergueev,7
+tsp.228,Russia,Chara,Zagryazkin-1,Continuous,118.3604,56.6776,1152.5042,19,POINT (118.3604 56.67757),2013,2016,14,Dmitry Sergueev,7
+tsp.229,Russia,Novyi Urengoy,Urengoy 05-00,Discontinuous,76.93,66.3,56.1324,10,POINT (76.93 66.3),2005,2009,75,Dmitry S. Drozdov,43
+tsp.230,Sweden,Abisko,Kursflaket 1 PYRN,Discontinuous,18.8733,68.3508,350.501,8,POINT (18.873333 68.350833),2008,2014,9,Margareta Johansson,3
+tsp.231,Russia,Cherskii,Cherskii R33*,Continuous,159.983,70.083,20,25,POINT (159.983 70.083),2000,2013,80,Dmitry Fedorov-Davydov,14
+tsp.232,Sweden,Abisko,SF-1 new  Storflaket 1 new,Discontinuous,18.9774,68.3481,386,6.2,POINT (18.977361 68.348083),2012,2014,9,Margareta Johansson,3
+tsp.233,Sweden,Abisko,Storflaket 2,Discontinuous,18.9739,68.3472,385,6.2,POINT (18.973889 68.347222),2005,2009,9,Margareta Johansson,3
+tsp.234,Sweden,Abisko,SF-2 new  Storflaket 2 new,Discontinuous,18.9739,68.3473,387.806,6.4,POINT (18.973944 68.347306),2005,2009,9,Margareta Johansson,3
+tsp.235,Sweden,Abisko,Storflaket 3,Discontinuous,18.9747,68.3467,388,8,POINT (18.974722 68.346667),2007,2013,9,Margareta Johansson,3
+tsp.236,Sweden,Abisko,SF-3 new  Storflaket 3 new,Discontinuous,18.975,68.3469,388.1679,7.5,POINT (18.974972 68.346944),2005,2009,9,Margareta Johansson,3
+tsp.237,Sweden,Tavvavuoma,Tavvavuoma 10,Isolated Patches,20.9017,68.4624,549.7368,6.1,POINT (20.901667 68.462433),2007,2013,91,Britta Sannel,48
+tsp.238,Sweden,Tavvavuoma,Tavvavuoma 11,Isolated Patches,20.9036,68.4636,548.9114,7.8,POINT (20.90361 68.46361),2007,2013,92,Peter Kuhry,48
+tsp.239,Sweden,Tavvavuoma,Tavvavuoma 2,Isolated Patches,20.902,68.4621,549.1833,2,POINT (20.90205 68.4621),2013,2013,91,Britta Sannel,48
+tsp.240,Canada,Quebec,Aupaluk HT299,Discontinuous,-69.6,58.3,209.3422,20,POINT (-69.6 58.3),,,40,Michel Allard,23
+tsp.241,Canada,Quebec,Akulivik,Continuous,-78.2,60.8,0,20,POINT (-78.2 60.8),,,40,Michel Allard,23
+tsp.242,Canada,Quebec,George River,Discontinuous,-65.96,58.716,115.3762,29,POINT (-65.96 58.716),,,40,Michel Allard,23
+tsp.243,Canada,Quebec,Manitounuk,Sporadic,-77.216,55.6,39.5244,16,POINT (-77.216 55.6),,,40,Michel Allard,23
+tsp.244,Canada,Quebec,Petite Riviere PBA,Sporadic,-76.16,55.86,241,20,POINT (-76.16 55.86),,,40,Michel Allard,23
+tsp.245,Canada,Quebec,Povungnituk HT177,Continuous,-77.26,60.03,0,20,POINT (-77.26 60.03),,,40,Michel Allard,23
+tsp.246,Canada,Quebec,Quaqtaq HT156,Continuous,-69.616,61.03,42.5182,20,POINT (-69.616 61.03),,,40,Michel Allard,23
+tsp.247,Canada,Quebec,Salluit HT154,Continuous,-75.63,62.23,0,20,POINT (-75.63 62.23),,,40,Michel Allard,23
+tsp.248,Canada,Quebec,Tasiujaq/HT157,Discontinuous,-69.93,58.7,2.776,20,POINT (-69.93 58.7),,,40,Michel Allard,23
+tsp.249,Canada,Quebec,Tasiujaq/HT-304,Discontinuous,-69.9523,58.6687,18.1241,11,POINT (-69.952303 58.668736),,,40,Michel Allard,23
+tsp.250,Canada,Quebec,Umiujaq/HT174,Sporadic,-76.53,56.5,38.7999,20,POINT (-76.53 56.5),,,40,Michel Allard,23
+tsp.251,Canada,Quebec,Wakeham/HT159,Continuous,-71.93,61.516,60.3063,20,POINT (-71.93 61.516),,,40,Michel Allard,23
+tsp.252,Canada,Pond Inlet,Bylot Pp,Continuous,-79.95,73.1561,15.7243,11,POINT (-79.95 73.1561),,,40,Michel Allard,23
+tsp.253,Canada,Mackenzie River,Fort Simpson/FS deep,Discontinuous,-121.33,61.8375,175,20,POINT (-121.33 61.8375),,,11,Mark Nixon,8
+tsp.254,Canada,Mackenzie River,Liard spruce 97TC4,Discontinuous,-121.3916,61.545,198,10,POINT (-121.3916 61.545),,,11,Mark Nixon,8
+tsp.255,Canada,Mackenzie River,Wrigley trans/97TC5,Discontinuous,-121.883,61.96,179,10,POINT (-121.883 61.96),,,11,Mark Nixon,8
+tsp.256,Canada,Mackenzie River,Liard shrub 97TC3,Discontinuous,-121.3916,61.545,198,10,POINT (-121.3916 61.545),,,11,Mark Nixon,8
+tsp.257,Canada,Mackenzie River,Pump Station 1 T4-84-1,Discontinuous,-126.8861,65.2897,61,13.6,POINT (-126.8861 65.28972),,,136,Margo Burgess,8
+tsp.258,Canada,Mackenzie River,Canyon Ck. 2A-HT-84-2A,Discontinuous,-126.5225,65.233,129.7678,128,POINT (-126.5225 65.233),,,136,Margo Burgess,8
+tsp.259,Canada,Mackenzie River,Canyon Ck. 2A-T4-84-2A,Discontinuous,-126.5225,65.233,129.7678,13,POINT (-126.5225 65.233),,,136,Margo Burgess,8
+tsp.260,Canada,Mackenzie River,Canyon Ck. N. Slope - T4-84-2B,Discontinuous,-126.5206,65.232,117.5443,21,POINT (-126.52055 65.232),1984,2015,136,Margo Burgess,8
+tsp.261,Canada,Mackenzie River,Canyon Ck. S. Slope -T4-84-2C,Discontinuous,-126.5136,65.2308,126.8296,21,POINT (-126.51361 65.23083),,,136,Margo Burgess,8
+tsp.262,Canada,Mackenzie River,Canyon Ck. MSC,Discontinuous,-126.52,65.2342,131.5253,13.2,POINT (-126.52 65.23416),,,101,Barry Goodison,52
+tsp.263,Canada,Mackenzie River,Great Bear R. B -T4-84-3B,Discontinuous,-125.5792,65.912,406.6926,20,POINT (-125.57916 65.912),,,136,Margo Burgess,8
+tsp.265,Canada,Mackenzie River,Table Mt. A/T4/85-7A,Discontinuous,-123.6419,63.6119,258.9138,20,POINT (-123.64194 63.61194),1987,2015,39,Sharon Smith,8
+tsp.266,Canada,Mackenzie River,Table Mt.  B/T4/85-7B,Discontinuous,-123.6311,63.6094,267,20,POINT (-123.6311 63.60944),,,136,Margo Burgess,8
+tsp.267,Canada,Mackenzie River,Table Mt. B/T5/85-7B,Discontinuous,-123.6311,63.6094,267,20,POINT (-123.6311 63.60944),,,136,Margo Burgess,8
+tsp.268,Canada,Mackenzie River,Table Mt. C/T4/85-7C,Discontinuous,-123.6297,63.6066,265.2053,20,POINT (-123.629722 63.6066),,,136,Margo Burgess,8
+tsp.269,Canada,Mackenzie River,Table Mt. C/T5/85-7C,Discontinuous,-123.6297,63.6066,265.2053,20,POINT (-123.62972 63.6066),,,136,Margo Burgess,8
+tsp.270,Canada,Mackenzie River,Manner\\\'s Ck. A-T4-85-8A,Sporadic,-121.0925,61.605,198,20,POINT (-121.0925 61.605),,,39,Sharon Smith,8
+tsp.271,Canada,Mackenzie River,Mackenzie Hwy S-T4-85-10B,Sporadic,-120.8647,61.3542,244,10.5,POINT (-120.86472 61.35416),,,39,Sharon Smith,8
+tsp.272,Canada,Mackenzie River,Jean Marie Ck B-T4-85-12B,Sporadic,-120.7058,61.1914,302,16,POINT (-120.70583 61.19138),,,39,Sharon Smith,8
+tsp.273,Canada,Petitot River,Petitot River N.  A-T4-84-5A,Sporadic,-119.5164,59.7583,553,21,POINT (-119.51638 59.7583),,,39,Sharon Smith,8
+tsp.274,Canada,Petitot River,Petitot River N.  B-T4-84-5B,Sporadic,-119.5131,59.7569,552,21,POINT (-119.51305 59.75694),,,39,Sharon Smith,8
+tsp.275,Canada,Petitot River,Petitot River S-T4-84-6,Sporadic,-119.2461,59.4614,575,21,POINT (-119.24611 59.461388),,,39,Sharon Smith,8
+tsp.276,Canada,Mackenzie River,Kee Scarp,Discontinuous,-126.7188,65.3017,269.0911,128,POINT (-126.7188 65.30166),,,39,Sharon Smith,8
+tsp.277,Canada,Mackenzie River,Gibson Gap,Discontinuous,-127.9166,65.766,209.6758,100,POINT (-127.9166 65.766),,,96,Stephan Gruber,57
+tsp.278,Canada,Mackenzie River,KP2 - offrow,Discontinuous,-126.8458,65.2983,72.1679,4,POINT (-126.84583 65.2983),,,39,Sharon Smith,8
+tsp.279,Canada,Mackenzie River,KP5 - offrow,Discontinuous,-126.788,65.288,73.166,4,POINT (-126.78805 65.288),,,39,Sharon Smith,8
+tsp.280,Canada,Mackenzie River,KP182 - offrow unburnt,Discontinuous,-124.4669,64.2794,149,2,POINT (-124.46694 64.2794),,,39,Sharon Smith,8
+tsp.281,Canada,Nunavut,Pangnirtung,Continuous,-65.71,66.14,103.584,15,POINT (-65.71 66.14),2008,2014,39,Sharon Smith,8
+tsp.282,Canada,Baker Lake,Baker Lake,Continuous,-95.5,64.16,2,3,POINT (-95.5 64.16),,,136,Margo Burgess,8
+tsp.283,Canada,Mackenzie River,Pump Station 3 85-9-T4,Sporadic,-120.9042,61.3972,221,20,POINT (-120.90416 61.3972),,,136,Margo Burgess,8
+tsp.284,Canada,Mackenzie River,Trail River 84-4A-T2 (off row),Discontinuous,-121.9872,62.07,172,20,POINT (-121.9872 62.07),,,136,Margo Burgess,8
+tsp.285,Canada,Mackenzie River,Jean Marie Ck A 85-12A-T4,Sporadic,-120.706,61.1925,302,12,POINT (-120.706 61.1925),,,136,Margo Burgess,8
+tsp.286,Canada,Mackenzie River,Moraine South 85-11-T4,Sporadic,-120.801,61.282,251,12,POINT (-120.801 61.282),,,136,Margo Burgess,8
+tsp.287,Canada,Mackenzie River,Norman Wells (van Everdingen BH),Discontinuous,-127.3833,67.4667,60,30,POINT (-127.383333 67.466667),,,39,Sharon Smith,8
+tsp.288,Canada,Mackenzie River,"Kee Scarp, near Norman Wells, NWT",Discontinuous,-126.73,65.3,213.1594,45,POINT (-126.73 65.3),,,101,Barry Goodison,52
+tsp.289,Canada,Mackenzie River,Wrigley KP313 T6,Discontinuous,-123.7,63.43,111.7821,20,POINT (-123.7 63.43),,,39,Sharon Smith,8
+tsp.290,Canada,Mackenzie River,Police Island PI-01,Discontinuous,-125.0147,64.8342,145,12.9,POINT (-125.014709 64.834156),,,39,Sharon Smith,8
+tsp.291,Canada,Mackenzie River,Police Island PI-02,Discontinuous,-125.0139,64.8333,145,19.5,POINT (-125.013866 64.833315),,,39,Sharon Smith,8
+tsp.292,Canada,Mackenzie River,Old Fort Point OFP-01,Discontinuous,-124.8378,64.6523,146.146,20,POINT (-124.837783 64.652314),,,39,Sharon Smith,8
+tsp.293,Canada,Mackenzie River,Little Smith LS-02,Discontinuous,-124.7325,64.4278,142,20,POINT (-124.732468 64.427751),,,39,Sharon Smith,8
+tsp.294,Canada,Mackenzie River,Saline River SR-01,Discontinuous,-124.4853,64.2897,150.6181,20,POINT (-124.485296 64.289668),,,39,Sharon Smith,8
+tsp.295,Canada,Mackenzie River,Saline River SR-02,Discontinuous,-124.4853,64.2879,150,20.4,POINT (-124.485264 64.287919),,,39,Sharon Smith,8
+tsp.296,Canada,Mackenzie River,River Between Two Mountains RBTM-01,Discontinuous,-123.2048,62.947,120,20.6,POINT (-123.204772 62.947048),,,39,Sharon Smith,8
+tsp.297,Canada,Mackenzie River,River Between Two Mountains RBTM-02,Discontinuous,-123.1798,62.931,148.4124,12.5,POINT (-123.179804 62.930989),,,39,Sharon Smith,8
+tsp.298,Canada,Mackenzie River,Willow Lake River WLR-01,Discontinuous,-123.0844,62.7134,111.4992,3.7,POINT (-123.084362 62.713377),,,39,Sharon Smith,8
+tsp.299,Canada,Mackenzie River,Oscar Creek OC-01,Discontinuous,-127.4382,65.4366,53,18.9,POINT (-127.438248 65.436571),,,39,Sharon Smith,8
+tsp.300,Canada,Mackenzie River,Elliot Creek EC-01,Discontinuous,-127.6214,65.5204,62,21.3,POINT (-127.621417 65.520389),,,39,Sharon Smith,8
+tsp.301,Canada,Mackenzie River,Elliot Creek EC-02,Discontinuous,-127.6219,65.5227,60.6955,12.2,POINT (-127.621861 65.522667),,,39,Sharon Smith,8
+tsp.302,Canada,Mackenzie River,Hanna River HR-01,Discontinuous,-127.8335,65.6697,121.5093,20,POINT (-127.833516 65.669744),,,39,Sharon Smith,8
+tsp.303,Canada,Mackenzie River,Gibson Lake GL-01,Discontinuous,-127.8881,65.7473,213.7119,21.3,POINT (-127.888145 65.747303),,,39,Sharon Smith,8
+tsp.304,Canada,Mackenzie River,Jackfish Creek JF-02,Continuous,-128.4694,66.2849,64.292,21.3,POINT (-128.469375 66.284942),,,39,Sharon Smith,8
+tsp.305,Canada,Mackenzie River,Fort Good Hope South 1 FGHS-01,Continuous,-128.4958,66.2098,127,10.2,POINT (-128.495835 66.209794),,,39,Sharon Smith,8
+tsp.306,Canada,Mackenzie River,Fort Good Hope South FGHS-02,Continuous,-128.4957,66.2092,127,5.1,POINT (-128.495735 66.209229),,,39,Sharon Smith,8
+tsp.307,Canada,Mackenzie River,Snafu Creek SC-01,Discontinuous,-128.3505,66.0019,114.2144,19.8,POINT (-128.350544 66.001887),,,39,Sharon Smith,8
+tsp.308,Canada,Mackenzie River,Chick Lake CL-01,Discontinuous,-128.2839,65.8958,154,21.3,POINT (-128.283929 65.895801),,,39,Sharon Smith,8
+tsp.309,Canada,Mackenzie River,Vermillion Creek VC-01,Discontinuous,-126.1373,65.0981,106.8644,8.2,POINT (-126.137301 65.098087),,,39,Sharon Smith,8
+tsp.310,Canada,Mackenzie River,Vermillion Creek VC-02,Discontinuous,-126.1268,65.0954,113.3645,5.5,POINT (-126.12676741 65.09542505),,,39,Sharon Smith,8
+tsp.311,Canada,Mackenzie River,Ebbutt Hill EH-01,Discontinuous,-122.4051,62.3166,315,16,POINT (-122.405083 62.3166),,,39,Sharon Smith,8
+tsp.312,Canada,Mackenzie River,Trail River TR-01,Discontinuous,-121.76,62.0892,181.8487,12.2,POINT (-121.76 62.089167),,,39,Sharon Smith,8
+tsp.313,Canada,Mackenzie River,Harris River HAR-01,Discontinuous,-121.2898,61.8771,139.8358,16,POINT (-121.2898 61.8771),,,39,Sharon Smith,8
+tsp.314,Canada,Mackenzie River,Manners Sources MS-01,Discontinuous,-121.1058,61.6266,198,16,POINT (-121.105783 61.626583),,,39,Sharon Smith,8
+tsp.315,Canada,Mackenzie River,Manners Sources MS-02,Discontinuous,-121.1044,61.6266,198,16,POINT (-121.104433 61.626583),,,39,Sharon Smith,8
+tsp.316,Canada,Mackenzie River,Jean-Marie Creek JMC-01,Sporadic,-120.9478,61.4393,196,8.5,POINT (-120.947817 61.43935),,,39,Sharon Smith,8
+tsp.317,Canada,Mackenzie River,Jean-Marie Creek JMC-02,Sporadic,-120.9485,61.4401,195,10,POINT (-120.948467 61.4401),,,39,Sharon Smith,8
+tsp.318,Canada,Mackenzie River,Trout River,Sporadic,-120.5885,61.0194,348.94,7.2,POINT (-120.588533 61.01945),,,39,Sharon Smith,8
+tsp.319,Canada,Mackenzie River,Trout Road Crossing TRC,Sporadic,-120.4847,60.8342,423,12,POINT (-120.48465 60.834217),,,39,Sharon Smith,8
+tsp.320,Canada,Mackenzie River,Steep Creek Top Steep-02,Discontinuous,-124.3748,64.1812,147,28.3,POINT (-124.374783 64.181183),,,39,Sharon Smith,8
+tsp.321,Canada,Mackenzie River,84-4B,Discontinuous,-121.986,62.0698,172.0253,18,POINT (-121.986 62.06984),,,39,Sharon Smith,8
+tsp.322,Canada,Yukon,Fox Lake,Sporadic,-135.3844,61.169,781.4747,6.3,POINT (-135.384444 61.169028),,,57,Stuart Harris,36
+tsp.323,Canada,Yukon,Sulphur Lake,Sporadic,-137.9833,60.95,886,3.5,POINT (-137.983333 60.95),,,57,Stuart Harris,36
+tsp.324,Canada,Yukon,Mayo,Discontinuous,-135.8667,63.6167,518,36,POINT (-135.866667 63.616667),,,7,Chris R. Burn,1
+tsp.325,Canada,Yukon,"Palsa 25, Wolf Creek",Sporadic,-135.2225,60.495,1233.8564,6.9,POINT (-135.2225 60.495),,,41,Antoni Lewkowicz,25
+tsp.326,Canada,Yukon,Wolf Creek Aggradational Permafrost Mound (APM),Sporadic,-135.1935,60.4814,1191,15.3,POINT (-135.193467 60.481367),,,41,Antoni Lewkowicz,25
+tsp.327,Canada,Yukon,60-Mile,Discontinuous,-140.8104,63.9095,1450.2479,38.3,POINT (-140.810374 63.909515),,,41,Antoni Lewkowicz,25
+tsp.328,Canada,Yukon,Red Creek,Continuous,-138.3654,65.1531,774.4504,7.2,POINT (-138.36543 65.15314),,,41,Antoni Lewkowicz,25
+tsp.329,Canada,Yukon,Carmacks,Discontinuous,-136.6717,62.3247,861.8515,30.14,POINT (-136.671667 62.324722),,,41,Antoni Lewkowicz,25
+tsp.330,Canada,Yukon,Alpine Burwash,Sporadic,-139.4125,61.4517,1790.2606,42.9,POINT (-139.4125 61.451667),,,41,Antoni Lewkowicz,25
+tsp.331,Canada,Yukon,Takhini River Valley,Sporadic,-135.5,60.9,720.1561,16.5,POINT (-135.5 60.9),,,7,Chris R. Burn,1
+tsp.332,Canada,Yukon,Mt McIntyre,Sporadic,-135.1433,60.6222,1566,29.5,POINT (-135.143333 60.622222),,,41,Antoni Lewkowicz,25
+tsp.333,Canada,Yukon,Dawson,Discontinuous,-139.4431,64.0836,319.0257,3.75,POINT (-139.443056 64.083611),,,41,Antoni Lewkowicz,25
+tsp.334,Canada,Old Crow,Old Crow,Continuous,-139.816,67.5762,248,20,POINT (-139.816 67.5762),,,7,Chris R. Burn,1
+tsp.335,Canada,Yukon,Pelly Crossing,Discontinuous,-136.57,62.82,463,2,POINT (-136.57 62.82),,,42,Panya S. Lipovsky ,22
+tsp.336,Canada,Yukon,Whitehorse,Sporadic,-134.905,60.592,66.5268,5,POINT (-134.905 60.592),,,42,Panya S. Lipovsky ,22
+tsp.337,Canada,Yukon,Carmacks*,Discontinuous,-136.294,62.086,543.2187,2,POINT (-136.294 62.086),,,42,Panya S. Lipovsky ,22
+tsp.338,Canada,Mackenzie Mountains,MacMillan Pass,Discontinuous,-130.5833,63.2181,1500.4819,5,POINT (-130.583333 63.218056),,,57,Stuart Harris,36
+tsp.339,Canada,Columbia Mountains,Sheldon Lake,Discontinuous,-132.25,62.6167,1350.0071,2.6,POINT (-132.25 62.616667),,,149,Sven Knutsson,79
+tsp.340,Canada,Stone Mountains,Summit Lake A,Sporadic,-124.6333,58.6333,1444.3276,2.5,POINT (-124.633333 58.633333),,,149,Sven Knutsson,79
+tsp.341,Canada,Columbia Mountains,Tuchitua km 161,Discontinuous,-129.6031,61.3171,895.7639,4.4,POINT (-129.603056 61.317056),,,57,Stuart Harris,36
+tsp.342,Canada,Mackenzie Mountains,Billy Creek North BCN-01,Continuous,-127.4736,62.7051,2134.0828,19.8,POINT (-127.473575 62.705105),,,39,Sharon Smith,8
+tsp.343,Canada,Columbia Mountains,Northern Dancer,Sporadic,-131.5997,60.0081,1626.5439,26.8,POINT (-131.599722 60.008056),,,41,Antoni Lewkowicz,25
+tsp.344,Canada,Columbia Mountains,Ross River,Discontinuous,-132.45,61.9793,653,14,POINT (-132.45 61.9793),,,42,Panya S. Lipovsky ,22
+tsp.345,Canada,Columbia Mountains,Watson Lake,Sporadic,-128.88,60.15,682,3,POINT (-128.88 60.15),,,42,Panya S. Lipovsky ,22
+tsp.346,Canada,Rocky Mountains,Marmot Basin,Isolated Patches,-118.1161,52.7981,2274.2058,17.1,POINT (-118.116111 52.798056),,,57,Stuart Harris,36
+tsp.347,Canada,Rocky Mountains,Plateau Mountain,Isolated Patches,-114.5192,50.2508,2317.4321,30,POINT (-114.519167 50.250833),,,57,Stuart Harris,36
+tsp.348,Canada,Churchill Hudson Bay,Churchill RCT-1,Continuous,-94.0562,58.7583,21,15,POINT (-94.05622222 58.75830556),,,101,Barry Goodison,52
+tsp.349,Canada,Churchill Hudson Bay,Churchill RCT-2,Continuous,-94.081,58.7351,14,15,POINT (-94.081 58.73511111),,,101,Barry Goodison,52
+tsp.350,Canada,Churchill Hudson Bay,York Factory 1TCT,Continuous,-92.3,57,10,15,POINT (-92.3 57),,,39,Sharon Smith,8
+tsp.351,Canada,Churchill Hudson Bay,Wapusk National Park Peat Plateau,Continuous,-93.3714,57.7739,45,4.5,POINT (-93.37138889 57.77388889),,,39,Sharon Smith,8
+tsp.352,Canada,Eureka,Gemini E-10,Continuous,-84.07,79.99,149.599,876,POINT (-84.07 79.99),,,39,Sharon Smith,8
+tsp.353,Canada,Pat Bay,Pat Bay A-72,Continuous,-105.45,77.35,19.4489,488,POINT (-105.45 77.35),,,39,Sharon Smith,8
+tsp.354,Canada,Ellesmere Island,Alert 1,Continuous,-62.4167,82.5,64.7387,60.96,POINT (-62.41666667 82.5),1978,2014,39,Sharon Smith,8
+tsp.355,Canada,Marryatt,Marryatt K-71,Continuous,-108.9733,76.345,80,1028,POINT (-108.97333333 76.345),,,39,Sharon Smith,8
+tsp.356,Canada,Ellesmere Island,Alert 2,Continuous,-62.4167,82.5,64.7387,60.96,POINT (-62.41666667 82.5),1978,2014,39,Sharon Smith,8
+tsp.357,Canada,Ellesmere Island,Alert 3,Continuous,-62.4167,82.5,64.7387,67.3,POINT (-62.41666667 82.5),,,39,Sharon Smith,8
+tsp.358,Canada,Ellesmere Island,Alert 4,Continuous,-62.4167,82.5,60,15.24,POINT (-62.41666667 82.5),,,39,Sharon Smith,8
+tsp.359,Canada,Nunavut,Arctic Bay,Continuous,-85.1667,73.0333,21.1513,15,POINT (-85.16666667 73.03333333),2008,2013,39,Sharon Smith,8
+tsp.360,Canada,Nunavut,Clyde River,Continuous,-68.5944,70.4681,27,15,POINT (-68.59444444 70.46805556),2008,2012,39,Sharon Smith,8
+tsp.361,Canada,Nunavut,Igloolik,Continuous,-81.8,69.3833,53,15,POINT (-81.8 69.38333333),2008,2011,39,Sharon Smith,8
+tsp.362,Canada,Nunavut,Pond Inlet,Continuous,-77.97,72.69,55,15,POINT (-77.97 72.69),2008,2014,39,Sharon Smith,8
+tsp.363,Canada,Nunavut,Resolute Bay,Continuous,-94.97,74.72,0.8646,15,POINT (-94.97 74.72),2008,2014,39,Sharon Smith,8
+tsp.364,Canada,Mackenzie Delta,Illisarvik,Continuous,-134.59,69.48,11.7884,50,POINT (-134.59 69.48),,,7,Chris R. Burn,1
+tsp.365,Canada,Paulatuk,Paulatuk,Continuous,-124.0689,69.3503,2.2086,28.5,POINT (-124.06888889 69.35027778),,,7,Chris R. Burn,1
+tsp.366,Canada,Columbia Mountains,MP825.2,Sporadic,-133.1106,60.3717,724.3541,4,POINT (-133.1105555 60.37166666),,,41,Antoni Lewkowicz,25
+tsp.367,Canada,Old Crow,Old Crow*,Continuous,-139.6403,67.926,262.6954,16.5,POINT (-139.6403 67.926),,,7,Chris R. Burn,1
+tsp.368,Canada,Mackenzie Delta,Garry*,Discontinuous,-135.4667,69.5,-1.1081,12,POINT (-135.4667 69.5),,,7,Chris R. Burn,1
+tsp.369,Canada,Ellesmere Island,Alert 5,Continuous,-62.4167,82.5,64.7387,15.24,POINT (-62.41666667 82.5),1978,2014,39,Sharon Smith,8
+tsp.370,China,Qinghai,QTB01 (CN16),Discontinuous,94.0825,35.7156,4513.2739,30,POINT (94.08249 35.71562),,,43,Lin Zhao,24
+tsp.371,China,Qinghai,QTB02 (CN17),Discontinuous,94.0595,35.6256,4764.0225,30,POINT (94.05949 35.6256),,,43,Lin Zhao,24
+tsp.372,China,Qinghai,QTB03 (CN18),Discontinuous,93.7846,35.5232,4574.2202,20,POINT (93.78463 35.52323),,,43,Lin Zhao,24
+tsp.373,China,Qinghai,QTB04 (CN19),Discontinuous,93.6003,35.4308,4463.3081,130,POINT (93.60032 35.4308),,,43,Lin Zhao,24
+tsp.374,China,Qinghai,QTB05 (CN20),Discontinuous,93.4466,35.3644,4501.0737,30,POINT (93.4466 35.3644),,,43,Lin Zhao,24
+tsp.375,China,Qinghai,QTB06 (CN22),Discontinuous,93.2678,35.2901,4559.1938,30,POINT (93.2678 35.2901),,,43,Lin Zhao,24
+tsp.376,China,Qinghai,QTB07 (CN23),Discontinuous,93.074,35.1936,4636.8193,39.6,POINT (93.074 35.1936),,,43,Lin Zhao,24
+tsp.377,China,Qinghai,QTB09 (CN25),Discontinuous,93.0333,35.1333,4749.895,20,POINT (93.0333 35.1333),,,43,Lin Zhao,24
+tsp.378,China,Qinghai,QTB11 (CN27),Discontinuous,92.6563,34.3872,4603.9297,20,POINT (92.6563 34.3872),,,43,Lin Zhao,24
+tsp.379,China,Qinghai,QTB15 (CN31),Discontinuous,91.898,33.0975,4943.3223,60,POINT (91.89804 33.09753),,,43,Lin Zhao,24
+tsp.380,China,Qinghai,QTB16 (CN32),Discontinuous,91.9388,33.072,5039.8882,34.5,POINT (91.93877 33.072),,,43,Lin Zhao,24
+tsp.381,China,Qinghai,QTB18 (CN34),Sporadic,91.7369,31.8186,4795.6519,60,POINT (91.73685 31.81863),,,43,Lin Zhao,24
+tsp.382,China,Qinghai,XDTGT,Discontinuous,94.1252,35.719,4448.022,30,POINT (94.12517 35.719),,,43,Lin Zhao,24
+tsp.383,China,Qinghai,Chumar River,Discontinuous,93.9504,35.1774,4427.105,14.5,POINT (93.95038 35.17738),,,44,Huijun Jin,24
+tsp.384,China,Qinghai,Quma River,Discontinuous,94.7903,34.9038,4465.1792,15,POINT (94.79033 34.90383),,,44,Huijun Jin,24
+tsp.385,China,Qinghai,TP-1D (CM2),Discontinuous,93.5336,35.3969,4484.9097,30,POINT (93.53361111 35.39694444),,,45,Liu Jing,24
+tsp.386,China,Qinghai,TP-2D(Kunlunshan),Discontinuous,94.05,35.62,4755.0098,18,POINT (94.05 35.62),,,46,Qingbai Wu ,24
+tsp.387,China,Qinghai,TP-3D(Bu Dongquan),Discontinuous,93.96,35.55,4650.6421,18,POINT (93.96 35.55),,,46,Qingbai Wu ,24
+tsp.388,China,Qinghai,TP-4D(Chumaerhe high Plain),Discontinuous,93.45,35.36,4501,40,POINT (93.45 35.36),,,46,Qingbai Wu ,24
+tsp.389,China,Qinghai,TP-5D (Kekexili Mt.),Discontinuous,93.04,35.14,4714.9731,39.4,POINT (93.04 35.14),,,45,Liu Jing,24
+tsp.390,China,Qinghai,TP-6D (Kaixinling),Discontinuous,92.34,34.01,4671.4775,18,POINT (92.34 34.01),,,46,Qingbai Wu ,24
+tsp.391,China,Qinghai,TP-7D (Kaixingling),Discontinuous,92.34,33.96,4623.9629,40,POINT (92.34 33.96),,,46,Qingbai Wu ,24
+tsp.392,China,Qinghai,TP-8D(Buquhe),Discontinuous,92.35,33.85,4608,26,POINT (92.35 33.85),,,46,Qingbai Wu ,24
+tsp.393,China,Qinghai,TP-9D (Tanggulashan),Discontinuous,91.66,33.01,5068.5503,19,POINT (91.66 33.01),,,45,Liu Jing,24
+tsp.394,China,Qinghai,TP-4S(TGI),Discontinuous,91.8711,32.7083,4982.0015,10,POINT (91.87111111 32.70833333),,,46,Qingbai Wu ,24
+tsp.395,China,Qinghai,TP-5S(TM1),Discontinuous,91.8214,32.4925,4899.2329,10.7,POINT (91.821389 32.4925),,,46,Qingbai Wu ,24
+tsp.396,China,Qinghai,TP-6S(AD1),Sporadic,91.7075,32.3833,4808.8857,10.7,POINT (91.7075 32.383333),,,46,Qingbai Wu ,24
+tsp.397,China,Qinghai,TP-3S(FH1),Discontinuous,92.8917,34.69,5049.7764,6,POINT (92.891667 34.69),,,46,Qingbai Wu ,24
+tsp.398,China,Qinghai,TP-2S(WD2),Discontinuous,93.0367,35.1267,4739.1895,8,POINT (93.036667 35.126667),,,46,Qingbai Wu ,24
+tsp.400,Russia,Vorkuta,Vorkuta 106,Continuous,61.5205,67.9619,132.9547,8,POINT (61.52051 67.96188),2007,2009,83,Naum G. Oberman,46
+tsp.401,Russia,Vorkuta,Vorkuta 35,Continuous,61.4962,67.9622,144.6529,15,POINT (61.49621 67.96219),2007,2010,83,Naum G. Oberman,46
+tsp.402,Russia,Vorkuta,Vorkuta 37,Continuous,61.505,67.9573,130.0995,15,POINT (61.50501 67.95733),2007,2010,83,Naum G. Oberman,46
+tsp.403,Russia,Vorkuta,Vorkuta 100,Continuous,61.5007,67.9547,140.6116,16,POINT (61.50075 67.95469),2007,2010,83,Naum G. Oberman,46
+tsp.404,Russia,Vorkuta,Vorkuta KT-18,Continuous,62.4097,68.2384,95.6416,15,POINT (62.40969 68.23839),,,83,Naum G. Oberman,46
+tsp.405,Russia,Vorkuta,Vorkuta KT-17,Continuous,62.4289,68.2439,87.1652,15,POINT (62.42892 68.24394),,,83,Naum G. Oberman,46
+tsp.406,Russia,Vorkuta,Vorkuta KT-16a,Continuous,62.434,68.246,83.9354,15,POINT (62.43403 68.246),,,83,Naum G. Oberman,46
+tsp.407,Russia,Vorkuta,Vorkuta KT-14,Continuous,62.4609,68.2546,65.0924,9,POINT (62.46094 68.25456),,,83,Naum G. Oberman,46
+tsp.408,Russia,Vorkuta,Vorkuta KT-8,Continuous,62.4792,68.2602,39,15,POINT (62.47919 68.26025),,,83,Naum G. Oberman,46
+tsp.409,Russia,Vorkuta,Vorkuta KT-5,Continuous,62.4917,68.2643,50.0634,15,POINT (62.49172 68.26428),,,83,Naum G. Oberman,46
+tsp.410,Russia,Vorkuta,Vorkuta KT-22,Continuous,62.4994,68.2705,47.6225,10,POINT (62.49942 68.27053),,,83,Naum G. Oberman,46
+tsp.411,Russia,Vorkuta,Vorkuta KT-21,Continuous,62.515,68.2739,37.7444,22,POINT (62.51497 68.27393),2009,2009,83,Naum G. Oberman,46
+tsp.412,Russia,Vorkuta,Vorkuta KT-4,Continuous,62.5306,68.2781,21.736,12,POINT (62.53056 68.27806),,,83,Naum G. Oberman,46
+tsp.413,Russia,Vorkuta,Vorkuta KT-3B,Continuous,62.5426,68.2803,15.2697,25.6,POINT (62.54264 68.28031),,,138,Ivan Valentinovich Derevyanko,72
+tsp.414,Russia,Vorkuta,Vorkuta KT-27,Continuous,62.5875,68.2944,8.6677,5,POINT (62.58753 68.29442),,,83,Naum G. Oberman,46
+tsp.415,Russia,Vorkuta,Vorkuta 34,Continuous,65.8106,68.262,152.3153,5,POINT (65.81061 68.26196),,,83,Naum G. Oberman,46
+tsp.416,Russia,Vorkuta,Vorkuta 23,Continuous,65.8077,68.2563,158.0001,9,POINT (65.80772 68.25634),,,83,Naum G. Oberman,46
+tsp.417,Russia,Vorkuta,Vorkuta 30,Continuous,65.8015,68.2571,153,7,POINT (65.80147 68.25715),,,83,Naum G. Oberman,46
+tsp.418,Russia,Vorkuta,Vorkuta 32,Continuous,65.8019,68.2558,153,8,POINT (65.80191 68.25584),,,83,Naum G. Oberman,46
+tsp.419,Russia,Novyi Urengoy,Urengoy 05-01*,Discontinuous,76.5408,66.1882,58,10,POINT (76.54077 66.18825),,,75,Dmitry S. Drozdov,43
+tsp.420,Russia,Novyi Urengoy,Urengoy 05-03,Discontinuous,76.5408,66.1873,59,10,POINT (76.54077 66.18728),1974,2015,75,Dmitry S. Drozdov,43
+tsp.421,Russia,Novyi Urengoy,Urengoy 05-05,Discontinuous,76.9066,66.3149,66.4254,10,POINT (76.90662 66.31492),,,75,Dmitry S. Drozdov,43
+tsp.422,Russia,Novyi Urengoy,Urengoy 15-20*,Discontinuous,76.9066,66.3149,66.4254,10,POINT (76.90662 66.31492),,,75,Dmitry S. Drozdov,43
+tsp.423,Russia,Novyi Urengoy,Urengoy 05-06,Discontinuous,76.9077,66.3154,66.2469,10,POINT (76.90772 66.31537),,,75,Dmitry S. Drozdov,43
+tsp.424,Russia,Novyi Urengoy,Urengoy 05-08*,Discontinuous,76.9089,66.3151,66.1099,9,POINT (76.90894 66.31507),,,75,Dmitry S. Drozdov,43
+tsp.425,Russia,Novyi Urengoy,Urengoy 05-09*,Discontinuous,76.9091,66.315,66.0855,10,POINT (76.90914 66.315),,,75,Dmitry S. Drozdov,43
+tsp.426,Russia,Novyi Urengoy,Urengoy 05-10,Discontinuous,76.9354,66.303,58.232,3,POINT (76.93543 66.30303),,,75,Dmitry S. Drozdov,43
+tsp.427,Kazakhstan,Karasay,K0,Discontinuous,76.9442,43.0433,3335.6304,25,POINT (76.94420833 43.04334722),,,61,Sergey Marchenko,5
+tsp.428,Kazakhstan,Karasay,K1,Discontinuous,76.945,43.0433,3325.6794,5,POINT (76.94501 43.04331),,,61,Sergey Marchenko,5
+tsp.429,Kazakhstan,Karasay,K2,Discontinuous,76.9455,43.0436,3316.6646,4,POINT (76.94551 43.0436),,,61,Sergey Marchenko,5
+tsp.430,Kazakhstan,Karasay,C70,Discontinuous,76.9443,43.0406,3336.5095,70,POINT (76.94426 43.04063),,,61,Sergey Marchenko,5
+tsp.431,Russia,Bolvansky,Bolvansky 54,Continuous,54.5042,68.2911,27.5,12,POINT (54.504167 68.291111),2006,2016,78,Galina Malkova,43
+tsp.432,Russia,Bolvansky,Bolvansky 55,Continuous,53.5025,68.2897,24,10,POINT (53.5025 68.289722),2006,2015,78,Galina Malkova,43
+tsp.433,Russia,Bolvansky,Bolvansky 56,Continuous,54.5058,68.2897,23,10,POINT (54.505833 68.289722),2007,2016,78,Galina Malkova,43
+tsp.434,Russia,Bolvansky,Bolvansky 61,Continuous,54.4952,68.2874,30,15,POINT (54.4952 68.2874),,,78,Galina Malkova,43
+tsp.435,Russia,Marre Sale,Marre Sale 3,Continuous,66.8125,69.7164,0,10,POINT (66.8125 69.7164),2006,2016,103,Alexander A. Vasiliev,43
+tsp.436,Russia,Marre Sale,Marre Sale 17,Continuous,66.8179,69.7152,0,10,POINT (66.8179 69.7152),2006,2016,103,Alexander A. Vasiliev,43
+tsp.437,Russia,Marre Sale,Marre Sale 1,Continuous,66.8139,69.7141,0,10,POINT (66.8139 69.7141),2007,2012,103,Alexander A. Vasiliev,43
+tsp.438,Russia,Marre Sale,Marre Sale 43,Continuous,66.8341,69.7093,0,10,POINT (66.8341 69.7093),2006,2016,103,Alexander A. Vasiliev,43
+tsp.439,Russia,Bovanenkovo,Bovanenkovo 2,Continuous,70.3483,68.5033,5,0.5,POINT (70.3483 68.5033),,,74,Anna Kurchatova,44
+tsp.440,Russia,Bovanenkovo,Bovanenkovo 1,Continuous,70.3983,68.4083,64.9786,0.5,POINT (70.3983 68.4083),,,74,Anna Kurchatova,44
+tsp.441,Russia,Novyi Urengoy,Urengoy 05-28*,Continuous,76.6923,67.4744,8.7272,9,POINT (76.69226 67.47443),,,75,Dmitry S. Drozdov,43
+tsp.442,Russia,Novyi Urengoy,Urengoy 15-04,Continuous,76.6913,67.4746,8.9463,10,POINT (76.69128 67.47461),,,75,Dmitry S. Drozdov,43
+tsp.443,Russia,Novyi Urengoy,Urengoy 15-06*,Continuous,76.6958,67.4768,14.1661,5,POINT (76.69579 67.47676),,,75,Dmitry S. Drozdov,43
+tsp.444,Russia,Novyi Urengoy,Urengoy 15-08*,Continuous,76.6953,67.4779,16.6487,10,POINT (76.69529 67.47791),,,75,Dmitry S. Drozdov,43
+tsp.445,Russia,Novyi Urengoy,Urengoy 15-10,Continuous,76.6924,67.4781,15.9536,10,POINT (76.69245 67.47814),,,75,Dmitry S. Drozdov,43
+tsp.446,Russia,Novyi Urengoy,Urengoy 15-21*,Continuous,76.6899,67.4779,14.7918,10,POINT (76.68989 67.47793),,,75,Dmitry S. Drozdov,43
+tsp.447,Russia,Novyi Urengoy,Urengoy 507,Continuous,76.6897,67.4781,15.0267,10,POINT (76.68969 67.47813),,,75,Dmitry S. Drozdov,43
+tsp.448,Russia,Udachny,Udachny 111,Continuous,112.4348,66.4338,400.6312,660,POINT (112.434805 66.433833),,,73,Sergey Alexeev,7
+tsp.449,Russia,Udachny,Udachny 1,Continuous,112.3258,66.3852,424.1272,15,POINT (112.32581 66.385181),2013,2014,82,Sergey Veilikin,45
+tsp.450,Russia,Udachny,Udachny 256,Continuous,112.3882,66.3601,441.3631,201,POINT (112.388194 66.36011),,,73,Sergey Alexeev,7
+tsp.451,Russia,Yakutsk,Tuymada 70,Continuous,129.656,62.0136,118.45,70,POINT (129.65605 62.01359),2007,2013,137,Pavel Skryabin,45
+tsp.452,Russia,Yakutsk,Bestyakh 32,Continuous,129.7352,61.6851,139.754,25,POINT (129.7352 61.6851),2000,2013,81,Mikail Zheleznyak,45
+tsp.453,Russia,Yakutsk,Bestyakh 30,Continuous,129.6852,61.6851,126.4721,15,POINT (129.6852 61.6851),2007,2013,81,Mikail Zheleznyak,45
+tsp.454,Russia,Yakutsk,Bestyakh 31,Continuous,129.2519,61.3521,202.7031,15,POINT (129.2519 61.3521),2007,2013,81,Mikail Zheleznyak,45
+tsp.455,Antarctica,Mount Fleming,Mt Fleming,Unknown,160.2539,-77.5348,1863.3604,0.75,POINT (160.25386934 -77.53481956),,,25,Cathy Seybold,12
+tsp.456,Antarctica,Ross Island,Scott Base,Unknown,166.7588,-77.8492,40,1.2,POINT (166.75883 -77.84917),,,142,Ron Frank Paetzold,12
+tsp.457,China,Tien Shan,China09,Discontinuous,86.8525,43.1192,3499.5999,58.5,POINT (86.8525 43.1192),,,43,Lin Zhao,24
+tsp.458,China,Aksai Chin,Tianshuihal,Discontinuous,79.5461,35.4059,4827.7573,43,POINT (79.54615 35.40587),,,44,Huijun Jin,24
+tsp.459,China,Qinghai,Zuimatan,Sporadic,99.1328,35.3587,4182.5908,15,POINT (99.13283 35.35867),,,44,Huijun Jin,24
+tsp.460,Mongolia,Bagnuur,Baganuur M1 depression (lake bank),Isolated Patches,108.2625,41.6889,1345,15,POINT (108.2625 41.68888889),,,62,Natsagdorj Sharkhuu,39
+tsp.461,Mongolia,Bagnuur,Baganuur M1a depression (plain),Isolated Patches,108.2944,41.6944,1350,21,POINT (108.29444444 41.69444444),,,62,Natsagdorj Sharkhuu,39
+tsp.462,Mongolia,Bayan-Ulgii,Udleg,Sporadic,89.7441,49.5225,2124.7773,10,POINT (89.7441 49.5225),,,64,Mamoru Ishikawa,37
+tsp.463,Mongolia,Bayan-Ulgii,Tsagaannuur1,Sporadic,89.7441,49.5225,2124.7773,10,POINT (89.7441 49.5225),,,64,Mamoru Ishikawa,37
+tsp.464,Russia,Ust-Kamchatsky,Kamchatka 1_06,Discontinuous,160.5358,55.8878,1585.3826,9,POINT (160.53583 55.88783),2007,2011,31,Andrey Abramov,14
+tsp.465,Russia,Ust-Kamchatsky,Kamchatka 11-04,Discontinuous,160.7482,56.1156,1425.8685,2,POINT (160.7482 56.1156),,,31,Andrey Abramov,14
+tsp.466,Russia,Ust-Kamchatsky,Kamchatka 3_06,Discontinuous,160.5058,55.9872,1980.0931,5,POINT (160.50583 55.98716),2006,2009,31,Andrey Abramov,14
+tsp.467,Russia,Ust-Kamchatsky,Kamchatka 10_04,Discontinuous,160.5841,55.931,1424.3774,16,POINT (160.58413 55.930983),2007,2013,31,Andrey Abramov,14
+tsp.468,Russia,Ust-Kamchatsky,Kamchatka 8_03,Discontinuous,160.2896,55.7507,1313.9171,25,POINT (160.28965 55.7507),2008,2012,31,Andrey Abramov,14
+tsp.469,Mongolia,Bayan-Ulgii,Tsagaannuur2,Sporadic,89.7314,49.4867,2116.4448,10,POINT (89.7314 49.4867),,,64,Mamoru Ishikawa,37
+tsp.470,Japan,Daisetsu,Daisetsu#07,Isolated Patches,142.8827,43.6726,2021.0616,1.8,POINT (142.8827 43.6726),,,64,Mamoru Ishikawa,37
+tsp.471,Japan,Daisetsu,Daisetsu#01,Isolated Patches,142.9077,43.6683,2065.1646,2.9,POINT (142.9077 43.6683),,,64,Mamoru Ishikawa,37
+tsp.472,Japan,Daisetsu,Daisetsu#02,Isolated Patches,142.9199,43.6629,2113.73,2.9,POINT (142.9199 43.6629),,,64,Mamoru Ishikawa,37
+tsp.473,Japan,Daisetsu,Daisetsu#06,Isolated Patches,142.9151,43.6729,2023.5842,5,POINT (142.9151 43.6729),,,60,Go  Iwahana,40
+tsp.474,Japan,Daisetsu,Daisetsu#05,Isolated Patches,142.9151,43.6729,2023.5842,10,POINT (142.9151 43.6729),,,60,Go  Iwahana,40
+tsp.475,Japan,Daisetsu,Daisetsu#04,Isolated Patches,142.9151,43.6729,2023.5842,2.9,POINT (142.9151 43.6729),,,64,Mamoru Ishikawa,37
+tsp.476,Japan,Daisetsu,Daisetsu#03,Isolated Patches,142.9093,43.6603,2164.9561,2.9,POINT (142.9093 43.6603),,,64,Mamoru Ishikawa,37
+tsp.477,Japan,Fujiyama,Kinmei,No Permafrost,138.7296,35.3651,3693.9612,3,POINT (138.72959 35.36509),,,59,Atsushi Ikeda,35
+tsp.478,Japan,Fujiyama,Toraiwa,No Permafrost,138.73,35.36,3695.8792,3.3,POINT (138.73 35.36),,,59,Atsushi Ikeda,35
+tsp.479,Japan,Fujiyama,Ke-leeward,No Permafrost,138.7276,35.3619,3701.6316,2,POINT (138.7276 35.36188),,,59,Atsushi Ikeda,35
+tsp.480,Antarctica,Hurd - Juan Carlos I Station,Byers Peninsula 2. Livingston Island,Unknown,-61.1042,-62.6499,0,0.8,POINT (-61.104194 -62.649917),,,104,Miguel Ángel de Pablo Hernández,13
+tsp.481,Antarctica,Hurd - Juan Carlos I Station,Byers Peninsula 1. Livingston Island,,-61.1039,-62.6501,85,1.85,POINT (-61.103889 -62.650139),,,104,Miguel Ángel de Pablo Hernández,13
+tsp.482,Antarctica,Hurd - Juan Carlos I Station,Incinerador Point. Livingston Island,Discontinuous,-60.3856,-62.6647,30,2.4,POINT (-60.38556 -62.66472),,,28,Miguel Ramos,13
+tsp.483,Antarctica,Hurd - Juan Carlos I Station,Nuevo Incinerador. Livingston Island,,-60.3856,-62.6647,25,1.3,POINT (-60.38556 -62.66472),,,28,Miguel Ramos,13
+tsp.484,Antarctica,Hurd - Juan Carlos I Station,Collado Ramos. Livingston Island,Continuous,-60.3919,-62.6678,117,1.3,POINT (-60.391944 -62.667778),,,28,Miguel Ramos,13
+tsp.485,Antarctica,Hurd - Juan Carlos I Station,Permamodel-Gulbenkian 2. Reina Sofia. Livingston Island,,-60.3822,-62.6703,269,15,POINT (-60.38222 -62.67028),,,28,Miguel Ramos,13
+tsp.486,Antarctica,Hurd - Juan Carlos I Station,Mount Reina Sofía. Livingston Island,Continuous,-60.3822,-62.6703,274,1.2,POINT (-60.38222 -62.67028),,,28,Miguel Ramos,13
+tsp.487,Antarctica,Hurd - Juan Carlos I Station,Permamodel-Gulbenkian 0. Reina Sofia. Livingston Island,Unknown,-60.3822,-62.6703,274,1.8,POINT (-60.38222 -62.67028),,,28,Miguel Ramos,13
+tsp.488,Antarctica,Hurd - Juan Carlos I Station,Permamodel-Gulbenkian 1. Reina Sofia. Livingston Island,,-60.3822,-62.6703,272,25,POINT (-60.38222 -62.67028),,,28,Miguel Ramos,13
+tsp.489,Iceland,Icelandic site,Hagöngur*,Mountain,-18.2416,64.5563,899,12.3,POINT (-18.241639 64.556278),2004,2010,49,Bernd Etzelmüller,29
+tsp.490,Iceland,Icelandic site,Gagnheidi*,Mountain,-14.2596,65.2242,943.7656,14.1,POINT (-14.259639 65.22425),2004,2012,49,Bernd Etzelmüller,29
+tsp.491,Iceland,Icelandic site,Saudafell near Snæfell,Mountain,-15.5022,64.8836,906,20.5,POINT (-15.50222 64.883583),2004,2012,49,Bernd Etzelmüller,29
+tsp.492,Svalbard,Svalbard ,SV-1 Svea,Continuous,16.7668,77.8863,1.8363,8,POINT (16.766807 77.886277),,,69,Fabrice Caline,41
+tsp.493,Svalbard,Svalbard ,SV-B-5* Svea,Continuous,16.7951,77.8818,5.5526,8,POINT (16.79506 77.881767),,,69,Fabrice Caline,41
+tsp.494,Svalbard,Svalbard ,SV-4 Svea,Continuous,16.8127,77.8738,1.5045,8,POINT (16.812665 77.873764),,,69,Fabrice Caline,41
+tsp.495,Svalbard,Svalbard ,SV-B-2* Svea,Continuous,16.7722,77.8781,17,8,POINT (16.772199 77.878058),,,69,Fabrice Caline,41
+tsp.496,Svalbard,Svalbard ,Longyearbyen school SK-B-1,Continuous,15.6064,78.2089,68,9,POINT (15.60637 78.20894),,,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.497,Svalbard,Svalbard ,Huset rock glacier,Continuous,15.587,78.209,150,15,POINT (15.587 78.209),,,72,Norikazu Matsuoka,35
+tsp.498,Svalbard,Svalbard ,Dh2-CO2-07,Continuous,15.5456,78.2361,20.5296,856,POINT (15.54557 78.23608),,,70,Alvar Braathen,41
+tsp.499,Svalbard,Svalbard ,Dh1-CO2-07,Continuous,15.5468,78.236,5,518,POINT (15.5468 78.236),,,70,Alvar Braathen,41
+tsp.500,Svalbard,Svalbard ,Dh4-CO2-07,Continuous,15.8236,78.2025,9,900,POINT (15.823611 78.2025),,,70,Alvar Braathen,41
+tsp.501,Svalbard,Svalbard ,Janssonhaugen P10,Continuous,16.4667,78.1833,275,102,POINT (16.466667 78.183333),,,65,Ketil Isaksen,38
+tsp.503,Russia,Vankor Field,Graviyka 1,Continuous,86.4274,67.4821,24,10,POINT (86.42743 67.48209),,,81,Mikail Zheleznyak,45
+tsp.504,Russia,Vankor Field,Bolshaya Heta,Continuous,83.5872,67.8074,41.9024,8,POINT (83.5872 67.8074),,,81,Mikail Zheleznyak,45
+tsp.505,Russia,Vankor Field,Graviyka 2,Continuous,86.4379,67.4812,32,10,POINT (86.43791 67.48124),,,81,Mikail Zheleznyak,45
+tsp.506,Russia,Vilyuy Dam,Cher1,Continuous,112.5014,63.0141,257,15,POINT (112.5014 63.0141),2013,2014,82,Sergey Veilikin,45
+tsp.507,Russia,Vilyuy Dam,Anyiaah_1,Continuous,112.4919,63.4413,288.1884,50,POINT (112.4919 63.4413),2008,2009,82,Sergey Veilikin,45
+tsp.508,Russia,Vilyuy Dam,Anyiaah_2,Continuous,112.4929,63.4415,288.3117,19,POINT (112.4929 63.4415),2008,2009,82,Sergey Veilikin,45
+tsp.509,Russia,Vilyuy Dam,Svetly_1,Continuous,113.3905,62.9654,253,15,POINT (113.390531 62.965439),,,82,Sergey Veilikin,45
+tsp.511,Italy,Cervinia,Cime Bianche Deep,Discontinuous,7.6927,45.9192,3095.6282,41,POINT (7.69270439 45.91923086),,,160,Paolo Pogliotti,34
+tsp.512,Italy,Cervinia,Cervinia 2,Discontinuous,7.7,45.9167,3100,6,POINT (7.7 45.916667),,,58,Umberto Morra di Cella,34
+tsp.513,Argentina,Ushuaia,Tierra del Fuego 1,Unknown,-68.0417,-54.675,1057,1.3,POINT (-68.041667 -54.675),,,37,Augusto Pérez-Alberti,19
+tsp.514,Argentina,Ushuaia,Tierra del Fuego 2,Unknown,-68.0417,-54.675,975,1.5,POINT (-68.041667 -54.675),,,37,Augusto Pérez-Alberti,19
+tsp.515,Argentina,Mendoza,Balcón I (Morenas Coloradas Rock Glacier),Mountain,-69.3719,-32.9619,3560,6,POINT (-69.371944 -32.961944),,,36,Dario Trombotto,20
+tsp.516,Argentina,Mendoza,Balcon Superior (Mendoza),Mountain,-69.3706,-32.955,3586,5,POINT (-69.370556 -32.955),,,36,Dario Trombotto,20
+tsp.517,Argentina,Mendoza,Balcon II (Morenas Coloradas Rock Glacier),Mountain,-69.3803,-32.9347,3770,3,POINT (-69.380278 -32.934722),,,36,Dario Trombotto,20
+tsp.518,United States,Kaktovik,Kaktovik,Continuous,-143.63,70.114,13,65,POINT (-143.63 70.114),,,100,Kenji Yoshikawa,58
+tsp.519,United States,Barrow,Barrow,Continuous,-156.767,71.291,1.7624,5.5,POINT (-156.767 71.291),2006,2010,100,Kenji Yoshikawa,58
+tsp.520,United States,Barrow,USGS Special No.2 B,Continuous,-156.6283,71.3236,3.4307,9,POINT (-156.628333 71.323611),,,100,Kenji Yoshikawa,58
+tsp.521,United States,Barrow,USGS Special No.3,Continuous,-156.6278,71.3236,3.546,8.3,POINT (-156.627778 71.323611),,,100,Kenji Yoshikawa,58
+tsp.522,United States,Barrow,USGS Special No.2,Continuous,-156.6283,71.3208,4.8025,14,POINT (-156.628333 71.320833),,,100,Kenji Yoshikawa,58
+tsp.523,United States,Barrow,Barrow Camphole,Continuous,-156.635,71.3167,5.591,24,POINT (-156.635 71.316667),,,100,Kenji Yoshikawa,58
+tsp.524,United States,Barrow,Biocomplexity North,Continuous,-156.6017,71.2879,5.5846,7,POINT (-156.601742 71.287891),,,105,Craig E. Tweedie,53
+tsp.525,United States,Barrow,Biocomplexity Mid,Continuous,-156.5956,71.2839,5.7913,7,POINT (-156.595585 71.28392),,,105,Craig E. Tweedie,53
+tsp.526,United States,Barrow,Biocomplexity South,Continuous,-156.596,71.2816,6.0961,7,POINT (-156.596035 71.281624),,,105,Craig E. Tweedie,53
+tsp.527,Greenland,Sisimiut-TKV,SIS2007-06*,Discontinuous,-53.6447,66.9361,49,7.3,POINT (-53.64472 66.9361),2005,2009,51,Thomas Ingeman-Nielsen,33
+tsp.528,Greenland,Kangerlussuaq,KAN2005-01*,Continuous,-50.7028,67.006,36,9.8,POINT (-50.7028 67.006),,,51,Thomas Ingeman-Nielsen,33
+tsp.529,Greenland,Kangerlussuaq,DH-GAP01,Continuous,-50.1811,67.125,374.4867,191,POINT (-50.181111 67.125),,,53,Lillimor C. Liljedahl,31
+tsp.530,Greenland,Kangerlussuaq,DH-GAP03,Continuous,-50.0719,67.1508,451.1856,320,POINT (-50.071944 67.150833),,,53,Lillimor C. Liljedahl,31
+tsp.531,Greenland,Nuuk,NUK04008-808a*,Sporadic,-51.6666,64.1666,38,5,POINT (-51.66663 64.16655),,,50,M.  Andrew,28
+tsp.532,Greenland,Nuuk,NUK04008-808b*,Isolated Patches,-51.6666,64.1666,38,1.1,POINT (-51.66663 64.16655),,,50,M.  Andrew,28
+tsp.534,Greenland,Thule air base,Thule,Continuous,-68.6886,76.5287,68,12,POINT (-68.688625 76.52872),,,52,Kevin Bjella,30
+tsp.535,Greenland,Ilulissat-AP,ILU2007-01*,Discontinuous,-51.0975,69.2186,27.2431,3.8,POINT (-51.0975 69.21861),2007,2010,51,Thomas Ingeman-Nielsen,33
+tsp.536,Mongolia,Bayan-Ulgii,Hashaat1 south,Continuous,90.8012,48.3926,2072.3638,10,POINT (90.8012 48.3926),,,64,Mamoru Ishikawa,37
+tsp.537,Mongolia,Bayan-Ulgii,Hongor olon,Continuous,90.6152,48.4951,2382.8916,10,POINT (90.6152 48.4951),,,64,Mamoru Ishikawa,37
+tsp.538,Mongolia,Bayan-Ulgii,Hashaat 2 northern,Continuous,90.6856,48.4951,2489.7759,10,POINT (90.6856 48.4951),,,64,Mamoru Ishikawa,37
+tsp.539,Mongolia,Govi-Altai,Erdene2,Isolated Patches,97.7533,45.1384,2412.2454,8,POINT (97.7533 45.1384),,,64,Mamoru Ishikawa,37
+tsp.540,Mongolia,Govi-Altai,Erdene1,Isolated Patches,97.8765,45.2696,2689.209,2.2,POINT (97.8765 45.2696),,,64,Mamoru Ishikawa,37
+tsp.541,Mongolia,Bayankhongor,Bayanbulag2,Isolated Patches,97.9991,46.7594,2511.5718,4.4,POINT (97.9991 46.7594),,,64,Mamoru Ishikawa,37
+tsp.542,Mongolia,Khuvsgul,Sharga ganga M13c,Continuous,99.2847,51.2131,1880.1932,5,POINT (99.2847 51.21309),,,62,Natsagdorj Sharkhuu,39
+tsp.543,Mongolia,Khuvsgul,Tsagaan nuur M13,Continuous,99.2133,51.202,1976.187,15,POINT (99.21329 51.20203),,,62,Natsagdorj Sharkhuu,39
+tsp.544,Mongolia,Khuvsgul,Hovsgol 8,Continuous,99.4976,51.1873,1547.9233,50,POINT (99.49755 51.18731),,,62,Natsagdorj Sharkhuu,39
+tsp.545,Mongolia,Khuvsgul,Khuurch M13a,Continuous,99.2951,51.1114,1547.0002,65,POINT (99.29512 51.11143),,,62,Natsagdorj Sharkhuu,39
+tsp.546,Mongolia,Khuvsgul,Rinchin M13b,Continuous,99.3813,51.0653,1579.6483,5,POINT (99.38134 51.06534),,,62,Natsagdorj Sharkhuu,39
+tsp.547,Mongolia,Khuvsgul,M12D Turag borehole No9,Continuous,100.8273,51.2859,1642,10,POINT (100.82727778 51.28594444),,,62,Natsagdorj Sharkhuu,39
+tsp.548,Mongolia,Khuvsgul,Dalbay M12,Continuous,100.7584,51.0199,1661.0071,10,POINT (100.758389 51.019944),,,62,Natsagdorj Sharkhuu,39
+tsp.549,Mongolia,Khuvsgul,Ardag M5a,Continuous,100.1633,50.659,2064.821,15,POINT (100.163306 50.659028),,,62,Natsagdorj Sharkhuu,39
+tsp.551,Mongolia,Khuvsgul,Borsog (M12b),Continuous,100.4343,50.5828,1643.9048,4.5,POINT (100.43429 50.58282),,,62,Natsagdorj Sharkhuu,39
+tsp.552,Mongolia,Khuvsgul,Borsog (M12a),Continuous,100.4338,50.5813,1661.491,5,POINT (100.43376 50.58129),,,62,Natsagdorj Sharkhuu,39
+tsp.553,Mongolia,Khuvsgul,Dalbay M12b,Continuous,100.7286,50.9745,1652.6196,4.5,POINT (100.728583 50.9745),,,62,Natsagdorj Sharkhuu,39
+tsp.554,Mongolia,Khuvsgul,Dalbay M12a,Continuous,100.7271,50.9703,1648.5797,15,POINT (100.727111 50.97025),,,62,Natsagdorj Sharkhuu,39
+tsp.555,Mongolia,Khuvsgul,M12E Noyon borehole No11,Continuous,100.7701,51.2098,1642,5.5,POINT (100.77013889 51.20977778),,,62,Natsagdorj Sharkhuu,39
+tsp.556,Mongolia,Khuvsgul,Dalbay M12f,Continuous,100.4356,51.0237,1642,5.8,POINT (100.43564 51.02373),,,62,Natsagdorj Sharkhuu,39
+tsp.557,Mongolia,Khuvsgul,Ardag M5 mountain (slope),Continuous,100.1658,50.6265,1699.5907,130,POINT (100.16575 50.62647222),,,62,Natsagdorj Sharkhuu,39
+tsp.558,Mongolia,Khuvsgul,Hovsgol 7,Continuous,100.1503,50.4385,1667.0167,10,POINT (100.1503 50.43855),,,62,Natsagdorj Sharkhuu,39
+tsp.559,Mongolia,Khuvsgul,Ardag M5d,Continuous,100.0959,50.4036,1807.0392,165,POINT (100.09591 50.40364),,,62,Natsagdorj Sharkhuu,39
+tsp.560,Mongolia,Khuvsgul,Ardag M5c,Continuous,100.0959,50.4036,2095,200,POINT (100.0959 50.4036),,,62,Natsagdorj Sharkhuu,39
+tsp.561,Mongolia,Khuvsgul,Hatgal M11a,Continuous,100.1521,50.4385,1661,8.7,POINT (100.15208333 50.43852778),,,62,Natsagdorj Sharkhuu,39
+tsp.562,Mongolia,Khuvsgul,Hatgal M11 (weather station),Continuous,100.0901,50.2619,1662,10,POINT (100.09013 50.26188),,,62,Natsagdorj Sharkhuu,39
+tsp.563,Mongolia,Khuvsgul,Shagnuul M12c,Continuous,100.5041,50.1516,1887.0394,10,POINT (100.5041 50.15163),,,62,Natsagdorj Sharkhuu,39
+tsp.564,Mongolia,Burenkhan,Burenkhan M4a mountain,Sporadic,100.0343,49.7882,1704.8254,135,POINT (100.034306 49.78825),,,62,Natsagdorj Sharkhuu,39
+tsp.565,Mongolia,Burenkhan,Burenkhan M4d,Continuous,100.0248,49.4707,2124.3181,22,POINT (100.02479 49.47072),,,62,Natsagdorj Sharkhuu,39
+tsp.566,Mongolia,Burenkhan,Burenkhan M4c,Continuous,100.0203,49.4705,2138.1775,80,POINT (100.02025 49.47048),,,62,Natsagdorj Sharkhuu,39
+tsp.567,Mongolia,Khuvsgul,Hovsgol 6,Continuous,98.6563,49.4903,1859.8761,10,POINT (98.6563 49.4903),,,62,Natsagdorj Sharkhuu,39
+tsp.568,Mongolia,Khuvsgul,Sharga M8  (valley bottom),Continuous,98.6563,49.4903,1855,11,POINT (98.65633333 49.49030556),,,62,Natsagdorj Sharkhuu,39
+tsp.569,Mongolia,Borhujir,Borhujir M15,Isolated Patches,106.114,48.1631,1160,10,POINT (106.11402 48.16307),,,62,Natsagdorj Sharkhuu,39
+tsp.570,Mongolia,Argalant,Argalant M3 (valley),Sporadic,106.5472,47.9236,1398.5186,50,POINT (106.547222 47.923611),,,62,Natsagdorj Sharkhuu,39
+tsp.571,Mongolia,Bagnuur,Khentei 1,Isolated Patches,108.2625,47.6889,1341.9741,6,POINT (108.2625 47.68889),,,62,Natsagdorj Sharkhuu,39
+tsp.572,Mongolia,Nalaikh,Khentei 2,Isolated Patches,107.25,47.7544,1508.5725,50,POINT (107.25 47.75444),,,62,Natsagdorj Sharkhuu,39
+tsp.573,Mongolia,Nalaikh,Khentei 4,Isolated Patches,107.3368,47.7528,1420.3912,6,POINT (107.3368 47.75281),,,62,Natsagdorj Sharkhuu,39
+tsp.574,Mongolia,Nalaikh,Khentei 3,Isolated Patches,107.3833,47.7639,1427.2107,6,POINT (107.3833 47.76389),,,62,Natsagdorj Sharkhuu,39
+tsp.575,Mongolia,Nalaikh,Nalikh-SMS,Isolated Patches,107.3363,47.7532,1419.7238,3.2,POINT (107.3363 47.7532),,,64,Mamoru Ishikawa,37
+tsp.576,Mongolia,Nalaikh,Nalikh-Deep,Isolated Patches,107.3363,47.7532,1419.7238,30,POINT (107.3363 47.7532),,,64,Mamoru Ishikawa,37
+tsp.577,Mongolia,Nalaikh,Terelj-N-SMS,Isolated Patches,107.4254,47.9741,1611,3.2,POINT (107.4254 47.9741),,,64,Mamoru Ishikawa,37
+tsp.578,Mongolia,Tov,Nalaikh M2d depression (thermokarst),Isolated Patches,107.3383,47.7764,1395,6,POINT (107.33833333 47.77638889),,,62,Natsagdorj Sharkhuu,39
+tsp.579,Mongolia,Tov,Nalaikh M2b,Isolated Patches,107.2018,47.4635,1400,15,POINT (107.2018 47.4635),,,62,Natsagdorj Sharkhuu,39
+tsp.580,Mongolia,Tov,Nalaikh M2f  depression (plain),Isolated Patches,107.3368,47.7528,1425,7,POINT (107.33680556 47.75280556),,,62,Natsagdorj Sharkhuu,39
+tsp.581,Mongolia,Tov,Nalaikh M2c,Isolated Patches,107.173,47.4622,1531.8376,30,POINT (107.173 47.4622),,,62,Natsagdorj Sharkhuu,39
+tsp.582,Mongolia,Tov,Nalaikh M2e,Isolated Patches,107.1715,47.4615,1441,10,POINT (107.1715 47.4615),,,62,Natsagdorj Sharkhuu,39
+tsp.583,Mongolia,Tov,Nalaikh M2a,Isolated Patches,107.15,47.4516,1512,50,POINT (107.15 47.4516),,,62,Natsagdorj Sharkhuu,39
+tsp.584,Mongolia,Tov,Khentei 5,Isolated Patches,107.3916,47.0411,1418.7714,15,POINT (107.3916 47.04111),,,62,Natsagdorj Sharkhuu,39
+tsp.585,Mongolia,Tov,Gurvan turuu M9,Isolated Patches,107.6861,47.0389,1370,10.8,POINT (107.68611111 47.03888889),,,62,Natsagdorj Sharkhuu,39
+tsp.586,Mongolia,Khentii,Hentii_63,Isolated Patches,109.479,47.8901,1345.3367,6,POINT (109.479 47.8901),,,64,Mamoru Ishikawa,37
+tsp.587,Mongolia,Khentii,Hentii_36,Isolated Patches,109.829,47.8678,1285.0331,10,POINT (109.829 47.8678),,,64,Mamoru Ishikawa,37
+tsp.588,Mongolia,Khentii,Hentii_50,Isolated Patches,109.9469,47.8058,1404.2938,9,POINT (109.9469 47.8058),,,64,Mamoru Ishikawa,37
+tsp.589,Mongolia,Arkhangai,Chuluut M7b (near thermokarst),Continuous,100.4251,48.0667,1807,5,POINT (100.42513889 48.066667),,,62,Natsagdorj Sharkhuu,39
+tsp.590,Mongolia,Arkhangai,Chuluut M7a (pingo top),Continuous,100.3917,48.0411,1830,15,POINT (100.391667 48.041111),,,62,Natsagdorj Sharkhuu,39
+tsp.591,Mongolia,Nalaikh,Terelj M14a (in forest),Continuous,107.4255,47.9793,1596,5.5,POINT (107.4255 47.97930556),,,62,Natsagdorj Sharkhuu,39
+tsp.592,Mongolia,Nalaikh,M14 Terelj (on grassland),Isolated Patches,107.4251,47.9801,1590,8,POINT (107.42513889 47.98013889),,,62,Natsagdorj Sharkhuu,39
+tsp.593,Mongolia,Arkhangai,Terkh_obor,Continuous,99.3749,48.0989,2094.6082,8,POINT (99.3749 48.0989),,,64,Mamoru Ishikawa,37
+tsp.594,Mongolia,Arkhangai,Terkh M6,Continuous,99.2242,48.0455,2050,15,POINT (99.2242 48.0455),,,62,Natsagdorj Sharkhuu,39
+tsp.595,Mongolia,Arkhangai,Terkh_ar,Continuous,99.3939,48.0381,2180,10,POINT (99.3939 48.0381),,,64,Mamoru Ishikawa,37
+tsp.596,Mongolia,Bayan-Ulgii,Tsengel M10b (Khargant valley),Sporadic,89.148,48.7784,2200,5,POINT (89.14802778 48.77844444),,,62,Natsagdorj Sharkhuu,39
+tsp.597,Mongolia,Bayan-Ulgii,Tsengel M10a (gentle slope),Sporadic,89.1357,48.7526,2400,2.8,POINT (89.1356666667 48.7525833333),,,62,Natsagdorj Sharkhuu,39
+tsp.598,Mongolia,Bayan-Ulgii,Tsengel M10 (mountain),Sporadic,89.1114,48.6695,2950,1.3,POINT (89.11144444 48.6695),,,62,Natsagdorj Sharkhuu,39
+tsp.599,United States,Fairbanks,Cuchman Creek,Discontinuous,-147.9083,65.177,354.6439,6.5,POINT (-147.9083 65.177),,,100,Kenji Yoshikawa,58
+tsp.600,United States,Fairbanks,Caribou-Poker/T1,Discontinuous,-147.6889,65.15,215,10.8,POINT (-147.688889 65.15),,,100,Kenji Yoshikawa,58
+tsp.601,United States,Fairbanks,Caribou Pingo,Discontinuous,-147.5417,65.143,294,23.5,POINT (-147.5417 65.143),,,100,Kenji Yoshikawa,58
+tsp.602,United States,Fairbanks,Caribou-Poker/MD,Discontinuous,-147.5172,65.1741,314,33,POINT (-147.517222 65.174056),,,100,Kenji Yoshikawa,58
+tsp.603,United States,Fairbanks,CPCRW_C4,Discontinuous,-147.5017,65.1643,258,30,POINT (-147.501667 65.164306),,,100,Kenji Yoshikawa,58
+tsp.604,United States,Fairbanks,Caribou-Poker/TJ,Discontinuous,-147.4928,65.1558,241.2616,24.5,POINT (-147.492778 65.155833),,,100,Kenji Yoshikawa,58
+tsp.605,United States,Fairbanks,Caribou-Poker/CONF,Discontinuous,-147.4883,65.1532,217,19.8,POINT (-147.488333 65.15325),,,100,Kenji Yoshikawa,58
+tsp.606,United States,Fairbanks,Caribou-Poker/CMET,Discontinuous,-147.4883,65.1532,225,14.7,POINT (-147.488333 65.15325),,,100,Kenji Yoshikawa,58
+tsp.607,United States,Fairbanks,Spruce Creek 2,Discontinuous,-147.5707,65.0603,359,46,POINT (-147.57065 65.060305),,,10,Vladimir E. Romanovsky,5
+tsp.608,United States,Fairbanks,Spruce Creek,Discontinuous,-147.5665,65.0592,411.3548,46,POINT (-147.566527 65.05919),,,10,Vladimir E. Romanovsky,5
+tsp.609,United States,Fairbanks,Vault Creek,Discontinuous,-147.6983,65.0317,215,53,POINT (-147.6983 65.0317),,,10,Vladimir E. Romanovsky,5
+tsp.610,United States,Fairbanks,Fox,Discontinuous,-147.6177,64.9506,247.4188,17,POINT (-147.617694 64.95061),2009,2013,10,Vladimir E. Romanovsky,5
+tsp.611,United States,Fairbanks,Pearl Creek,Discontinuous,-147.8283,64.901,227,7.2,POINT (-147.8283 64.901),,,100,Kenji Yoshikawa,58
+tsp.612,United States,Fairbanks,Upper Pearl Creek,Discontinuous,-147.815,64.899,227,7.2,POINT (-147.815 64.899),,,100,Kenji Yoshikawa,58
+tsp.613,United States,Fairbanks,Fairbanks (Pearl Creek,Discontinuous,-147.817,64.889,193,5.5,POINT (-147.817 64.889),,,100,Kenji Yoshikawa,58
+tsp.614,United States,Fairbanks,Fairbanks (University),Discontinuous,-147.85,64.876,172,5,POINT (-147.85 64.876),,,100,Kenji Yoshikawa,58
+tsp.615,United States,Fairbanks,GI#1,Discontinuous,-147.8465,64.8753,170,35,POINT (-147.846499 64.875266),2010,2012,10,Vladimir E. Romanovsky,5
+tsp.616,United States,Fairbanks,GI#2,Discontinuous,-147.8482,64.8745,171.3932,35,POINT (-147.848247 64.874494),2009,2012,10,Vladimir E. Romanovsky,5
+tsp.617,United States,Fairbanks,Smith Lake 1,Discontinuous,-147.8608,64.8694,161.7949,3,POINT (-147.8608 64.869367),,,10,Vladimir E. Romanovsky,5
+tsp.618,United States,Fairbanks,Smith Lake 3,Discontinuous,-147.8588,64.8675,157.8921,3,POINT (-147.858833 64.867517),2006,2013,10,Vladimir E. Romanovsky,5
+tsp.619,United States,Fairbanks,Smith Lake 4,Discontinuous,-147.8584,64.8669,157.3483,3,POINT (-147.858383 64.8669),2006,2013,10,Vladimir E. Romanovsky,5
+tsp.620,United States,Fairbanks,Smith Lake 2,Discontinuous,-147.8568,64.8661,157.7674,3,POINT (-147.856767 64.866117),2006,2013,10,Vladimir E. Romanovsky,5
+tsp.621,United States,Fairbanks,UAF Farm 3,Discontinuous,-147.8578,64.8529,150,40,POINT (-147.85784 64.85291),2005,2012,10,Vladimir E. Romanovsky,5
+tsp.622,United States,Fairbanks,UAF Farm 2,Discontinuous,-147.8575,64.8529,150,25,POINT (-147.85752 64.85288),,,10,Vladimir E. Romanovsky,5
+tsp.623,United States,Fairbanks,UAF Farm 1,Discontinuous,-147.8575,64.8529,150,25,POINT (-147.85752 64.85288),,,10,Vladimir E. Romanovsky,5
+tsp.624,United States,Fairbanks,College Peat,Discontinuous,-147.7849,64.8678,69,69,POINT (-147.78488 64.86784),2006,2010,10,Vladimir E. Romanovsky,5
+tsp.625,United States,Fairbanks,Fairbanks (Randy Smith),Discontinuous,-147.752,64.856,136,2,POINT (-147.752 64.856),,,100,Kenji Yoshikawa,58
+tsp.626,United States,Fairbanks,Farmer\'s Loop,Discontinuous,-147.668,64.875,151.9355,12,POINT (-147.668 64.875),,,100,Kenji Yoshikawa,58
+tsp.627,United States,Fairbanks,Farmer\'s Loop*,Discontinuous,-147.668,64.875,151.9355,12,POINT (-147.668 64.875),,,100,Kenji Yoshikawa,58
+tsp.628,United States,Fairbanks,LTER 2-2,Discontinuous,-148.2886,64.715,135.889,5.2,POINT (-148.288589 64.715017),,,10,Vladimir E. Romanovsky,5
+tsp.629,United States,Fairbanks,LTER 2-1,Discontinuous,-148.2913,64.707,132,24,POINT (-148.291282 64.706955),,,10,Vladimir E. Romanovsky,5
+tsp.630,United States,Fairbanks,Bonanza Creek,Discontinuous,-148.2913,64.7069,125.6989,45,POINT (-148.291281 64.706944),2009,2012,10,Vladimir E. Romanovsky,5
+tsp.631,United States,Fairbanks,Birch Lake,Discontinuous,-146.6883,64.3235,262,62,POINT (-146.6883 64.32354),2007,2012,10,Vladimir E. Romanovsky,5
+tsp.632,United States,Anchorage,Chugiak,No Permafrost,-149.5427,61.3812,34.3043,11,POINT (-149.54269 61.381219),,,100,Kenji Yoshikawa,58
+tsp.633,United States,Anchorage,Anchorage (Polaris K12),No Permafrost,-149.853,61.164,40.5466,2,POINT (-149.853 61.164),,,100,Kenji Yoshikawa,58
+tsp.634,Russia,Chukotka,Lake Elgygytgyn,Continuous,171.9447,67.4847,507.9668,141.5,POINT (171.9447 67.4847),2008,2011,84,Georg Schwamborn,42
+tsp.635,United States,St. Lawrence Island,Savoonga,Discontinuous,-170.498,63.693,10,3.2,POINT (-170.498 63.693),,,100,Kenji Yoshikawa,58
+tsp.636,United States,Nunivak Island,Mekoryuk,Continuous,-166.184,60.397,7,3,POINT (-166.184 60.397),,,100,Kenji Yoshikawa,58
+tsp.637,Antarctica,Deception Island,Crater Lake 3. Deception Island,Continuous,-60.6667,-62.9833,85,6,POINT (-60.66667 -62.98333),,,28,Miguel Ramos,13
+tsp.638,Antarctica,Deception Island,Crater Lake S1. Deception Island,Continuous,-60.6667,-62.9833,70.7674,1,POINT (-60.66667 -62.98333),,,28,Miguel Ramos,13
+tsp.639,Antarctica,Deception Island,Crater Lake S2. Deception Island,Continuous,-60.6667,-62.9833,85,1.5,POINT (-60.66667 -62.98333),,,28,Miguel Ramos,13
+tsp.640,Antarctica,Deception Island,Crater Lake 2. Deception Island,Continuous,-60.6667,-62.9833,85,5,POINT (-60.66667 -62.98333),,,28,Miguel Ramos,13
+tsp.641,Antarctica,Deception Island,Crater Lake 1. Deception Island,Continuous,-60.6667,-62.9833,85,4.5,POINT (-60.66667 -62.98333),,,28,Miguel Ramos,13
+tsp.642,Antarctica,King George Island,Lions Rump 1. King George Island,Unknown,-58.1284,-62.1378,86,0.8,POINT (-58.128433 -62.137778),,,21,Carlos Schaefer,9
+tsp.643,Antarctica,King George Island,Potter 1. King George Island,Unknown,-58.6599,-62.2526,60,0.9,POINT (-58.659947 -62.252608),,,21,Carlos Schaefer,9
+tsp.644,Antarctica,King George Island,Keller 6. King George Island,Unknown,-58.4532,-62.0782,31,0.8,POINT (-58.453219 -62.078206),,,21,Carlos Schaefer,9
+tsp.645,Antarctica,King George Island,Keller 5. King George Island,Unknown,-58.4162,-62.0725,45,0.48,POINT (-58.416194 -62.072456),,,21,Carlos Schaefer,9
+tsp.646,Antarctica,King George Island,Keller 4. King George Island,Unknown,-58.4037,-62.0758,196,0.8,POINT (-58.403733 -62.075753),,,21,Carlos Schaefer,9
+tsp.647,Antarctica,King George Island,Keller 8. King George Island,Unknown,-58.3951,-62.083,49,1,POINT (-58.395078 -62.082981),,,21,Carlos Schaefer,9
+tsp.648,Antarctica,King George Island,Keller 3. King George Island,Unknown,-58.405,-62.0819,259,0.46,POINT (-58.405031 -62.081864),,,21,Carlos Schaefer,9
+tsp.649,Antarctica,King George Island,Keller 1. King George Island,Unknown,-58.3951,-62.0849,28,0.99,POINT (-58.395078 -62.084856),,,21,Carlos Schaefer,9
+tsp.650,Antarctica,King George Island,Keller 9. King George Island,Unknown,-58.4067,-62.0858,113,0.98,POINT (-58.406689 -62.085842),,,21,Carlos Schaefer,9
+tsp.651,Antarctica,King George Island,Keller 7. King George Island,Unknown,-58.4136,-62.0858,89,0.63,POINT (-58.413561 -62.085781),,,21,Carlos Schaefer,9
+tsp.652,Antarctica,King George Island,Keller 2. King George Island,Unknown,-58.4053,-62.0883,37,0.98,POINT (-58.405253 -62.088306),,,21,Carlos Schaefer,9
+tsp.653,Antarctica,King George Island,Fildes 2. King George Island,Unknown,-58.9432,-62.1801,116,0.5,POINT (-58.943214 -62.180117),,,21,Carlos Schaefer,9
+tsp.654,Antarctica,King George Island,Fildes 1. King George Island,Unknown,-58.9604,-62.2036,60,0.9,POINT (-58.960375 -62.203625),,,21,Carlos Schaefer,9
+tsp.655,Antarctica,King George Island,Bellingshausen Station. King George Island,Unknown,-58.9656,-62.1967,16,11,POINT (-58.965556 -62.196667),,,31,Andrey Abramov,14
+tsp.656,China,Greater Khingan Range,TP-1S (A),Sporadic,123.9833,53.3333,256.575,11,POINT (123.983333 53.333333),,,44,Huijun Jin,24
+tsp.657,China,Greater Khingan Range,TP-2S (B),Sporadic,124.5667,52.5333,445,15,POINT (124.566667 52.533333),,,44,Huijun Jin,24
+tsp.658,China,Greater Khingan Range,TP-3S(C),Sporadic,124.2667,51.4667,585,13,POINT (124.266667 51.466667),,,44,Huijun Jin,24
+tsp.659,China,Greater Khingan Range,TP-6S(F),Sporadic,121.549,50.6294,721,6,POINT (121.548967 50.62945),,,44,Huijun Jin,24
+tsp.660,China,Greater Khingan Range,TP-5S(E),Discontinuous,121.5027,50.9332,803,17,POINT (121.5027 50.933183),,,44,Huijun Jin,24
+tsp.661,China,Greater Khingan Range,TP-4S(D),Discontinuous,121.5032,50.9334,805,6,POINT (121.50325 50.9334),,,44,Huijun Jin,24
+tsp.662,Antarctica,Molodyozhnaya Station,Molodeshnaya (Thala Hills),,45.8419,-67.6656,45,1,POINT (45.841944 -67.665556),,,31,Andrey Abramov,14
+tsp.663,Antarctica,Maitri Station,Novolazarevskaya,,11.795,-70.7628,80,3,POINT (11.795 -70.762778),,,31,Andrey Abramov,14
+tsp.664,Antarctica,Troll Station,Troll Station,Continuous,2.5331,-72.0114,1332.5858,2,POINT (2.533056 -72.011389),,,35,Ian Meiklejohn,17
+tsp.665,Antarctica,Russkaya Station,Russkaya Station,Unknown,-136.7964,-74.7633,76,1.5,POINT (-136.796389 -74.763333),,,31,Andrey Abramov,14
+tsp.666,Antarctica,Sanae Base,Vesleskarvet,Continuous,-2.8403,-71.6699,805.8531,0.6,POINT (-2.84033372 -71.66987859),,,35,Ian Meiklejohn,17
+tsp.667,Antarctica,Sanae Base,Flarjuven Bluff,Continuous,-3.3787,-72.025,1224.1858,0.6,POINT (-3.37868665 -72.025),,,35,Ian Meiklejohn,17
+tsp.668,Antarctica,Aboa Station,Aboa Station (Wasa/Basen Nunatak),Unknown,-13.4333,-73.0333,450,0.6,POINT (-13.433333 -73.033333),,,33,Jan Boelhouwers,16
+tsp.669,Antarctica,Aboa Station,Fossilryggen,Unknown,-13.0333,-73.4,550,1.2,POINT (-13.033333 -73.4),,,33,Jan Boelhouwers,16
+tsp.670,Antarctica,Svea Station,Svea,Unknown,-11.2167,-74.5667,1300.6829,1.2,POINT (-11.216667 -74.566667),,,33,Jan Boelhouwers,16
+tsp.671,Antarctica,Bunger Hills,Bunger hills,Unknown,100.76,-66.2753,7,7,POINT (100.76 -66.275278),2008,2014,31,Andrey Abramov,14
+tsp.672,Antarctica,Hallett Peninsula,Cape Hallett,Unknown,170.2267,-72.32,4,1.2,POINT (170.22673 -72.32),,,24,Megan Balks,11
+tsp.673,Antarctica,Zucchelli Station,Oasi New,Unknown,164.1,-74.7,80,30.75,POINT (164.1 -74.7),,,23,Mauro Guglielmin,10
+tsp.674,Antarctica,Zucchelli Station,Boulder Clay,Unknown,164.0214,-74.7458,205,3.6,POINT (164.02139 -74.74583),,,23,Mauro Guglielmin,10
+tsp.675,Antarctica,Zucchelli Station,Adelie Cove,Unknown,163.9667,-74.7833,35,6.1,POINT (163.966667 -74.783333),,,23,Mauro Guglielmin,10
+tsp.676,Antarctica,Zucchelli Station,M. Keinath,Unknown,164.0028,-74.5583,1100,1.2,POINT (164.00278 -74.55833),,,23,Mauro Guglielmin,10
+tsp.677,Antarctica,Zucchelli Station,Simpson Crags,Unknown,162.7583,-74.5667,830,7.8,POINT (162.75833 -74.56667),,,23,Mauro Guglielmin,10
+tsp.678,Antarctica,Beacon Valley,Beacon Valley – middle,Unknown,160.6019,-77.8486,1273,19.6,POINT (160.60186 -77.84864),,,26,Ron Sletten,4
+tsp.679,Antarctica,Beacon Valley,Beacon Valley-Bench,Unknown,160.626,-77.8516,1349,1.22,POINT (160.62598 -77.85164),,,26,Ron Sletten,4
+tsp.680,Antarctica,Beacon Valley,Beacon Valley lower,Unknown,160.712,-77.8032,950,0.7,POINT (160.712 -77.80319),,,26,Ron Sletten,4
+tsp.681,Antarctica,Beacon Valley,Beacon Valley – lower,Unknown,160.7138,-77.8032,1000,30.62,POINT (160.71384 -77.80318),,,26,Ron Sletten,4
+tsp.682,Russia,Neryungri,NUR-1,Discontinuous,124.5828,56.743,853,65,POINT (124.5828 56.743),,,14,Dmitry Sergueev,7
+tsp.683,Russia,Neryungri,NUR-2,Discontinuous,124.5935,56.69,796,90,POINT (124.5935 56.69),,,14,Dmitry Sergueev,7
+tsp.684,Russia,Aldan,Aldan E-5,Continuous,126.2251,58.6675,871,10,POINT (126.2251 58.6675),,,81,Mikail Zheleznyak,45
+tsp.685,Russia,Aldan,Ayansky,Discontinuous,125.4493,58.1143,954,15,POINT (125.4493 58.1143),,,81,Mikail Zheleznyak,45
+tsp.686,Russia,Aldan,Kerak,Discontinuous,125.5019,57.9832,963.4664,1,POINT (125.5019 57.9832),2008,2017,81,Mikail Zheleznyak,45
+tsp.687,Russia,Aldan,Taezhnoe 345,Discontinuous,125.3694,57.6957,1255.8444,30,POINT (125.3694 57.6957),1982,2017,81,Mikail Zheleznyak,45
+tsp.688,Mongolia,Bayankhongor,Bayanbulag3,Isolated Patches,98.0875,46.8119,2255.9829,10,POINT (98.0875 46.8119),,,64,Mamoru Ishikawa,37
+tsp.689,Mongolia,Bayankhongor,Bayanbulag1,Isolated Patches,97.9837,46.8282,2412.7009,10,POINT (97.9837 46.8282),,,64,Mamoru Ishikawa,37
+tsp.690,Russia,Aldan,Aldan 312,Discontinuous,125.3667,57.7,1211,670,POINT (125.3667 57.7),,,81,Mikail Zheleznyak,45
+tsp.691,Mongolia,Bayankhongor,Galuut1,Isolated Patches,99.9833,46.551,2098.8816,10,POINT (99.9833 46.551),,,64,Mamoru Ishikawa,37
+tsp.692,Russia,Aldan,Aldan D-1,Discontinuous,124.5343,57.5336,1001,1,POINT (124.5343 57.53361),2008,2015,81,Mikail Zheleznyak,45
+tsp.693,Mongolia,Bayankhongor,Galuut2,Isolated Patches,99.991,46.5575,2038.8448,8,POINT (99.991 46.5575),,,64,Mamoru Ishikawa,37
+tsp.694,Russia,Aldan,Aldan D-2,Continuous,124.5008,57.5553,1001,15,POINT (124.5008 57.5553),,,81,Mikail Zheleznyak,45
+tsp.695,Russia,Aldan,Aldan 35,Continuous,128.4245,58.3587,955,15,POINT (128.4245 58.3587),,,81,Mikail Zheleznyak,45
+tsp.696,Mongolia,Bayankhongor,Bayanovoo,Isolated Patches,100.439,46.2766,1936.0852,10,POINT (100.439 46.2766),,,64,Mamoru Ishikawa,37
+tsp.697,Mongolia,Zavkhan,Nomrog 2,Isolated Patches,96.9616,48.8709,1848.0905,12,POINT (96.9616 48.8709),,,64,Mamoru Ishikawa,37
+tsp.698,Russia,Magadan,Olsky pass-6,Discontinuous,151.0033,59.6099,345,201,POINT (151.003328 59.60988),1990,2016,150,Sergey Gulyi,45
+tsp.699,Mongolia,Zavkhan,Nomrog 1,Isolated Patches,96.9618,48.8705,1846.1119,5.5,POINT (96.9618 48.8705),,,64,Mamoru Ishikawa,37
+tsp.700,Russia,Magadan,Magadan 28,Discontinuous,150.9385,59.7961,303.9013,1,POINT (150.9385 59.7961),,,81,Mikail Zheleznyak,45
+tsp.701,Russia,Magadan,Magadan 27,Discontinuous,150.9359,59.7874,424,1,POINT (150.9359 59.7874),,,81,Mikail Zheleznyak,45
+tsp.702,Norway,Tronfjell,Tro-BH1* Tron,Mountain,10.7022,62.1742,1640,30,POINT (10.702222 62.174167),,,49,Bernd Etzelmüller,29
+tsp.703,Norway,Tronfjell,Tro-BH3 Tron,Sporadic,10.7146,62.1515,1290,10,POINT (10.714554 62.151466),,,49,Bernd Etzelmüller,29
+tsp.704,Norway,Tronfjell,Tro-BH2 Tron,Sporadic,10.7025,62.1697,1589,10,POINT (10.702548 62.169724),,,49,Bernd Etzelmüller,29
+tsp.705,Norway,Juvvass,Juv-BH6 Juvvass,Sporadic,8.4034,61.7068,1314,10,POINT (8.403397 61.706821),,,49,Bernd Etzelmüller,29
+tsp.706,Norway,Juvvass,Juv-BH5 Juvvass,Sporadic,8.3921,61.7006,1468,10,POINT (8.392079 61.700559),,,49,Bernd Etzelmüller,29
+tsp.707,Norway,Juvvass,Juv-BH4 Juvvass,Mountain,8.3851,61.6998,1560,15,POINT (8.385098 61.699818),,,146,Herman Farbrot,29
+tsp.708,Norway,Juvvass,Juv-BH3* Juvvass,Mountain,8.3858,61.6969,1561,10,POINT (8.385833 61.696944),,,49,Bernd Etzelmüller,29
+tsp.709,Norway,Juvvass,Juv-BH2* Juvvass,Mountain,8.3717,61.6844,1771,10,POINT (8.371667 61.684444),,,49,Bernd Etzelmüller,29
+tsp.710,Norway,Juvvass,PACE 30 Juvvasshoe,Sporadic,8.3667,61.6833,1778.5281,129,POINT (8.366667 61.683333),,,65,Ketil Isaksen,38
+tsp.711,Norway,Jetta,Jet-BH2 Jetta,Sporadic,9.2339,61.9016,1458.6042,10,POINT (9.233928 61.901586),,,49,Bernd Etzelmüller,29
+tsp.712,Norway,Jetta,Jet-BH3* Jetta,Sporadic,9.2339,61.9016,1218,10,POINT (9.233928 61.901586),,,49,Bernd Etzelmüller,29
+tsp.713,Norway,Jetta,Jet-BH1* Jetta,Mountain,9.2847,61.9008,1560,19.5,POINT (9.284722 61.900833),,,49,Bernd Etzelmüller,29
+tsp.714,Norway,Juvvass,Juv-BH1* Juvvass,Mountain,8.365,61.6761,1861,10,POINT (8.365 61.676111),,,49,Bernd Etzelmüller,29
+tsp.715,Norway,Juvvass,PACE31* Juvvasshøe,Mountain,8.3678,61.6756,1894,20,POINT (8.367778 61.675556),,,65,Ketil Isaksen,38
+tsp.716,Norway,Dalsnibba,Da1* Dalsnibba,Sporadic,7.2714,62.0483,1474,15,POINT (7.271389 62.048333),,,65,Ketil Isaksen,38
+tsp.717,Norway,Dovrefjell,DB1* Dovrefjell,Mountain,9.3381,62.2969,1505,10,POINT (9.33805556 62.29694444),,,65,Ketil Isaksen,38
+tsp.718,Norway,Tana Gruber,GA01-04 Tana Gruber,Discontinuous,28.5304,70.4769,365.9688,120,POINT (28.530395 70.476876),,,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.719,Norway,Trolltinden,Tr-B-1 Trolltinden,No Permafrost,20.4316,70.0751,848,29.4,POINT (20.431631 70.07511),,,65,Ketil Isaksen,38
+tsp.720,Norway,Abojavri,Ab-B-1 Abojavri,Discontinuous,22.1939,69.6424,762.4124,6.6,POINT (22.193922 69.642372),,,49,Bernd Etzelmüller,29
+tsp.721,Norway,Abojavri,Ab-B-2 Abojavri,Discontinuous,22.1259,69.681,567.2661,30,POINT (22.125869 69.680958),,,49,Bernd Etzelmüller,29
+tsp.722,Norway,Nordnes,NO-B-3 Nordnes,Discontinuous,20.4339,69.5573,853.2289,2.2,POINT (20.433905 69.557284),,,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.723,Norway,Nordnes,NO-B-2 Nordnes,Discontinuous,20.4197,69.5557,789.9762,2.25,POINT (20.419657 69.55574),,,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.724,Norway,Nordnes,NO-B-1 Nordnes,Discontinuous,20.4197,69.5557,624,2.5,POINT (20.419657 69.55574),,,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.725,Norway,Lavkavagge,La-B-3 Lavkavagge,Discontinuous,20.5798,69.2238,492,15.8,POINT (20.579811 69.223843),,,49,Bernd Etzelmüller,29
+tsp.726,Norway,Lavkavagge,La-B-2 Lavkavagge,Discontinuous,20.4928,69.2388,600,30.5,POINT (20.492816 69.238828),,,49,Bernd Etzelmüller,29
+tsp.727,Norway,Lavkavagge,La-B-1* Lavkavagge,Discontinuous,20.4455,69.249,766,14,POINT (20.445486 69.24905),,,49,Bernd Etzelmüller,29
+tsp.728,Norway,Kistefjellet,Ki-B-1* Kistefjellet,No Permafrost,18.1304,69.2907,990,24.8,POINT (18.130366 69.290729),,,65,Ketil Isaksen,38
+tsp.729,Norway,Guolasjavi,Gu-B-1* Guolasjavri,Discontinuous,21.2106,69.3537,786,32.3,POINT (21.210644 69.353688),,,65,Ketil Isaksen,38
+tsp.730,Norway,Guolasjavi,Gu-B-3 Guolasjavri,Discontinuous,21.0607,69.3556,780,10.5,POINT (21.060716 69.355644),,,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.731,Norway,Guolasjavi,Gu-B-2 Guolasjavri,Discontinuous,21.168,69.3655,814,10.5,POINT (21.168043 69.3655),,,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.732,Norway,Bidjovagge,Bidjovagge Bh-S188A,Discontinuous,22.4983,69.2729,732,413,POINT (22.498258 69.272919),,,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.733,Norway,Bidjovagge,Dh-06 Bidjovagge,Discontinuous,22.4805,69.2996,607.144,80,POINT (22.480455 69.299633),,,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.734,Norway,Iskoras,Is-B-2* Iskoras PYRN,Mountain,25.346,69.3004,600,57.5,POINT (25.346047 69.300449),,,65,Ketil Isaksen,38
+tsp.735,Norway,Iskoras,Is-B-1* Iskoras,Discontinuous,25.3364,69.3023,585,10.7,POINT (25.336438 69.302273),,,66,Hanne Hvidtfeldt  Christiansen ,41
+tsp.736,Finland,Vaisjeaggi,Va-1 Vaisjeaggi1*,Sporadic,27.1671,69.8219,291,3.3,POINT (27.1671 69.8219),,,47,Jan Hjort,26
+tsp.737,United States,Kotzebue,Kotzebue 1,Continuous,-162.537,66.879,23,5,POINT (-162.537 66.879),,,100,Kenji Yoshikawa,58
+tsp.738,United States,Kotzebue,Kotzebue 2,Continuous,-162.6043,66.8518,21.6841,29,POINT (-162.60433 66.85182),2007,2011,10,Vladimir E. Romanovsky,5
+tsp.739,United States,Nome,Nome,Continuous,-165.413,64.543,33.172,1.5,POINT (-165.413 64.543),,,100,Kenji Yoshikawa,58
+tsp.740,United States,Nome,Nome (TBA),Continuous,-165.2962,64.508,20.1821,60,POINT (-165.29615 64.50796),2007,2011,10,Vladimir E. Romanovsky,5
+tsp.741,United States,Kotlik,Kotlik,Continuous,-163.554,63.031,3,2,POINT (-163.554 63.031),,,100,Kenji Yoshikawa,58
+tsp.742,United States,Emmonak,Emmonak,Continuous,-164.562,62.783,2,15,POINT (-164.562 62.783),,,100,Kenji Yoshikawa,58
+tsp.743,United States,St. Mary\'s,Pitkas Pt/Mountain village,Discontinuous,-163.299,62.068,92.8748,1,POINT (-163.299 62.068),,,100,Kenji Yoshikawa,58
+tsp.744,United States,St. Mary\'s,St. Mary\'s,Discontinuous,-163.182,62.0538,32,2,POINT (-163.182 62.0538),,,100,Kenji Yoshikawa,58
+tsp.745,United States,Marshall,Marshall,Continuous,-162.078,61.877,28,2.4,POINT (-162.078 61.877),,,100,Kenji Yoshikawa,58
+tsp.746,United States,Chevak,Chevak,Continuous,-165.6013,61.538,14.7123,3,POINT (-165.60133 61.53805),2009,2010,100,Kenji Yoshikawa,58
+tsp.747,United States,Galena,Galena,Discontinuous,-156.726,64.716,93,5,POINT (-156.726 64.716),,,100,Kenji Yoshikawa,58
+tsp.748,United States,Allakaket,Allakaket,Continuous,-152.64,66.56,125.0598,2,POINT (-152.64 66.56),,,100,Kenji Yoshikawa,58
+tsp.749,United States,Old Man,Old Man*,Discontinuous,-150.6188,66.4502,390,63,POINT (-150.618819 66.450214),2005,2012,10,Vladimir E. Romanovsky,5
+tsp.750,United States,Venetie,Venetie,Discontinuous,-146.414,67.016,172,3,POINT (-146.414 67.016),,,100,Kenji Yoshikawa,58
+tsp.751,United States,Fort Yukon,Fort Yukon,Discontinuous,-145.25,66.564,130,2.5,POINT (-145.25 66.564),,,100,Kenji Yoshikawa,58
+tsp.752,United States,Circle,Circle,Discontinuous,-144.067,65.817,177,3,POINT (-144.067 65.817),2006,2010,100,Kenji Yoshikawa,58
+tsp.753,United States,Eagle,Eagle 1,Discontinuous,-141.18,64.7799,269,3,POINT (-141.18 64.7799),,,100,Kenji Yoshikawa,58
+tsp.754,United States,Eagle,Eagle 2,Discontinuous,-141.1802,64.7784,268.3482,63,POINT (-141.180194 64.778417),2008,2009,10,Vladimir E. Romanovsky,5
+tsp.755,United States,Arctic Village,Arctic Village,Continuous,-145.534,68.129,623.8552,5,POINT (-145.534 68.129),2007,2009,100,Kenji Yoshikawa,58
+tsp.756,United States,Tununak,Tununak,Discontinuous,-165.251,60.586,22,3,POINT (-165.251 60.586),,,100,Kenji Yoshikawa,58
+tsp.757,United States,Toksook Bay,Toksook Bay,Discontinuous,-165.1081,60.5327,7,3,POINT (-165.108143 60.53271),,,100,Kenji Yoshikawa,58
+tsp.758,United States,Nightmute,Nightmute,Continuous,-164.723,60.4769,8,3,POINT (-164.723012 60.476932),,,100,Kenji Yoshikawa,58
+tsp.759,United States,Newtok,Newtok,Continuous,-164.6294,60.9353,5,3,POINT (-164.629364 60.935268),,,100,Kenji Yoshikawa,58
+tsp.760,United States,Hooper Bay,Hooper Bay,Continuous,-166.1328,61.5166,8.0308,6,POINT (-166.13281 61.51661),,,100,Kenji Yoshikawa,58
+tsp.761,United States,Scammon Bay,Scammon Bay,Continuous,-165.56,61.84,6.3007,3,POINT (-165.56 61.84),,,100,Kenji Yoshikawa,58
+tsp.762,United States,Sheldon Point,Sheldon Point,Continuous,-164.84,62.52,1,3,POINT (-164.84 62.52),,,100,Kenji Yoshikawa,58
+tsp.763,United States,Stebbins,Stebbins,Continuous,-162.281,63.52,7.8477,4,POINT (-162.281 63.52),,,100,Kenji Yoshikawa,58
+tsp.764,United States,St. Micheal,St. Micheal,Continuous,-162.03,63.483,8,4,POINT (-162.03 63.483),,,100,Kenji Yoshikawa,58
+tsp.765,United States,Unalakleet,Unalakleet,Continuous,-160.765,63.888,8.9973,4,POINT (-160.765 63.888),,,100,Kenji Yoshikawa,58
+tsp.766,United States,Shaktoolik,Shaktoolik,Discontinuous,-161.13,64.319,2,3,POINT (-161.13 64.319),,,100,Kenji Yoshikawa,58
+tsp.767,United States,Kaltag,Kaltag,Continuous,-158.724,64.324,45,5,POINT (-158.724 64.324),,,100,Kenji Yoshikawa,58
+tsp.768,United States,Koyuk,Koyuk,Discontinuous,-161.156,64.932,6,2,POINT (-161.156 64.932),,,100,Kenji Yoshikawa,58
+tsp.769,United States,Elim,Elim,Discontinuous,-162.263,64.621,21.1753,3,POINT (-162.263 64.621),,,100,Kenji Yoshikawa,58
+tsp.770,United States,Golovin,Golovin,Continuous,-163.024,64.544,5,4,POINT (-163.024 64.544),,,100,Kenji Yoshikawa,58
+tsp.771,United States,White Mountain,White Mountain,Continuous,-163.413,64.682,14,10,POINT (-163.413 64.682),,,100,Kenji Yoshikawa,58
+tsp.772,United States,Buckland,Buckland,Discontinuous,-161.137,65.976,9,3,POINT (-161.137 65.976),,,100,Kenji Yoshikawa,58
+tsp.773,United States,Teller,Teller,Discontinuous,-166.368,65.263,5.4282,4,POINT (-166.368 65.263),,,100,Kenji Yoshikawa,58
+tsp.774,United States,Brevig Mission,Brevig Mission,Discontinuous,-166.496,65.335,4.0291,3,POINT (-166.496 65.335),,,100,Kenji Yoshikawa,58
+tsp.775,United States,Wales,Wales,Continuous,-168.085,65.605,8.5332,1.6,POINT (-168.085 65.605),,,100,Kenji Yoshikawa,58
+tsp.776,United States,Shishmaref,Shishmaref,Continuous,-166.075,66.254,7,4,POINT (-166.075 66.254),,,100,Kenji Yoshikawa,58
+tsp.777,United States,Noorvik,Noorvik,Continuous,-161.041,66.833,15.2402,5,POINT (-161.041 66.833),,,100,Kenji Yoshikawa,58
+tsp.778,United States,Kiana,Kiana,Continuous,-160.439,66.971,28,3,POINT (-160.439 66.971),,,100,Kenji Yoshikawa,58
+tsp.779,United States,Selawik,Selawik Village,Continuous,-160.0192,66.6056,17,3,POINT (-160.019213 66.605569),,,100,Kenji Yoshikawa,58
+tsp.780,United States,Ambler,Ambler,Continuous,-157.866,67.084,29,3,POINT (-157.866 67.084),2008,2010,100,Kenji Yoshikawa,58
+tsp.781,United States,Shungnak,Shungnak,Continuous,-157.136,66.89,52,3,POINT (-157.136 66.89),,,100,Kenji Yoshikawa,58
+tsp.782,United States,Huslia,Huslia,Discontinuous,-156.367,65.696,48,4,POINT (-156.367 65.696),,,100,Kenji Yoshikawa,58
+tsp.783,United States,Tanana,Tanana,Discontinuous,-152.088,65.172,62.0184,2,POINT (-152.088 65.172),,,100,Kenji Yoshikawa,58
+tsp.784,United States,Nikolai,Nikolai,Discontinuous,-154.374,63.014,130.3605,3,POINT (-154.374 63.014),,,100,Kenji Yoshikawa,58
+tsp.785,United States,McGrath,McGrath,Discontinuous,-155.549,62.939,101,5,POINT (-155.549 62.939),,,100,Kenji Yoshikawa,58
+tsp.786,United States,Shageluk,Shageluk,Continuous,-159.532,62.654,30,5,POINT (-159.532 62.654),,,100,Kenji Yoshikawa,58
+tsp.787,United States,Anvik,Anvik,Continuous,-160.195,62.649,63,4,POINT (-160.195 62.649),,,100,Kenji Yoshikawa,58
+tsp.788,United States,Chuathbaluk,Chuathbaluk,Discontinuous,-159.25,61.573,51.2037,3,POINT (-159.25 61.573),,,100,Kenji Yoshikawa,58
+tsp.789,United States,Kalskag,Kalskag,Continuous,-160.317,61.5408,12,3,POINT (-160.317047 61.54076),,,100,Kenji Yoshikawa,58
+tsp.790,United States,Russian Mission,Russian Mission,Continuous,-161.325,61.786,47,5,POINT (-161.325 61.786),,,100,Kenji Yoshikawa,58
+tsp.791,United States,Bethel,Bethel,Continuous,-161.768,60.808,13,12,POINT (-161.768 60.808),2008,2011,100,Kenji Yoshikawa,58
+tsp.792,United States,Eek,Eek,Continuous,-162.0266,60.2153,4.8481,3,POINT (-162.026586 60.215326),,,100,Kenji Yoshikawa,58
+tsp.793,United States,Tuntutuliak,Tuntutuliak,Continuous,-162.672,60.34,4,3,POINT (-162.672 60.34),,,100,Kenji Yoshikawa,58
+tsp.794,United States,Quinhagak,Quinhagak,Continuous,-161.8957,59.7518,5,3,POINT (-161.895711 59.751793),,,100,Kenji Yoshikawa,58
+tsp.795,United States,Kongiganak,Kongiganak,Continuous,-162.8872,59.959,1,3,POINT (-162.887153 59.959015),,,100,Kenji Yoshikawa,58
+tsp.796,United States,Kwigillingok,Kwigillingok,Continuous,-163.159,59.8777,2,3,POINT (-163.159027 59.877701),,,100,Kenji Yoshikawa,58
+tsp.797,United States,Kasigluk,Kasigluk-Akiuk,Continuous,-162.519,60.894,3,3,POINT (-162.519 60.894),,,100,Kenji Yoshikawa,58
+tsp.798,United States,Nunapitchuk,Nunapitchuk,Continuous,-162.4574,60.8961,4,3,POINT (-162.457352 60.896069),,,100,Kenji Yoshikawa,58
+tsp.799,United States,Atmautluak,Atmautluak,Continuous,-162.2757,60.8572,2,6,POINT (-162.275726 60.857159),2009,2011,100,Kenji Yoshikawa,58
+tsp.800,United States,Platinum,Platinum,Sporadic,-161.827,59.011,1,2,POINT (-161.827 59.011),,,100,Kenji Yoshikawa,58
+tsp.801,United States,Koliganek,Koliganek,Sporadic,-157.2857,59.7258,69.1161,3,POINT (-157.28566 59.72578),,,100,Kenji Yoshikawa,58
+tsp.802,United States,Igiugig,Igiugig,Sporadic,-155.92,59.311,34,2.5,POINT (-155.92 59.311),,,100,Kenji Yoshikawa,58
+tsp.803,United States,Port Heiden,Port Heiden,No Permafrost,-158.6617,56.9234,3,3,POINT (-158.66165 56.92344),,,100,Kenji Yoshikawa,58
+tsp.804,United States,Homer,Homer,No Permafrost,-151.18,59.775,403,3,POINT (-151.18 59.775),,,100,Kenji Yoshikawa,58
+tsp.805,United States,Valdez,Valdez,No Permafrost,-146.355,61.139,28,2,POINT (-146.355 61.139),,,100,Kenji Yoshikawa,58
+tsp.806,United States,Noatak,Noatak,Continuous,-162.969,67.575,18,5.5,POINT (-162.969 67.575),,,100,Kenji Yoshikawa,58
+tsp.807,United States,Kivalina,Kivalina,Continuous,-164.492,67.717,3.9797,3,POINT (-164.492 67.717),,,100,Kenji Yoshikawa,58
+tsp.808,United States,Point Lay,Pt. Lay,Continuous,-162.9592,69.7426,3,3,POINT (-162.9592 69.74257),,,100,Kenji Yoshikawa,58
+tsp.809,United States,Tunalik,Tunalik,Continuous,-161.0692,70.206,26,556,POINT (-161.069211 70.205958),,,34,Gary D. Clow,18
+tsp.810,United States,Awuna,Awuna */AWUN,Continuous,-158.0226,69.1532,337.3492,884,POINT (-158.022575 69.153217),,,34,Gary D. Clow,18
+tsp.811,United States,Koluktak,Koluktak/KOL,Continuous,-154.6111,69.7524,56,227,POINT (-154.611144 69.752394),,,34,Gary D. Clow,18
+tsp.812,United States,Umiat,Seabee */SBE,Continuous,-152.1754,69.3801,90.7655,393,POINT (-152.175358 69.380144),,,34,Gary D. Clow,18
+tsp.813,United States,Inigok,North Inigok/NING,Continuous,-152.766,70.2576,41,625,POINT (-152.765981 70.257589),,,34,Gary D. Clow,18
+tsp.814,United States,Kuyanak,Kuyanak,Continuous,-156.0647,70.9315,3,856,POINT (-156.064744 70.931522),,,34,Gary D. Clow,18
+tsp.815,United States,Tulageak,Tulageak,Continuous,-155.7336,71.1893,3,756,POINT (-155.733561 71.189339),,,34,Gary D. Clow,18
+tsp.816,United States,Tulageak,West Dease/WDS,Continuous,-155.6292,71.1591,2,823,POINT (-155.629219 71.159069),,,34,Gary D. Clow,18
+tsp.817,United States,Simpson,East Simpson 1/ESN,Continuous,-154.618,70.9178,2,600,POINT (-154.617986 70.917781),,,34,Gary D. Clow,18
+tsp.818,United States,Peard Bay,Peard Bay/PEA,Continuous,-159.0007,70.7156,23,591,POINT (-159.0007 70.715644),,,34,Gary D. Clow,18
+tsp.819,United States,Kugrua,Kugrua/KAG,Continuous,-158.662,70.587,19.4845,582,POINT (-158.662017 70.587022),,,34,Gary D. Clow,18
+tsp.820,United States,Meade,South Meade/SME,Continuous,-156.8899,70.615,12,549,POINT (-156.889889 70.614978),,,34,Gary D. Clow,18
+tsp.821,United States,Trapper Creek,Trapper Creek,No Permafrost,-150.25,62.558,220,1,POINT (-150.25 62.558),,,100,Kenji Yoshikawa,58
+tsp.822,United States,Drew Point,Drew Point */DRP,Continuous,-153.9,70.8798,5,640,POINT (-153.899981 70.879761),,,34,Gary D. Clow,18
+tsp.823,United States,Ikpikpuk,Ikpikpuk/IKP,Continuous,-154.3313,70.4555,10,615,POINT (-154.331328 70.455467),,,34,Gary D. Clow,18
+tsp.824,United States,Teshepuk,East Teshepuk/ETK,Continuous,-152.9436,70.5699,2,727,POINT (-152.943583 70.569906),,,34,Gary D. Clow,18
+tsp.825,United States,Fish Creek,West Fish Ck 1*/FCK,Continuous,-152.0606,70.3267,27,735,POINT (-152.060564 70.326664),,,34,Gary D. Clow,18
+tsp.826,United States,Nuiqsut,Nuiqsut,Continuous,-150.99,70.221,16,2,POINT (-150.99 70.221),,,100,Kenji Yoshikawa,58
+tsp.827,United States,Atigaru,Atigaru/ATI,Continuous,-151.7172,70.5561,2,648,POINT (-151.717181 70.556119),,,34,Gary D. Clow,18
+tsp.828,United States,Harrison,South Harrison/SOH,Continuous,-151.7312,70.4248,7,399,POINT (-151.731244 70.424808),,,34,Gary D. Clow,18
+tsp.829,United States,Kalikpik,North Kalikpik/NKP,Continuous,-152.3678,70.5092,5,660,POINT (-152.367825 70.509172),,,34,Gary D. Clow,18
+tsp.830,United States,Galbraith Lake   ,Galbraith Lake *,Continuous,-149.5024,68.4774,823,75,POINT (-149.502416 68.477413),2001,2013,10,Vladimir E. Romanovsky,5
+tsp.831,United States,Chandalar Shelf,Chandalar Shelf,Mountain,-149.5804,68.0691,965.8581,61,POINT (-149.580424 68.069069),2001,2013,10,Vladimir E. Romanovsky,5
+tsp.832,United States,Chandalar Shelf,Atigun Pass,Continuous,-149.463,68.1339,1345,5.5,POINT (-149.463026 68.133866),,,10,Vladimir E. Romanovsky,5
+tsp.833,United States,Anaktuvuk Pass,Anaktuvuk Pass,Continuous,-151.723,68.147,665.4604,1.5,POINT (-151.723 68.147),2008,2009,100,Kenji Yoshikawa,58
+tsp.834,United States,Coldfoot,Coldfoot,Discontinuous,-150.1614,67.2373,335,62,POINT (-150.161443 67.237269),2006,2012,10,Vladimir E. Romanovsky,5
+tsp.835,United States,Manley Hot Springs,Manley Hot Springs,Discontinuous,-150.638,64.995,78.9876,4,POINT (-150.638 64.995),,,100,Kenji Yoshikawa,58
+tsp.836,United States,Minto,Minto,Discontinuous,-149.349,65.153,114,3.8,POINT (-149.349 65.153),,,100,Kenji Yoshikawa,58
+tsp.837,United States,Five Mile,Stevens Village,Discontinuous,-149.85,66.005,784.0452,3,POINT (-149.85 66.005),,,100,Kenji Yoshikawa,58
+tsp.838,United States,Five Mile,Yukon Bridge,Discontinuous,-149.7333,65.8833,221,61,POINT (-149.733333 65.883333),2005,2012,10,Vladimir E. Romanovsky,5
+tsp.839,United States,Livengood,Livengood,Discontinuous,-148.6015,65.5068,179,42,POINT (-148.6015 65.506773),2005,2014,10,Vladimir E. Romanovsky,5
+tsp.840,United States,Beaver,Beaver,Discontinuous,-147.393,66.361,107,5.5,POINT (-147.393 66.361),2006,2010,10,Vladimir E. Romanovsky,5
+tsp.841,United States,Chalkyitsik,Chalkyitsik,Discontinuous,-143.732,66.647,168.1321,3,POINT (-143.732 66.647),,,100,Kenji Yoshikawa,58
+tsp.842,United States,Healy,Healy,Discontinuous,-149.014,63.874,550,5.5,POINT (-149.014 63.874),,,100,Kenji Yoshikawa,58
+tsp.843,United States,Healy,Healy (TBA),Discontinuous,-149.244,63.878,669.6991,28,POINT (-149.244 63.878),2008,2012,10,Vladimir E. Romanovsky,5
+tsp.844,United States,Cantwell,Cantwell,Discontinuous,-148.88,63.41,666.3296,3,POINT (-148.88 63.41),,,100,Kenji Yoshikawa,58
+tsp.845,United States,Anderson,Anderson,Discontinuous,-149.198,64.349,155,2,POINT (-149.198 64.349),2007,2011,100,Kenji Yoshikawa,58
+tsp.846,United States,Gakona,Gakona4,Continuous,-145.1574,62.4115,565,30,POINT (-145.157416 62.4115),2008,2012,10,Vladimir E. Romanovsky,5
+tsp.847,United States,Gakona,Gakona3,Continuous,-145.1569,62.3947,556,15,POINT (-145.15687 62.39471),,,10,Vladimir E. Romanovsky,5
+tsp.848,United States,Gakona,Gakona1,Continuous,-145.1453,62.3929,550,30,POINT (-145.145277 62.392916),2009,2013,10,Vladimir E. Romanovsky,5
+tsp.849,United States,Gakona,Gakona2,Continuous,-145.1469,62.3913,548,5,POINT (-145.146888 62.391277),2009,2013,10,Vladimir E. Romanovsky,5
+tsp.850,United States,Hogan Hill,Hogan Hill,Discontinuous,-145.4415,62.6164,671.6725,60,POINT (-145.4415 62.6164),,,10,Vladimir E. Romanovsky,5
+tsp.851,United States,Northway,Northway,Discontinuous,-141.891,62.9664,521,5,POINT (-141.891 62.9664),,,100,Kenji Yoshikawa,58
+tsp.852,United States,Kenny Lake,Kenny Lake,Continuous,-145.009,61.728,396.1792,3,POINT (-145.009 61.728),,,100,Kenji Yoshikawa,58
+tsp.853,United States,Glennallen,Glennallen,Continuous,-145.527,62.113,439,4,POINT (-145.527 62.113),,,100,Kenji Yoshikawa,58
+tsp.854,United States,Gulkana,Gulkana,Continuous,-145.4707,62.1669,480,70,POINT (-145.47066 62.16688),2009,2012,10,Vladimir E. Romanovsky,5
+tsp.855,Austria,Sonnblick Observatory,Hoher Sonnblick 3,Mountain,12.9576,47.0535,3079,20,POINT (12.9576 47.053511),2016,2016,143,Claudia Riedl,21
+tsp.856,Austria,Sonnblick Observatory,Hoher Sonnblick 2,Mountain,12.9577,47.0538,3098,20,POINT (12.957715 47.053781),,,38,Michael Staudinger,21
+tsp.857,Austria,Sonnblick Observatory,Hoher Sonnblick 1,Mountain,12.9575,47.054,3105,20,POINT (12.957522 47.054028),2013,2013,143,Claudia Riedl,21
+tsp.858,Germany,Zugspitze,Zugspitze 02/07 (E),Isolated Patches,10.9871,47.4218,2922,58,POINT (10.987142 47.421778),,,48,Andreas Poschinger,27
+tsp.859,Germany,Zugspitze,Zugspitze 01/07 (W),Isolated Patches,10.9871,47.4218,2922,44,POINT (10.987108 47.421789),,,48,Andreas Poschinger,27
+tsp.860,Switzerland,Schafberg,SBE_0290,Mountain,9.9252,46.4988,2732,60,POINT (9.925215 46.498797),1997,2015,13,Marcia Phillips,2
+tsp.861,Switzerland,Schafberg,SBE_0190,Mountain,9.9263,46.4974,2754.2,67,POINT (9.926302 46.497379),2005,2015,13,Marcia Phillips,2
+tsp.862,Switzerland,Muot da Barba Peider,MBP_0196,Mountain,9.9311,46.4964,2946,18,POINT (9.931076 46.4964),1996,2015,13,Marcia Phillips,2
+tsp.863,Switzerland,Muragl,MUR_0199,Mountain,9.9278,46.5076,2536.1,70.2,POINT (9.927823 46.507569),2002,2014,95,Sarah Springman,50
+tsp.864,Switzerland,Schilthorn,SCH_5200,Mountain,7.8344,46.5583,2910,100,POINT (7.834426 46.558282),2002,2015,77,Jeannette Noetzli,2
+tsp.865,Switzerland,Schilthorn,SCH_5198,Mountain,7.8346,46.5583,2910,14,POINT (7.834621 46.558281),1998,2015,77,Jeannette Noetzli,2
+tsp.866,Switzerland,Schilthorn,SCH_5000,Mountain,7.8344,46.5583,2910,101,POINT (7.834426 46.558282),2002,2015,77,Jeannette Noetzli,2
+tsp.867,Switzerland,Dreveneuse,DRE_0104,Mountain,6.8895,46.2733,1580,15,POINT (6.889508 46.273332),2004,2015,94,Reynald Delaloye,51
+tsp.868,Switzerland,Piz Ot,Büz North rock glacier,Discontinuous,9.817,46.533,2870,5,POINT (9.817 46.533),,,59,Atsushi Ikeda,35
+tsp.869,Switzerland,Ritigraben,RIT_0102,Mountain,7.8498,46.1747,2690,30,POINT (7.849835 46.174694),2002,2015,13,Marcia Phillips,2
+tsp.870,Switzerland,Murtèl-Corvatsch,COR_0200,Mountain,9.822,46.4285,2672.3,63.2,POINT (9.82202 46.428534),2000,2015,95,Sarah Springman,50
+tsp.871,Switzerland,Murtèl-Corvatsch,COR_0287,Mountain,9.8218,46.4288,2670.2,62,POINT (9.821836 46.42879),1987,2015,77,Jeannette Noetzli,2
+tsp.872,Switzerland,Flüela,FLU_0102,Mountain,9.9436,46.7489,2394,23,POINT (9.943555 46.748868),2002,2015,13,Marcia Phillips,2
+tsp.873,Switzerland,Gemsstock,GEM_0106,Mountain,8.6114,46.6012,2940,40,POINT (8.611422 46.601247),2006,2015,13,Marcia Phillips,2
+tsp.874,Switzerland,Les Attelas,ATT_0208,Mountain,7.2737,46.0967,2689,21,POINT (7.273682 46.096746),2008,2015,93,Christophe Lambiel,49
+tsp.875,Switzerland,Les Attelas,Les Attelas 03/08,Mountain,7.2749,46.0966,2741,15,POINT (7.274924 46.096595),,,93,Christophe Lambiel,49
+tsp.876,Switzerland,Les Attelas,ATT_0108,Mountain,7.2731,46.0968,2661,26,POINT (7.273075 46.096772),2008,2015,93,Christophe Lambiel,49
+tsp.877,Switzerland,Lapires,LAP_0198,Mountain,7.2852,46.1071,2500,19.8,POINT (7.285229 46.107127),1999,2015,94,Reynald Delaloye,51
+tsp.878,Switzerland,Lapires,Lapires 08/13,Isolated Patches,7.2833,46.1051,2571,15,POINT (7.283252 46.1051),,,93,Christophe Lambiel,49
+tsp.879,Switzerland,Gentianes,GEN_0102,Mountain,7.3025,46.0837,2888,20.04,POINT (7.302472 46.083705),2002,2015,93,Christophe Lambiel,49
+tsp.880,Switzerland,Tsaté,TSA_0104,Mountain,7.5484,46.109,3040,20,POINT (7.548442 46.109047),2004,2015,93,Christophe Lambiel,49
+tsp.881,Switzerland,Arolla,Arolla 02/96,Discontinuous,7.4547,46.0266,2820,10,POINT (7.454728 46.026629),,,13,Marcia Phillips,2
+tsp.882,Switzerland,Arolla,Arolla 01/96,Discontinuous,7.4547,46.0266,2840,10,POINT (7.454728 46.026629),,,13,Marcia Phillips,2
+tsp.883,Switzerland,Petit Mont Rouge,Petit Mont Rouge-1,Discontinuous,7.4445,46.0181,2608,25,POINT (7.444472 46.018058),,,93,Christophe Lambiel,49
+tsp.884,Switzerland,Petit Mont Rouge,Petit Mont Rouge-2,Discontinuous,7.4438,46.0181,2635,20,POINT (7.443802 46.018058),,,93,Christophe Lambiel,49
+tsp.885,Switzerland,Petit Mont Rouge,Petit Mont Rouge-3,Discontinuous,7.4434,46.0181,2659,15,POINT (7.443388 46.018058),,,93,Christophe Lambiel,49
+tsp.886,Switzerland,Matterhorn,MAT_0205,Mountain,7.676,45.9823,3295,53,POINT (7.676049 45.982321),2005,2015,13,Marcia Phillips,2
+tsp.887,Switzerland,Stockhorn,STO_6100,Mountain,7.8241,45.9866,3410,31,POINT (7.824057 45.986553),2002,2015,97,Martin Hoelzle,51
+tsp.888,Switzerland,Stockhorn,STO_6000,Mountain,7.8242,45.9868,3410,100,POINT (7.824201 45.986786),2002,2015,97,Martin Hoelzle,51
+tsp.889,Italy,Helbronner,Helbronner,Isolated Patches,6.9328,45.8472,3462,64.35,POINT (6.932778 45.847222),,,23,Mauro Guglielmin,10
+tsp.890,Italy,Monti Foscagno,Monti Foscagno S2,Discontinuous,10.2069,46.4727,2650,17.6,POINT (10.206861 46.47275),,,23,Mauro Guglielmin,10
+tsp.891,Italy,Monti Foscagno,Monti Foscagno S1,Discontinuous,10.2096,46.4747,2550,15.9,POINT (10.209553 46.474667),,,23,Mauro Guglielmin,10
+tsp.892,Italy,Monti Foscagno,Monti Foscagno PACE,Discontinuous,10.211,46.4755,2510,22.82,POINT (10.210972 46.475528),,,23,Mauro Guglielmin,10
+tsp.893,Italy,LaFoppa,La Foppa,Discontinuous,10.1833,46.4833,2475.1113,3,POINT (10.183333 46.483333),,,23,Mauro Guglielmin,10
+tsp.894,Italy,Stelvio Pass,PACE Stelvio,Mountain,10.4764,46.5164,3000,100.3,POINT (10.476389 46.516389),,,23,Mauro Guglielmin,10
+tsp.895,Italy,Monte Zandila,Zandila,Discontinuous,10.3082,46.3922,2570,23.75,POINT (10.30825 46.39225),,,23,Mauro Guglielmin,10
+tsp.896,Russia,Lensk,Lensk,Sporadic,114.8684,60.717,196,11,POINT (114.86838 60.71698),,,81,Mikail Zheleznyak,45
+tsp.897,Antarctica,Progress station,Larseman Hills Progress station,Unknown,76.3433,-69.4039,96,3.6,POINT (76.343333 -69.403889),,,31,Andrey Abramov,14
+tsp.898,Antarctica,Marambio Island,Marambio Island,Unknown,-56.6167,-64.2333,200,8,POINT (-56.616667 -64.233333),,,22,Jorge Strelin,6
+tsp.899,Antarctica,James Ross Island,James Ross Island,Unknown,-57.6667,-63.9,25,8.3,POINT (-57.666667 -63.9),,,23,Mauro Guglielmin,10
+tsp.900,Antarctica,Hope Bay,Hope Bay 1,Unknown,-57.0088,-63.3987,50,1.2,POINT (-57.008808 -63.398706),,,21,Carlos Schaefer,9
+tsp.901,Antarctica,Rothera Point,Rothera Point,Unknown,-68.1207,-67.572,31,31,POINT (-68.120683 -67.57195),,,23,Mauro Guglielmin,10
+tsp.902,Antarctica,Deception Island,Irizar 1. Deception Island,Unknown,-60.717,-62.98,130,0.8,POINT (-60.717 -62.98),,,29,Gonçalo Vieira,15
+tsp.903,Antarctica,Deception Island,Irizar 2. Deception Island,Unknown,-60.718,-62.98,130,0.8,POINT (-60.718 -62.98),2009,2015,29,Gonçalo Vieira,15
+tsp.904,Antarctica,Hurd - St Kl Ohridski Station,Ohridski 3 – Station. Livingston Island,Unknown,-60.364,-62.6414,25,8,POINT (-60.36397 -62.64142),,,29,Gonçalo Vieira,15
+tsp.905,Antarctica,Hurd - St Kl Ohridski Station,Ohridski 1 – CALM. Livingston Island,Unknown,-60.3623,-62.6468,136,4,POINT (-60.362306 -62.646806),,,29,Gonçalo Vieira,15
+tsp.906,Antarctica,Hurd - St Kl Ohridski Station,Ohridski 2 – Papagal. Livingston Island,Unknown,-60.3637,-62.6484,147,5,POINT (-60.363694 -62.648389),,,29,Gonçalo Vieira,15
+tsp.907,Antarctica,Hurd - Juan Carlos I Station,Byers Peninsula 3. Livingston Island,Unknown,-61.073,-62.6395,108,0.5,POINT (-61.073028 -62.639508),,,21,Carlos Schaefer,9
+tsp.908,Antarctica,Signy Island,Signy Island,Unknown,-45.5833,-60.7,90,2.5,POINT (-45.58333 -60.7),,,23,Mauro Guglielmin,10
+tsp.909,Antarctica,Taylor Valley,Taylor Valley-New Harbor borehole,Unknown,163.4877,-77.5786,18,4.61,POINT (163.48769 -77.57862),,,26,Ron Sletten,4
+tsp.910,Antarctica,Taylor Valley,Taylor Valley-New Harbor active layer,Unknown,163.4877,-77.5786,18,1.22,POINT (163.48769 -77.57862),,,26,Ron Sletten,4
+tsp.911,Antarctica,Taylor Valley,Commonwealth,Continuous,163.4161,-77.5887,20,282,POINT (163.41607 -77.5887),,,34,Gary D. Clow,18
+tsp.912,Antarctica,Marble Point,Marble Point 1,Unknown,163.6808,-77.4073,85,30.25,POINT (163.680833 -77.40732),,,23,Mauro Guglielmin,10
+tsp.913,Antarctica,Marble Point,Marble Point 2,Unknown,163.6808,-77.4198,85.1208,1.2,POINT (163.68083 -77.41983),,,142,Ron Frank Paetzold,12
+tsp.914,Antarctica,Granite Harbour,Granite Harbour,Unknown,162.517,-77,5,0.9,POINT (162.517 -77),,,25,Cathy Seybold,12
+tsp.915,Antarctica,Victoria Valley,Victoria Valley,Unknown,161.6005,-77.331,415,1.2,POINT (161.60052 -77.33099),,,26,Ron Sletten,4
+tsp.916,Antarctica,Victoria Valley,Victoria Valley 2,Unknown,161.601,-77.331,401.3418,14.66,POINT (161.601 -77.33095),,,26,Ron Sletten,4
+tsp.917,Antarctica,Wright Valley,Wright Valley,Unknown,161.85,-77.517,150,1.2,POINT (161.85 -77.517),,,25,Cathy Seybold,12
+tsp.918,Antarctica,Wright Valley,Bull Pass,Unknown,161.85,-77.517,150,29.75,POINT (161.85 -77.517),,,23,Mauro Guglielmin,10
+tsp.919,Canada,Iqaluit,Iqaluit,Continuous,-68.4753,63.4703,109,5,POINT (-68.475278 63.470278),,,101,Barry Goodison,52
+tsp.926,Russia,Cherskii,Chukochy Cape,Continuous,159.9167,70.07,38.6128,25,POINT (159.916666 70.07),2007,2012,80,Dmitry Fedorov-Davydov,14
+tsp.927,Canada,Mackenzie River,Manner\\\'s Creek B/T4/85-8B,Sporadic,-121.0908,61.6025,198,20,POINT (-121.09083333 61.6025),,,39,Sharon Smith,8
+tsp.928,Canada,Rocky Mountains,Marmot Basin #2,Isolated Patches,-118.1128,52.7935,2187.2771,16.8,POINT (-118.11275 52.79347222),,,57,Stuart Harris,36
+tsp.929,Canada,Mackenzie River,Steep Creek Base (Steep-01),Discontinuous,-124.3742,64.1903,147.8354,14,POINT (-124.37416667 64.19027778),,,39,Sharon Smith,8
+tsp.930,Canada,Mackenzie River,Steep Creek Mid (Steep-03),Discontinuous,-124.3747,64.1853,146.5891,20.7,POINT (-124.3747222 64.1852778),,,39,Sharon Smith,8
+tsp.931,Canada,Herschel Island,Herschel Island,Continuous,-139.0833,69.5833,98.6991,42,POINT (-139.0833333 69.5833333),,,7,Chris R. Burn,1
+tsp.932,Canada,Mackenzie River,Little Smith LS-01,Discontinuous,-124.7397,64.4317,66.5268,20.6,POINT (-124.73972222 64.43166667),,,39,Sharon Smith,8
+tsp.933,Mongolia,Nalaikh,Nalaikh M2a depression (north slope),Isolated Patches,107.25,47.7544,1508.5725,100,POINT (107.25 47.75444444),,,62,Natsagdorj Sharkhuu,39
+tsp.934,Mongolia,Tov,Nalaikh M2a depression (North slope),Isolated Patches,107.15,47.4516,1549.19,14,POINT (107.15 47.4516),,,62,Natsagdorj Sharkhuu,39
+tsp.935,Mongolia,Nalaikh,Nalaikh M2b depression (pingo),Isolated Patches,107.3383,47.7764,1401.7247,8,POINT (107.33833333 47.77638889),,,62,Natsagdorj Sharkhuu,39
+tsp.936,Mongolia,Nalaikh,Nalaikh M2e depression (South-Western slope),Isolated Patches,107.2875,47.7708,1434.4343,10,POINT (107.2875 47.77083333),,,62,Natsagdorj Sharkhuu,39
+tsp.937,Mongolia,Khuvsgul,Ardag M5b,Continuous,100.1624,50.6562,2055,10,POINT (100.162417 50.65625),,,62,Natsagdorj Sharkhuu,39
+tsp.938,Mongolia,Arkhangai,Terkh M6a (valley bottom),Continuous,99.3783,48.0819,2074.9106,15,POINT (99.37833333 48.08194444),,,62,Natsagdorj Sharkhuu,39
+tsp.939,Mongolia,Nalaikh,Nalaikh M2c depression (south-eastern slope),Isolated Patches,107.2917,47.7728,66.5268,30,POINT (107.29166667 47.77277778),,,62,Natsagdorj Sharkhuu,39
+tsp.940,Mongolia,Khuvsgul,Darhad M13a depression (Huurchin plain),Continuous,99.4976,51.1873,1547.9233,92,POINT (99.49755556 51.18730556),,,62,Natsagdorj Sharkhuu,39
+tsp.941,Mongolia,Khuvsgul,Darhad M13  depression (Tsagaan nuur),Continuous,99.3591,51.3556,1535.8192,20,POINT (99.35913889 51.35563889),,,62,Natsagdorj Sharkhuu,39
+tsp.942,Mongolia,Khuvsgul,Darhad depression (near Rinchinlkhumbe),Continuous,99.6371,51.1148,66.5268,5,POINT (99.63705556 51.11483333),,,62,Natsagdorj Sharkhuu,39
+tsp.943,Mongolia,Khuvsgul,Darhad M13c depression (Sharga Ganga),Continuous,99.4797,51.3586,1547.9054,5,POINT (99.47972222 51.35858333),,,62,Natsagdorj Sharkhuu,39
+tsp.944,Mongolia,Burenkhan,Burenkhan M4b (Sukhbulag valley),Sporadic,100.1676,49.7041,1457.6727,10.5,POINT (100.16755556 49.70405556),,,62,Natsagdorj Sharkhuu,39
+tsp.945,Mongolia,Khuvsgul,M12 Borsog borehole No17,Continuous,100.7271,50.9703,1648.5797,5,POINT (100.72711111 50.97025),,,62,Natsagdorj Sharkhuu,39
+tsp.946,Mongolia,Khuvsgul,M12B Borsog borehole No20,Continuous,100.7286,50.9745,66.5268,5,POINT (100.72858333 50.9745),,,62,Natsagdorj Sharkhuu,39
+tsp.947,Mongolia,Khuvsgul,M12C Shagnuul borehole No10,Continuous,100.8447,50.2545,1452.601,10,POINT (100.84472222 50.25452778),,,62,Natsagdorj Sharkhuu,39
+tsp.948,Mongolia,Khuvsgul,Hatgal M11b (office house),Continuous,100.1605,50.4333,1659,10,POINT (100.16047222 50.43325),,,62,Natsagdorj Sharkhuu,39
+tsp.949,Russia,Yakutsk,Tuymada-21,Continuous,129.6568,62.0134,122.4742,21,POINT (129.65685 62.01338),,,137,Pavel Skryabin,45
+tsp.950,Russia,Yakutsk,Chabada 8-82,Continuous,129.4444,61.9278,184.765,30,POINT (129.44444444 61.92777778),1982,2017,137,Pavel Skryabin,45
+tsp.951,Russia,Yakutsk,Tamma 11-87,Continuous,129.7578,61.7297,156.2375,12,POINT (129.7578 61.72966),1987,2017,137,Pavel Skryabin,45
+tsp.952,Russia,Yakutsk,Tamma 12/87,Continuous,129.8333,61.7,156.2375,12,POINT (129.83333333 61.7),,,137,Pavel Skryabin,45
+tsp.953,Russia,Yakutsk,Bes-Kuel 59/87,Continuous,129.3056,61.3333,209.8197,24,POINT (129.30555556 61.33333333),,,137,Pavel Skryabin,45
+tsp.954,Russia,Yakutsk,Verkhnyaya Lutenga 11-95,Continuous,128.8333,60.9278,413.9136,11,POINT (128.83333333 60.92777778),1995,2017,137,Pavel Skryabin,45
+tsp.956,Russia,Vorkuta,UP33,Sporadic,64.4833,67.4,137.7289,130,POINT (64.48333333 67.4),,,138,Ivan Valentinovich Derevyanko,72
+tsp.957,Russia,Vorkuta,UP34,Sporadic,64.5,67.4167,66.5268,90.2,POINT (64.5 67.41666667),,,138,Ivan Valentinovich Derevyanko,72
+tsp.958,Russia,Vorkuta,UK-289,Continuous,64.2,67.55,218.8178,105.4,POINT (64.2 67.55),,,138,Ivan Valentinovich Derevyanko,72
+tsp.959,Russia,Vorkuta,PK-3711,Continuous,64.8,67.9667,215.7251,691,POINT (64.8 67.96666667),,,138,Ivan Valentinovich Derevyanko,72
+tsp.960,Russia,Vorkuta,3C-65,Discontinuous,63.3333,67.3833,183.087,25.2,POINT (63.33333333 67.38333333),,,138,Ivan Valentinovich Derevyanko,72
+tsp.961,Russia,Vorkuta,3C-124/124 A,Discontinuous,63.3833,67.4,152.3003,31.2,POINT (63.38333333 67.4),,,138,Ivan Valentinovich Derevyanko,72
+tsp.962,Russia,Vorkuta,DC-4/VI-74g,Discontinuous,63.3667,67.3833,171.965,25,POINT (63.36666667 67.38333333),,,138,Ivan Valentinovich Derevyanko,72
+tsp.963,Russia,Vorkuta,P-9,Discontinuous,62.35,67.3333,90,28,POINT (62.35 67.33333333),,,138,Ivan Valentinovich Derevyanko,72
+tsp.964,Russia,Vorkuta,P-10,Continuous,62.3333,67.3333,90,42.2,POINT (62.33333333 67.33333333),,,138,Ivan Valentinovich Derevyanko,72
+tsp.965,Russia,Vorkuta,P-53A,Continuous,62.3667,67.3333,81.2692,17.3,POINT (62.36666667 67.33333333),,,138,Ivan Valentinovich Derevyanko,72
+tsp.966,Russia,Vorkuta,P-57,Continuous,62.4,67.3167,90,16.6,POINT (62.4 67.31666667),,,138,Ivan Valentinovich Derevyanko,72
+tsp.967,Russia,Vorkuta,P-60,Continuous,62.3667,67.35,89.979,19.2,POINT (62.36666667 67.35),,,138,Ivan Valentinovich Derevyanko,72
+tsp.968,Russia,Vorkuta,KT-6,Continuous,62.4833,68.25,50.4814,25,POINT (62.48333333 68.25),,,138,Ivan Valentinovich Derevyanko,72
+tsp.969,Russia,Vorkuta,KT-12,Continuous,62.4667,68.25,61.3515,23.5,POINT (62.46666667 68.25),,,138,Ivan Valentinovich Derevyanko,72
+tsp.970,Russia,Vorkuta,Vorkuta K-2,Continuous,64.9333,69.2333,17.6552,16.35,POINT (64.93333333 69.23333333),,,138,Ivan Valentinovich Derevyanko,72
+tsp.971,Russia,Vorkuta,Vorkuta K-19,Continuous,64.9278,69.2458,3.4206,13.25,POINT (64.92777778 69.24583333),,,138,Ivan Valentinovich Derevyanko,72
+tsp.972,Russia,Vorkuta,15,Continuous,63.0833,69.0833,228,250,POINT (63.08333333 69.08333333),,,138,Ivan Valentinovich Derevyanko,72
+tsp.973,Russia,Vorkuta,Vorkuta C-14,Continuous,64.6167,68.45,157.5378,188,POINT (64.61666667 68.45),,,138,Ivan Valentinovich Derevyanko,72
+tsp.974,Russia,Vorkuta,C-17,Continuous,64.6667,68.4667,163.4457,151,POINT (64.66666667 68.46666667),,,138,Ivan Valentinovich Derevyanko,72
+tsp.975,Russia,Vorkuta,C-143,Continuous,66.5833,68.0167,309.0882,463,POINT (66.58333333 68.01666667),,,138,Ivan Valentinovich Derevyanko,72
+tsp.976,Russia,Vorkuta,C-164,Continuous,66.5667,68.0333,458.4956,297.8,POINT (66.56666667 68.03333333),,,138,Ivan Valentinovich Derevyanko,72
+tsp.977,Russia,Vorkuta,C-267,Continuous,66.6,68.0167,302.5714,690,POINT (66.6 68.01666667),,,138,Ivan Valentinovich Derevyanko,72
+tsp.978,Russia,Vorkuta,3 (Polar Ural),Continuous,66.75,67.8333,66.5268,10.6,POINT (66.75 67.83333333),,,138,Ivan Valentinovich Derevyanko,72
+tsp.979,Russia,Vorkuta,8 (Polar Ural),Continuous,66.75,67.8333,210.6776,14.5,POINT (66.75 67.83333333),,,138,Ivan Valentinovich Derevyanko,72
+tsp.980,Russia,Vorkuta,12 (Polar Ural),Continuous,66.65,67.8333,122.7257,13.5,POINT (66.65 67.83333333),,,138,Ivan Valentinovich Derevyanko,72
+tsp.981,Russia,Vorkuta,13 (Polar Ural),Continuous,66.8,67.8333,69.447,80.6,POINT (66.8 67.83333333),,,138,Ivan Valentinovich Derevyanko,72
+tsp.982,Russia,Vorkuta,EK-102,Continuous,65.5667,67.3167,250.0166,28,POINT (65.56666667 67.31666667),,,138,Ivan Valentinovich Derevyanko,72
+tsp.983,Russia,Vorkuta,Vorkuta 116,Continuous,65.5667,67.3167,250.0166,38,POINT (65.56666667 67.31666667),,,138,Ivan Valentinovich Derevyanko,72
+tsp.984,Russia,Vorkuta,41,Continuous,64.3833,66.8167,297.3835,300,POINT (64.38333333 66.81666667),,,138,Ivan Valentinovich Derevyanko,72
+tsp.985,Russia,Vorkuta,95,Continuous,62.8667,66.0833,439.9714,15,POINT (62.86666667 66.08333333),,,138,Ivan Valentinovich Derevyanko,72
+tsp.986,Russia,Vorkuta,100,Continuous,62.8667,66.0833,439.9714,7,POINT (62.86666667 66.08333333),,,138,Ivan Valentinovich Derevyanko,72
+tsp.987,Russia,Vorkuta,6 (Pre-Polar Ural),Continuous,61.0667,65.4333,440.1963,14.1,POINT (61.06666667 65.43333333),,,138,Ivan Valentinovich Derevyanko,72
+tsp.988,Russia,Vorkuta,PV-72,Continuous,61.1167,65.55,372.55,516,POINT (61.11666667 65.55),,,138,Ivan Valentinovich Derevyanko,72
+tsp.989,Russia,Vorkuta,PV-94,Continuous,61.1167,65.5667,356.6439,327,POINT (61.11666667 65.56666667),,,138,Ivan Valentinovich Derevyanko,72
+tsp.990,Russia,Vorkuta,KCK-11,Continuous,59.7333,65.25,525.9736,421,POINT (59.73333333 65.25),,,138,Ivan Valentinovich Derevyanko,72
+tsp.991,Russia,Vorkuta,3G,Continuous,60.25,65.2,780.5795,572,POINT (60.25 65.2),,,138,Ivan Valentinovich Derevyanko,72
+tsp.992,Russia,Vorkuta,202,Continuous,60.2167,65.2167,984.4496,141,POINT (60.21666667 65.21666667),,,138,Ivan Valentinovich Derevyanko,72
+tsp.993,Russia,Vorkuta,210,Continuous,60.2167,65.2333,1159.3228,102,POINT (60.21666667 65.23333333),,,138,Ivan Valentinovich Derevyanko,72
+tsp.994,Russia,Vorkuta,13,Sporadic,61.9,66.3,66.5268,12.7,POINT (61.9 66.3),,,138,Ivan Valentinovich Derevyanko,72
+tsp.995,Russia,Vorkuta,15 (European Pre-Ural),Sporadic,61.9333,66.3,84,15.8,POINT (61.93333333 66.3),,,138,Ivan Valentinovich Derevyanko,72
+tsp.996,Russia,Vorkuta,72,Continuous,62.4,66.2,175.7378,13,POINT (62.4 66.2),,,138,Ivan Valentinovich Derevyanko,72
+tsp.997,Russia,Vorkuta,33,Continuous,61.5,67.9667,138.8101,17,POINT (61.5 67.96666667),,,138,Ivan Valentinovich Derevyanko,72
+tsp.998,Russia,Vorkuta,45,Continuous,61.5667,67.9667,66.5268,16,POINT (61.56666667 67.96666667),,,138,Ivan Valentinovich Derevyanko,72
+tsp.999,Russia,Vorkuta,51,Continuous,61.6667,67.9333,161.1651,14,POINT (61.66666667 67.93333333),,,138,Ivan Valentinovich Derevyanko,72
+tsp.1000,Russia,Vorkuta,62,Continuous,61.4333,67.95,141.36,16.5,POINT (61.43333333 67.95),,,138,Ivan Valentinovich Derevyanko,72
+tsp.1001,Russia,Vorkuta,100 (Nenetskiy avtonomniy okrug),Continuous,61.5167,67.95,66.5268,15.9,POINT (61.51666667 67.95),,,138,Ivan Valentinovich Derevyanko,72
+tsp.1002,Russia,Vorkuta,BGK-1,Continuous,60.5667,67.4,66.5268,510,POINT (60.56666667 67.4),,,138,Ivan Valentinovich Derevyanko,72
+tsp.1003,Russia,Vorkuta,BGK-7,Continuous,60.4333,67.7333,119,600,POINT (60.43333333 67.73333333),,,138,Ivan Valentinovich Derevyanko,72
+tsp.1004,Russia,Vorkuta,1023,Isolated Patches,57.1833,66.45,60.8718,520,POINT (57.18333333 66.45),,,138,Ivan Valentinovich Derevyanko,72
+tsp.1005,Russia,Vorkuta,102,Isolated Patches,57.9833,66.0944,80.6503,480,POINT (57.98333333 66.09444444),,,138,Ivan Valentinovich Derevyanko,72
+tsp.1007,Russia,Deputatskiy,0 (Deputatsky),Continuous,139.3167,69,462.3707,88,POINT (139.31666667 69),,,103,Alexander A. Vasiliev,43
+tsp.1008,Russia,Deputatskiy,08 (Deputatsky),Continuous,139.3333,69,473.338,96,POINT (139.33333333 69),,,103,Alexander A. Vasiliev,43
+tsp.1009,Russia,Deputatskiy,8 (Deputatsky),Continuous,139.3333,69.0167,504.0799,80,POINT (139.33333333 69.01666667),,,103,Alexander A. Vasiliev,43
+tsp.1010,Russia,Deputatskiy,16 (Deputatsky),Continuous,139.3167,69,462.3707,82,POINT (139.31666667 69),,,103,Alexander A. Vasiliev,43
+tsp.1011,Russia,Deputatskiy,24 (Deputatsky),Continuous,139.25,69.0167,523.3068,198,POINT (139.25 69.01666667),,,103,Alexander A. Vasiliev,43
+tsp.1012,Russia,Deputatskiy,26 (Deputatsky),Continuous,139.3,69.0167,528.2929,60,POINT (139.3 69.01666667),,,103,Alexander A. Vasiliev,43
+tsp.1013,Russia,Deputatskiy,40 (Deputatsky),Continuous,139.3333,68.9833,490.7271,200,POINT (139.33333333 68.98333333),,,103,Alexander A. Vasiliev,43
+tsp.1014,Russia,Deputatskiy,120 (Deputatsky),Continuous,139.3,68.9833,452.2953,200,POINT (139.3 68.98333333),,,103,Alexander A. Vasiliev,43
+tsp.1015,Russia,Deputatskiy,200 (Deputatsky),Continuous,139.2833,68.9833,435.9851,200,POINT (139.28333333 68.98333333),,,103,Alexander A. Vasiliev,43
+tsp.1016,Russia,Yana Bay,90 (Yana Bay),Continuous,134.1631,70.6333,74.3964,60,POINT (134.16305556 70.63333333),,,103,Alexander A. Vasiliev,43
+tsp.1017,Russia,Yana Bay,97 (Yana Bay),Continuous,134.0167,70.65,102.5579,201.5,POINT (134.01666667 70.65),,,103,Alexander A. Vasiliev,43
+tsp.1018,Russia,Yana Bay,146 (Yana Bay),Continuous,134.35,70.6167,177.9359,142.2,POINT (134.35 70.61666667),,,103,Alexander A. Vasiliev,43
+tsp.1019,Russia,Yana Bay,148 (Yana Bay),Continuous,134.35,70.6,205.9334,200,POINT (134.35 70.6),,,103,Alexander A. Vasiliev,43
+tsp.1020,Russia,Yana Bay,150 (Yana Bay),Continuous,134.3333,70.6,183.5414,142.2,POINT (134.33333333 70.6),,,103,Alexander A. Vasiliev,43
+tsp.1021,Russia,Yana Bay,152 (Yana Bay),Continuous,134.3667,70.6167,150.3234,76.2,POINT (134.36666667 70.61666667),,,103,Alexander A. Vasiliev,43
+tsp.1022,Russia,Yana Bay,201 (Yana Bay),Continuous,134.5,70.65,246.0427,220,POINT (134.5 70.65),,,103,Alexander A. Vasiliev,43
+tsp.1023,Russia,Yana Bay,207 (Yana Bay),Continuous,134.5167,70.6333,207.7351,104.5,POINT (134.51666667 70.63333333),,,103,Alexander A. Vasiliev,43
+tsp.1024,Russia,Yana Bay,230 (Yana Bay),Continuous,134.2667,70.6,161.5123,116.4,POINT (134.26666667 70.6),,,103,Alexander A. Vasiliev,43
+tsp.1025,Russia,Yana Bay,231 (Yana Bay),Continuous,134.2833,70.6167,161.3074,76.2,POINT (134.28333333 70.61666667),,,103,Alexander A. Vasiliev,43
+tsp.1026,Russia,Yana Bay,302 (Yana Bay),Continuous,134.25,70.6,183.64,201,POINT (134.25 70.6),,,103,Alexander A. Vasiliev,43
+tsp.1027,Russia,Yana Bay,304 (Yana Bay),Continuous,134.3333,70.6167,199.2947,171.1,POINT (134.33333333 70.61666667),,,103,Alexander A. Vasiliev,43
+tsp.1028,Russia,Yana Bay,306 (Yana Bay),Continuous,134.3333,70.6167,199.2947,133,POINT (134.33333333 70.61666667),,,103,Alexander A. Vasiliev,43
+tsp.1029,Russia,Yana Bay,307 (Yana Bay),Continuous,134.5333,70.6333,233.1626,211,POINT (134.53333333 70.63333333),,,103,Alexander A. Vasiliev,43
+tsp.1030,Russia,Yana Bay,336 (Yana Bay),Continuous,134.3667,70.6333,138.4532,83.9,POINT (134.36666667 70.63333333),,,103,Alexander A. Vasiliev,43
+tsp.1031,Russia,Yana Bay,337 (Yana Bay),Continuous,134.3333,70.6333,122.1769,198,POINT (134.33333333 70.63333333),,,103,Alexander A. Vasiliev,43
+tsp.1032,Russia,Yana Bay,375 (Yana Bay),Continuous,134.55,70.65,250.3456,147,POINT (134.55 70.65),,,103,Alexander A. Vasiliev,43
+tsp.1033,Russia,Dghanky,19 (Dghanky),Continuous,135.0833,69.5333,130.0972,95,POINT (135.08333333 69.53333333),,,103,Alexander A. Vasiliev,43
+tsp.1034,Russia,Dghanky,39 (Dghanky),Continuous,135.1167,69.55,241.8816,95,POINT (135.11666667 69.55),,,103,Alexander A. Vasiliev,43
+tsp.1035,Russia,Dghanky,142 (Dghanky),Continuous,135.0333,69.5333,215.0056,95,POINT (135.03333333 69.53333333),,,103,Alexander A. Vasiliev,43
+tsp.1036,Russia,Dghanky,270 (Dghanky),Continuous,135.1,69.55,191.9326,76,POINT (135.1 69.55),,,103,Alexander A. Vasiliev,43
+tsp.1037,Russia,Dghanky,287 (Dghanky),Continuous,135.1,69.5333,134.5526,95,POINT (135.1 69.53333333),,,103,Alexander A. Vasiliev,43
+tsp.1038,Russia,Dghanky,316 (Dghanky),Continuous,135.0667,69.5333,155.1049,95,POINT (135.06666667 69.53333333),,,103,Alexander A. Vasiliev,43
+tsp.1039,Russia,Dghanky,346 (Dghanky),Continuous,135.05,69.5333,194.7635,95,POINT (135.05 69.53333333),,,103,Alexander A. Vasiliev,43
+tsp.1040,Russia,Dghanky,403 (Dghanky),Continuous,135.0667,69.5333,155.1049,95,POINT (135.06666667 69.53333333),,,103,Alexander A. Vasiliev,43
+tsp.1041,Russia,Dghanky,411 (Dghanky),Continuous,135.1,69.55,191.9326,95,POINT (135.1 69.55),,,103,Alexander A. Vasiliev,43
+tsp.1042,Russia,Russkoye Ustye,23 (Russkoye Ustye),Continuous,141.8167,71.1167,57.2771,207,POINT (141.81666667 71.11666667),,,103,Alexander A. Vasiliev,43
+tsp.1043,Russia,Russkoye Ustye,28a (Russkoye Ustye),Continuous,141.7667,71.1167,127.5765,500,POINT (141.76666667 71.11666667),,,103,Alexander A. Vasiliev,43
+tsp.1044,Russia,Russkoye Ustye,32 (Russkoye Ustye),Continuous,141.7667,71.1167,127.5765,260,POINT (141.76666667 71.11666667),,,103,Alexander A. Vasiliev,43
+tsp.1045,Russia,Russkoye Ustye,36 (Russkoye Ustye),Continuous,141.7667,71.1167,127.5765,83.3,POINT (141.76666667 71.11666667),,,103,Alexander A. Vasiliev,43
+tsp.1046,Russia,Russkoye Ustye,37 (Russkoye Ustye),Continuous,141.7833,71.1167,89.6112,156.4,POINT (141.78333333 71.11666667),,,103,Alexander A. Vasiliev,43
+tsp.1047,Russia,Russkoye Ustye,45 (Russkoye Ustye),Continuous,141.7833,71.1167,89.6112,116.4,POINT (141.78333333 71.11666667),,,103,Alexander A. Vasiliev,43
+tsp.1048,Russia,Russkoye Ustye,60 (Russkoye Ustye),Continuous,141.7667,71.1167,127.5765,226,POINT (141.76666667 71.11666667),,,103,Alexander A. Vasiliev,43
+tsp.1049,Russia,Russkoye Ustye,66 (Russkoye Ustye),Continuous,141.7667,71.1167,127.5765,276,POINT (141.76666667 71.11666667),,,103,Alexander A. Vasiliev,43
+tsp.1050,Russia,Russkoye Ustye,69 (Russkoye Ustye),Continuous,141.7667,71.1167,127.5765,123.2,POINT (141.76666667 71.11666667),,,103,Alexander A. Vasiliev,43
+tsp.1051,Russia,Marre Sale,"Marre-Sale, N1",Continuous,66.5,69.7,-18.0257,10,POINT (66.5 69.7),,,139,Alexander V. Pavlov,43
+tsp.1052,Russia,Marre Sale,"Marre-Sale, N2",Continuous,66.5,69.7,-18.0257,10,POINT (66.5 69.7),,,139,Alexander V. Pavlov,43
+tsp.1054,Russia,Marre Sale,"Marre-Sale, N5",Continuous,66.5,69.7,-18.0257,10,POINT (66.5 69.7),,,139,Alexander V. Pavlov,43
+tsp.1055,Russia,Marre Sale,"Marre-Sale, N9",Continuous,66.5,69.7,-18.0257,10,POINT (66.5 69.7),,,139,Alexander V. Pavlov,43
+tsp.1056,Russia,Marre Sale,"Marre-Sale, N17",Continuous,66.5,69.7,-18.0257,10,POINT (66.5 69.7),,,139,Alexander V. Pavlov,43
+tsp.1057,Russia,Marre Sale,"Marre-Sale, N32",Continuous,66.5,69.7,-18.0257,10,POINT (66.5 69.7),,,139,Alexander V. Pavlov,43
+tsp.1058,Russia,Marre Sale,"Marre-Sale, N36",Continuous,66.5,69.7,-18.0257,10,POINT (66.5 69.7),,,139,Alexander V. Pavlov,43
+tsp.1059,Russia,Marre Sale,"Marre-Sale, N44",Continuous,66.5,69.7,-18.0257,10,POINT (66.5 69.7),,,139,Alexander V. Pavlov,43
+tsp.1060,Russia,Tiksi,1_01,Continuous,129.42,71.7869,9.2578,35,POINT (129.42 71.78694444),,,79,Alexander L. Kholodov,5
+tsp.1061,Russia,Tiksi,2_01,Continuous,129.4014,71.7843,24.0658,5,POINT (129.401436 71.784286),,,79,Alexander L. Kholodov,5
+tsp.1062,Russia,Tiksi,3_03,Continuous,129.6667,72.3,-0.3795,20,POINT (129.66666667 72.3),,,79,Alexander L. Kholodov,5
+tsp.1063,Russia,Tiksi,10_3,Continuous,129.5833,72.2333,0.0079,25,POINT (129.58333333 72.23333333),,,79,Alexander L. Kholodov,5
+tsp.1064,Russia,Tiksi,12_03,Continuous,129.6,72.2333,0.6317,12,POINT (129.6 72.23333333),,,79,Alexander L. Kholodov,5
+tsp.1065,Russia,Tiksi,IV4-3,Continuous,129.6167,72.2333,0.1255,14,POINT (129.61666667 72.23333333),,,79,Alexander L. Kholodov,5
+tsp.1068,Russia,Nadym,Nadym 13_72,Discontinuous,72.85,65.3,7,10,POINT (72.85 65.3),,,76,Natalia Moskalenko,43
+tsp.1073,Russia,Nadym,Nadym 18_72,Discontinuous,72.85,65.3,7,10,POINT (72.85 65.3),,,76,Natalia Moskalenko,43
+tsp.1074,Russia,Nadym,Nadym 19_72,Discontinuous,72.85,65.3,7,10,POINT (72.85 65.3),,,76,Natalia Moskalenko,43
+tsp.1075,Russia,Magadan,Magadan 1,Discontinuous,150.0667,59.7,8.4267,233,POINT (150.06666667 59.7),,,140,Georgy Z. Perlshtein,
+tsp.1076,Russia,Magadan,Magadan 2,Discontinuous,150.2667,59.6667,8.3003,200,POINT (150.26666667 59.66666667),,,140,Georgy Z. Perlshtein,
+tsp.1077,Russia,Magadan,Magadan 4,Discontinuous,150,59.6167,-20.4997,201,POINT (150 59.61666667),,,140,Georgy Z. Perlshtein,
+tsp.1078,Russia,Magadan,Olsky pass-9,Discontinuous,151.0214,59.6317,415.3579,233,POINT (151.021425 59.63175),1990,2016,150,Sergey Gulyi,45
+tsp.1079,Russia,Magadan,Magadan 3,Discontinuous,148.8167,62.7,1022.3729,376,POINT (148.81666667 62.7),,,140,Georgy Z. Perlshtein,
+tsp.1080,United States,Lonely AFS Airport,J.W. Dalton/JWD,Continuous,-153.1375,70.9205,6,483,POINT (-153.137528 70.920497),,,34,Gary D. Clow,18
+tsp.1081,United States,Lisburne,Lisburne,Continuous,-155.8981,68.5003,571.8835,532,POINT (-155.89805556 68.50027778),,,34,Gary D. Clow,18
+tsp.1082,United States,Donnelly,Donnelly,Discontinuous,-146.3833,64.25,274.5935,63,POINT (-146.38333333 64.25),,,141,Thomas E. Osterkamp,5
+tsp.1083,Greenland,Paakitsoq,Borehole K85903-Station 905-Paakitsoq,Continuous,-50.2778,69.4692,206.87,250,POINT (-50.27777778 69.46916667),,,144,Jørgen Bille Hansen,28
+tsp.1084,Iceland,Icelandic site,Vopnafjörður mountains,Mountain,-14.5161,65.6775,897,22.1,POINT (-14.51611111 65.67752778),2004,2010,49,Bernd Etzelmüller,29
+tsp.1085,Kazakhstan,Karasay,C300,Discontinuous,76.9436,43.0392,66.5268,300,POINT (76.94361111 43.03916667),,,61,Sergey Marchenko,5
+tsp.1086,Kyrgystan,Ak Shiyrak,46k,Discontinuous,78.2,41.8167,4620.229,230,POINT (78.2 41.81666667),,,61,Sergey Marchenko,5
+tsp.1087,Kyrgystan,Ak Shiyrak,53k,Discontinuous,78.2,41.8167,4620.229,230,POINT (78.2 41.81666667),,,61,Sergey Marchenko,5
+tsp.1088,Norway,Dovrefjell,DB2 Dovrefjell,Mountain,9.3522,62.2956,1478.4547,10,POINT (9.35222222 62.29555556),,,65,Ketil Isaksen,38
+tsp.1089,Norway,Dovrefjell,DB6 Dovrefjell,Mountain,9.3928,62.2928,1399.6451,10,POINT (9.39277778 62.29277778),,,65,Ketil Isaksen,38
+tsp.1090,Svalbard,Svalbard ,SKOTTEHYTTA - PETUNIABUKTA,Continuous,16.6011,78.7139,60.4281,30,POINT (16.60111111 78.71388889),,,147,Andrzej Kostrzewski,73
+tsp.1091,Svalbard,Svalbard ,Calypsostranda (CALM P1),Continuous,14.5136,77.5583,7.9234,30,POINT (14.51361111 77.55833333),,,112,Janina Repelewska-Pekala,59
+tsp.1092,Svalbard,Svalbard ,Hornsund - Isbjornhamna,Continuous,15.55,77,0,30,POINT (15.55 77),,,148,Krzysztof Migala,74
+tsp.1093,Spain,Sierra Nevada,Veleta Peak - Sierra Nevada,Mountain,-3.3644,37.0578,3120.718,2.2,POINT (-3.36444444 37.05777778),,,88,Antonio Gómez-Ortiz,47
+tsp.1094,Spain,Sierra Nevada,Corral del Veleta - Rock Glacier,Mountain,-3.3642,37.0603,3011.5867,1.9,POINT (-3.36416667 37.06027778),,,178,Marc Olivia,47
+tsp.1095,Spain,Sierra Nevada,TMR - Sierra Nevada,Mountain,-3.3694,37.0656,3100.8672,2.2,POINT (-3.36944444 37.06555556),,,88,Antonio Gómez-Ortiz,47
+tsp.1096,Sweden,Torneträsk,Narkevare - Torneträsk,Discontinuous,19.6667,68.2833,355.9078,10,POINT (19.66666667 68.28333333),,,149,Sven Knutsson,79
+tsp.1097,Sweden,Abisko,Katterjokk,Isolated Patches,18.1869,68.4339,463,4,POINT (18.18694444 68.43388889),,,110,Jonas Åkerman,3
+tsp.1098,Sweden,Abisko,Kursflaket,Discontinuous,18.8783,68.3514,357.9265,12.6,POINT (18.87833333 68.35138889),,,110,Jonas Åkerman,3
+tsp.1099,Sweden,Abisko,Storflaket new,Discontinuous,18.2653,68.3475,1305.2987,12,POINT (18.26527778 68.3475),,,110,Jonas Åkerman,3
+tsp.1100,Russia,Nadym,Nadym 3_09,Discontinuous,72.8692,65.3158,7,10,POINT (72.869166 65.31583),2010,2013,76,Natalia Moskalenko,43
+tsp.1101,Russia,Nadym,Nadym 4_09,Discontinuous,72.8817,65.3225,7,10,POINT (72.88166 65.3225),2010,2011,76,Natalia Moskalenko,43
+tsp.1102,Russia,Nadym,Nadym 8_10,Discontinuous,72.8742,65.6748,15,10,POINT (72.8742 65.674762),2006,2007,76,Natalia Moskalenko,43
+tsp.1103,Russia,Nadym,Nadym 3pr_91,Discontinuous,72.8599,65.3155,7,10,POINT (72.859861 65.315472),2011,2013,76,Natalia Moskalenko,43
+tsp.1104,Russia,Nadym,Nadym 10-12,Discontinuous,72.8834,65.2993,7,10,POINT (72.8834 65.2993),2012,2013,76,Natalia Moskalenko,43
+tsp.1105,Russia,Nadym,Nadym 11_12,Discontinuous,72.8491,65.3079,7,10,POINT (72.849138 65.307861),2012,2013,76,Natalia Moskalenko,43
+tsp.1106,Russia,Nadym,Nadym 9_11,Discontinuous,72.8848,65.2986,7,10,POINT (72.88477 65.298638),2012,2013,76,Natalia Moskalenko,43
+tsp.1107,Canada,Banks Island,Banks Island,Continuous,-119.5615,73.22,60.8522,3,POINT (-119.561512 73.219963),2010,2013,10,Vladimir E. Romanovsky,5
+tsp.1108,Canada,Mould Bay,Mould Bay,Continuous,-119.2989,76.2287,36.1099,3,POINT (-119.298927 76.228689),2007,2012,10,Vladimir E. Romanovsky,5
+tsp.1109,Canada,Isachsen,Isachsen,Continuous,-103.55,78.7833,29.8661,1,POINT (-103.55 78.7833),2005,2013,10,Vladimir E. Romanovsky,5
+tsp.1110,United States,Fairbanks,Bonanza Creek 2,Discontinuous,-148.2885,64.715,135.8427,24,POINT (-148.2885 64.715),2010,2013,10,Vladimir E. Romanovsky,5
+tsp.1111,Russia,Yakutsk,Spasskaya 1,Continuous,129.6175,62.2549,213.8388,7,POINT (129.61749 62.25494),1996,2017,118,Pavel Konstantinov,45
+tsp.1112,Russia,Yakutsk,Spasskaya 11,Continuous,129.6203,62.2523,215.5483,7,POINT (129.62031 62.25228),1997,2017,118,Pavel Konstantinov,45
+tsp.1113,Russia,Tiksi,Tiksi_stone_ridge,Continuous,128.7773,71.5867,46.571,30,POINT (128.777346 71.586731),1992,2017,81,Mikail Zheleznyak,45
+tsp.1114,Russia,Aldan,Evota,Discontinuous,125.1806,57.5433,1346.8451,5,POINT (125.18063 57.54335),2010,2017,81,Mikail Zheleznyak,45
+tsp.1115,Russia,Yakutsk,Chabada 5-81,Continuous,129.4176,61.9637,221.9717,21,POINT (129.41758 61.96371),1981,2017,137,Pavel Skryabin,45
+tsp.1116,Russia,Chara,Belenkiy-2,Continuous,118.1916,56.7608,728.1597,0.3,POINT (118.19162 56.76077),,,14,Dmitry Sergueev,7
+tsp.1117,Russia,Chara,Vega-23,Continuous,118.0819,56.9017,800.662,30,POINT (118.08193 56.90167),2013,2017,14,Dmitry Sergueev,7
+tsp.1118,Russia,Olkhon,Olkhon-Pit,Sporadic,107.4397,53.2303,474.7017,3.65,POINT (107.439657 53.230319),2012,2015,156,Elena Kozireva,78
+tsp.1119,Austria,Kitzsteinhorn,Kitzsteinhorn 1,Mountain,12.6853,47.1893,3003.9158,22,POINT (12.68529504 47.18934268),,,151,Ingo Hartmeyer,75
+tsp.1120,Austria,Kitzsteinhorn,Kitzsteinhorn 2,Mountain,12.6853,47.1897,2980.0239,30,POINT (12.68530266 47.18974373),,,151,Ingo Hartmeyer,75
+tsp.1121,Austria,Kitzsteinhorn,Kitzsteinhorn 3,Mountain,12.6835,47.1885,2968.572,25,POINT (12.6834573 47.188517),,,151,Ingo Hartmeyer,75
+tsp.1122,Austria,Kitzsteinhorn,Kitzsteinhorn 4,Mountain,12.685,47.1887,3029.3154,20,POINT (12.68497007 47.18865189),,,151,Ingo Hartmeyer,75
+tsp.1123,Austria,Kitzsteinhorn,Kitzsteinhorn 5,Mountain,12.6849,47.1884,3035.0479,20,POINT (12.68488424 47.18843315),,,151,Ingo Hartmeyer,75
+tsp.1125,Italy,Piz Boè,Piz Boè,Discontinuous,11.833,46.509,2900.323,30,POINT (11.833 46.509),2010,2014,155,Andrea Crepaz,77
+tsp.1126,United States,Happy Valley,Lupine Uni No. 1 (LUP),Continuous,-148.6215,69.1008,522.0062,469,POINT (-148.6215 69.10085),,,34,Gary D. Clow,18
+tsp.1127,United States,Sagwon,Echooka Uni No. 1 (EB1),Continuous,-148.2719,69.3999,212.3731,595,POINT (-148.27188 69.3999),,,34,Gary D. Clow,18
+tsp.1128,United States,Franklin Bluff,Canning River/CNR,Continuous,-146.3382,69.6059,269.9932,575,POINT (-146.338233 69.605883),,,34,Gary D. Clow,18
+tsp.1135,Russia,Olkhon,Olkhon-2,Sporadic,107.436,53.229,477.4343,9,POINT (107.43602 53.22904),2013,2015,156,Elena Kozireva,78
+tsp.1136,Russia,Olkhon,Olkhon-3,Sporadic,107.4353,53.229,476.4578,15,POINT (107.43529 53.229),2013,2015,156,Elena Kozireva,78
+tsp.1137,Russia,Olkhon,Olkhon-4,Sporadic,107.4473,53.2195,544.0372,3.5,POINT (107.44731 53.21945),2013,2015,156,Elena Kozireva,78
+tsp.1138,France,2Alpes-3065,2Alpes-2065,Mountain,6.1917,45,3065,100,POINT (6.19166667 45),,,157,Philippe Schoeneich,76
+tsp.1139,France,2Alpes-Bellecombes,2Alpes-Bellecombes-SD1,Mountain,6.162,44.995,2704,15,POINT (6.162 44.995),2009,2015,157,Philippe Schoeneich,76
+tsp.1140,France,2Alpes-Bellecombes,2Alpes-Bellecombes-SD2,Mountain,6.162,44.995,2642.6685,15,POINT (6.162 44.995),2009,2015,157,Philippe Schoeneich,76
+tsp.1141,Russia,Kytalyk,Kytalik_GI-01_7m,Continuous,147.4883,70.8304,5,7,POINT (147.488341 70.830447),2010,2014,60,Go  Iwahana,40
+tsp.1142,Canada,Daring Lake,Research Valley Borehole #1,Continuous,-111.5484,64.8718,66.5268,4.5,POINT (-111.5484 64.871817),2012,2014,158,Elyn Humphreys,1
+tsp.1143,Canada,Daring Lake,Research Valley Borehole #2,Continuous,-111.5447,64.8706,66.5268,4.5,POINT (-111.544717 64.870617),2012,2014,158,Elyn Humphreys,1
+tsp.1144,France,Aiguille du Midi,AdM-NE,Mountain,6.8883,45.8786,3745,10,POINT (6.888333 45.878556),2010,2016,174,Florence Magnin,83
+tsp.1145,France,Aiguille du Midi,AdM-NW,Mountain,6.8869,45.8786,3737.8906,10,POINT (6.886917 45.878639),2009,2016,174,Florence Magnin,83
+tsp.1146,France,Aiguille du Midi,AdM-S,Mountain,6.8878,45.8782,3753,10,POINT (6.887783 45.87816803),2009,2016,174,Florence Magnin,83
+tsp.1147,Austria,Dachstein Massif,Koppenkarstein North Face,Mountain,13.6317,47.4665,2678.4084,7,POINT (13.63165863 47.46645318),,,159,Andreas Kellerer-Pirklbauer,27
+tsp.1148,Canada,Nunavut,Taloyoak,Continuous,-93.58,69.49,-5.3046,15,POINT (-93.58 69.49),2010,2011,39,Sharon Smith,8
+tsp.1149,Canada,Nunavut,Gjoa Haven,Continuous,-95.88,68.63,13.0642,15,POINT (-95.88 68.63),2012,2012,39,Sharon Smith,8
+tsp.1150,Canada,Nunavut,Kugaaruk,Continuous,-89.8,68.54,3.3902,15,POINT (-89.8 68.54),2009,2012,39,Sharon Smith,8
+tsp.1151,Canada,Nunavut,Repulse Bay,Continuous,-86.24,66.52,66.5268,15,POINT (-86.24 66.52),2009,2013,39,Sharon Smith,8
+tsp.1153,Antarctica,Minna Bluff,Minna Bluff,Unknown,166.7662,-78.5115,22,1.1,POINT (166.76617 -78.51155),,,25,Cathy Seybold,12
+tsp.1154,Russia,Nadym,ND_skv8_10,Discontinuous,72.8742,65.3156,6,10,POINT (72.87416667 65.31555556),,,76,Natalia Moskalenko,43
+tsp.1155,Mongolia,Tsengel,Tsengel M10,Sporadic,89.0641,48.401,2950,1.3,POINT (89.06412 48.40102),,,62,Natsagdorj Sharkhuu,39
+tsp.1156,Russia,Vaskiny Dachy,VD CALM,Continuous,68.9072,70.2836,54.6067,1.5,POINT (68.90719444 70.28361111),,,79,Alexander L. Kholodov,5
+tsp.1157,Russia,Vaskiny Dachy,VD_AG19/23,Continuous,68.9091,70.2826,54,1.5,POINT (68.90908333 70.28255556),,,79,Alexander L. Kholodov,5
+tsp.1158,Russia,Nadym,ND_skv3_09,Discontinuous,72.8692,65.3158,7,10,POINT (72.86916667 65.31583333),,,76,Natalia Moskalenko,43
+tsp.1159,Russia,Vaskiny Dachy,VD1,Continuous,68.8916,70.2755,52,0.9,POINT (68.89163889 70.2755),,,79,Alexander L. Kholodov,5
+tsp.1160,Russia,Chara,Chara 5301,Continuous,118.3663,56.6761,1155,2,POINT (118.36635 56.67612),,,14,Dmitry Sergueev,7
+tsp.1161,United States,Fairbanks,Caribou-Poker/C4,Discontinuous,-147.5017,65.1643,258,30,POINT (-147.5016667 65.16430556),,,100,Kenji Yoshikawa,58
+tsp.1162,United States,Juneau,Juneau,Unknown,-134.55,58.4,23,1,POINT (-134.55 58.4),,,100,Kenji Yoshikawa,58
+tsp.1163,China,Qinghai,TP-1S(CM2),Discontinuous,93.5336,35.3969,4482,8,POINT (93.53361111 35.39694444),,,46,Qingbai Wu ,24
+tsp.1164,Russia,Nadym,ND_skv4_09,Discontinuous,72.8817,65.3225,6,10,POINT (72.88166667 65.3225),,,76,Natalia Moskalenko,43
+tsp.1165,Russia,Vaskiny Dachy,VD2,Continuous,68.8835,70.2955,46,1,POINT (68.88347222 70.2955),,,79,Alexander L. Kholodov,5
+tsp.1166,Russia,Vaskiny Dachy,VD3,Continuous,68.8413,70.3014,47,1,POINT (68.84130556 70.30138889),,,79,Alexander L. Kholodov,5
+tsp.1167,Russia,Vaskiny Dachy,LGT,Continuous,68.8916,70.2811,53,7,POINT (68.89158333 70.28113889),,,79,Alexander L. Kholodov,5
+tsp.1168,United States,Juneau,Haines,Unknown,-135.45,59.23,22,1,POINT (-135.45 59.23),,,100,Kenji Yoshikawa,58
+tsp.1169,Russia,Vorkuta,105,Continuous,61.5206,67.9598,140,6.5,POINT (61.52058 67.95983),,,83,Naum G. Oberman,46
+tsp.1170,Mongolia,Tsengel,Tsengel M10a,Sporadic,89.0808,48.4509,2400,2.8,POINT (89.08084 48.45093),,,62,Natsagdorj Sharkhuu,39
+tsp.1171,Mongolia,Tsengel,Tsengel M10b,Sporadic,89.0853,48.4642,2200,5,POINT (89.08529 48.46424),,,62,Natsagdorj Sharkhuu,39
+tsp.1172,United States,Sagwon,Sagwon,Continuous,-148.75,69.4167,245,8.5,POINT (-148.75 69.41666667),,,99,Doug L. Kane,56
+tsp.1173,United States,Franklin Bluff,Franklin Bluffs,Continuous,-148.75,69.8333,76.4672,10,POINT (-148.75 69.83333333),,,99,Doug L. Kane,56
+tsp.1174,Antarctica,Sanae Base,Flarjuven Bluff 2,Continuous,-3.3921,-72.0172,1234.4066,0.6,POINT (-3.39205994 -72.01722811),,,35,Ian Meiklejohn,17
+tsp.1175,Antarctica,Sanae Base,Robertskollen,Continuous,-3.3271,-71.4805,283.7934,0.6,POINT (-3.32710815 -71.48052812),,,35,Ian Meiklejohn,17
+tsp.1176,Antarctica,Sanae Base,Schumacherfjellet,Continuous,-2.9702,-71.9057,955.1923,0.6,POINT (-2.97019346 -71.90571192),,,35,Ian Meiklejohn,17
+tsp.1177,Antarctica,Sanae Base,Valterkulten,Continuous,-3.2291,-71.8976,974.6311,0.6,POINT (-3.22905881 -71.89760631),,,35,Ian Meiklejohn,17
+tsp.1178,Antarctica,Sanae Base,Grunehogna Peaks,Continuous,-2.7858,-72.0497,1290.6119,0.6,POINT (-2.78582914 -72.04974478),,,35,Ian Meiklejohn,17
+tsp.1179,Antarctica,Sanae Base,Slettfjell,Continuous,-3.2747,-72.1388,1416.0336,0.6,POINT (-3.27472074 -72.13883309),,,35,Ian Meiklejohn,17
+tsp.1180,Antarctica,Troll Station,Troll Station 2,Continuous,2.5323,-72.0113,1326.1985,2,POINT (2.53227251 -72.01127977),,,35,Ian Meiklejohn,17
+tsp.1181,Russia,Khanovey,Khanovey-1,Continuous,63.6531,67.2929,103.2298,4.8,POINT (63.653053 67.292862),2015,2015,167,Vladislav Isaev,65
+tsp.1182,Russia,Khanovey,Khanovey-2,Continuous,63.6524,67.293,103.2298,5.8,POINT (63.652378 67.293007),2015,2015,167,Vladislav Isaev,65
+tsp.1183,Russia,Khanovey,Khanovey-3,Continuous,63.6562,67.2923,98.3663,5.3,POINT (63.656231 67.292313),2015,2015,167,Vladislav Isaev,65
+tsp.1184,Russia,Khanovey,Khanovey-4,Continuous,63.6479,67.2949,113.3141,0.5,POINT (63.6479 67.29489),2015,2015,167,Vladislav Isaev,65
+tsp.1185,United States,Seward Peninsula,Rhonda Basin,Continuous,-164.4809,66.5653,66.5268,3,POINT (-164.48087 66.5653),2011,2012,168,Guido Grosse,42
+tsp.1186,United States,Seward Peninsula,Rhonda Upland,Continuous,-164.4616,66.5588,31.2683,3,POINT (-164.46158 66.55882),2008,2012,168,Guido Grosse,42
+tsp.1187,United States,Seward Peninsula,Shishmaref SE,Continuous,-165.5465,66.1012,35.6263,3.4,POINT (-165.54651 66.10123),,,168,Guido Grosse,42
+tsp.1188,United States,Seward Peninsula,Last Bridge,Continuous,-164.6554,65.3905,91.3111,3,POINT (-164.65541 65.39049),2012,2013,168,Guido Grosse,42
+tsp.1189,United States,Seward Peninsula,Kuzitin River,Discontinuous,-164.8285,65.2295,15.8276,4.65,POINT (-164.82846 65.2295),2012,2015,168,Guido Grosse,42
+tsp.1190,United States,Seward Peninsula,Mary\\\'s Igloo East,Discontinuous,-164.6988,65.1065,31.5342,1.9,POINT (-164.69878 65.10648),2012,2015,168,Guido Grosse,42
+tsp.1191,United States,Seward Peninsula,Salmon Lake,Discontinuous,-165.0539,64.9081,192.8109,2.85,POINT (-165.05385 64.90814),2012,2015,168,Guido Grosse,42
+tsp.1192,Svalbard,Svalbard ,Bayelva (Ny Ålesund),Continuous,11.8334,78.9209,25,9,POINT (11.83345 78.92086),2009,2015,71,Julia Boike,42
+tsp.1605,Russia,Tyumen,Ishim,No permafrost,69.5167,56.1333,82.25,3.2,POINT (69.5167007 56.1333008),1931,1990,164,NSIDC User Services,81
+tsp.1606,Russia,Yamal-Nenets,Tarko-Sale,Discontinuous,77.8167,64.9167,23.72,3.2,POINT (77.8167038 64.9167023),1962,1990,164,NSIDC User Services,81
+tsp.1607,Russia,Khanty-Mansiy,Khanty-Mansiisk,,69.0667,60.9667,29.267,3.2,POINT (69.0667038 60.9667015),1961,1990,164,NSIDC User Services,81
+tsp.1608,Russia,Khanty-Mansiy,Ugut,Isolated patches,74.0167,60.5,69.612,3.2,POINT (74.0167007 60.5),1959,1961,164,NSIDC User Services,81
+tsp.1609,Russia,Tyumen,Tobolsk,,68.1833,58.15,40,3.2,POINT (68.1832962 58.1500015),1931,1957,164,NSIDC User Services,81
+tsp.1610,Russia,Omsk,Russkaya Polyana,No permafrost,73.8333,53.8333,114.83,3.2,POINT (73.8332977 53.8333015),1955,1990,164,NSIDC User Services,81
+tsp.1611,Russia,Nenets,Kotkino,Sporadic,51.2,67.0167,30.051,3.2,POINT (51.2000008 67.0167007),1960,1990,164,NSIDC User Services,81
+tsp.1612,Russia,Amur,Skovorodino,Sporadic,123.9667,54,394.41,3.2,POINT (123.9666977 54),1952,1987,164,NSIDC User Services,81
+tsp.1613,Russia,Arkhangel\'sk,Arkhangelsk Solombala,No permafrost,40.5,64.5833,1,3.2,POINT (40.5 64.5832977),1931,1964,164,NSIDC User Services,81
+tsp.1614,Russia,Vorkuta,Ust-Usa,No permafrost,56.9167,65.9667,54.486,3.2,POINT (56.9166985 65.9666977),1954,1990,164,NSIDC User Services,81
+tsp.1615,Russia,Bashkortostan,Chishmy,,55.3833,54.5667,95.094,3.2,POINT (55.3833008 54.5667),1930,1990,164,NSIDC User Services,81
+tsp.1616,Russia,Bashkortostan,Sterlitamak,No permafrost,55.9833,53.6167,126.81,3.2,POINT (55.9832993 53.6166992),1933,1990,164,NSIDC User Services,81
+tsp.1617,Russia,Krasnoyarsk,Bogotol,No permafrost,89.5833,56.2333,280.71,3.2,POINT (89.5832977 56.2332993),1929,1990,164,NSIDC User Services,81
+tsp.1618,Russia,Krasnoyarsk,Kacha,,92.2,56.1167,474.56,3.2,POINT (92.1999969 56.1166992),1930,1990,164,NSIDC User Services,81
+tsp.1619,Russia,Tomsk,Parabel,,81.5,58.7,54.7,3.2,POINT (81.5 58.7000008),1928,1990,164,NSIDC User Services,81
+tsp.1620,Russia,Novosibirsk,Kupino,No permafrost,77.2833,54.3667,117,3.2,POINT (77.2833023 54.3666992),1944,1990,164,NSIDC User Services,81
+tsp.1621,Russia,Altay,Biisk zonalnaya,No permafrost,84.95,52.6833,229.71,3.2,POINT (84.9499969 52.6833),1929,1990,164,NSIDC User Services,81
+tsp.1622,Russia,Altay,Kamen-na-Obi,No permafrost,81.3333,53.8,118.79,3.2,POINT (81.3332977 53.7999992),1928,1990,164,NSIDC User Services,81
+tsp.1623,Russia,Amur,Svobodnyi,No permafrost,128.116,51.45,192.42,3.2,POINT (128.1159973 51.4500008),1939,1990,164,NSIDC User Services,81
+tsp.1624,Russia,Amur,Shimanovskaya,No permafrost,127.65,51.9833,277.38,3.2,POINT (127.6500015 51.9832993),1935,1990,164,NSIDC User Services,81
+tsp.1625,Russia,Arkhangel\'sk,Arkhangelsk expfield,,40.5,64.5833,26.177,3.2,POINT (40.5 64.5832977),1927,1990,164,NSIDC User Services,81
+tsp.1626,Russia,Arkhangel\'sk,Mudyug isl,No permafrost,40.2833,64.85,207.68,3.2,POINT (40.2832985 64.8499985),1928,1961,164,NSIDC User Services,81
+tsp.1627,Russia,Arkhangel\'sk,Kargopol,No permafrost,38.95,61.5,1,3.2,POINT (38.9500008 61.5),1914,1990,164,NSIDC User Services,81
+tsp.1628,Russia,Yevrey,Birobidzhan agrexpst,,132.8833,48.7,73,3.2,POINT (132.8833008 48.7000008),1917,1965,164,NSIDC User Services,81
+tsp.1629,Russia,Yevrey,Ekaterino-Nikolskaya,No permafrost,130.9667,47.7333,72.854,3.2,POINT (130.9667053 47.7332993),1939,1957,164,NSIDC User Services,81
+tsp.1630,Russia,Amur,Norsk (Norskii sklad),Isolated patches,129.9167,52.35,118.73,3.2,POINT (129.9167023 52.3499985),1935,1965,164,NSIDC User Services,81
+tsp.1631,Russia,Sverdlovsk,Ivdel,No permafrost,60.4333,60.6833,78.531,3.2,POINT (60.4333 60.6833),1938,1990,164,NSIDC User Services,81
+tsp.1632,Russia,Sverdlovsk,Vysokaya Dubrava,,61.0667,56.7333,279.52,3.2,POINT (61.0667 56.7332993),1938,1990,164,NSIDC User Services,81
+tsp.1633,Russia,Kurgan,Kurgan Voronovka,,65.4,55.4667,68,3.2,POINT (65.4000015 55.4667015),1943,1990,164,NSIDC User Services,81
+tsp.1634,Russia,Chelyabinsk,Bredy,,60.35,52.4333,315.28,3.2,POINT (60.3499985 52.4333),1931,1990,164,NSIDC User Services,81
+tsp.1635,Russia,Perm,Berezniki,No permafrost,56.6,59.3833,129,3.2,POINT (56.5999985 59.3833008),1931,1965,164,NSIDC User Services,81
+tsp.1636,Russia,Perm,Kudymkar,,54.65,58.9833,135.17,3.2,POINT (54.6500015 58.9832993),1925,1988,164,NSIDC User Services,81
+tsp.1637,Russia,Perm,Nozhovka,No permafrost,54.75,57.0833,156.07,3.2,POINT (54.75 57.0833015),1926,1990,164,NSIDC User Services,81
+tsp.1638,Russia,Khanty-Mansiy,Saranpaul,Discontinuous,60.8833,64.2833,187.39,3.2,POINT (60.8833008 64.2833023),1932,1990,164,NSIDC User Services,81
+tsp.1639,Russia,Khanty-Mansiy,Berezovo,Sporadic,65.05,63.9333,18.452,3.2,POINT (65.0500031 63.9333),1936,1990,164,NSIDC User Services,81
+tsp.1640,Russia,Vologda,Velikii Ustyug,,46.3,60.7667,59.045,3.2,POINT (46.2999992 60.7667007),1931,1990,164,NSIDC User Services,81
+tsp.1641,Russia,Krasnoyarsk,Tura,Continuous,100.0667,64.1667,471.37,3.2,POINT (100.0667038 64.1667023),1952,1990,164,NSIDC User Services,81
+tsp.1642,Russia,Krasnoyarsk,Yartsevo,Isolated patches,90.2333,60.25,52.411,3.2,POINT (90.2332993 60.25),1952,1990,164,NSIDC User Services,81
+tsp.1643,Russia,Khanty-Mansiy,Leushi,No permafrost,65.7833,59.6167,53.185,3.2,POINT (65.7833023 59.6166992),1929,1990,164,NSIDC User Services,81
+tsp.1644,Russia,Omsk,Kalachinsk,No permafrost,74.5833,55.0333,103.55,3.2,POINT (74.5832977 55.0332985),1950,1990,164,NSIDC User Services,81
+tsp.1645,Russia,Vorkuta,Eletskaya,Sporadic,64.1667,67.1667,151,3.2,POINT (64.1667023 67.1667023),1959,1990,164,NSIDC User Services,81
+tsp.1646,Russia,Tyumen,Vikulovo,No permafrost,70.6167,56.8167,69,3.2,POINT (70.6166992 56.8167),1936,1990,164,NSIDC User Services,81
+tsp.1647,Russia,Tyumen,Tyumen,No permafrost,65.5,57.15,81.1,3.2,POINT (65.5 57.1500015),1936,1990,164,NSIDC User Services,81
+tsp.1648,Russia,Vologda,Vologda Molochnoe,No permafrost,39.8667,59.2833,117.25,3.2,POINT (39.8666992 59.2832985),1923,1990,164,NSIDC User Services,81
+tsp.1649,Russia,Omsk,Isil-Kul,No permafrost,71.2667,54.9,124,3.2,POINT (71.2667007 54.9000015),1930,1990,164,NSIDC User Services,81
+tsp.1650,Russia,Omsk,Omsk,,73.4,54.9333,88.612,3.2,POINT (73.4000015 54.9333),1933,1990,164,NSIDC User Services,81
+tsp.1651,Russia,Amur,Erofei Pavlovich,Sporadic,121.9333,53.9667,473.9,3.2,POINT (121.9332962 53.9667015),1924,1985,164,NSIDC User Services,81
+tsp.1652,Russia,Krasnoyarsk,Turukhansk,Discontinuous,87.95,65.7833,13.625,3.2,POINT (87.9499969 65.7833023),1953,1990,164,NSIDC User Services,81
+tsp.1653,Russia,Irkutsk,Irkutsk obs(grass),Sporadic,104.3,52.2833,436,3.2,POINT (104.3000031 52.2832985),1898,1990,164,NSIDC User Services,81
+tsp.1654,Russia,Irkutsk,Erbogachen,Continuous,108.0167,61.2667,301.02,3.2,POINT (108.0167007 61.2667007),1954,1990,164,NSIDC User Services,81
+tsp.1655,Russia,Krasnoyarsk,Krasnoyarsk expfield,No permafrost,92.8833,56,133.835,3.2,POINT (92.8833008 56),1916,1990,164,NSIDC User Services,81
+tsp.1656,Russia,Krasnoyarsk,Minusinsk expfield,No permafrost,91.7,53.7,244.24,3.2,POINT (91.6999969 53.7000008),1916,1990,164,NSIDC User Services,81
+tsp.1657,Russia,Krasnoyarsk,Eniseisk,No permafrost,92.15,58.45,78.018,3.2,POINT (92.1500015 58.4500008),1920,1990,164,NSIDC User Services,81
+tsp.1658,Russia,Arkhangel\'sk,Onega,No permafrost,38.1167,63.9,9.701,3.2,POINT (38.1166992 63.9000015),1952,1990,164,NSIDC User Services,81
+tsp.1659,Russia,Tomsk,Kolpashev,No permafrost,82.9,58.3,62.503,3.2,POINT (82.9000015 58.2999992),1934,1990,164,NSIDC User Services,81
+tsp.1660,Russia,Tomsk,Tomsk,No permafrost,84.9667,56.4333,74,3.2,POINT (84.9666977 56.4333),1916,1990,164,NSIDC User Services,81
+tsp.1661,Russia,Novosibirsk,Tatarsk,No permafrost,75.9667,55.2,105,3.2,POINT (75.9666977 55.2000008),1931,1990,164,NSIDC User Services,81
+tsp.1662,Russia,Novosibirsk,Barabinsk,No permafrost,78.4,55.3667,113.092,3.2,POINT (78.4000015 55.3666992),1932,1990,164,NSIDC User Services,81
+tsp.1663,Russia,Kemerovo,Taiga,No permafrost,87.6167,56.0667,166.04,3.2,POINT (87.6166992 56.0667),1930,1990,164,NSIDC User Services,81
+tsp.1664,Russia,Kemerovo,Kiselevsk (Afonino),,86.65,54.0333,272.06,3.2,POINT (86.6500015 54.0332985),1935,1990,164,NSIDC User Services,81
+tsp.1665,Russia,Novosibirsk,Slavgorod,No permafrost,78.65,53.9667,120.68,3.2,POINT (78.6500015 53.9667015),1930,1990,164,NSIDC User Services,81
+tsp.1666,Russia,Altay,Rubtsovsk,No permafrost,81.2167,51.5,216.28,3.2,POINT (81.2166977 51.5),1932,1990,164,NSIDC User Services,81
+tsp.1667,Russia,Altay,Barnaul,,83.7,53.3333,187.62,3.2,POINT (83.6999969 53.3333015),1900,1951,164,NSIDC User Services,81
+tsp.1668,Russia,Buryat,Tunka,Continuous,102.5333,51.7333,714.9,3.2,POINT (102.5333023 51.7332993),1952,1990,164,NSIDC User Services,81
+tsp.1669,Russia,Irkutsk,Shitkino,No permafrost,98.3667,56.3667,214.21,3.2,POINT (98.3666992 56.3666992),1951,1990,164,NSIDC User Services,81
+tsp.1670,Russia,Tyumen,Tobolsk aerologicheskaya,No permafrost,68.1833,58.15,242.71,3.2,POINT (68.1832962 58.1500015),1957,1990,164,NSIDC User Services,81
+tsp.1671,Russia,Buryat,Tashtyp,Continuous,99.8833,52.8,187.62,3.2,POINT (99.8833008 52.7999992),1931,1990,164,NSIDC User Services,81
+tsp.1672,Russia,Komi,Syktyvkar 1,No permafrost,50.85,61.6667,102.932,3.2,POINT (50.8499985 61.6666985),1951,1990,164,NSIDC User Services,81
+tsp.1673,Russia,Altay,Barnaul agricst,No permafrost,83.7,53.3333,523.08,3.2,POINT (83.6999969 53.3333015),1952,1990,164,NSIDC User Services,81
+tsp.1674,Russia,Irkutsk,Bayandai,Isolated patches,105.5333,53.1,692.42,3.2,POINT (105.5333023 53.0999985),1913,1990,164,NSIDC User Services,81
+tsp.1675,Russia,Komi,Ust-Unya,No permafrost,57.9167,61.8,292.4,3.2,POINT (57.9166985 61.7999992),1950,1990,164,NSIDC User Services,81
+tsp.1676,Russia,Irkutsk,Karam,Sporadic,107.5,55.3333,645.93,3.2,POINT (107.5 55.3333015),1909,1990,164,NSIDC User Services,81
+tsp.1677,Russia,Irkutsk,Zima railst,Isolated patches,102.05,53.9333,456.98,3.2,POINT (102.0500031 53.9333),1954,1990,164,NSIDC User Services,81
+tsp.1678,Russia,Yamal-Nenets,Sidorovsk,Discontinuous,82.3333,66.6667,35.288,3.2,POINT (82.3332977 66.6667023),1964,1990,164,NSIDC User Services,81
+tsp.1679,Russia,Komi,Syktyvkar 2,,50.85,61.6667,102.93,3.2,POINT (50.8499985 61.6666985),1931,1949,164,NSIDC User Services,81
+tsp.1680,Russia,Tyumen,Komsomolskaya,No permafrost,69.1667,59,75.922,3.2,POINT (69.1667023 59),1963,1965,164,NSIDC User Services,81
+tsp.1681,Russia,Krasnoyarsk,Kazachinskoe expfield,No permafrost,93.1833,57.75,131.79,3.2,POINT (93.1832962 57.75),1916,1990,164,NSIDC User Services,81
+tsp.1682,Russia,Krasnoyarsk,Solyanka,No permafrost,95.2667,56.1667,40,3.2,POINT (95.2667007 56.1666985),1931,1990,164,NSIDC User Services,81
+tsp.1683,Russia,Novosibirsk,Ogurtsovo,,83,55.0833,173.14,3.2,POINT (83 55.0833015),1958,1990,164,NSIDC User Services,81
+tsp.1684,Russia,Tomsk,Srednii Vasyugan (Vasyuganskoe),No permafrost,78.2333,59.2167,65.548,3.2,POINT (78.2332993 59.2167015),1927,1990,164,NSIDC User Services,81
+tsp.1685,Russia,Irkutsk,Khomutovo,No permafrost,104.333,52.5,453.337,3.2,POINT (104.3330002 52.5),1956,1990,164,NSIDC User Services,81
+tsp.1686,Russia,Irkutsk,Tulun agro,Isolated patches,100.633,54.6,509.98,3.2,POINT (100.6330032 54.5999985),1951,1990,164,NSIDC User Services,81
+tsp.1687,Russia,Amur,Tolstovka (Amurskaya agrexpst),No permafrost,127.916,50.1667,155.73,3.2,POINT (127.9160004 50.1666985),1951,1990,164,NSIDC User Services,81
+tsp.1688,Russia,Khabarovsk,Khabarovsk,,135.166,48.5167,63.974,3.2,POINT (135.1660004 48.5167007),1913,1965,164,NSIDC User Services,81
+tsp.1689,Russia,Khabarovsk,Vyazemskaya,No permafrost,134.8167,47.55,83.62,3.2,POINT (134.8166962 47.5499992),1941,1990,164,NSIDC User Services,81
+tsp.1690,Russia,Khabarovsk,Poliny Osipenko,Sporadic,136.5,52.4167,69.922,3.2,POINT (136.5 52.4166985),1913,1990,164,NSIDC User Services,81
+tsp.1691,Russia,Amur,Dambuki,Continuous,127.6333,54.3333,332.83,3.2,POINT (127.6333008 54.3333015),1912,1965,164,NSIDC User Services,81
+tsp.1692,Russia,Amur,Pikan,Sporadic,127.2333,53.7167,224.65,3.2,POINT (127.2332993 53.7167015),1915,1965,164,NSIDC User Services,81
+tsp.1693,Russia,Khabarovsk,Komsomolsk-na-Amure,Sporadic,137.0333,51.0833,39.755,3.2,POINT (137.0332947 51.0833015),1935,1990,164,NSIDC User Services,81
+tsp.1694,Russia,Khabarovsk,Bikin,No permafrost,134.2667,46.8,64.369,3.2,POINT (134.2666931 46.7999992),1913,1990,164,NSIDC User Services,81
+tsp.1695,Russia,Irkutsk,Irkutsk obs (bare soil),Sporadic,104.3,52.2833,334.23,3.2,POINT (104.3000031 52.2832985),1891,1970,164,NSIDC User Services,81
+tsp.1696,Russia,Amur,Bomnak,Discontinuous,128.9333,54.7167,436,3.2,POINT (128.9333038 54.7167015),1909,1990,164,NSIDC User Services,81
+tsp.1697,Russia,Kurgan,Makushino,No permafrost,67.3,55.25,134.48,3.2,POINT (67.3000031 55.25),1930,1990,164,NSIDC User Services,81
+tsp.1698,Russia,Komi,Troitsko-Pechorskoe,No permafrost,56.2,62.7,107,3.2,POINT (56.2000008 62.7000008),1953,1990,164,NSIDC User Services,81
+tsp.1699,Russia,Komi,Ust-Tsilma,No permafrost,52.1667,65.45,161.46,3.2,POINT (52.1666985 65.4499969),1951,1990,164,NSIDC User Services,81
+tsp.1700,Russia,Arkhangel\'sk,Konosha,No permafrost,40.1667,61,218.85,3.2,POINT (40.1666985 61),1951,1990,164,NSIDC User Services,81
+tsp.1701,Russia,Vorkuta,Khoseda-Khard,Discontinuous,59.3833,67.0833,135.41,3.2,POINT (59.3833008 67.0832977),1953,1990,164,NSIDC User Services,81
+tsp.1702,Russia,Khakass,Khakasskaya,,91.3333,53.8333,256.23,3.2,POINT (91.3332977 53.8333015),1940,1990,164,NSIDC User Services,81
+tsp.1703,Russia,Tuva,Kyzyl,,94.5,51.6667,697.38,3.2,POINT (94.5 51.6666985),1951,1990,164,NSIDC User Services,81
+tsp.1704,Russia,Krasnoyarsk,Boguchany,Isolated patches,97.4,58.4167,133.912,3.2,POINT (97.4000015 58.4166985),1952,1990,164,NSIDC User Services,81
+tsp.1705,Russia,Altay,Rodino,No permafrost,80.2,52.5,12.577,3.2,POINT (80.1999969 52.5),1950,1990,164,NSIDC User Services,81
+tsp.1706,Russia,Khabarovsk,Sovetskaya Gavan,No permafrost,140.2833,48.9667,54.024,3.2,POINT (140.2832947 48.9667015),1936,1965,164,NSIDC User Services,81
+tsp.1707,Russia,Gorno-Altay,Kosh-Agach,Discontinuous,88.6833,50.0167,763.76,3.2,POINT (88.6832962 50.0167007),1935,1990,164,NSIDC User Services,81
+tsp.1708,Russia,Chukotka,Dionisiy-22,Continuous,177.4185,64.5926,45.065,20,POINT (177.4185 64.59263),1987,2016,81,Mikail Zheleznyak,45
+tsp.1710,Russia,Chukotka,Dionisiy-111(2),Continuous,177.3997,64.6033,45.8005,20,POINT (177.39974 64.60325),1987,2017,81,Mikail Zheleznyak,45
+tsp.1711,Switzerland,Jungfraujoch,JFJ_0195,Mountain,7.9732,46.5461,3599.8894,21,POINT (7.973192 46.54611),2009,2015,13,Marcia Phillips,2
+tsp.1712,Switzerland,Lapires,LAP_1108,Mountain,7.2847,46.1062,2500,40,POINT (7.284724 46.106225),2009,2015,94,Reynald Delaloye,51
+tsp.1713,Switzerland,Lapires,LAP_1208,Mountain,7.2838,46.1056,2535,35,POINT (7.283808 46.105639),2009,2015,94,Reynald Delaloye,51
+tsp.1714,Switzerland,Muragl,MUR_0299,Mountain,9.9273,46.5072,2538.5,64,POINT (9.927338 46.507228),2000,2014,95,Sarah Springman,50
+tsp.1715,Switzerland,Muragl,MUR_0499,Mountain,9.9277,46.5072,2549.2,71,POINT (9.927703 46.507229),2000,2014,95,Sarah Springman,50
+tsp.1716,Antarctica,Palmer,Amsler,Discontinuous,-64.0743,-64.7615,67,14,POINT (-64.07425 -64.761533),,,29,Gonçalo Vieira,15
+tsp.1717,Antarctica,Cierva Cove,Cierva Cove - Main,Discontinuous,-60.9509,-64.162,187,15,POINT (-60.950933 -64.16195),,,29,Gonçalo Vieira,15
+tsp.1718,Antarctica,Deception Island,Refugio Chileno,Discontinuous,-60.6003,-62.9447,10.2521,1.5,POINT (-60.600282 -62.94465),,,29,Gonçalo Vieira,15
+tsp.1719,Antarctica,Deception Island,Base Argentina - Abanico,Discontinuous,-60.7012,-62.9801,10,1.5,POINT (-60.701225 -62.980052),,,29,Gonçalo Vieira,15
+tsp.1720,Spain,Sierra Nevada,Albergue,Mountain,-3.2311,37.0542,2510,0.8,POINT (-3.2311 37.0542),,,89,Ferran Salvador-Franch,47
+tsp.1721,Russia,Tiksi,Buor Khaya,Continuous,132.1106,71.4203,25,18,POINT (132.11056 71.42028),,,85,Paul Overduin,42
+tsp.1722,Spain,Sierra Nevada,San Juan,Mountain,-3.22,37.04,2864,1,POINT (-3.22 37.04),,,178,Marc Olivia,47
+tsp.1723,Spain,Sierra Nevada,Rio Seco,Mountain,-3.21,37.01,3005,1,POINT (-3.21 37.01),,,178,Marc Olivia,47
+tsp.1724,Canada,Yukon,"Palsa 9, Wolf Creek",Sporadic,-135.2192,60.5008,1242,4.75,POINT (-135.219177 60.50082),,,41,Antoni Lewkowicz,25
+tsp.1725,Canada,Yukon,"Palsa 12, Wolf Creek",Sporadic,-135.2176,60.5014,1242,5.9,POINT (-135.217562 60.501446),,,41,Antoni Lewkowicz,25
+tsp.1726,Canada,Yukon,"Palsa, Beaver Creek",Sporadic,-140.8611,62.4978,619,7.5,POINT (-140.861102 62.497819),,,41,Antoni Lewkowicz,25
+tsp.1727,Spain,Pyrenees,Calmquerdos,Mountain,1.4634,42.2858,2730,0.5,POINT (1.4634 42.2858),,,89,Ferran Salvador-Franch,47
+tsp.1728,Canada,Yukon,Mt Granger,Sporadic,-135.2556,60.5359,2083,1.6,POINT (-135.255604 60.535867),,,41,Antoni Lewkowicz,25
+tsp.1729,Canada,Yukon,MP788,Sporadic,-132.3682,60.0911,772,3.75,POINT (-132.368198 60.091123),,,41,Antoni Lewkowicz,25
+tsp.1730,Canada,Yukon,MP681,Sporadic,-132.8995,60.1882,848,5.14,POINT (-132.89951 60.18825),,,41,Antoni Lewkowicz,25
+tsp.1731,Spain,Sierra Nevada,Collado Machos,Mountain,-3.2135,37.0323,3297,0.5,POINT (-3.2135 37.0323),,,89,Ferran Salvador-Franch,47
+tsp.1732,Canada,Yukon,MP178,Sporadic,-122.8655,57.4256,1115,6,POINT (-122.865455 57.425574),,,41,Antoni Lewkowicz,25
+tsp.1733,Spain,Pyrenees,La Feixa,Mountain,1.4906,42.2735,2160,0.5,POINT (1.4906 42.2735),,,89,Ferran Salvador-Franch,47
+tsp.1734,Spain,Pyrenees,Malniu,Mountain,1.4643,42.2757,2230,0.5,POINT (1.4643 42.2757),,,89,Ferran Salvador-Franch,47
+tsp.1735,Switzerland,Mont Fort,Mont Fort 01-14,Mountain,7.3184,46.0804,3310,20,POINT (7.3184 46.0804),,,93,Christophe Lambiel,49
+tsp.1736,Antarctica,Progress station,"Larseman Hills, LARSBUR6",Unknown,76.3757,-69.3869,46,15,POINT (76.37567 -69.386948),,,31,Andrey Abramov,14
+tsp.1737,Antarctica,Byers Peninsula - Livingston Island,"Byers Peninsula, Escondido. Livingston Island",Unknown,-61.0601,-62.6298,92,0.8,POINT (-61.06013 -62.62981),,,178,Marc Olivia,47
+tsp.1738,Antarctica,Byers Peninsula - Livingston Island,"Byers Peninsula, Cerro Negro. Livingston Island",Unknown,-61.0555,-62.6499,100,0.8,POINT (-61.05555 -62.64992),,,178,Marc Olivia,47
+tsp.1739,Antarctica,Byers Peninsula - Livingston Island,"Byers Peninsula, Domo. Livingston Island",,-60.9758,-62.6215,45,0.8,POINT (-60.97582 -62.62153),,,178,Marc Olivia,47
+tsp.1740,Canada,Stone Mountains,MP-178,Sporadic,-122.8659,57.4256,1113,1.5,POINT (-122.8659 57.4256),,,39,Sharon Smith,8
+tsp.1741,Canada,Yukon,MP-681.1,Discontinuous,-129.8989,60.1887,847,1.5,POINT (-129.8989 60.1887),,,39,Sharon Smith,8
+tsp.1742,Canada,Yukon,MP-825.2,Discontinuous,-133.1084,60.37,721.8356,4,POINT (-133.1084 60.37),,,39,Sharon Smith,8
+tsp.1743,Canada,Yukon,03TC1,Discontinuous,-133.7943,68.4151,3,6,POINT (-133.7943 68.41508),,,39,Sharon Smith,8
+tsp.1744,Canada,Yukon,01TC1,Continuous,-133.762,68.4009,18.9364,8,POINT (-133.762 68.4009),,,39,Sharon Smith,8
+tsp.1745,Canada,Yukon,01TC2,Continuous,-133.4355,68.316,95,10,POINT (-133.4355 68.316),,,39,Sharon Smith,8
+tsp.1746,Canada,Yukon,99TC3,Discontinuous,-121.3438,61.657,181.9496,4,POINT (-121.3438 61.657),,,39,Sharon Smith,8
+tsp.1747,Canada,Mackenzie River,99TC4,Discontinuous,-122.6032,62.2753,280.6835,2.9,POINT (-122.6032 62.27526),,,39,Sharon Smith,8
+tsp.1748,Russia,Novyi Urengoy,Urengoy 15-03,Continuous,76.6922,67.474,7,10,POINT (76.6922 67.474),,,75,Dmitry S. Drozdov,43
+tsp.1749,Canada,Yukon,AH2013-T1,Sporadic,-137.2782,60.8402,680,5,POINT (-137.2782222 60.84016667),,,39,Sharon Smith,8
+tsp.1750,Canada,Yukon,AH2013-T2,Sporadic,-138.7625,61.2321,849.9309,9.7,POINT (-138.7624722 61.23213889),,,39,Sharon Smith,8
+tsp.1751,Canada,Yukon,AH2013-T3,Sporadic,-138.8469,61.273,822,1.9,POINT (-138.8468611 61.27302778),,,39,Sharon Smith,8
+tsp.1752,Canada,Yukon,AH2013-T4,Sporadic,-139.4683,61.5952,761,4.4,POINT (-139.4683056 61.59522222),,,39,Sharon Smith,8
+tsp.1753,Canada,Yukon,AH2013-T5,Sporadic,-139.4773,61.5977,765,5,POINT (-139.4773333 61.59766667),,,39,Sharon Smith,8
+tsp.1754,Canada,Yukon,AH2013-T6,Sporadic,-140.4516,61.9697,704.5073,3.8,POINT (-140.4516389 61.96966667),,,39,Sharon Smith,8
+tsp.1755,Canada,Yukon,AH2013-T7,Sporadic,-140.8329,62.3402,701,6,POINT (-140.8328611 62.34025),,,39,Sharon Smith,8
+tsp.1756,Canada,Yukon,AH2013-T8,Sporadic,-140.9744,62.5543,595,9.9,POINT (-140.9744444 62.55427778),,,39,Sharon Smith,8
+tsp.1757,Canada,Yukon,R1 (AK highway),Sporadic,-135.9449,60.799,681,6.5,POINT (-135.9449 60.799),,,39,Sharon Smith,8
+tsp.1758,Canada,Yukon,R2 (AK highway),Sporadic,-137.8739,60.9124,862.3191,8.8,POINT (-137.8739 60.9124),,,39,Sharon Smith,8
+tsp.1759,Canada,Yukon,R3 (AK highway),Sporadic,-138.7805,61.2366,853,6.6,POINT (-138.7805 61.2366),,,39,Sharon Smith,8
+tsp.1760,Canada,Yukon,R5 (AK highway),Sporadic,-138.8403,61.2662,831.886,8,POINT (-138.8403 61.2662),,,39,Sharon Smith,8
+tsp.1761,Canada,Yukon,R6 (AK highway),Sporadic,-139.3233,61.5052,790,5.2,POINT (-139.3233 61.5052),,,39,Sharon Smith,8
+tsp.1762,Canada,Yukon,R7 (AK highway),Sporadic,-139.8403,61.7145,787.2441,4.5,POINT (-139.8403 61.7145),,,39,Sharon Smith,8
+tsp.1763,Canada,Yukon,R8 (AK highway),Sporadic,-140.7674,62.2905,759.537,7.2,POINT (-140.7674 62.2905),,,39,Sharon Smith,8
+tsp.1764,Canada,Yukon,H1 (AK highway),Sporadic,-139.8428,61.715,783.5341,1.8,POINT (-139.8428 61.715),,,39,Sharon Smith,8
+tsp.1765,Canada,Yukon,H2 (AK highway),Sporadic,-139.73,61.6744,701,2,POINT (-139.73 61.6744),,,39,Sharon Smith,8
+tsp.1766,Canada,Yukon,H3 (AK highway),Sporadic,-139.4628,61.5936,758,2.4,POINT (-139.4628 61.5936),,,39,Sharon Smith,8
+tsp.1767,Canada,Mackenzie Delta,Big Lake 1,Continuous,-134.963,69.3885,10.3369,10,POINT (-134.9629908 69.388472),,,39,Sharon Smith,8
+tsp.1768,Canada,Mackenzie Delta,Big Lake 2,Continuous,-134.9703,69.3876,7.3622,10,POINT (-134.9702716 69.387604),,,39,Sharon Smith,8
+tsp.1769,Canada,Eureka,Eureka EUK 4,Continuous,-85.9,79.9964,46.8926,10,POINT (-85.9 79.99638889),2009,2014,39,Sharon Smith,8
+tsp.1770,United States,Fairbanks,UAF campus,Discontinuous,-147.8438,64.8641,164.8505,9,POINT (-147.84381 64.864103),,,79,Alexander L. Kholodov,5
+tsp.1771,United States,Fairbanks,11 mile,Discontinuous,-148.9155,65.5622,332.7963,11,POINT (-148.915544 65.562234),,,79,Alexander L. Kholodov,5
+tsp.1772,Russia,Cherskii,1_12,Continuous,161.3838,68.7448,67.3082,15,POINT (161.383834 68.744825),,,79,Alexander L. Kholodov,5
+tsp.1773,Russia,Cherskii,2_12,Continuous,161.4993,68.5133,3.4037,13,POINT (161.499304 68.513267),,,79,Alexander L. Kholodov,5
+tsp.1774,Russia,Cherskii,1_13,Continuous,161.4935,68.5116,7.3899,15,POINT (161.493507 68.511583),,,79,Alexander L. Kholodov,5
+tsp.1775,Russia,Cherskii,2_13,Continuous,161.3881,68.7462,67.6936,15,POINT (161.388074 68.746207),,,79,Alexander L. Kholodov,5
+tsp.1776,Russia,Cherskii,3_13,Continuous,161.3498,68.6134,4.5089,22,POINT (161.349778 68.613395),,,79,Alexander L. Kholodov,5
+tsp.1777,Russia,Vaskiny Dachy,CALM_10_m,Continuous,68.8913,70.2811,54,10,POINT (68.89133333 70.2811111),,,124,Artem Khomutov,43
+tsp.1778,Russia,Vaskiny Dachy,AGG2,Continuous,68.93,70.2929,54,0.8,POINT (68.93 70.292944),,,124,Artem Khomutov,43
+tsp.1779,China,Qinghai,K445,Mountain,98.5542,34.9658,4282,20,POINT (98.55425 34.965806),,,179,Dongliang Luo,24
+tsp.1780,China,Qinghai,QSH-1,Mountain,97.1515,33.7821,4413,42,POINT (97.1515 33.7821),,,179,Dongliang Luo,24
+tsp.1781,China,Qinghai,QSH-3,Mountain,97.1653,33.74,4403,40,POINT (97.1653 33.74),,,179,Dongliang Luo,24
+tsp.1782,China,Qinghai,QSH-2,Mountain,97.1653,33.74,4396,24,POINT (97.165333 33.740017),,,179,Dongliang Luo,24
+tsp.1783,China,Qinghai,K634-1,Mountain,97.3798,33.9781,4530.1948,20,POINT (97.379783 33.9781),,,179,Dongliang Luo,24
+tsp.1784,China,Qinghai,K634-2,Mountain,97.3846,33.9795,4536.938,20,POINT (97.38455 33.979533),,,179,Dongliang Luo,24
+tsp.1785,China,Qinghai,CLQ-1,Mountain,97.5638,34.0426,4634.0649,20,POINT (97.563833 34.042633),,,179,Dongliang Luo,24
+tsp.1786,China,Qinghai,CLQ-2,Mountain,97.5676,34.0359,4614.6235,20,POINT (97.567592 34.035869),,,179,Dongliang Luo,24
+tsp.1787,China,Qinghai,BSKN,Mountain,97.6452,34.1065,4744,20,POINT (97.645233 34.1065),,,179,Dongliang Luo,24
+tsp.1788,China,Qinghai,BSK,Mountain,97.6551,34.1287,4833,30,POINT (97.655117 34.128733),,,179,Dongliang Luo,24
+tsp.1789,China,Qinghai,MDB,Mountain,98.5542,34.9658,4282,20,POINT (98.55425 34.965806),,,179,Dongliang Luo,24
+tsp.1790,China,Qinghai,CLP-1,Mountain,97.8479,34.2579,4712.7432,20,POINT (97.847933 34.257933),,,179,Dongliang Luo,24
+tsp.1791,China,Qinghai,CLP-2,Mountain,97.8496,34.2563,4719.5254,100,POINT (97.849586 34.256286),,,179,Dongliang Luo,24
+tsp.1792,China,Qinghai,XXH-1,Sporadic,98.0346,34.6473,4221,20,POINT (98.0346 34.647317),,,179,Dongliang Luo,24
+tsp.1793,China,Qinghai,CLP-3,Mountain,97.8667,34.2706,4666.2266,20,POINT (97.866667 34.270639),,,179,Dongliang Luo,24
+tsp.1794,China,Qinghai,YNG-3,Mountain,97.9747,34.4962,4324,29,POINT (97.974667 34.49622),,,179,Dongliang Luo,24
+tsp.1795,China,Qinghai,CLP-4,Mountain,97.9037,34.3148,4564,20,POINT (97.903667 34.3148),,,179,Dongliang Luo,24
+tsp.1796,China,Qinghai,YNG-2,Mountain,97.9396,34.4403,4395,20,POINT (97.939611 34.440333),,,75,Dmitry S. Drozdov,43
+tsp.1797,China,Qinghai,YNG-1,Mountain,97.9546,34.4013,4446.7764,20,POINT (97.954639 34.401306),,,179,Dongliang Luo,24
+tsp.1798,Germany,Zugspitze,Zugspitze tunnel,Mountain,10.9802,47.4186,2785,50,POINT (10.980181 47.418644),,,162,Michael Krautblatter,
+tsp.1799,Antarctica,Deception Island,Crater Lake 4. Deception Island,Continuous,-60.6667,-62.9833,70.7674,2.7,POINT (-60.66667 -62.98333),,,28,Miguel Ramos,13
+tsp.1800,Canada,Quebec,AKUL162,Continuous,-78.155,60.8174,6.7292,5,POINT (-78.15498 60.81738),,,40,Michel Allard,23
+tsp.1801,France,Cime Caron,Cime Caron,Mountain,6.5601,45.2634,3195,10,POINT (6.56008461 45.26340722),2014,2016,174,Florence Magnin,83
+tsp.1802,United States,Buckland,Kugurak Cabin Tundra,Continuous,-159.0034,66.5621,7.0938,1.5,POINT (-159.003357 66.562135),,,10,Vladimir E. Romanovsky,5
+tsp.1803,United States,Kougarok,Pilgrim Hot Springs,Continuous,-164.8952,65.0854,10.7089,3,POINT (-164.895231 65.085409),,,10,Vladimir E. Romanovsky,5
+tsp.1804,United States,Buckland,Selawik Thaw Slump Tussock Meadow,Continuous,-157.6074,66.5012,150.9413,3,POINT (-157.60744 66.501157),,,10,Vladimir E. Romanovsky,5
+tsp.1805,United States,Ivotuk,Ivotuk 4 Moss,Continuous,-155.7437,68.4803,582.5366,1,POINT (-155.743743 68.480261),,,10,Vladimir E. Romanovsky,5
+tsp.1806,Canada,Pond Inlet,Bylot Polygones bombés (BPB),Continuous,-79.9855,73.1563,31.9253,3,POINT (-79.9855 73.15633),,,40,Michel Allard,23
+tsp.1807,Canada,Iqaluit,IQA-DDH-02-TC (IQAV2TC),Continuous,-68.5464,63.7542,29.89,16,POINT (-68.54641 63.75422),,,40,Michel Allard,23
+tsp.1808,Canada,Iqaluit,IQA-DDH-03-TC (IQAV3TC),Continuous,-68.5218,63.747,66.5268,14.97,POINT (-68.52181 63.74699),,,40,Michel Allard,23
+tsp.1809,Canada,Iqaluit,IQA-DDH-04-TC (IQAV4TC),Continuous,-68.5517,63.7479,66.5268,3.5,POINT (-68.55169 63.74789),,,40,Michel Allard,23
+tsp.1810,Canada,Quebec,"Kangiqsualujjuaq, Creep site (KANGCRE)",Continuous,-65.9385,58.6944,9.222,20,POINT (-65.93853 58.69442),,,40,Michel Allard,23
+tsp.1811,Canada,Nunavut,PANG-DDH-01_TC (PAN01TC),Continuous,-65.6881,66.1505,2.2126,16.5,POINT (-65.68809 66.1505),,,40,Michel Allard,23
+tsp.1812,Canada,Nunavut,PANG-DDH-02-TC (PAN02TC),Continuous,-65.6707,66.1552,6.063,16.5,POINT (-65.67072 66.15515),,,40,Michel Allard,23
+tsp.1813,Canada,Quebec,"Puvirnituq, Réference (PUVIREF)",Continuous,-77.287,60.0567,21,3.75,POINT (-77.28697 60.0567),,,40,Michel Allard,23
+tsp.1814,Canada,Quebec,Blanc- Sablon (BLSB267),Sporadic,-57.1535,51.4999,60.1633,10,POINT (-57.15352 51.49993),,,40,Michel Allard,23
+tsp.1815,Canada,Quebec,"Grands-Jardins, Lac des Cygnes (LACYGNE)",Mountain,-70.6025,47.6808,949.2644,2.6,POINT (-70.6025 47.68084),,,40,Michel Allard,23
+tsp.1816,Canada,Quebec,Kuujjuarapik (KJRAPIK),Sporadic,-77.7463,55.2764,18.2916,0.6,POINT (-77.74625 55.27644),,,40,Michel Allard,23
+tsp.1817,Canada,Quebec,Lac Bush,Continuous,-75.9106,57.9557,180.2057,1,POINT (-75.91058 57.95569),,,40,Michel Allard,23
+tsp.1818,Canada,Quebec,"Rivière Boniface, Forêt (BONFORE)",Continuous,-76.0845,57.7282,136.5012,1.5,POINT (-76.08452 57.72818),,,40,Michel Allard,23
+tsp.1819,Canada,Quebec,"Rivière Boniface, Forêt - Station SILA (BONFSIL)",Continuous,-76.087,57.7269,132.4252,0.2,POINT (-76.08697 57.72686),,,40,Michel Allard,23
+tsp.1820,Canada,Quebec,"Rivière Boniface, Toundra - Station SILA (BONTSIL)",Continuous,-76.0786,57.7313,130.7482,1,POINT (-76.07858 57.73131),,,40,Michel Allard,23
+tsp.1821,Canada,Quebec,Salluit SILA (SALTSIL),Continuous,-75.6359,62.1921,46.9592,9,POINT (-75.63592 62.1921),,,40,Michel Allard,23
+tsp.1822,Canada,Quebec,Bylot Lac aux Goélands (BYLGOEL),Continuous,-80.004,73.1505,24.2443,0.3,POINT (-80.00403 73.15047),,,40,Michel Allard,23
+tsp.1823,Canada,Ellesmere Island,Ellesmere Ward Hunt B (WARDHIB),Continuous,-74.1328,83.0914,2.768,2.2,POINT (-74.13278 83.09139),,,40,Michel Allard,23
+tsp.1824,Canada,Ellesmere Island,Ellesmere Lac A (ELLLACA),Continuous,-75.3896,83.0023,19.5684,0.2,POINT (-75.38961 83.00228),,,40,Michel Allard,23
+tsp.1825,Canada,Nunavut,PANG-SDH-06-TC (PAN06TC),Continuous,-65.7071,66.1447,18.7947,3.17,POINT (-65.70708 66.14468),,,40,Michel Allard,23
+tsp.1826,Canada,Nunavut,PANG-SDH-14-TC (PAN14TC),Continuous,-65.7207,66.1442,28.9268,2.71,POINT (-65.72065 66.14418),,,40,Michel Allard,23
+tsp.1827,Russia,Bolvansky,Shapkina 04,Continuous,55.1568,67.5777,93.0151,20,POINT (55.15685 67.57765),2014,2015,78,Galina Malkova,43
+tsp.1828,Russia,Bolvansky,Shapkina 08,Continuous,55.1453,67.5772,94.4306,12,POINT (55.1453 67.5772),2014,2016,78,Galina Malkova,43
+tsp.1829,Russia,Bolvansky,Kashin 01k,Continuous,53.8528,68.2433,3.1697,6,POINT (53.852751 68.243347),2010,2016,78,Galina Malkova,43
+tsp.1830,Russia,Bolvansky,Shapkina 09,Continuous,55.1331,67.5767,94.3237,20,POINT (55.133054 67.576672),2014,2016,78,Galina Malkova,43
+tsp.1831,Russia,Bolvansky,Shapkina 12,Continuous,55.1228,67.5764,87.953,12,POINT (55.122779 67.576391),2014,2016,78,Galina Malkova,43
+tsp.1832,Russia,Bolvansky,Kashin 02k,Continuous,53.8633,68.2472,1,10,POINT (53.863334 68.247223),2012,2016,78,Galina Malkova,43
+tsp.1833,Russia,Marre Sale,Marre Sale 6,Unknown,66.8125,69.7164,0,10,POINT (66.8125 69.7164),2015,2016,103,Alexander A. Vasiliev,43
+tsp.1834,Antarctica,James Ross Island,Johann Gregor Mendel station,Continuous,-57.8829,-63.8013,10,2,POINT (-57.88289738 -63.8012963),,,180,Filip Hrbacek,82
+tsp.1835,Russia,Chara,Belenkiy-3,Continuous,118.1897,56.7608,726.5666,0.65,POINT (118.1897 56.76078),2015,2017,14,Dmitry Sergueev,7
+tsp.1836,France,Grands Montets,GM_S,Discontinuous,6.9602,45.9477,3242,17,POINT (6.960183 45.9477),2017,2018,174,Florence Magnin,83

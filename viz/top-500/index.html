@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"> 	</script>
+  <script src="countries.js"></script>
+  <style>
+    body { margin:0;position:fixed;top:0;right:0;bottom:0;left:0; }
+  </style>
+</head>
+
+<body>
+  <div style="width:75%; margin: 1em auto">
+		<canvas id="chart" width="900" height="600"></canvas>
+	</div>
+  <script>
+
+    var colorScale = d3.scaleOrdinal(d3.schemeCategory20)
+    var months = { 5 : "May", 10 : "Oct"}
+
+    // map keys
+    var quarters = chartData
+    		.filter(d => d.List.getFullYear() > 2005)
+    		.map(d => months[d["List"].getMonth()]+" "+ d["List"].getFullYear())
+
+//     console.log(quarters)
+
+
+    // remove useless names in counties list
+
+    var europe = ["United Kingdom", "Italy", "France", "Sweden", "Germany", "Spain"]
+
+    var countries = Object.keys(chartData[0])
+    	.filter(country =>  country != "List")
+
+    var data = {}
+
+    countries
+      .filter(d=> europe.indexOf(d)===-1) // not in Europe
+      .forEach(country => data[country] = [])
+
+    data["Europe"] = []
+
+    chartData
+      .filter(d => d.List.getFullYear() > 2005)
+      .forEach(d => {
+        var point = 0;
+      	countries.forEach( country => {
+
+          if (europe.indexOf(country)>-1 ) {
+            point = point + d[country]
+          } else {
+           	data[country].push(d[country])
+          }
+        })
+        data["Europe"].push(point)
+      })
+
+    var sortedCountries = [ "Others", "China", "Japan", "Korea, South", "India", "United States", "Canada",  "Russia", "Switzerland",  "Europe"].reverse()
+
+    // var frenchCountries = {
+    //   "Canada"  : "Canada" ,
+    //   "India" : "Inde",
+    //   "Japan" : "Japon",
+    //   "Korea, South" : "Corée du Sud",
+    //   "United States" : "USA",
+    //   "China" : "Chine",
+    //   "Others" : "Autres",
+    //   "Switzerland" : "Suisse",
+    //   "Russia" : "Russie",
+    //   "Europe" : "Europe"
+    //   }
+
+    // map values
+    var datasets = sortedCountries
+    	.map(country => {
+        return {
+          fill: true,
+          label : country, // frenchCountries[country],
+          data : data[country].map(d => d/1000000),
+          borderColor : colorScale(country),
+          backgroundColor : colorScale(country)
+          }
+       })
+
+    //       console.log(quarters)
+    console.log(datasets.map(d=> d.data.length))
+
+
+    var config = {
+      type: 'line',
+      data: {
+        labels : quarters,
+        datasets : datasets
+      },
+      options: {
+        responsive: true,
+        title:{
+          display:false,
+          text:"Theoretical computation capacity (exaFLOPS)"
+        },
+        elements: { point: { radius: 1 } },
+        tooltips: {
+          mode: 'index',
+          //             callbacks: {
+          //             label: (tooltipItem, data) =>  tooltipItem.yLabel+"%";
+          // 		        }
+        },
+        scales: {
+          xAxes: [{
+            scaleLabel: {
+              display: false,
+              labelString: 'Quarters'
+            }
+          }],
+          yAxes: [{
+            stacked: true,
+            scaleLabel: {
+              display: true,
+              labelString: 'Theoretical computation capacity (exaFLOPS)'
+            },
+            ticks: {
+              beginAtZero: true,
+              //                 steps: 10,
+              //                 stepValue: 5,
+              //                 max: 100
+            }
+          }]
+        },
+        animation: {
+          duration: 750,
+        },
+      }
+    }
+
+
+    var chart = new Chart(document.getElementById("chart"), config);
+
+
+  </script>
+</body>

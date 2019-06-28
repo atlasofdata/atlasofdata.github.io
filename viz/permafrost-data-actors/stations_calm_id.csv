@@ -1,0 +1,253 @@
+FID,country_name,site_name,type,activelayer_name,permafrost_zone,data_start,data_end,longitude,latitude,geom_ref,responsible_person,responsible_person_name,id_orga
+calm.1,United States,Happy Valley,Grid,Happy Valley 1km,Continuous,1995,2017,-148.4982,69.1,POINT (-148.498186 69.100007),12,Nikolay Shiklomanov,4
+calm.2,United States,Barrow,Grid,Barrow,Continuous,1995,2017,-156.604,71.3168,POINT (-156.604036 71.316807),12,Nikolay Shiklomanov,4
+calm.5,United States,Atqasuk,Grid,Atqasuk,Continuous,1995,2017,-157.4047,70.4509,POINT (-157.404665 70.450882),12,Nikolay Shiklomanov,4
+calm.6,United States,Betty Pingo,Grid,Betty Pingo,Continuous,1995,2016,-148.8669,70.2848,POINT (-148.866914 70.284779),12,Nikolay Shiklomanov,4
+calm.7,United States,Kougarok,Grid,Kougarok,Discontinuous,1999,2015,-164.627,65.4556,POINT (-164.627033 65.455633),12,Nikolay Shiklomanov,4
+calm.9,United States,West Dock,Grid,West Dock 1km,Continuous,1995,2017,-148.565,70.3678,POINT (-148.564962 70.367769),12,Nikolay Shiklomanov,4
+calm.11,United States,Old Man,Grid,Old Man,Discontinuous,1996,2017,-150.6167,66.45,POINT (-150.616667 66.45),10,Vladimir E. Romanovsky,5
+calm.12,United States,Wickersham,Transect,Wickersham,Discontinuous,1972,2015,-148.05,65.2667,POINT (-148.05 65.266667),134,Brian Charlton,71
+calm.13,United States,West Dock,Grid,West Dock 1ha,Continuous,1996,2017,-148.55,70.3667,POINT (-148.55 70.366667),10,Vladimir E. Romanovsky,5
+calm.14,United States,Dead Horse,Grid,Deadhorse,Continuous,1996,2017,-148.4667,70.1667,POINT (-148.466667 70.166667),10,Vladimir E. Romanovsky,5
+calm.15,United States,Franklin Bluff,Grid,Franklin Bluff,Continuous,1996,2017,-148.7167,69.6833,POINT (-148.716667 69.683333),10,Vladimir E. Romanovsky,5
+calm.16,United States,Happy Valley,Grid,Happy Valley 1ha,Continuous,1996,2017,-148.8333,69.1667,POINT (-148.833333 69.166667),10,Vladimir E. Romanovsky,5
+calm.17,United States,Imnavait,Grid,Imnavait 1km,Continuous,1995,2017,-149.5,68.5,POINT (-149.5 68.5),12,Nikolay Shiklomanov,4
+calm.18,United States,Toolik Lake,Grid,Toolik 1km,Continuous,1995,2017,-149.6,68.6167,POINT (-149.6 68.616667),12,Nikolay Shiklomanov,4
+calm.19,United States,Galbraith Lake   ,Grid,Galbraith Lake,Continuous,1996,2017,-149.5,68.4833,POINT (-149.5 68.483333),10,Vladimir E. Romanovsky,5
+calm.20,United States,Chandalar Shelf,Grid,Chandalar Shelf,Continuous,1996,2017,-149.5833,68.0667,POINT (-149.583333 68.066667),10,Vladimir E. Romanovsky,5
+calm.21,United States,Ivotuk,Grid,Ivotuk,Continuous,2000,2014,-155.7351,68.48,POINT (-155.735086 68.48),12,Nikolay Shiklomanov,4
+calm.22,United States,Council,Grid,Council,Discontinuous,1999,2015,-163.7143,64.8388,POINT (-163.714283 64.838767),12,Nikolay Shiklomanov,4
+calm.23,United States,Sagwon,Grid,Sagwon Hills MNT,Continuous,1995,2015,-148.6703,69.441,POINT (-148.67033 69.441),12,Nikolay Shiklomanov,4
+calm.24,United States,Sagwon,Grid,Sagwon Hills MAT,Continuous,,,-148.8056,69.401,POINT (-148.8056 69.401),12,Nikolay Shiklomanov,4
+calm.25,Russia,Vorkuta,Grid,Ayach-Yakha,Continuous,1996,2017,64.183,67.583,POINT (64.183 67.583),119,Dmitry Kaverin,64
+calm.26,Russia,Vorkuta,Grid,Talnik,Continuous,1998,2017,63.733,67.33,POINT (63.733 67.33),116,Dmitri Zamolodchikov,63
+calm.27,Canada,Alexandria Fiord,Grid,Alexandria Fiord,Continuous,1996,2001,-75.9167,78.88,POINT (-75.91666667 78.88002308),108,Greg Henry,54
+calm.28,Canada,Mackenzie Delta,Grid,North Head (Grid),Continuous,1998,2008,-134.4619,69.7197,POINT (-134.46194444 69.71972222),11,Mark Nixon,8
+calm.29,Canada,Mackenzie Delta,Grid,Taglu (Grid),Discontinuous,1998,2008,-134.9486,69.3692,POINT (-134.94861111 69.36916667),11,Mark Nixon,8
+calm.30,Canada,Mackenzie Delta,Grid,Lousy Point (Grid),Continuous,1998,2008,-134.2911,69.2189,POINT (-134.29111111 69.21888889),11,Mark Nixon,8
+calm.31,Canada,Mackenzie Delta,Grid,Reindeer Depot (Grid),Discontinuous,2000,2008,-134.1458,68.6847,POINT (-134.14583333 68.68472222),11,Mark Nixon,8
+calm.32,Canada,Mackenzie Delta,Grid,Rengleng River (Grid),Discontinuous,1998,2008,-134.1261,67.795,POINT (-134.12611111 67.795),11,Mark Nixon,8
+calm.33,Canada,Mackenzie River,Grid,Norman Wells (Grid),Discontinuous,1998,2008,-126.4689,65.1931,POINT (-126.46888889 65.19305556),11,Mark Nixon,8
+calm.34,Canada,Mackenzie River,Grid,Willowlake River (Grid),Discontinuous,2001,2008,-123.065,62.6967,POINT (-123.065 62.69666667),11,Mark Nixon,8
+calm.35,Canada,Mackenzie River,Grid,Fort Simpson (Grid),Discontinuous,1999,2008,-121.6017,61.8878,POINT (-121.60166667 61.88777778),11,Mark Nixon,8
+calm.36,Russia,Ust-Kamchatsky,Grid,Plosky Tolbachik 1,Continuous,2003,2012,160.2896,55.7507,POINT (160.28965 55.7507),31,Andrey Abramov,14
+calm.37,Russia,Ust-Kamchatsky,Grid,Plosky Tolbachik 2,Continuous,2004,2012,160.3237,55.765,POINT (160.3237333 55.76496667),31,Andrey Abramov,14
+calm.38,Russia,Ust-Kamchatsky,Grid,Tolbachinsky Pass,Continuous,2006,2017,160.5375,55.8909,POINT (160.5375 55.89091667),31,Andrey Abramov,14
+calm.39,Switzerland,Schilthorn,Borehole,Schilthorn (PACE),Continuous,,,7.8333,46.55,POINT (7.83333333 46.55),109,Dani Vondermuhll,55
+calm.40,Switzerland,Murtèl-Corvatsch,Borehole,Murtèl-Corvatsch (PACE),Discontinuous,,,9.8333,46.4333,POINT (9.83333333 46.43333333),109,Dani Vondermuhll,55
+calm.41,Svalbard,Svalbard ,Grid,Kapp Linne,Continuous,,,13.6167,78.05,POINT (13.61666667 78.05),110,Jonas Åkerman,3
+calm.42,Sweden,Abisko,Grid,Abisko,Discontinuous,,,18.8333,68.3333,POINT (18.83333333 68.33333333),110,Jonas Åkerman,3
+calm.43,Svalbard,Svalbard ,Transect,Kafføyra P2a,Continuous,,,11.8333,78.6833,POINT (11.83333333 78.68333333),111,Marek Julian Grzes,60
+calm.44,Svalbard,Svalbard ,Transect,Kafføyra P2b,Continuous,,,11.8333,78.6833,POINT (11.83333333 78.68333333),111,Marek Julian Grzes,60
+calm.45,Svalbard,Svalbard ,Transect,Kafføyra P2c,Continuous,,,11.8333,78.6833,POINT (11.83333333 78.68333333),111,Marek Julian Grzes,60
+calm.46,Svalbard,Svalbard ,Transect,Calypsostranda,Continuous,,,14.5,77.5667,POINT (14.5 77.56666667),112,Janina Repelewska-Pekala,59
+calm.47,Svalbard,Svalbard ,Borehole,Janssonhaugen 1,Continuous,,,16.4667,78.1667,POINT (16.46666667 78.16666667),65,Ketil Isaksen,38
+calm.48,Norway,Juvvass,Borehole,Juvvasshøe,Sporadic,,,8.3667,61.6667,POINT (8.36666667 61.66666667),65,Ketil Isaksen,38
+calm.49,Svalbard,Svalbard ,Grid,UNISCALM,Continuous,2011,2015,15.75,78.2,POINT (15.75 78.2),113,Ole Humlum,41
+calm.50,Greenland,Zackenberg,Grid,Zackenberg ZEROCALM 1,Continuous,1996,2016,-20.5,74.4667,POINT (-20.5 74.46666667),66,Hanne Hvidtfeldt  Christiansen ,41
+calm.51,Greenland,Zackenberg,Grid,Zackenberg ZEROCALM 2,Continuous,1996,2016,-20.5,74.4667,POINT (-20.5 74.46666667),66,Hanne Hvidtfeldt  Christiansen ,41
+calm.52,Greenland,Disko Island,Grid,Disko Island,Continuous,,,-53.5124,69.2641,POINT (-53.51235962 69.26410521),66,Hanne Hvidtfeldt  Christiansen ,41
+calm.54,China,Greater Khingan Range,Borehole,Yutulihe; Northeast China,Sporadic,,,121.3333,50.9333,POINT (121.33333333 50.93333333),43,Lin Zhao,24
+calm.55,China,Qinghai,Borehole,Fenghuo Shan,Sporadic,,,97.8667,34.3333,POINT (97.86666667 34.33333333),43,Lin Zhao,24
+calm.56,China,Qinghai,Borehole,Ecology Station,Discontinuous,,,92.8833,34.7333,POINT (92.88333333 34.73333333),43,Lin Zhao,24
+calm.57,China,Qinghai,Borehole,Wuli,Discontinuous,,,93.6,35.4333,POINT (93.6 35.43333333),43,Lin Zhao,24
+calm.58,China,Qinghai,Borehole,Lower Two Rivers,Discontinuous,,,92.7333,34.4667,POINT (92.73333333 34.46666667),43,Lin Zhao,24
+calm.59,China,Qinghai,Borehole,Upper Two Rivers,Sporadic,,,91.7333,31.8167,POINT (91.73333333 31.81666667),43,Lin Zhao,24
+calm.60,China,Qinghai,Borehole,Kunlun Basin,Discontinuous,,,94.0667,35.6167,POINT (94.06666667 35.61666667),43,Lin Zhao,24
+calm.61,China,Tien Shan,Borehole,Glacier Station,Discontinuous,,,87.1167,43.2167,POINT (87.11666667 43.21666667),43,Lin Zhao,24
+calm.62,China,Tien Shan,Borehole,Da Xi Gou  (Glacier Station),Discontinuous,,,86.85,43.1167,POINT (86.85 43.11666667),43,Lin Zhao,24
+calm.63,China,Tien Shan,Borehole,Deep Borehole CN10,Discontinuous,,,86.85,43.1167,POINT (86.85 43.11666667),43,Lin Zhao,24
+calm.64,China,Tien Shan,Borehole,Shallow Borehole CN11,Discontinuous,,,86.8167,43.1,POINT (86.81666667 43.1),43,Lin Zhao,24
+calm.65,Russia,Chukotka,Grid,Cape Rogozny,Continuous,1994,2017,176.9667,64.7833,POINT (176.96666667 64.78333333),114,Volodya Razzhivin,61
+calm.66,Russia,Chukotka,Grid,Upper Kargoplgyno River,Continuous,1992,1994,177.0667,64.0833,POINT (177.06666667 64.08333333),115,Anatoly Kotov ,62
+calm.67,Russia,Chukotka,Grid,Mountain Dionisiya,Continuous,1996,2017,177.2,64.5667,POINT (177.2 64.56666667),114,Volodya Razzhivin,61
+calm.68,Russia,Chukotka,Grid,Lavrentiya,Continuous,2000,2017,171.05,65.6,POINT (171.05 65.6),116,Dmitri Zamolodchikov,63
+calm.69,Russia,Lorino,Grid,Lorino,Continuous,2010,2017,-171.6302,65.5397,POINT (-171.630229 65.539667),116,Dmitri Zamolodchikov,63
+calm.70,Kazakhstan,Karasay,Borehole,Northern Tien Shan K0,Discontinuous,,,76.9167,43.0833,POINT (76.91666667 43.08333333),61,Sergey Marchenko,5
+calm.71,Kazakhstan,Karasay,Borehole,Northern Tien Shan K1,Discontinuous,,,76.9167,43.0833,POINT (76.91666667 43.08333333),61,Sergey Marchenko,5
+calm.72,Kazakhstan,Karasay,Borehole,Northern Tien Shan K2,Discontinuous,,,76.9167,43.0833,POINT (76.91666667 43.08333333),61,Sergey Marchenko,5
+calm.73,Russia,Cherskii,Grid,Mt. Rodinka Control Site,Continuous,2003,2015,161.4,68.7333,POINT (161.4 68.73333333),117,Sergey Davydov,62
+calm.74,Russia,Cherskii,Grid,Mt. Rodinka Burn Site,Continuous,2003,2015,161.5333,68.7167,POINT (161.53333333 68.71666667),117,Sergey Davydov,62
+calm.75,Russia,Cherskii,Grid,Mt. Rodinka Station,Continuous,2003,2015,161.55,68.7,POINT (161.55 68.7),117,Sergey Davydov,62
+calm.76,Russia,Cherskii,Grid,Khomus1,Continuous,2005,2005,153.5833,69.9833,POINT (153.5833333 69.98333333),32,David A. Gilichinsky,14
+calm.77,Russia,Cherskii,Grid,Khomus2,Continuous,2005,2005,153.5833,69.9833,POINT (153.5833333 69.98333333),32,David A. Gilichinsky,14
+calm.78,Russia,Cherskii,Grid,Andryushkino,Continuous,2005,2017,154.4333,69.1667,POINT (154.4333333 69.16666667),32,David A. Gilichinsky,14
+calm.79,Russia,Kytalyk,Grid,Allaiha,Continuous,2004,2017,147.4315,70.5645,POINT (147.4315 70.56454),32,David A. Gilichinsky,14
+calm.80,Russia,Cherskii,Grid,Panteleekha River,Continuous,1996,1996,161.2167,68.4167,POINT (161.21666667 68.41666667),117,Sergey Davydov,62
+calm.81,Russia,Cherskii,Grid,Yakutskoe Lake,Continuous,1999,2017,159.4893,69.8537,POINT (159.4893333 69.85366667),32,David A. Gilichinsky,14
+calm.82,Russia,Cherskii,Grid,Alazeya River,Continuous,1998,2017,154.9741,69.3159,POINT (154.9741 69.31594444),32,David A. Gilichinsky,14
+calm.83,Russia,Cherskii,Grid,Lake Akhmelo,Continuous,1996,2017,161.025,68.8322,POINT (161.025 68.83216667),32,David A. Gilichinsky,14
+calm.84,Russia,Cherskii,Grid,Malchikovskaya Channel,Continuous,1996,2017,161.4307,68.5195,POINT (161.4306667 68.5195),32,David A. Gilichinsky,14
+calm.85,Russia,Cherskii,Grid,Lake Glukhoe,Continuous,1996,2017,160.9572,68.8032,POINT (160.9571667 68.80316667),32,David A. Gilichinsky,14
+calm.86,Russia,Cherskii,Grid,Mt. Rodinka GRID,Continuous,1998,2017,161.5038,68.7417,POINT (161.5038333 68.74166667),32,David A. Gilichinsky,14
+calm.87,Russia,Cherskii,Grid,Mt. Rodinka PLOT,Continuous,2003,2017,161.5,68.75,POINT (161.5 68.75),32,David A. Gilichinsky,14
+calm.88,Russia,Cherskii,Grid,Akhmelo Channel,Continuous,1996,2017,160.9922,68.814,POINT (160.9921667 68.814),32,David A. Gilichinsky,14
+calm.89,Russia,Cherskii,Grid,Segodnya Pingo,Continuous,1996,2017,158.8965,69.0881,POINT (158.8965 69.08811111),32,David A. Gilichinsky,14
+calm.90,Russia,Cherskii,Grid,Konkovaya River R15a,Continuous,1996,2017,158.4524,69.4096,POINT (158.4524444 69.40961111),32,David A. Gilichinsky,14
+calm.91,Russia,Cherskii,Grid,Konkovaya River R15b,Continuous,1999,2017,158.4485,69.4128,POINT (158.4484722 69.41277778),32,David A. Gilichinsky,14
+calm.92,Russia,Cherskii,Grid,Chukochya River,Continuous,1996,2017,156.9911,69.4855,POINT (156.9910833 69.4855),32,David A. Gilichinsky,14
+calm.93,Russia,Cherskii,Grid,Cape Chukochii R13a,Continuous,1999,2017,159.9199,70.0828,POINT (159.9198667 70.08278333),32,David A. Gilichinsky,14
+calm.94,Russia,Cherskii,Grid,Cape Chukochii R13b,Continuous,2000,2017,159.916,70.0833,POINT (159.916 70.08333333),32,David A. Gilichinsky,14
+calm.95,Russia,Cherskii,Grid,Kuropatochya River R12a,Continuous,1996,1996,156.63,70.916,POINT (156.63 70.916),32,David A. Gilichinsky,14
+calm.96,Russia,Cherskii,Grid,Kuropatochya River R12b,Continuous,1996,1996,156.63,70.916,POINT (156.63 70.916),32,David A. Gilichinsky,14
+calm.97,Russia,Norilsk,Grid,Talnakh,Continuous,2008,2017,88.466,69.433,POINT (88.466 69.433),120,Valery Grebenets,65
+calm.98,Russia,Yakutsk,Grid,Neleger,Continuous,2008,2017,129.4997,62.3163,POINT (129.499661 62.316255),118,Pavel Konstantinov,45
+calm.99,Russia,Yakutsk,Grid,Tuymada,Continuous,2008,2017,129.657,62.0133,POINT (129.656991 62.013306),118,Pavel Konstantinov,45
+calm.100,Russia,Igarka,Grid,Igarka,Continuous,2008,2016,86.435,67.482,POINT (86.435 67.482),121,Fedor Zepalov,45
+calm.101,Russia,Tiksi,Grid,Bykovsky Cape Plakor,Continuous,2001,2014,129.4187,71.7855,POINT (129.4186667 71.7855),32,David A. Gilichinsky,14
+calm.102,Russia,Tiksi,Grid,Bykovsky Cape Alas,Continuous,2004,2017,129.4014,71.7843,POINT (129.4014333 71.78428333),32,David A. Gilichinsky,14
+calm.103,Russia,Cape Svyatoy Nos,Grid,Svyatoy Nos Cape,Continuous,2001,2001,141.0102,72.857,POINT (141.0101667 72.857),32,David A. Gilichinsky,14
+calm.104,Russia,Tiksi,Grid,Tiksi,Continuous,1997,2000,128.783,71.583,POINT (128.783 71.583),122,Yuji Kodoma,37
+calm.105,Russia,Taymyr,Grid,Levinson Lessing Lake,Continuous,,,98.6,74.53,POINT (98.6 74.53),71,Julia Boike,42
+calm.106,Russia,Taymyr,Grid,Labaz Lake,Continuous,,,99.5,72.383,POINT (99.5 72.383),123,Martin Sommerkorn,68
+calm.107,Russia,Novyi Urengoy,Grid,Yubileynoe 3 WET,Discontinuous,2007,2007,75.8719,65.9503,POINT (75.8718611 65.95033),74,Anna Kurchatova,44
+calm.108,Russia,Novyi Urengoy,Grid,Yubileynoe 3 DRY,Discontinuous,2007,2007,75.8724,65.9508,POINT (75.87238889 65.95083),74,Anna Kurchatova,44
+calm.109,Russia,Novyi Urengoy,Grid,Yubileynoe 2 DRY,Discontinuous,2007,2007,75.7802,66.0101,POINT (75.78022 66.01005556),74,Anna Kurchatova,44
+calm.110,Russia,Novyi Urengoy,Grid,Yubileynoe 2 WET,Discontinuous,2007,2007,75.7796,66.0095,POINT (75.779583 66.009472),74,Anna Kurchatova,44
+calm.111,Russia,Vaskiny Dachy,Grid,Vaskiny Dachi 1,Continuous,2007,2015,68.8916,70.2755,POINT (68.8916388 70.2755),124,Artem Khomutov,43
+calm.112,Russia,Vaskiny Dachy,Grid,Vaskiny Dachi 2,Continuous,2007,2015,68.8835,70.2955,POINT (68.88347222 70.2955),124,Artem Khomutov,43
+calm.113,Russia,Vaskiny Dachy,Grid,Vaskiny Dachi 3,Continuous,2007,2015,68.8413,70.3014,POINT (68.84130556 70.30138889),124,Artem Khomutov,43
+calm.114,Russia,Vaskiny Dachy,Grid,Vaskiny Dachi Grid,Continuous,,,68.9,70.283,POINT (68.9 70.283),125,Marina Leibman,43
+calm.115,Russia,Gydan Peninsula,Grid,Parisento,Continuous,1992,1995,75.5833,70.1166,POINT (75.5833 70.1166),103,Alexander A. Vasiliev,43
+calm.116,Russia,Marre Sale,Grid,Marre Sale,Continuous,1995,2016,66.75,69.7166,POINT (66.75 69.7166),103,Alexander A. Vasiliev,43
+calm.117,Russia,Nadym,Grid,Nadym Grid,Discontinuous,1997,2017,72.9166,65.33,POINT (72.9166 65.33),76,Natalia Moskalenko,43
+calm.118,Russia,Kola peninsula,Grid,Umbozero,Sporadic,2010,2016,34.182,67.7724,POINT (34.1820458 67.7723958),116,Dmitri Zamolodchikov,63
+calm.119,Russia,Bolvansky,Grid,Kashin Island,Continuous,2010,2017,53.85,68.23,POINT (53.85 68.23),78,Galina Malkova,43
+calm.120,Russia,Bolvansky,Grid,Bolvansky,Continuous,1999,2017,54.5082,68.2891,POINT (54.50823975 68.28908033),78,Galina Malkova,43
+calm.121,Mongolia,Bagnuur,Borehole,Baganuur lake shore,Isolated patches,,,108.2625,47.6889,POINT (108.2625 47.68889),62,Natsagdorj Sharkhuu,39
+calm.122,Mongolia,Bagnuur,Borehole,Baganuur depression,Isolated patches,,,108.2944,47.6944,POINT (108.29444 47.69444),62,Natsagdorj Sharkhuu,39
+calm.123,Mongolia,Nalaikh,Borehole,Nalaikh north slope,Isolated patches,,,107.25,47.7544,POINT (107.25 47.75444),62,Natsagdorj Sharkhuu,39
+calm.124,Mongolia,Nalaikh,Borehole,Nalaikh pingo,Isolated patches,,,107.3,47.7764,POINT (107.3 47.77639),62,Natsagdorj Sharkhuu,39
+calm.125,Mongolia,Nalaikh,Borehole,Nalaikh south-eastern slope,Isolated patches,,,107.2917,47.7728,POINT (107.29167 47.77278),62,Natsagdorj Sharkhuu,39
+calm.126,Mongolia,Nalaikh,Borehole,Nalaikh thermokarst,Isolated patches,,,107.3383,47.7764,POINT (107.33833 47.77639),62,Natsagdorj Sharkhuu,39
+calm.127,Mongolia,Nalaikh,Borehole,Nalaikh south-western slope,Isolated patches,,,107.2875,47.7708,POINT (107.2875 47.77083),62,Natsagdorj Sharkhuu,39
+calm.128,Mongolia,Nalaikh,Borehole,Nalaikh depression plain,Isolated patches,,,107.3367,47.7528,POINT (107.33667 47.75278),62,Natsagdorj Sharkhuu,39
+calm.129,Mongolia,Argalant,Borehole,Argalant valley,Sporadic,,,106.5472,47.9236,POINT (106.54722 47.92361),62,Natsagdorj Sharkhuu,39
+calm.130,Mongolia,Burenkhan,Borehole,Burenkhan north slope,Sporadic,,,100.0342,49.7883,POINT (100.03417 49.78833),62,Natsagdorj Sharkhuu,39
+calm.131,Mongolia,Burenkhan,Borehole,Burenkhan valley,Sporadic,,,100.1675,49.7042,POINT (100.1675 49.70417),62,Natsagdorj Sharkhuu,39
+calm.132,Mongolia,Burenkhan,Borehole,Burenkhan north eastern slope,Sporadic,,,100.0317,49.7847,POINT (100.03167 49.78472),62,Natsagdorj Sharkhuu,39
+calm.133,Mongolia,Burenkhan,Borehole,Burenkhan north-facing steep slope,Sporadic,,,100.0467,49.7828,POINT (100.04667 49.78278),62,Natsagdorj Sharkhuu,39
+calm.134,Mongolia,Khuvsgul,Borehole,Ardag south-eastern slope,Continuous,,,100.1658,50.6264,POINT (100.16583 50.62639),62,Natsagdorj Sharkhuu,39
+calm.135,Mongolia,Khuvsgul,Borehole,Ardag watershed a,Continuous,,,100.1633,50.6592,POINT (100.16333 50.65917),62,Natsagdorj Sharkhuu,39
+calm.136,Mongolia,Khuvsgul,Borehole,Ardag watershed b,Continuous,,,100.1625,50.6564,POINT (100.1625 50.65639),62,Natsagdorj Sharkhuu,39
+calm.137,Mongolia,Khuvsgul,Borehole,Ardag watershed c,Continuous,,,100.1664,50.6767,POINT (100.16639 50.67667),62,Natsagdorj Sharkhuu,39
+calm.138,Mongolia,Arkhangai,Borehole,Terkh valley,Continuous,,,99.3733,48.0819,POINT (99.37333 48.08194),62,Natsagdorj Sharkhuu,39
+calm.139,Mongolia,Arkhangai,Borehole,Chuluut pingo,Continuous,,,100.3917,48.0411,POINT (100.39167 48.04111),62,Natsagdorj Sharkhuu,39
+calm.140,Mongolia,Arkhangai,Borehole,Chuluut thermokarst,Continuous,,,100.3756,48.6361,POINT (100.37556 48.63611),62,Natsagdorj Sharkhuu,39
+calm.141,Mongolia,Khuvsgul,Borehole,Sharga valley,Continuous,,,98.6564,49.4903,POINT (98.65639 49.49027),62,Natsagdorj Sharkhuu,39
+calm.142,Mongolia,Tov,Borehole,Gurban turuu,Isolated patches,,,107.6861,47.0389,POINT (107.68611 47.03889),62,Natsagdorj Sharkhuu,39
+calm.143,Mongolia,Tsengel,Borehole,Tsengel mountain,Sporadic,,,89.1114,48.6694,POINT (89.11139 48.66944),62,Natsagdorj Sharkhuu,39
+calm.144,Mongolia,Tsengel,Borehole,Tsengel slope,Sporadic,,,89.1356,48.7525,POINT (89.13556 48.7525),62,Natsagdorj Sharkhuu,39
+calm.145,Mongolia,Tsengel,Borehole,Tsengel valley,Sporadic,,,89.1406,48.7783,POINT (89.14056 48.77833),62,Natsagdorj Sharkhuu,39
+calm.146,Mongolia,Khuvsgul,Borehole,Hatgal weather station,Continuous,,,100.1503,50.4386,POINT (100.15028 50.43861),62,Natsagdorj Sharkhuu,39
+calm.147,Mongolia,Khuvsgul,Borehole,Hatgal house a,Continuous,,,100.1522,50.4386,POINT (100.15222 50.43861),62,Natsagdorj Sharkhuu,39
+calm.148,Mongolia,Khuvsgul,Borehole,Hatgal house b,Continuous,,,100.1606,50.4333,POINT (100.16056 50.43333),62,Natsagdorj Sharkhuu,39
+calm.149,Mongolia,Khuvsgul,Borehole,Dalbay,Continuous,,,100.7583,51.02,POINT (100.75833 51.02),62,Natsagdorj Sharkhuu,39
+calm.150,Mongolia,Khuvsgul,Borehole,Borsog flood plain,Continuous,,,100.7272,50.9703,POINT (100.72722 50.97028),62,Natsagdorj Sharkhuu,39
+calm.151,Mongolia,Khuvsgul,Borehole,Borsog W slope,Continuous,,,100.7286,50.9744,POINT (100.72861 50.97444),62,Natsagdorj Sharkhuu,39
+calm.152,Mongolia,Khuvsgul,Borehole,Shagnuul,Continuous,,,100.8447,50.2544,POINT (100.84472 50.25444),62,Natsagdorj Sharkhuu,39
+calm.153,Mongolia,Khuvsgul,Borehole,Turag,Continuous,,,100.8272,51.2858,POINT (100.82722 51.28583),62,Natsagdorj Sharkhuu,39
+calm.154,Mongolia,Khuvsgul,Borehole,Noyon,Continuous,,,100.7703,51.2097,POINT (100.77028 51.20972),62,Natsagdorj Sharkhuu,39
+calm.155,Mongolia,Khuvsgul,ThawTube,Dalbay 2,Sporadic,,,100.7328,50.0444,POINT (100.73278 50.04444),62,Natsagdorj Sharkhuu,39
+calm.156,Mongolia,Khuvsgul,ThawTube,Dalbay Pngo,Sporadic,,,100.7544,50.0442,POINT (100.75444 50.04417),62,Natsagdorj Sharkhuu,39
+calm.157,Mongolia,Khuvsgul,ThawTube,Dalbay gully,Continuous,,,100.7225,51.0311,POINT (100.7225 51.03111),62,Natsagdorj Sharkhuu,39
+calm.158,Mongolia,Khuvsgul,Borehole,Darhad Tsagaan nuur,Continuous,,,99.3592,51.3556,POINT (99.35917 51.35556),62,Natsagdorj Sharkhuu,39
+calm.159,Mongolia,Khuvsgul,Borehole,Darhad Khuurch,Continuous,,,99.4975,51.1872,POINT (99.4975 51.18722),62,Natsagdorj Sharkhuu,39
+calm.160,Mongolia,Khuvsgul,Borehole,Darhad Rinchin,Continuous,,,99.6369,51.1147,POINT (99.63694 51.11472),62,Natsagdorj Sharkhuu,39
+calm.161,Mongolia,Khuvsgul,Borehole,Darhad Sharga,Continuous,,,99.4797,51.3586,POINT (99.47972 51.35861),62,Natsagdorj Sharkhuu,39
+calm.162,Mongolia,Arkhangai,Borehole,Terelj open slope,Continuous,,,100.4253,47.9803,POINT (100.42528 47.98028),62,Natsagdorj Sharkhuu,39
+calm.163,Mongolia,Arkhangai,Borehole,Terelj forested slope,Continuous,,,100.4256,47.9794,POINT (100.42556 47.97944),62,Natsagdorj Sharkhuu,39
+calm.164,Mongolia,Borhujir,Borehole,Borhujir,Sporadic,,,106.1947,48.2753,POINT (106.19472 48.27528),62,Natsagdorj Sharkhuu,39
+calm.165,Mongolia,Khuvsgul,Borehole,Mongot pingo top,Continuous,,,99.2422,49.3472,POINT (99.24222 49.34722),62,Natsagdorj Sharkhuu,39
+calm.166,Mongolia,Khuvsgul,ThawTube,Khurimt tal,Continuous,,,98.19,49.2969,POINT (98.19 49.29694),62,Natsagdorj Sharkhuu,39
+calm.167,Canada,Mackenzie Delta,ThawTube,North Head (TT),Continuous,,,-134.4619,69.7197,POINT (-134.46194 69.71972),11,Mark Nixon,8
+calm.168,Canada,Mackenzie Delta,ThawTube,Taglu (TT),Discontinuous,,,-134.9486,69.3692,POINT (-134.94861 69.36916),11,Mark Nixon,8
+calm.169,Canada,Mackenzie Delta,ThawTube,Lousy Point (TT),Continuous,,,-134.291,69.2188,POINT (-134.291 69.2188),11,Mark Nixon,8
+calm.170,Canada,Mackenzie Delta,ThawTube,Reindeer Depot (TT),Discontinuous,,,-134.1458,68.6847,POINT (-134.14583 68.68472),11,Mark Nixon,8
+calm.171,Canada,Mackenzie Delta,ThawTube,Rengleng River (TT),Discontinuous,,,-134.1261,67.795,POINT (-134.1261 67.795),11,Mark Nixon,8
+calm.172,Canada,Mackenzie River,ThawTube,Norman Wells (TT),Discontinuous,,,-126.4688,65.193,POINT (-126.4688 65.19305),11,Mark Nixon,8
+calm.173,Canada,Mackenzie River,ThawTube,Willowlake River (TT),Discontinuous,,,-123.065,62.6966,POINT (-123.065 62.6966),11,Mark Nixon,8
+calm.174,Canada,Mackenzie River,ThawTube,Fort Simpson (TT),Discontinuous,,,-121.6017,61.8878,POINT (-121.60166 61.88777778),11,Mark Nixon,8
+calm.175,Canada,Mackenzie Delta,Borehole,Parsons Lake,Continuous,,,-133.55,68.966,POINT (-133.55 68.966),127,Charles Tarnocai,66
+calm.176,Canada,Mackenzie River,ThawTube,Mountain River,Continuous,,,-128.8292,65.6736,POINT (-128.82916667 65.67361),11,Mark Nixon,8
+calm.177,Canada,Mackenzie River,ThawTube,Ochre River,Discontinuous,,,-123.6927,63.4664,POINT (-123.6927 63.46638),11,Mark Nixon,8
+calm.178,Canada,Mackenzie River,Transect,Pump Station,Discontinuous,,,-126.8833,65.2833,POINT (-126.8833 65.2833),127,Charles Tarnocai,66
+calm.179,Canada,Mackenzie River,Transect,Great Bear River,Discontinuous,,,-125.5833,64.9166,POINT (-125.5833 64.9166),127,Charles Tarnocai,66
+calm.180,Canada,Ellesmere Island,Borehole,Lake Hazen,Continuous,,,-71.3833,81.8166,POINT (-71.3833 81.8166),127,Charles Tarnocai,66
+calm.181,Canada,Quebec,Transect,Sheldrake River,Sporadic,,,-76.1,56.633,POINT (-76.1 56.633),40,Michel Allard,23
+calm.182,Canada,Eureka,Grid,Tanquary Fjord,Continuous,,,-76.7,81.4,POINT (-76.7 81.4),41,Antoni Lewkowicz,25
+calm.183,Canada,Eureka,Grid,Eureka,Continuous,,,-85.75,80.016,POINT (-85.75 80.016),41,Antoni Lewkowicz,25
+calm.184,Canada,Baker Lake,Borehole,Baker Lake,Continuous,,,-95.5,64.16,POINT (-95.5 64.16),39,Sharon Smith,8
+calm.185,Canada,Rocky Mountains,Borehole,Marmot Basin #2,Isolated patches,,,-118.116,52.8,POINT (-118.116 52.8),57,Stuart Harris,36
+calm.186,Canada,Yukon,Grid,Dawson,Discontinuous,,,-138.5916,63.9405,POINT (-138.59157 63.94054),129,Leah M. Anderson,67
+calm.187,Canada,Columbia Mountains,Grid,Teslin,Sporadic,,,-133.5202,60.4494,POINT (-133.52016 60.44943),129,Leah M. Anderson,67
+calm.188,Canada,Yukon,Grid,Beaver Creek,Sporadic,,,-140.8383,62.3377,POINT (-140.83835 62.3377),130,Leah M. Mackey,67
+calm.189,United States,Dot Lake,Transect,Dot Lake,Discontinuous,,,-144.146,63.6748,POINT (-144.14597 63.67475),130,Leah M. Mackey,67
+calm.190,United States,Anderson,Grid,Nenana,Discontinuous,,,-149.0834,64.5545,POINT (-149.08339 64.55446),130,Leah M. Mackey,67
+calm.191,United States,Venetie,Grid,Venetie,Discontinuous,,,-146.4029,67.0383,POINT (-146.40285 67.03835),130,Leah M. Mackey,67
+calm.192,United States,Arctic Village,Grid,Arctic Village,Continuous,,,-145.5407,68.1301,POINT (-145.54066 68.13013),130,Leah M. Mackey,67
+calm.193,United States,Nome Creek,Grid,Nome Creek,Discontinuous,,,-147.0609,65.3699,POINT (-147.0609 65.36988),130,Leah M. Mackey,67
+calm.194,United States,Ruby,Grid,Ruby,Discontinuous,,,-155.4846,64.7349,POINT (-155.48461 64.73486),130,Leah M. Mackey,67
+calm.195,United States,Allakaket,Grid,Allakaket,Continuous,,,-152.6454,66.5449,POINT (-152.64539 66.54491),130,Leah M. Mackey,67
+calm.196,United States,Eagle,Grid,Eagle,Discontinuous,,,-141.1095,64.7778,POINT (-141.10954 64.7778),130,Leah M. Mackey,67
+calm.197,United States,Galena,Grid,Galena,Discontinuous,,,-156.7833,64.7333,POINT (-156.7833 64.7333),130,Leah M. Mackey,67
+calm.198,United States,Hess Creek,Grid,Hess Creek,Discontinuous,,,-149.0844,65.6572,POINT (-149.08443 65.65724),129,Leah M. Anderson,67
+calm.199,United States,Fort Yukon,Grid,Fort Yukon,Discontinuous,,,-145.1035,66.6208,POINT (-145.1035 66.62076),129,Leah M. Anderson,67
+calm.200,United States,Circle,Grid,Circle,Discontinuous,,,-144.0784,65.8281,POINT (-144.07843 65.8281),129,Leah M. Anderson,67
+calm.201,United States,St. Mary\'s,Grid,St. Mary’s,Discontinuous,,,-163.2341,62.0476,POINT (-163.23412 62.04755),129,Leah M. Anderson,67
+calm.202,United States,Marshall,Grid,Marshall,Discontinuous,,,-162.0576,61.879,POINT (-162.05759 61.87901),129,Leah M. Anderson,67
+calm.203,United States,Chevak,Grid,Chevak,Continuous,,,-165.6178,61.5279,POINT (-165.61778 61.52786),129,Leah M. Anderson,67
+calm.204,United States,Emmonak,Grid,Emmonak,Continuous,,,-164.5262,62.7848,POINT (-164.52623 62.78478),129,Leah M. Anderson,67
+calm.205,United States,Kotlik,Grid,Kotlik,Continuous,,,-163.5607,63.0213,POINT (-163.5607 63.02131),129,Leah M. Anderson,67
+calm.206,United States,St. Elias National Park,Grid,Tanada Muskeg,Discontinuous,,,-143.366,62.5166,POINT (-143.366 62.5166),131,Trey Simmons,69
+calm.207,United States,St. Elias National Park,Grid,Mentasta Fen,Discontinuous,,,-143.3667,62.55,POINT (-143.36666667 62.55),132,Christopher D. Arp,58
+calm.208,United States,Farmers Loop,Grid,Farmers Loop,Discontinuous,2005,2017,-148.1167,65.4666,POINT (-148.11666 65.4666),133,Thomas  Douglas,30
+calm.209,United States,Fairbanks,ThawTube,Pearl Creek,Discontinuous,1969,2015,-147.8,64.9,POINT (-147.8 64.9),134,Brian Charlton,71
+calm.210,United States,Fairbanks,Grid,Bonanza Creek,Discontinuous,1990,2015,-148,64.75,POINT (-148 64.75),134,Brian Charlton,71
+calm.211,United States,Kaktovik,Borehole,Niguanak,Continuous,,,-142.9833,69.8833,POINT (-142.9833 69.8833),34,Gary D. Clow,18
+calm.212,United States,Ikpikpuk,Borehole,Ikpikpuk,Continuous,,,-154.366,70.433,POINT (-154.366 70.433),34,Gary D. Clow,18
+calm.213,United States,Teshepuk,Borehole,East Teshekpuk,Continuous,,,-152.966,70.566,POINT (-152.966 70.566),34,Gary D. Clow,18
+calm.214,United States,Piksiksak,Borehole,Piksiksak,Continuous,,,-157.0833,70.033,POINT (-157.0833 70.033),34,Gary D. Clow,18
+calm.215,United States,Red Sheep Creek,Borehole,Red Sheep Creek,Continuous,,,-144.833,68.6833,POINT (-144.833 68.6833),34,Gary D. Clow,18
+calm.216,United States,Awuna,Borehole,Awuna 2,Continuous,,,-158.033,69.15,POINT (-158.033 69.15),34,Gary D. Clow,18
+calm.217,United States,Kaktovik,Borehole,Camden Bay,Continuous,,,-144.766,69.966,POINT (-144.766 69.966),34,Gary D. Clow,18
+calm.218,United States,Meade,Borehole,South Meade,Continuous,,,-156.8333,70.633,POINT (-156.8333 70.633),34,Gary D. Clow,18
+calm.219,United States,Kaktovik,Borehole,Marsh Creek,Continuous,,,-144.8,69.7833,POINT (-144.8 69.7833),34,Gary D. Clow,18
+calm.220,United States,Koluktak,Borehole,Koluktak,Continuous,,,-154.6167,69.75,POINT (-154.61666 69.75),34,Gary D. Clow,18
+calm.221,United States,Tunalik,Borehole,Tunalik,Continuous,,,-160.0666,70.2,POINT (-160.0666 70.2),34,Gary D. Clow,18
+calm.222,United States,Umiat,Borehole,Umiat,Continuous,,,-152.15,69.4,POINT (-152.15 69.4),34,Gary D. Clow,18
+calm.223,United States,Awuna,Borehole,Awuna,Continuous,,,-158.0166,69.1666,POINT (-158.0166 69.1666),34,Gary D. Clow,18
+calm.224,United States,Fish Creek,Borehole,Fish Creek,Continuous,,,-152.05,70.3333,POINT (-152.05 70.3333),34,Gary D. Clow,18
+calm.225,United States,Inigok,Borehole,Inigok,Continuous,,,-153.1,70,POINT (-153.1 70),34,Gary D. Clow,18
+calm.226,United States,Drew Point,Borehole,Drew Point,Continuous,,,-153.9166,70.8666,POINT (-153.9166 70.8666),34,Gary D. Clow,18
+calm.227,United States,Franklin Bluff,Grid,56 Mile,Continuous,,,-148.6821,69.6969,POINT (-148.6821 69.6969),12,Nikolay Shiklomanov,4
+calm.228,United States,Toolik Lake,Grid,Toolik LTER,Continuous,,,-149.6,68.6166,POINT (-149.6 68.6166),135,George W. Kling,70
+calm.229,United States,Toolik Lake,Grid,Toolik MAT,Continuous,1995,2015,-149.6182,68.624,POINT (-149.61817 68.624),12,Nikolay Shiklomanov,4
+calm.230,United States,Imnavait,Grid,Imnavait Creek MAT,Continuous,1995,2015,-149.3093,68.611,POINT (-149.30933 68.611),12,Nikolay Shiklomanov,4
+calm.231,United States,Imnavait,Grid,Imnavait Creek WET,Continuous,,,-149.3145,68.611,POINT (-149.3145 68.611),12,Nikolay Shiklomanov,4
+calm.232,United States,Happy Valley,Grid,Lupine Hill,Continuous,,,-148.5928,69.1288,POINT (-148.5928 69.12883),12,Nikolay Shiklomanov,4
+calm.233,United States,Betty Pingo,Grid,Betty Pingo WET,Continuous,1995,2015,-148.919,70.275,POINT (-148.919 70.275),12,Nikolay Shiklomanov,4
+calm.234,United States,Betty Pingo,Grid,Betty Pingo MNT,Continuous,1995,2014,-148.8928,70.2835,POINT (-148.8928 70.2835),12,Nikolay Shiklomanov,4
+calm.235,United States,Barrow,Grid,"Barrow, CRREL Plots",Continuous,,,-156.5833,71.3166,POINT (-156.5833 71.3166),12,Nikolay Shiklomanov,4
+calm.236,Antarctica,Ross Island,Transect,Scott Base,Continuous,,,166.7666,-77.85,POINT (166.7666 -77.85),24,Megan Balks,11
+calm.237,Antarctica,Wright Valley,Transect,Bull Pass,Continuous,,,161.8666,-77.5166,POINT (161.8666 -77.5166),24,Megan Balks,11
+calm.238,Antarctica,Marble Point,Transect,Marble Point,Continuous,,,163.6833,-77.4167,POINT (163.6833 -77.41666),24,Megan Balks,11
+calm.239,Antarctica,Mount Fleming,Transect,Mt Fleming,Continuous,,,160.2902,-77.5452,POINT (160.29016667 -77.54519444),24,Megan Balks,11
+calm.240,Antarctica,Victoria Valley,Transect,Victoria Valley1,Continuous,,,161.6166,-77.3333,POINT (161.6166 -77.3333),24,Megan Balks,11
+calm.241,Antarctica,Minna Bluff,Transect,Minna Bluff,Continuous,,,166.75,-78.5,POINT (166.75 -78.5),24,Megan Balks,11
+calm.242,Antarctica,Granite Harbour,Transect,Granite Harbour,Continuous,,,162.5167,-77,POINT (162.5166667 -77),24,Megan Balks,11
+calm.243,Antarctica,Beacon Valley,Transect,Beacon Valley1,Continuous,,,160.6,-77.85,POINT (160.6 -77.85),26,Ron Sletten,4
+calm.244,Antarctica,Beacon Valley,Transect,Beacon Valley2,Continuous,,,160.7167,-77.8,POINT (160.716666 -77.8),26,Ron Sletten,4
+calm.245,Russia,Samoylov (Lena River Delta),Grid,Samoylov,Continuous,2002,2017,126.4806,72.3698,POINT (126.480632 72.369775),71,Julia Boike,42
+calm.246,Russia,Chara,Grid,Belenkiy,Continuous,2013,2014,118.189,56.7604,POINT (118.18903 56.76038),152,Daria Aleksyutina,65
+calm.247,Russia,Chara,Grid,Most,Continuous,2013,2014,118.2807,56.9063,POINT (118.280672 56.906264),152,Daria Aleksyutina,65
+calm.248,Antarctica,Deception Island,Grid,Crater Lake,Discontinuous,,,-60.6791,-62.9685,POINT (-60.67911111 -62.96852778),28,Miguel Ramos,13
+calm.249,Russia,Novyi Urengoy,Grid,Urengoy GAS FIELD GP15,Discontinuous,2008,2017,76.6953,67.4779,POINT (76.69529 67.47791),75,Dmitry S. Drozdov,43
+calm.250,Russia,Novyi Urengoy,Grid,Urengoy GAS FIELD GP5,Discontinuous,2008,2017,76.9077,66.3154,POINT (76.90772 66.31537),75,Dmitry S. Drozdov,43
+calm.252,Russia,Chukotka,Grid,Kruglaya,Continuous,2010,2015,176.9667,64.6333,POINT (176.9667 64.63333),163,Oleg Tregubov,80
+calm.253,Russia,Cherskii,Grid,Omolon,Unknown,2007,2017,158.9032,68.7222,POINT (158.9031667 68.72216667),166,Denis Shmelev,14
+calm.254,Russia,Tiksi,Grid,Bykovsky Cape,Continuous,2015,2017,129.4167,71.783,POINT (129.4167 71.783),32,David A. Gilichinsky,14
+calm.257,Antarctica,Deception Island,Grid,CALM Irizar 2 grid,Unknown,2009,2016,-60.718,-62.98,POINT (-60.718 -62.98),29,Gonçalo Vieira,15
+calm.259,Antarctica,James Ross Island,Grid,CALM-S Johann Gregor Mendel,Continuous,,,-57.884,-63.8018,POINT (-57.88397598 -63.80179655),180,Filip Hrbacek,82
+calm.260,Russia,Vorkuta,Grid,Harp,Unknown,2016,2017,66.0805,66.7235,POINT (66.080488 66.723483),181,Yaroslav Kamnev,84
+calm.261,Russia,Vorkuta,Grid,Seida,Unknown,2012,2017,62.9251,67.0656,POINT (62.92508 67.06556),119,Dmitry Kaverin,64

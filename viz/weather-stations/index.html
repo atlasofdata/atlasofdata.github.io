@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>World Weather Stations</title>
+<style>
+  #caption, #container {
+    text-align: center;
+  }
+  a, a:visited {
+    color: #2b3252;
+    text-decoration: none;
+  }
+</style>
+<body>
+  <div id="container"></div>
+  <p id="caption">
+    <a href="https://observablehq.com/@clemsos/world-weather-stations" target="_blank">
+      Number of Weather Station on Earth
+    </a>
+    </br>
+    <small>
+      <span id="info"></span>
+    </small>
+  </p>
+  <script src="https://unpkg.com/d3@5.9.2/dist/d3.min.js" charset="utf-8"></script>
+  <script src="https://unpkg.com/versor"></script>
+  <script src="https://unpkg.com/d3-inertia"></script>
+  <script src="https://unpkg.com/d3-delaunay@4.1.5/dist/d3-delaunay.min.js" charset="utf-8"></script>
+  <script src="https://unpkg.com/d3-geo-voronoi@1.1.2/build/d3-geo-voronoi.min.js" charset="utf-8"></script>
+  <script>
+
+    const height = 500;
+    const width = 500;
+
+    const canvas = d3.select('#container')
+      .append('canvas')
+      .attr('width', width)
+      .attr('height', height);
+
+    const context =  canvas.node().getContext('2d');
+
+    d3.json('https://gist.githubusercontent.com/clemsos/fa07391890693a385c02b81b22828e7c/raw/23564ac68d9a23942e6ea7607b116fd02ca2a381/stations_clusters_3.json')
+      .then(data => start(data))
+      .catch(err => console.log(err))
+
+
+    function start(stations) {
+
+      // colors
+      const counts = stations.map( d => d.count)
+      const domain = [d3.max(counts), d3.min(counts)]
+
+      let colorScale = d3.scaleSequential()
+        .domain(domain)
+        .interpolator(d3.interpolatePuBu)
+
+      const points = stations.map((d,i) => [d.coords[0], d.coords[1],  colorScale(d.count)])
+      const voronoi = d3.geoVoronoi(points);
+
+      const polygons  = {
+        type: "FeatureCollection",
+        features: voronoi.polygons().features
+      }
+
+      const projection = d3.geoAzimuthalEqualArea()
+        .rotate([0, -90])
+        .translate([width / 2, height / 2])
+        .fitExtent([[1, 1], [width - 1, height - 1]], {type: "Sphere"})
+        .precision(0.1)
+
+      const velocity = 0.003
+
+      // rotate earth
+      const timer = d3.timer(function() {
+        const rotate = projection.rotate();
+        rotate[0] += velocity * 20;
+        projection.rotate(rotate);
+        render();
+      });
+
+      function render() {
+        // reset
+        context.clearRect(0, 0, width, height);
+
+        // draw globe
+        const path = d3.geoPath(projection, context).pointRadius(1);
+        polygons.features.forEach((p, i) => {
+          context.beginPath();
+          path(p);
+          context.strokeStyle = context.fillStyle = points[i][2];
+          // context.lineWidth = .5;
+          context.fill();
+          context.stroke();
+        });
+
+        // add caption
+        var p = projection.rotate().map(d3.format(".2f"));
+        const info = `λ = ${p[0]}, φ = ${p[1]}, γ = ${p[2]}`
+        d3.select("#info").html(info)
+      }
+
+      if (d3.geoInertiaDrag) {
+        canvas.inertia = d3.geoInertiaDrag(
+          d3.select(context.canvas).style('cursor', 'move'),
+          null,
+          projection
+        );
+      }
+    }
+  </script>
+</body>

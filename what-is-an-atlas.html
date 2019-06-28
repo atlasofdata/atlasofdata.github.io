@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+<!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>The Atlas of Data on Earth 🌐</title>
+  <meta name="description" content="">
+  <meta name="author" content="Clément Renaud">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700" rel="stylesheet"><link type="application/atom+xml" rel="alternate" href="https://theatlasofdata.earth/feed.xml" title="The Atlas of Data" /><meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+  <!-- <link rel="stylesh eet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"> -->
+  <link rel="stylesheet" href="/css/main.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+
+  <link rel="manifest" href="/img/favicon/manifest.json">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <!-- SOCIAL
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@atlasofdata" />
+  <meta name="twitter:creator" content="@atlasofdata" />
+  <meta name="twitter:title" content="What is an atlas?" />
+  <meta name="twitter:image" content="https://theatlasofdata.earth/viz/what-is-an-atlas/thumb.png" />
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="What is an atlas?" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content='https://theatlasofdata.earth/what-is-an-atlas' />
+  <meta property="og:image" content="https://theatlasofdata.earth/viz/what-is-an-atlas/thumb.png" />
+  <meta property="og:description" content="The atlas is a widely used literary form that usually groups maps, graphs and text in order to systematically present a specific subject. Halfway between scientific knowledge and popularization support1, there are thousands of different atlases that are intended for various audiences. Unlike the dictionary, the atlas does not aim..." />
+  <meta property="og:site_name" content="The Atlas of Data" />
+
+</head>
+<body><nav id="sticky" class="menu nav">
+
+  <div class="container">
+    <a class="toggle-nav" href="#">&#9776;</a>
+    <a href="/" class="navbar-link home-link">The Atlas of Data</a>
+    <div class="nav-content">
+      <ul class="active">
+        
+      </ul>
+      <ul class="pull-right">
+        <li>
+          <a class="navbar-link" href="/how-it-works">How it works</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="/contribute">Get Involved</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="/news">News</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="/about">About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+
+(function () {
+
+  // Mobile nav function
+  var mobileNav = document.querySelector('.nav-content');
+  var toggle = document.querySelector('.toggle-nav');
+  toggle.onclick = function (e) {
+    e.preventDefault()
+
+    mobileNav.style.maxHeight = mobileNav.classList.contains('nav-mobile-open') ? '0' : '500px';
+    mobileNav.classList.toggle('nav-mobile-open');
+  };
+
+
+
+
+})();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">What is an atlas?</h1>
+  </header>
+
+  <div class="post-content">
+    <p>The atlas is a widely used literary form that usually groups maps,
+graphs and text in order to systematically present a specific subject.
+Halfway between scientific knowledge and popularization support<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>,
+there are thousands of different atlases that are intended for various
+audiences. Unlike the dictionary, the atlas does not aim at providing an
+exhaustive vision of a subject but rather to bring light by exposing the
+same subject in different ways.</p>
+
+<p><img src="./img/atlasRef/Greek-sculptures-with-iPod_2.jpg" alt="" /></p>
+
+<blockquote>
+  <p>“<em>an
+atlas is hardly made of" pages "in the usual sense of the term: rather
+tables, boards where are arranged images, boards that we come to consult
+for a specific purpose or that we serials at leisure, allowing to wander
+our "will to know" from image to image and from plank to board</em>"
+Georges Didi-Huberman<sup id="fnref:3"><a href="#fn:3" class="footnote">2</a></sup></p>
+</blockquote>
+
+<p>Whether it is <em>My first Atlas</em> for 6-9 years or <em>the Official Atlas of
+Patents</em> of the INPI, all in common to offer different levels of
+reading. We do not read an atlas as we read a novel. We flip through it,
+we look at the maps and the images, we read that chapter, we put it
+down, we come back to it, we show it to other people, we cut out a map
+to paste it elsewhere.</p>
+
+<p>As in the cinema<sup id="fnref:2"><a href="#fn:2" class="footnote">3</a></sup>, the atlas proceeds to a montage of images that
+often already exist. Thanks to this editing, he produces unprecedented
+knowledge not only by writing texts, but also by the choices of
+juxtaposition and meetings he organizes. The atlas builds links in order
+to allow the reader's imagination to project itself into a problematic
+not in one fell swoop, but in successive touches.</p>
+
+<h2 id="selected-references">Selected References</h2>
+
+<p>Below you will find a set of examples of atlases chosen from thousands
+of existing references, to reflect on how the atlases are designed, but
+also how the atlas object was used, both as a geographical and
+administrative tool, but also as a space for artistic and scientific
+exploration.</p>
+
+<h3 id="the-mercator-atlas-1589">The Mercator Atlas (1589)</h3>
+
+<p><img src="./img/atlasRef/image3.png" alt="" /></p>
+
+<p>Gerardus Mercator (1589) - <em>Atlas Sive Cosmographicae Meditationes by
+Fabrica Mundi and Fabricati Figura.</em>
+(<a href="https://commons.wikimedia.org/wiki/Category:Atlas_Cosmographicae_(Mercator)">see the book</a>)</p>
+
+<p>The first card book using the term "<em>Atlas</em>" in its title. It was
+created by the famous scientist Mercator, to whom we owe the famous
+geographical projection that bears his name. The atlas includes maps of
+Europe and poles and was created for Catherine de Cleves who wanted to
+undertake a long journey around Europe. About half of the pages contain
+maps, the rest of the explanatory texts on places and territories. It
+can be noted that Mercator has never made geographical surveys but has
+relied on the writings of many correspondents.</p>
+
+<h3 id="the-underground-atlas-of-paris-1855">The Underground Atlas of Paris (1855)</h3>
+
+<p><img src="./img/atlasRef/image12.png" alt="" /></p>
+
+<p>Underground Atlas of Paris (1855) - Fourcy
+(<a href="https://patrimoine.mines-paristech.fr/document/Atlas_Fourcy_Paris_1859">consult online</a>)</p>
+
+<p>The 19th century in Europe sees a new fact: the metropolitan city. Under
+the impetus of Napoleon III, Baron Haussman undertakes colossal work
+that will transform the city of Paris from top to bottom. The
+bureaucrats of the Second Empire embarked on major infrastructure
+projects, such as sewers or roads, to accommodate a traffic increasingly
+large. Numerous atlases are produced according to the topographic
+surveys, allowing the Paris metropolitan project to become more readable
+for the administration and real estate developers (Damme, 2015). These
+atlases play a decisive role in the emergence of this science that is
+now called urbanism.</p>
+
+<h3 id="the-mnemosyne-atlas-1927-1929">The Mnemosyne Atlas (1927-1929)</h3>
+
+<p><img src="./img/atlasRef/image7.png" alt="" /></p>
+
+<p>The Mnemosyne Atlas  (1927-1929) - Aby Warburg
+(<a href="http://indexgrafik.fr/atlas-mnemosyne-aby-warburg/">presentation</a>)</p>
+
+<p>In December 1927, the art historian Aby Warburg undertakes to erect 40
+wooden panels in the middle of his gigantic library. On each of them, he
+creates compositions of images, paintings, reproduction, text to which
+he gives each time a theme (astrology and mythology, archeological
+models, etc.) Within each panel are mixed genres and epochs to form a
+large fresco known as the <em>Mnemosyne Atlas</em>.</p>
+
+<h3 id="the-atlas-group-1989-2004">The Atlas Group (1989-2004)</h3>
+
+<p><img src="./img/atlasRef/image6.png" alt="" /></p>
+
+<p>The Atlas Group (1989-2004) - Walid Raad -
+<a href="http://www.theatlasgroup.org/">http://www.theatlasgroup.org</a> (lebanon)</p>
+
+<p>The Atlas Group is a project by the artist Walid Raad that presents
+thirty years of war in Lebanon through a montage of literary and
+audiovisual archives both real and fictional. The fictional character of
+Dr. Fadl Fakhouri tells the war through testimonies and collected
+elements, such as photos of the 245 car bombs found in Lebanon. The
+artist uses the format of the atlas here to make not only visual but
+also informational montages between scientific authority and media
+invention.</p>
+
+<h3 id="the-atlas-of-movements-2003">The Atlas of Movements (2003)</h3>
+
+<p><img src="./img/atlasRef/image8.png" alt="" /></p>
+
+<p>Atlas of Movements (2003) - Christopher Fink
+(<a href="http://www.merpaperkunsthalle.org/projects/view/169">Book</a>
+/ <a href="https://www.mleuven.be/en/christoph-fink#">Archive</a> /
+<a href="http://fr.forumviesmobiles.org/hanja-maksim/blog/2015/06/23/christoph-fink-informations-objectives-et-experience-subjective-2902">Presentation</a>)</p>
+
+<p>Christopher Fink has for many years documented the relationship between
+space and time by documenting how our bodies move. His work is based on
+precise descriptions of "the experience of mobility". Photos,
+drawings, sound recordings, maps, sketches and diagrams: the artist
+records precisely his movements by multiplying the graphic experiments.
+Thus, it cuts step by step its walks, imagine notations systems for
+different times and activities, etc. Rather than proposing a unique
+approach, it offers us a vast archive of representations and
+measurements of movements.</p>
+
+<h3 id="the-archives-of-the-planet-1909-1931--2016---albert-kahn">The Archives of the Planet (1909-1931 / 2016) - Albert Kahn</h3>
+
+<p><img src="./img/atlasRef/image11.png" alt="" /></p>
+
+<p>Archives of the Planet (1909-1931 / 2016) - Albert Kahn
+(<a href="http://collections.albert-kahn.hauts-de-seine.fr/">Site</a>
+/ <a href="https://www.opendatasoft.fr/2016/06/06/les-archives-de-la-planete-d-albert-kahn-en-open-data/">Open Data</a>)</p>
+
+<p>The <em>Archives of the Planet</em> is a collection of over 4000 autochromes
+(ancestor of glass photography) collected by the wealthy French banker
+Albert Kahn. Passionate about the diversity of world cultures, Kahn
+commissioned hundreds of photographs of places and people far and wide
+around the globe. Begun in 1912 in the Department of Human Geography
+College de France, this great photographic collection has recently been
+published online under a free license. The General Council of
+Hauts-de-Seine has undertaken to create a map-based interface to view
+photos.</p>
+
+<h3 id="the-atlas-of-the-natural-regions-2017">The Atlas of the Natural Regions (2017)</h3>
+
+<p><img src="./img/atlasRef/image14.png" alt="" /></p>
+
+<p>The Atlas of the Natural Regions (2017) - Eric Tabuchi &amp; Nelly Monnier
+<a href="https://atlasrn.fr">https://atlasrn.fr</a></p>
+
+<p>The Atlas of the Natural Regions is a project initiated by a
+photographer and an artist with the aim of producing over 10 years fifty
+photographs in each of the 500 natural regions of France. Each region
+covers about ten square kilometers, bounded by natural geographical
+markers, such as mountains or streams. The creation of these 25,000
+photographs is accompanied by regular publications on the site. At the
+same time, the artists keep a diary that explains the places and
+describes the conditions of the shots.</p>
+
+<h3 id="the-atlas-of-cyberspace-2001">The Atlas of Cyberspace (2001)</h3>
+
+<p><img src="./img/atlasRef/image4.png" alt="" /></p>
+
+<p>Atlas of Cyberspace (2001) - Martin Dodge &amp; Robert Kitchin
+(<a href="http://www.kitchin.org/atlas/contents.html">contents</a>)</p>
+
+<p>The Cyberspace Atlas of the English geographers Dodge and Kitchin is one
+of the first serious and systematic attempts at "<em>cybergraphy</em>".
+Popularized by the science fiction and writings of Gibson, cyberspace
+has gradually earned its acclaim with the arrival of the Internet. The
+challenge is not only to understand what is happening in the networks,
+but to show the porosities between supposed "virtual" worlds and the
+"real" world. The atlas lists a lot of maps and representations, but
+also a set of interfaces. It strikes with its futuristic aesthetic
+typical of the 2000s, with a strong trend for ballistic neon, and a
+clear desire to celebrate the new technology of the Internet (Desbois,
+2011).</p>
+
+<h3 id="the-critical-atlas-of-the-internet-2016">The Critical Atlas of the Internet (2016)</h3>
+
+<p><img src="./img/atlasRef/image1.png" alt="" /></p>
+
+<p>Critical Atlas of the Internet (2016) - Louise Druhle
+<a href="http://internet-atlas.net">http://internet-atlas.net</a>
+(<a href="http://louisedrulhe.fr/lab/">lab</a>)</p>
+
+<p><em>Critical Atlas of the Internet</em> is Louise Druhle, realized as part of
+her degree at ENSAD. He proposes to approach the question of the
+representation of the Internet in 15 themes and questions. For each
+question, Druhle drew a set of diagrams or 3D models, accompanied by
+quotes often from books discussing our relationship to the Internet.
+Designed as a website, the navigation offers a long scrolling vertical
+scroll to read question by question. Taking the multiple sizes and
+dimensions of our screens, the atlas has been printed in different sizes
+thanks to a suite of open-source tools "<em>web to print</em>" which allows
+to convert a web page into PDF.</p>
+
+<h3 id="le-dessous-des-cartes">Le dessous des cartes</h3>
+<p><img src="./img/atlasRef/image10.png" alt="" /></p>
+
+<p>Le dessous des cartes (1990-now) - ARTE / The Seven
+(<a href="https://www.arte.tv/fr/videos/RC-014036/le-dessous-des-cartes/">site</a>)</p>
+
+<p>Le dessous des cartes is a French public educational program created by the geographer Jean-Christophe Victor in 1990. Each program lasting from 7
+to 11 minutes follows the same format: presentation by the moderator of
+the topic of the day, a demonstration based on maps, figures or
+animation accompanied by voice-overs, then the end of the presenter. The
+program, which has been successful for the past 30 years, is based on
+rigorous cartographic representations and deals with often local topics
+(continents, regions or countries).</p>
+
+<h3 id="the-environmental-atlas-of-north-america-2014">The Environmental Atlas of North America (2014)</h3>
+<p><img src="./img/atlasRef/image2.png" alt="" /></p>
+
+<p>Environmental Atlas of North America (2014) - NAAEC
+(<a href="http://cec.org/tools-and-resources/north-american-environmental-atlas">site</a>)</p>
+
+<p>The <em>Environmental Atlas of North America</em> is a publication gathering
+environmental data in Canada, the United States and Mexico under the
+coordination of the Commission for Environmental Cooperation. Rarely,
+the organization brings together the three countries to aggregate data
+across the continent. On the site are interactive maps, but also data
+and maps for download as well as expert reports. Most of the data comes
+from sensors or weather stations in the three countries.</p>
+
+<h3 id="the-atlas-of-economic-complexity-2011">The Atlas of Economic Complexity (2011)</h3>
+
+<p><img src="./img/atlasRef/image9.png" alt="" /></p>
+
+<p>The Atlas of Economic Complexity (2011) - Hausmann et al
+<a href="http://atlas.cid.harvard.edu/">http://atlas.cid.harvard.edu</a></p>
+
+<p><em>The Atlas of Economic Complexity</em> is a work of Harvard researchers and
+MIT Media Lab that aims to explore economic relations between 128
+countries according to a set of data and statistics on trade. The atlas
+provides for each country a detailed statistical sheet on its trade
+relations with other countries, as well as numerous maps and diagrams
+representing global trade. Published in 2011 in the form of a book, the
+atlas was nonetheless conceived as a web application for querying a
+central database and displaying graphs. Analyzes were then produced
+country by country before being compiled in the final book.</p>
+
+<h3 id="our-world-in-data-2016-now">Our World in Data (2016-now)</h3>
+
+<p><img src="./img/atlasRef/image5.png" alt="" /></p>
+
+<p>Our World in Data (2016-now) - Max Roser
+<a href="https://ourworldindata.org/">https://ourworldindata.org</a></p>
+
+<p><em>Our World in Data</em> is an online publication by economist and historian
+Max Roser of Oxford University who wishes to present empirical evidence
+of changing living conditions in the world. The project is interested in
+documenting the implications of economic development around the world.
+Different analyzes are performed or commissioned to subject-by-subject
+specialists to cover a wide range of issues. All the data is available
+for download and the figures are freely licensed so that they can be
+easily re-used.</p>
+
+<p>Cover credits : Adam Reeder<sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup></p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Thomas, Gaëtan. "Atlas, Or The Problem of the Scientific
+Imagination." Nonfiction.fr, October 23, 2012.
+<a href="https://www.nonfiction.fr/article-6165-atlas_ou_le_probleme_de_limagination_scientifique.htm">https://www.nonfiction.fr/article-6165-atlas_ou_le_le_probleme_de_limagination_scientifique.htm</a>. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>Didi-Huberman, Georges. <em>Atlas ou le gai savoir inquiet: L’œil de l’histoire 3</em>, Paris : Les Éditions de Minuit, coll. “Paradoxe”, 2011. 384 p. <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Castro, Teresa. <em>Cartographic Thinking Images. Cinema and Visual
+Culture,</em> Lyon, Aléas, 2011. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p>Adam Reeder, <em>Greek sculpture with iPod</em>, 2016 -  <a href="https://commons.wikimedia.org/wiki/File:Greek-sculptures-with-iPod_2.jpg">Wikipedia Commons</a> <a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+
+</article>
+
+      </div>
+    </main>
+
+  </body><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="container">
+
+    <!-- <h2 class="footer-heading">The Atlas of Data</h2> -->
+
+    <div class="row">
+      <div class="footer-col one-third column">
+        <ul class="contact-list">
+          <li class="p-name">
+            <b>The Atlas of Data</b>
+          </li>
+          <li>Representing the complex dynamics of planetary ecosystems </li>
+        </ul>
+      </div>
+
+      <div class="footer-col one-third column"><ul class="social-media-list"><li><a href="https://www.facebook.com/theatlasofdata"><svg class="svg-icon"><use xlink:href="/img/minima-social-icons.svg#facebook"></use></svg> <span class="username">theatlasofdata</span></a></li><li><a href="https://github.com/theatlasofdata"><svg class="svg-icon"><use xlink:href="/img/minima-social-icons.svg#github"></use></svg> <span class="username">theatlasofdata</span></a></li><li><a href="https://instagram.com/theatlasofdata"><svg class="svg-icon"><use xlink:href="/img/minima-social-icons.svg#instagram"></use></svg> <span class="username">theatlasofdata</span></a></li><li><a href="https://www.twitter.com/theatlasofdata"><svg class="svg-icon"><use xlink:href="/img/minima-social-icons.svg#twitter"></use></svg> <span class="username">theatlasofdata</span></a></li></ul>
+</div>
+
+      <div class="footer-col one-third column">
+          <ul class="contact-list"><li><a class="u-email" href="mailto:contact@theatlasofdata.earth">contact@theatlasofdata.earth</a></li><li>A project by <a href="https://zuoyou.studio">Zuoyou Studio</a></li>
+          </ul>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</html>

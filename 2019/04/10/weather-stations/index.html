@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+<!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>The Atlas of Data on Earth 🌐</title>
+  <meta name="description" content="">
+  <meta name="author" content="Clément Renaud">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700" rel="stylesheet"><link type="application/atom+xml" rel="alternate" href="https://theatlasofdata.earth/feed.xml" title="The Atlas of Data" /><meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+  <!-- <link rel="stylesh eet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"> -->
+  <link rel="stylesheet" href="/css/main.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+
+  <link rel="manifest" href="/img/favicon/manifest.json">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <!-- SOCIAL
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@atlasofdata" />
+  <meta name="twitter:creator" content="@atlasofdata" />
+  <meta name="twitter:title" content="Voronoi Map of Weather Stations Worldwide" />
+  <meta name="twitter:image" content="https://theatlasofdata.earth/viz/weather-stations/thumb.png" />
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Voronoi Map of Weather Stations Worldwide" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content='https://theatlasofdata.earth/2019/04/10/weather-stations/' />
+  <meta property="og:image" content="https://theatlasofdata.earth/viz/weather-stations/thumb.png" />
+  <meta property="og:description" content="A voronoi map of the world based on weather stations. Colors represents the density of weather stations in an area We use a Lambert Azimuthal Equal-Area projection so it represents accurately the areas. Weather station data comes from World Clim (2015 data). The 10k+ points dataset was clusterized using supercluster...." />
+  <meta property="og:site_name" content="The Atlas of Data" />
+
+</head>
+<body><nav id="sticky" class="menu nav">
+
+  <div class="container">
+    <a class="toggle-nav" href="#">&#9776;</a>
+    <a href="/" class="navbar-link home-link">The Atlas of Data</a>
+    <div class="nav-content">
+      <ul class="active">
+        
+      </ul>
+      <ul class="pull-right">
+        <li>
+          <a class="navbar-link" href="/how-it-works">How it works</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="/contribute">Get Involved</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="/news">News</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="/about">About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+
+(function () {
+
+  // Mobile nav function
+  var mobileNav = document.querySelector('.nav-content');
+  var toggle = document.querySelector('.toggle-nav');
+  toggle.onclick = function (e) {
+    e.preventDefault()
+
+    mobileNav.style.maxHeight = mobileNav.classList.contains('nav-mobile-open') ? '0' : '500px';
+    mobileNav.classList.toggle('nav-mobile-open');
+  };
+
+
+
+
+})();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Voronoi Map of Weather Stations Worldwide</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-04-10T00:00:00+02:00" itemprop="datePublished">Apr 10, 2019
+      </time>• <span>Authors : <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Clément Renaud</span></span>
+      </span></p>
+  </header>
+
+
+  <!-- Visualization -->
+  
+  <iframe src="https://theatlasofdata.earth/viz/weather-stations" width="100%" height="700px" frameBorder='0'></iframe>
+  <a href="/viz/weather-stations">Show full screen</a>
+  
+
+  <!-- Content -->
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>A voronoi map of the world based on weather stations.</p>
+
+<p>Colors represents the density of weather stations in an area</p>
+
+<p>We use a <a href="https://en.wikipedia.org/wiki/Lambert_azimuthal_equal-area_projection">Lambert Azimuthal Equal-Area</a> projection so it represents accurately the areas. Weather station data comes from World Clim (2015 data). The 10k+ points dataset was clusterized using <a href="https://github.com/mapbox/supercluster/">supercluster</a>. We use the <a href="https://github.com/Fil/d3-geo-voronoi">d3 Geo Voronoi</a>to create the vornoi geo clusters of areas based on the dataset.</p>
+
+<h3 id="weather-stations-dataset">Weather Stations Dataset</h3>
+
+<blockquote>
+  <p><em>WorldClim: Global weather stations</em></p>
+
+  <p>Robert J. Hijmans, Susan Cameron, and Juan Parra, at the Museum of Vertebrate Zoology, University of California, Berkeley, in collaboration with Peter Jones and Andrew Jarvis (CIAT), and with Karen Richardson (Rainforest CRC).</p>
+
+  <p>Published on  <a href="http://databasin.org/datasets/15a31dec689b4c958ee491ff30fcce75">Databasin</a></p>
+</blockquote>
+
+<p>See the <a href="https://observablehq.com/@clemsos/world-weather-stations">original visualisation</a>.</p>
+
+  </div>
+
+  <!-- Datasets -->
+
+  <p>
+    <b>Datasets</b>
+    <br>
+    A list of the datasets used in this visualization.
+  </p>
+  <ul>
+  
+    <li>
+  <a href="http://databasin.org/datasets/15a31dec689b4c958ee491ff30fcce75">
+    <span class="source">WorldClim</span>
+  </a>
+
+(size: <span class="size">Mo</span>, format: <span class="quality">open</span>)
+
+</li>
+  
+  </ul>
+
+  <a class="u-url" href="/2019/04/10/weather-stations/" hidden></a>
+</article>
+
+      </div>
+    </main>
+
+  </body><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="container">
+
+    <!-- <h2 class="footer-heading">The Atlas of Data</h2> -->
+
+    <div class="row">
+      <div class="footer-col one-third column">
+        <ul class="contact-list">
+          <li class="p-name">
+            <b>The Atlas of Data</b>
+          </li>
+          <li>Representing the complex dynamics of planetary ecosystems </li>
+        </ul>
+      </div>
+
+      <div class="footer-col one-third column"><ul class="social-media-list"><li><a href="https://www.facebook.com/theatlasofdata"><svg class="svg-icon"><use xlink:href="/img/minima-social-icons.svg#facebook"></use></svg> <span class="username">theatlasofdata</span></a></li><li><a href="https://github.com/theatlasofdata"><svg class="svg-icon"><use xlink:href="/img/minima-social-icons.svg#github"></use></svg> <span class="username">theatlasofdata</span></a></li><li><a href="https://instagram.com/theatlasofdata"><svg class="svg-icon"><use xlink:href="/img/minima-social-icons.svg#instagram"></use></svg> <span class="username">theatlasofdata</span></a></li><li><a href="https://www.twitter.com/theatlasofdata"><svg class="svg-icon"><use xlink:href="/img/minima-social-icons.svg#twitter"></use></svg> <span class="username">theatlasofdata</span></a></li></ul>
+</div>
+
+      <div class="footer-col one-third column">
+          <ul class="contact-list"><li><a class="u-email" href="mailto:contact@theatlasofdata.earth">contact@theatlasofdata.earth</a></li><li>A project by <a href="https://zuoyou.studio">Zuoyou Studio</a></li>
+          </ul>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</html>

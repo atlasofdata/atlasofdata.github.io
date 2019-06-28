@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Data Meltdown | Permafrost</title>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/topojson.v1.min.js"></script>
+  <script src="d3.legend.min.js"></script>
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+
+  <style>
+    body { margin:0;position:fixed;top:0;right:0;bottom:0;left:0;background: #fcfcfa; }
+
+    .legend rect {
+      fill:white;
+      stroke:black;
+      opacity:0.8;}
+
+    .org {
+      opacity:0.5;
+    }
+
+    .arc {
+      opacity:.1;
+      stroke: gray;
+      stroke-width: 3;}
+
+    .links_calm {
+      stroke-width:1;
+      opacity: .6;
+      stroke: darkred;}
+
+    .links_bore {
+      stroke-width:1;
+      opacity: .6;
+      stroke: lightblue;}
+
+    .links_calm, .links_bore {
+      stroke-linejoin: round;
+      fill:none;}
+
+    .links_calm { }
+    .links_calm:hover { }
+
+    div.tooltip {
+    position: absolute;
+    text-align: center;
+/*    width: 60px;
+    height: 28px;     */
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+    }
+
+
+  </style>
+
+  <!-- <h1 align="center">Permafrost Actors Network</h1> -->
+</head>
+
+<body>
+<script>
+
+
+/* Set up */
+/* ====== */
+
+
+var width = 600,
+    height = 600,
+    margin = { top: 30, right: 30, bottom: 30, left: 30 },
+    originalScale = height / 3,
+    scale_globe = originalScale,
+    scale_sky = originalScale*1.2,
+    translation = [width / 2, height / 2],
+    scaleChange,
+    rotation;
+
+var sphere = {type: 'Sphere'};
+
+var graticule = d3.geoGraticule();
+
+
+// set up the main canvas and the projection
+
+var svg = d3.select('body')
+  .append('svg')
+    .attr('width', width + margin.left + margin.right)
+    .attr('height', height + margin.top + margin.bottom)
+  .append('g')
+    .attr('transform', 'translate(' + margin.top + ', ' + margin.left + ')');
+
+
+var projection = d3.geoOrthographic()
+    .scale(scale_globe)
+    .translate(translation)
+    .clipAngle(90);
+
+// for fake 3d with arcs
+var sky = d3.geoOrthographic()
+    .scale(scale_sky)
+    .translate(translation)
+    .clipAngle(90);
+
+// for stations
+var path = d3.geoPath()
+    .projection(projection)
+    .pointRadius(2);
+
+// for organisations
+var scale_org = d3.scaleSqrt().domain([1,200]).range([4,19])
+
+var path_orgs = d3.geoPath()
+    .projection(projection)
+    .pointRadius(function(d){return scale_org(d.geometry.properties.size)})
+
+var swoosh = d3.line()
+      .x(function(d) { return d[0] })
+      .y(function(d) { return d[1] })
+      .curve(d3.curveCardinal.tension(-1))
+
+
+/* Data load */
+/* ========= */
+
+
+d3.queue()
+  .defer(d3.csv, 'stations_calm_id.csv')
+  .defer(d3.csv, 'stations_bore_id.csv')
+  .defer(d3.csv, 'orga_unique.csv')
+  .defer(d3.json, 'world-110m.json')
+  .await(load);
+
+
+function load(error, stations_calm_csv, stations_bore_csv, orgs_csv, world) {
+
+  if (error) { console.log(error); }
+
+  var land = topojson.feature(world, world.objects.countries),
+      grid = graticule();
+
+  var div = d3.select("body").append("div")
+      .attr("class", "tooltip")
+      .style("opacity", 0);
+
+// Draw the world
+  var outline = svg
+    .append('path')
+      .datum(sphere)
+      .classed('world', true)
+      .attr('id', 'sphere')
+      .attr('d', path)
+      .attr('fill', 'none')
+      .attr('stroke', '#ccc')
+      .attr('stroke-width', 1);
+
+  var gridlines = svg.selectAll('.grid')
+      .data([grid])
+      .enter()
+    .append('path')
+      .classed('world', true)
+      .classed('grid', true)
+      .attr('d', path)
+      .attr('fill', 'none')
+      .attr('stroke', '#ddd')
+      .attr('stroke-width', 1);
+
+  var world = svg.selectAll('.countries')
+      .data([land])
+      .enter()
+    .append('path')
+      .classed('world', true)
+      .classed('countries', true)
+      .attr('d', path)
+      .attr('fill', '#ccc')
+      .attr('stroke', '#fff')
+      .attr('stroke-width', 1);
+
+
+// Draw the stations and organisations
+
+    // Construct geoJSON
+  var station_calm_temp = [];
+  stations_calm_csv.forEach(function(e,i,a){
+  var feature =   { "type": "Feature", "geometry": { "type": "Point", "coordinates": [e.longitude,e.latitude], "properties":{"id_orga" : e.id_orga}}}
+  station_calm_temp.push(feature)
+  })
+
+  var station_calm_geojson = {"type": "FeatureCollection", "features" : station_calm_temp}
+
+  var station_bore_temp = [];
+  stations_bore_csv.forEach(function(e,i,a){
+    var feature =   { "type": "Feature", "geometry": { "type": "Point", "coordinates": [e.longitude,e.latitude], "properties":{"id_orga" : e.id_orga}}}
+    station_bore_temp.push(feature)
+  })
+
+  var station_bore_geojson = {"type": "FeatureCollection", "features" : station_bore_temp}
+
+  var orgs_temp = [];
+  orgs_csv.forEach(function(e,i,a){
+    var feature =   { "type": "Feature", "geometry": { "type": "Point", "coordinates": [e.longitude,e.latitude], "properties":{"id_orga" : e.id, "name" : e.name, "size" : e.size}}}
+    orgs_temp.push(feature)
+  })
+
+  var orgs_geojson = {"type": "FeatureCollection", "features" : orgs_temp}
+
+  // Draw stations and organizations
+  var stations_calm = svg.selectAll('.station_calm')
+      .data(station_calm_geojson.features)
+      .enter()
+    .append('g')
+    .append('path')
+      .classed('station_calm', true)
+      .attr('d', path)
+      .attr('fill', 'tomato')
+
+  var stations_bore = svg.selectAll('.station_bore')
+      .data(station_bore_geojson.features)
+      .enter()
+    .append('g')
+    .append('path')
+      .classed('station_bore', true)
+      .attr('d', path)
+      .attr('fill', 'blue')
+
+  var orgs = svg.selectAll('.org')
+    .data(orgs_geojson.features)
+    .enter()
+  .append('path')
+    .classed('org', true)
+    .attr('d', path_orgs)
+    .attr('fill', 'yellow')
+    .attr('name', function(d){ return d.name})
+    .on("click", function(d) {
+      display_arcs(d.geometry.properties.id_orga)
+      div.transition()
+       .duration(200)
+       .style("opacity", .9);
+      div.html("Name : " + d.geometry.properties.name + "<br>" + "Stations : " + d.geometry.properties.size)
+       .style('width', d.geometry.properties.name.length)
+       .style("left", 50 + "px")
+       .style("top", 300 + "px");
+   })
+    .on("mouseout", function(d) {
+      display_arcs()
+      div.transition()
+       .duration(3000)
+       .style("opacity", 0);
+     });
+
+
+  // Draw arcs between stations and organizations
+
+  function display_arcs(id_sel){
+
+    d3.selectAll('.links_calm').remove()
+    d3.selectAll('.links_bore').remove()
+
+    if (id_sel != undefined){
+
+      var links_calm = [];
+
+      stations_calm_csv.forEach(function(a) {
+
+          id = a.id_orga;
+          if (id_sel == id){
+            var source = [a.longitude, a .latitude];
+            var target = [orgs_csv[id-1]['longitude'],orgs_csv[id-1]['latitude']];
+
+            links_calm.push({
+            source: source,
+            target: target
+              });
+      }
+      });
+
+      var arcs_calm = svg.selectAll('.links_calm')
+        .data(links_calm)
+        .enter()
+      .append('path')
+        .classed('links_calm', true)
+        // .attr("class","arc")
+        .attr("d", function(d) { return swoosh(flying_arc(d)) })
+        .style("opacity", function(d) {
+              return fade_at_edge(d)
+        })
+
+
+      var links_bore = [];
+
+      stations_bore_csv.forEach(function(a) {
+
+      id = a.id_orga;
+          if (id_sel == id){
+            var source = [a.longitude, a .latitude];
+            var target = [orgs_csv[id-1]['longitude'],orgs_csv[id-1]['latitude']];
+
+            links_bore.push({
+            source: source,
+            target: target
+              });
+      }
+      });
+
+      var arcs_bore = svg.selectAll('.links_bore')
+        .data(links_bore)
+        .enter()
+      .append('path')
+        .classed('links_bore', true)
+        // .attr("class","arc")
+        .attr("d", function(d) { return swoosh(flying_arc(d))})
+        .style("opacity", function(d) {return fade_at_edge(d)})
+
+    }
+
+    else{
+      var links_calm = [];
+
+      stations_calm_csv.forEach(function(a) {
+
+      id = a.id_orga
+      var source = [a.longitude, a .latitude];
+      var target = [orgs_csv[id-1]['longitude'],orgs_csv[id-1]['latitude']]
+
+      links_calm.push({
+        source: source,
+        target: target
+      });
+      });
+
+      var arcs_calm = svg.selectAll('.links_calm')
+        .data(links_calm)
+        .enter()
+      .append('path')
+        .classed('links_calm', true)
+        // .attr("class","arc")
+        .attr("d", function(d) { return swoosh(flying_arc(d)) })
+        .style("opacity", function(d) {
+              return fade_at_edge(d)
+      })
+
+
+      var links_bore = [];
+
+      stations_bore_csv.forEach(function(a) {
+
+          id = a.id_orga
+          if (id != ""){
+            var source = [a.longitude, a .latitude];
+            var target = [orgs_csv[id-1]['longitude'],orgs_csv[id-1]['latitude']]
+
+            links_bore.push({
+              source: source,
+              target: target
+            });
+          }
+      });
+
+      var arcs_bore = svg.selectAll('.links_bore')
+          .data(links_bore)
+          .enter()
+        .append('path')
+          .classed('links_bore', true)
+          // .attr("class","arc")
+          .attr("d", function(d) { return swoosh(flying_arc(d))})
+          .style("opacity", function(d) {return fade_at_edge(d)})
+        }
+  }
+
+  display_arcs()
+
+
+  // Add legend
+
+  var ordinal = d3.scaleOrdinal()
+    .domain(["Borehole Stations", "CALM stations", "Organizations"])
+    .range([ "blue", "tomato", "yellow"]);
+
+  svg.append("g")
+    .attr("class", "legendOrdinal")
+    .attr("transform", "translate(20,20)");
+
+  var legendOrdinal = d3.legendColor()
+    .shape("path", d3.symbol().type(d3.symbolCircle).size(150)())
+    .shapePadding(10)
+    .cellFilter(function(d){ return d.label !== "e" })
+    .scale(ordinal);
+
+  svg.select(".legendOrdinal")
+    .call(legendOrdinal);
+
+
+  var ordinal = d3.scaleOrdinal()
+    .domain(["Borehole Stations", "CALM stations", "Organizations"])
+    .range([ "blue", "tomato", "yellow"]);
+
+  svg.append("g")
+    .attr("class", "legendOrdinal")
+    .attr("transform", "translate(20,20)");
+
+  var legendOrdinal = d3.legendColor()
+    .shape("path", d3.symbol().type(d3.symbolCircle).size(150)())
+    .shapePadding(10)
+    .cellFilter(function(d){ return d.label !== "e" })
+    .scale(ordinal);
+
+  svg.select(".legendOrdinal")
+    .call(legendOrdinal);
+
+
+
+  // Zoom and pan set-up
+
+  var zoom = d3.zoom()
+    .scaleExtent([0.5, 4])
+    .on("zoom", zoomed)
+
+  d3.select('svg').call(zoom);
+
+  var previousScaleFactor = 1;
+
+  function zoomed() {
+    var dx = d3.event.sourceEvent.movementX;
+    var dy = d3.event.sourceEvent.movementY;
+
+    var event = d3.event.sourceEvent.type;
+
+
+    if (event === 'wheel') {
+
+      scaleFactor = d3.event.transform.k;
+      scaleChange = scaleFactor - previousScaleFactor;
+      scale_globe = scale_globe + scaleChange * originalScale;
+      scale_sky = scale_sky + scaleChange * originalScale*1.2;
+      projection.scale(scale_globe);
+      sky.scale(scale_sky);
+      previousScaleFactor = scaleFactor;
+
+      d3.selectAll('.world').attr('d', path);
+      d3.selectAll('.station_calm').attr('d', path);
+      d3.selectAll('.station_bore').attr('d', path);
+      d3.selectAll('.org').attr('d', path_orgs);
+      d3.selectAll(".links_calm").attr("d", function(d) { return swoosh(flying_arc(d)) })
+      .style("opacity", function(d) {
+          return fade_at_edge(d)})
+      d3.selectAll(".links_bore").attr("d", function(d) { return swoosh(flying_arc(d)) })
+
+    } else {
+
+      var r = projection.rotate();
+      rotation = [r[0] + dx * 0.4, r[1] - dy * 0.5, r[2]];
+      projection.rotate(rotation);
+      sky.rotate(rotation)
+
+      d3.selectAll('.world').attr('d', path);
+      d3.selectAll('.station_calm').attr('d', path);
+      d3.selectAll('.station_bore').attr('d', path);
+      d3.selectAll('.org').attr('d', path_orgs);
+      d3.selectAll(".links_calm")
+        .attr("d", function(d) { return swoosh(flying_arc(d)) })
+        .style("opacity", function(d) {
+          return fade_at_edge(d)})
+      d3.selectAll(".links_bore")
+        .attr("d", function(d) { return swoosh(flying_arc(d)) })
+        .style("opacity", function(d) {
+          return fade_at_edge(d)})
+
+    }
+
+  } // zoomed()
+
+} // load()
+
+
+// Functions for fake 3D arcs
+
+function flying_arc(pts) {
+  var source = pts.source,
+      target = pts.target;
+
+  var mid = location_along_arc(source, target, .5);
+  var result = [ projection(source),
+                 sky(mid),
+                 projection(target) ]
+  return result;
+}
+
+function location_along_arc(start, end, loc) {
+  var interpolator = d3.geoInterpolate(start,end);
+  return interpolator(loc)
+}
+
+function fade_at_edge(d) {
+  var centerPos = projection.invert([width/2,height/2]),
+      start = d.source,
+      end = d.target;
+
+  var start_dist = 1.67 - d3.geoDistance(start, centerPos),
+      end_dist = 1.67 - d3.geoDistance(end, centerPos);
+
+    // console.log(start_dist)
+
+  var fade = d3.scaleLinear().domain([-.1,0]).range([0,.1])
+  var dist = start_dist < end_dist ? start_dist : end_dist;
+
+  return fade(dist)
+}
+
+
+
+</script>
+</body>
+<footer>
+<dl>
+  <dt>Data sources</dt>
+    <dd><a href = "http://gtnpdatabase.org/">Global Terrestrial Network for Permafrost - Database</a></dd>
+    <dd><a href="https://ipa.arcticportal.org/">International Permafrost Association</a></dd>
+</dl>
+</footer>
