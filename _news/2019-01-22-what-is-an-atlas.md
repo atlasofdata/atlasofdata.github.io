@@ -220,19 +220,17 @@ program, which has been successful for the past 30 years, is based on
 rigorous cartographic representations and deals with often local topics
 (continents, regions or countries).
 
-### The Environmental Atlas of North America (2014)
-![](./img/atlasRef/image2.png)
+### Atlas do Brasil (2008)
 
-Environmental Atlas of North America (2014) - NAAEC
-([site](http://cec.org/tools-and-resources/north-american-environmental-atlas))
+![](./img/atlasRef/Thery-AtlasDoBrasil.png)
 
-The *Environmental Atlas of North America* is a publication gathering
-environmental data in Canada, the United States and Mexico under the
-coordination of the Commission for Environmental Cooperation. Rarely,
-the organization brings together the three countries to aggregate data
-across the continent. On the site are interactive maps, but also data
-and maps for download as well as expert reports. Most of the data comes
-from sensors or weather stations in the three countries.
+[Chaves para a leitura do território paulista, H. Thery](https://halshs.archives-ouvertes.fr/halshs-00257248v1)
+
+
+The *Atlas do Brasil* shows how dynamics can be extrapolated into basic
+shapes that informs our representations of a territory. Extensive cartography
+are used to observe and identify spatial structures and their derivatives. The
+methodology is explained in details [in this paper (in French)](https://www.erudit.org/fr/revues/cgq/1988-v32-n86-cgq2658/021952ar.pdf).
 
 ### The Atlas of Economic Complexity (2011)
 
