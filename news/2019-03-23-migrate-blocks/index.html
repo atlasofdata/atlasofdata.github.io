@@ -56,20 +56,15 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@atlasofdata" />
   <meta name="twitter:creator" content="@atlasofdata" />
-  <meta name="twitter:title" content="News & Events" />
-  <meta name="twitter:image" content="https://theatlasofdata.earth/viz//thumb.png" />
+  <meta name="twitter:title" content="Blockfetcher: a npm module to backup your work from gist / bl.ocks.org" />
+  <meta name="twitter:image" content="https://theatlasofdata.earth/viz/migrate-blocks/thumb.png" />
 
   <!-- Open Graph data -->
-  <meta property="og:title" content="News & Events" />
+  <meta property="og:title" content="Blockfetcher: a npm module to backup your work from gist / bl.ocks.org" />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content='https://theatlasofdata.earth/news/' />
-  <meta property="og:image" content="https://theatlasofdata.earth/viz//thumb.png" />
-  <meta property="og:description" content="The Atlas of Data takes part in exhibitions and workshops where participants can explore, reflect and map data ecosystems.
-
-
-
-{% include news.html %}
-" />
+  <meta property="og:url" content='https://theatlasofdata.earth/news/2019-03-23-migrate-blocks/' />
+  <meta property="og:image" content="https://theatlasofdata.earth/viz/migrate-blocks/thumb.png" />
+  <meta property="og:description" content="The Atlas of Data aims at becoming a useful resource for designers, artists, researchers or enthusiasts interested in the project. Therefore it has to think about what contents produced here will become in the mid/long-term. The Internet is a wild place and broken URL are the norm more than the..." />
   <meta property="og:site_name" content="The Atlas of Data" />
 
 </head>
@@ -124,76 +119,47 @@
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">News &amp; Events</h1>
+    <h1 class="post-title">Blockfetcher: a npm module to backup your work from gist / bl.ocks.org</h1>
   </header>
 
   <div class="post-content">
-    <p>The Atlas of Data takes part in exhibitions and workshops where participants can explore, reflect and map data ecosystems.</p>
+    <p>The Atlas of Data aims at becoming a useful resource for designers, artists, researchers or enthusiasts interested in the project. Therefore it has to think about what contents produced here will become in the mid/long-term. The Internet is a wild place and broken URL are the norm more than the exception.</p>
 
-<p><br /></p>
+<p>Visualisation practicionners have used the excellent <a href="https://bl.ocks.org/-/about">bl.ocks.org</a> to build and share code across the d3js community.</p>
 
-<div id="news">
-  <ul>
-  
-      <li>
-        <h4>
-          <small><date>28 Jun 2019</date></small>
-          <br />
-          <a href="/news/2019-06-28-jupyter-observable-notebook-support/">[Blog Post] Support for Jupyter and Observable notebooks</a>
-        </h4>
-      </li>
-  
-      <li>
-        <h4>
-          <small><date>04 Apr 2019</date></small>
-          <br />
-          <a href="https://www.miragefestival.com/programme/et-apres-les-artistes-face-a-lurgence-de-repenser-notre-presence-au-monde/" target="_blank">'The artists and the emergency to rethink our world' - Panel at the Mirage Festival in Lyon</a>
-        </h4>
-      </li>
-  
-      <li>
-        <h4>
-          <small><date>23 Mar 2019</date></small>
-          <br />
-          <a href="/news/2019-03-23-migrate-blocks/">[Blog Post] Blockfetcher: a npm module to backup your work from gist / bl.ocks.org</a>
-        </h4>
-      </li>
-  
-      <li>
-        <h4>
-          <small><date>22 Jan 2019</date></small>
-          <br />
-          <a href="/what-is-an-atlas">[Blog Post] What is an atlas?</a>
-        </h4>
-      </li>
-  
-      <li>
-        <h4>
-          <small><date>05 Dec 2018</date></small>
-          <br />
-          <a href="https://dsaa.designvillefontaine.com" target="_blank">Design workshop with students from the Master Interactive Design at Villefontaine, France</a>
-        </h4>
-      </li>
-  
-      <li>
-        <h4>
-          <small><date>15 Nov 2018</date></small>
-          <br />
-          <a href="https://micromesomacro.com" target="_blank">Presentation of the project at Micro Meso Macro event in ENS de Lyon.</a>
-        </h4>
-      </li>
-  
-      <li>
-        <h4>
-          <small><date>09 Jul 2018</date></small>
-          <br />
-          <a href="http://barthes.enssib.fr/ECV-2018/" target="_blank">'Ecoflow' pre-project at the Cartography and Visualization Summer School at ENSSIB</a>
-        </h4>
-      </li>
-  
-  </ul>
-</div>
+<p>As web platforms become pervasive, problems of availability and accessibility are growing up fast. That is why we have decided to develop this small tool that will allow anyone who has work stored on bl.ocks.org to back it up locally as plain files. Make no mistake, we like bl.ocks.org very much but we need to be able to keep a coherent archive for the need of the project.</p>
 
+<p>The <code class="highlighter-rouge">blockfetcher</code> is a node/js library. You can install it by using the following command or <a href="https://www.npmjs.com/package/blockfetcher?activeTab=readme">download it via npm</a>.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm i blockfetcher
+</code></pre></div></div>
+
+<p>Here is an example of use :</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">blockfetcher</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">blockfetcher</span><span class="dl">"</span><span class="p">)</span>
+
+<span class="kd">const</span> <span class="nx">gistId</span><span class="o">=</span><span class="dl">"</span><span class="s2">https://bl.ocks.org/clemsos/009f78d9bf410295f63335419aead372</span><span class="dl">"</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="dl">'</span><span class="s1">https://bl.ocks.org/</span><span class="dl">'</span><span class="p">,</span><span class="dl">''</span><span class="p">)</span>
+
+<span class="nx">blockfetcher</span><span class="p">.</span><span class="nx">saveProject</span><span class="p">(</span><span class="nx">gistId</span><span class="p">,</span> <span class="dl">"</span><span class="s2">/tmp</span><span class="dl">"</span><span class="p">,</span> <span class="dl">"</span><span class="s2">super-computers</span><span class="dl">"</span><span class="p">)</span>
+  <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">files</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">`</span><span class="p">${</span><span class="nx">files</span><span class="p">.</span><span class="nx">length</span><span class="p">}</span><span class="s2"> saved!`</span><span class="p">)</span> <span class="p">)</span>
+  <span class="p">.</span><span class="k">catch</span><span class="p">(</span><span class="nx">err</span> <span class="o">=&gt;</span>  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">err</span><span class="p">.</span><span class="nx">message</span><span class="p">))</span><span class="err">ß</span>
+</code></pre></div></div>
+
+<p>It is also distributed with a CLI util :</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="nv">$ </span>blocksfetcher <span class="nt">-h</span>
+
+Usage: blocksfetcher <span class="o">[</span>url] <span class="o">[</span>options]
+
+  url                 bl.ocks.org URL <span class="o">(</span>required<span class="o">)</span>
+  <span class="nt">--dest</span>,-d           Destination folder <span class="o">(</span>default: ./blocks<span class="o">)</span>
+  <span class="nt">--name</span>,-n           Name of the folder <span class="o">(</span>default: gist <span class="nb">hash</span><span class="o">)</span>
+  <span class="nt">--version</span>,-v        Print out the installed version
+  <span class="nt">--help</span>              Show this <span class="nb">help</span>
+</code></pre></div></div>
+
+<p>For feedbacks and discussions, please post on the <a href="https://github.com/clemsos/blockfetcher">Github repo</a> or via Twitter <a href="https://twitter.com/atlasofdata">@atlasofdata</a>.</p>
 
   </div>
 
