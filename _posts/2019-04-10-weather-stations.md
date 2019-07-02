@@ -71,4 +71,4 @@ See the [original visualisation](https://observablehq.com/@clemsos/world-weather
 
 ### Data Exploration Workflow
 
-{% jupyter_notebook "/notebooks/Climate stations.ipynb" %}
+{% jupyter_notebook "/notebooks/[World Clim] Weather Stations.ipynb" %}
